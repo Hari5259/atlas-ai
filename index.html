@@ -595,8 +595,8 @@
                 let response = `I see you are asking about "${text}". As this is currently a frontend simulation of Atlas AI, my knowledge base is limited to specific predefined topics. Please try asking me about UI Design, React Optimization, WebGL, Authentication, or Database Architecture!`;
                 const lowerText = text.toLowerCase();
                 
-                if (lowerText.includes('hello') || lowerText.includes('hi')) {
-                    response = "Hello! I am Atlas AI, your premium intelligence assistant. How can I help you today?";
+                if (lowerText.includes('hello') || lowerText.includes('hi ') || lowerText === 'hi' || lowerText.includes('hey') || lowerText.includes('morning') || lowerText.includes('evening') || lowerText.includes('what\'s up') || lowerText.includes('greetings')) {
+                    response = "Greetings! I am Atlas AI, your premium intelligence assistant. Whether you need help with UI design, complex algorithms, or system architecture, I'm ready to assist. How can we elevate your project today?";
                 } else if (lowerText.includes('design') || lowerText.includes('css') || lowerText.includes('glassmorphism')) {
                     response = "I can definitely help with UI Engineering. To design a glowing mesh gradient background, you can use CSS radial-gradients layered on top of each other. The glassmorphism effect is achieved using backdrop-filter: blur() coupled with semi-transparent backgrounds and subtle borders.";
                 } else if (lowerText.includes('react') || lowerText.includes('optimize')) {
