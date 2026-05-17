@@ -569,7 +569,22 @@
             chatInput.style.height = 'auto';
 
             setTimeout(() => {
-                addMessage("This is an ultra-premium simulated response. The interface uses sophisticated glassmorphism, animated ambient orbs, and high-end typography to create a stunning user experience. Try scrolling to see the seamless transitions.", 'bot');
+                let response = "This is an ultra-premium simulated response. The interface uses sophisticated glassmorphism, animated ambient orbs, and high-end typography to create a stunning user experience. Try scrolling to see the seamless transitions.";
+                const lowerText = text.toLowerCase();
+                
+                if (lowerText.includes('hello') || lowerText.includes('hi')) {
+                    response = "Hello! I am Atlas AI, your premium intelligence assistant. How can I help you today?";
+                } else if (lowerText.includes('design') || lowerText.includes('css')) {
+                    response = "I can definitely help with UI Engineering. To design a glowing mesh gradient background, you can use CSS radial-gradients layered on top of each other. Would you like a code snippet?";
+                } else if (lowerText.includes('react') || lowerText.includes('optimize')) {
+                    response = "Optimizing React components often involves using useMemo for expensive calculations, useCallback for functions passed as props, and React.memo to prevent unnecessary re-renders of child components.";
+                } else if (lowerText.includes('webgl') || lowerText.includes('shader')) {
+                    response = "WebGL shaders are small programs written in GLSL that run directly on the GPU. They come in two main types: Vertex shaders (which handle positions of geometry) and Fragment shaders (which handle the color of pixels).";
+                } else if (lowerText.includes('who are you') || lowerText.includes('what are you')) {
+                    response = "I am Atlas AI, an advanced intelligence model designed to assist you with engineering, design, and complex problem-solving. My interface is optimized for a premium user experience.";
+                }
+
+                addMessage(response, 'bot');
             }, 800);
         }
 
