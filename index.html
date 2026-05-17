@@ -515,7 +515,8 @@
 
         <div class="input-container">
             <div class="input-box">
-                <button class="icon-btn">
+                <input type="file" id="data-feed-input" style="display: none;" onchange="handleDataFeed(this)" multiple>
+                <button class="icon-btn" onclick="document.getElementById('data-feed-input').click()" title="Upload Data Feed">
                     <i data-feather="plus" width="22"></i>
                 </button>
                 <textarea 
@@ -553,6 +554,28 @@
             chatInput.focus();
             chatInput.style.height = ''; 
             chatInput.style.height = Math.min(chatInput.scrollHeight, 200) + 'px';
+        }
+
+        function handleDataFeed(input) {
+            if (input.files && input.files.length > 0) {
+                if (welcomeScreen.style.display !== 'none') {
+                    welcomeScreen.style.opacity = '0';
+                    setTimeout(() => { welcomeScreen.style.display = 'none'; }, 500);
+                }
+
+                const fileNames = Array.from(input.files).map(f => f.name).join(', ');
+                
+                // Show user message
+                addMessage(`[Data Feed Connected]: <strong>${fileNames}</strong>`, 'user');
+                
+                // Simulate bot analyzing
+                setTimeout(() => {
+                    addMessage(`I have received the data feed (${fileNames}). Establishing connections and parsing schema... How would you like me to process this data?`, 'bot');
+                }, 1200);
+                
+                // Reset input
+                input.value = '';
+            }
         }
 
         function sendMessage() {
