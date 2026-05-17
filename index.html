@@ -578,7 +578,7 @@
             }
         }
 
-        function sendMessage() {
+        async function sendMessage() {
             const text = chatInput.value.trim();
             if (!text) return;
 
@@ -591,6 +591,27 @@
             chatInput.value = '';
             chatInput.style.height = 'auto';
 
+            try {
+                // Try to connect to the local Python backend powered by Ollama
+                const apiResponse = await fetch('http://localhost:8000/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ prompt: text, model: 'llama3:latest' })
+                });
+                
+                const data = await apiResponse.json();
+                if (data.response) {
+                    addMessage(data.response, 'bot');
+                    return;
+                } else if (data.error) {
+                    addMessage(`[System Error]: ${data.error}`, 'bot');
+                    return;
+                }
+            } catch (err) {
+                console.warn("Local backend not reachable. Falling back to simulation.", err);
+            }
+
+            // --- Fallback Simulation Logic ---
             setTimeout(() => {
                 let response = `I see you are asking about "${text}". As this is currently a frontend simulation of Atlas AI, my knowledge base is limited to specific predefined topics. Please try asking me about UI Design, React Optimization, WebGL, Authentication, or Database Architecture!`;
                 const lowerText = text.toLowerCase();
