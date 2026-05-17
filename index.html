@@ -574,14 +574,24 @@
                 
                 if (lowerText.includes('hello') || lowerText.includes('hi')) {
                     response = "Hello! I am Atlas AI, your premium intelligence assistant. How can I help you today?";
-                } else if (lowerText.includes('design') || lowerText.includes('css')) {
-                    response = "I can definitely help with UI Engineering. To design a glowing mesh gradient background, you can use CSS radial-gradients layered on top of each other. Would you like a code snippet?";
+                } else if (lowerText.includes('design') || lowerText.includes('css') || lowerText.includes('glassmorphism')) {
+                    response = "I can definitely help with UI Engineering. To design a glowing mesh gradient background, you can use CSS radial-gradients layered on top of each other. The glassmorphism effect is achieved using backdrop-filter: blur() coupled with semi-transparent backgrounds and subtle borders.";
                 } else if (lowerText.includes('react') || lowerText.includes('optimize')) {
                     response = "Optimizing React components often involves using useMemo for expensive calculations, useCallback for functions passed as props, and React.memo to prevent unnecessary re-renders of child components.";
                 } else if (lowerText.includes('webgl') || lowerText.includes('shader')) {
                     response = "WebGL shaders are small programs written in GLSL that run directly on the GPU. They come in two main types: Vertex shaders (which handle positions of geometry) and Fragment shaders (which handle the color of pixels).";
                 } else if (lowerText.includes('who are you') || lowerText.includes('what are you')) {
                     response = "I am Atlas AI, an advanced intelligence model designed to assist you with engineering, design, and complex problem-solving. My interface is optimized for a premium user experience.";
+                } else if (lowerText.includes('thank you') || lowerText.includes('thanks')) {
+                    response = "You're very welcome! If you need anything else, whether it's UI design, backend logic, or debugging, I'm right here.";
+                } else if (lowerText.includes('animation') || lowerText.includes('framer motion')) {
+                    response = "Framer Motion is excellent for creating fluid animations in React. For this interface, however, we utilized pure CSS keyframes for the ambient orbs and CSS transitions for hover states to ensure zero dependencies and maximum performance.";
+                } else if (lowerText.includes('auth') || lowerText.includes('login') || lowerText.includes('security')) {
+                    response = "When refactoring authentication, it's crucial to implement secure JWT management, proper HttpOnly cookies, and robust CSRF protection. Do you need help setting up the middleware or the database schema for user sessions?";
+                } else if (lowerText.includes('database') || lowerText.includes('sql') || lowerText.includes('nosql')) {
+                    response = "For database architecture, your choice between SQL (like PostgreSQL) and NoSQL (like MongoDB) depends on your data structure. SQL is great for relational, structured data, while NoSQL offers flexibility for unstructured, document-based architectures. What kind of application are we building?";
+                } else if (lowerText.includes('bye') || lowerText.includes('goodbye')) {
+                    response = "Goodbye! I'll be here whenever you're ready to continue building. Have a great day!";
                 }
 
                 addMessage(response, 'bot');
