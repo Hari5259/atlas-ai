@@ -1675,11 +1675,21 @@
 
             // --- Fallback Simulation Logic ---
             setTimeout(() => {
-                let response = `I see you are asking about "${text}". As this is currently a frontend simulation of Atlas AI, my knowledge base is limited to specific predefined topics. Please try asking me about UI Design, React Optimization, WebGL, Authentication, or Database Architecture!`;
+                let response = `I see you are asking about "${text}". As this is currently a frontend simulation of Atlas AI, my knowledge base is limited to specific predefined topics. Please try asking me about Mathematics, UI Design, React Optimization, WebGL, Authentication, or Database Architecture!`;
                 const lowerText = text.toLowerCase();
                 
                 if (lowerText.includes('hello') || lowerText.includes('hi ') || lowerText === 'hi' || lowerText.includes('hey') || lowerText.includes('morning') || lowerText.includes('evening') || lowerText.includes('what\'s up') || lowerText.includes('greetings')) {
                     response = "Greetings! I am Atlas AI, your premium intelligence assistant. Whether you need help with UI design, complex algorithms, or system architecture, I'm ready to assist. How can we elevate your project today?";
+                } else if (lowerText.includes('math') || lowerText.includes('calculus') || lowerText.includes('algebra') || lowerText.includes('equation') || lowerText.includes('integral') || lowerText.includes('derivative') || lowerText.includes('matrix') || lowerText.includes('matrices') || lowerText.includes('geometry')) {
+                    if (lowerText.includes('calculus') || lowerText.includes('derivative') || lowerText.includes('integral')) {
+                        response = "Calculus is the mathematical study of continuous change. Here are two fundamental formulas:\n\n• **Power Rule for Derivatives:**\n  d/dx [x^n] = n * x^(n-1)\n\n• **Power Rule for Integrals:**\n  ∫ x^n dx = (x^(n+1)) / (n+1) + C (for n ≠ -1)\n\nDo you have a specific calculus problem you'd like to work through?";
+                    } else if (lowerText.includes('algebra') || lowerText.includes('equation')) {
+                        response = "In algebra, solving polynomial equations is a core concept. For example, for any quadratic equation in the form:\n  **a·x² + b·x + c = 0**\n\nThe roots can be found using the **quadratic formula**:\n  **x = [-b ± √(b² - 4ac)] / 2a**\n\nWhere the term **b² - 4ac** is called the *discriminant* (determining the nature of the roots).";
+                    } else if (lowerText.includes('matrix') || lowerText.includes('matrices') || lowerText.includes('linear algebra')) {
+                        response = "Linear algebra is centered around vector spaces and matrices. For a standard 2x2 matrix:\n  **A = [[a, b], [c, d]]**\n\n• **Determinant:** det(A) = ad - bc\n• **Inverse:** A⁻¹ = (1/det(A)) * [[d, -b], [-c, a]] (if det(A) ≠ 0)\n\nWould you like to calculate matrix products or determinants?";
+                    } else {
+                        response = "Mathematics is the language of science and AI. I am trained in advanced algebra, calculus, geometry, and numerical systems.\n\nHere are some fundamental concepts I can explain:\n• **Euler's Identity:** e^(i·π) + 1 = 0\n• **Calculus Principles:** Derivatives & Integrals\n• **Linear Algebra:** Vector spaces and Matrix operations\n\nWhat mathematical area would you like to explore?";
+                    }
                 } else if (lowerText.includes('design') || lowerText.includes('css') || lowerText.includes('glassmorphism')) {
                     response = "I can definitely help with UI Engineering. To design a glowing mesh gradient background, you can use CSS radial-gradients layered on top of each other. The glassmorphism effect is achieved using backdrop-filter: blur() coupled with semi-transparent backgrounds and subtle borders.";
                 } else if (lowerText.includes('react') || lowerText.includes('optimize')) {
