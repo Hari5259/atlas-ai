@@ -1,0 +1,25 @@
+SAMPLE DATA FOR ATLAS AI
+
+Python Programming:
+Python is a high-level programming language known for its simplicity and readability. It supports multiple programming paradigms including procedural, object-oriented, and functional programming. Python is widely used in web development, data science, artificial intelligence, and automation.
+
+JavaScript Basics:
+JavaScript is a versatile scripting language primarily used for web development. It runs in web browsers and can also run on servers using Node.js. JavaScript is essential for creating interactive web applications and is the foundation of modern frontend frameworks like React, Vue, and Angular.
+
+FastAPI Framework:
+FastAPI is a modern, fast web framework for building APIs with Python. It's built on top of Starlette for the web parts and Pydantic for data validation. FastAPI automatically generates interactive API documentation and supports async/await syntax for high performance.
+
+Machine Learning:
+Machine Learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed. Common ML techniques include supervised learning, unsupervised learning, and reinforcement learning. Popular ML libraries include scikit-learn, TensorFlow, and PyTorch.
+
+Vector Databases:
+Vector databases are designed to store and search high-dimensional vectors efficiently. They are commonly used in machine learning applications for similarity search, recommendation systems, and semantic search. ChromaDB and Pinecone are popular vector database solutions.
+
+REST APIs:
+REST (Representational State Transfer) is an architectural style for building web APIs. It uses standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources. RESTful APIs are stateless and cacheable, making them scalable and efficient.
+
+Frontend Development:
+Frontend development involves creating the user interface and user experience of web applications. Modern frontend development uses frameworks like React, Vue, or Svelte to build interactive components. CSS is used for styling and responsive design.
+
+Local Language Models:
+Local language models like Llama and Mistral can be run on personal computers without cloud dependencies. Ollama makes it easy to run these models locally. Local models provide privacy and reduce latency compared to cloud-based APIs.
