@@ -1,0 +1,52 @@
+{
+  "domain": "algebra",
+  "entries": [
+    {
+      "id": "math-alg-001",
+      "topic": "algebra",
+      "title": "Quadratic Formula",
+      "content": "Solves any quadratic equation ax² + bx + c = 0 where a ≠ 0. The discriminant b² - 4ac determines the nature of roots: positive gives two real roots, zero gives one repeated root, negative gives complex roots.",
+      "formula": "x = (-b ± √(b² - 4ac)) / (2a)",
+      "example": "For x² - 5x + 6 = 0: a=1, b=-5, c=6 → x = 2 or x = 3",
+      "keywords": ["quadratic", "roots", "discriminant", "polynomial"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-alg-002",
+      "topic": "algebra",
+      "title": "Difference of Squares",
+      "content": "A factoring pattern for binomials that are the difference of two perfect squares. Useful for simplifying expressions and solving equations quickly.",
+      "formula": "a² - b² = (a + b)(a - b)",
+      "example": "x² - 9 = (x + 3)(x - 3)",
+      "keywords": ["factoring", "binomial", "squares"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-alg-003",
+      "topic": "algebra",
+      "title": "Exponent Rules",
+      "content": "Rules for simplifying expressions with powers. When multiplying same base, add exponents; when dividing, subtract; power of a power multiplies exponents; negative exponent means reciprocal.",
+      "formula": "aᵐ · aⁿ = aᵐ⁺ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁻ⁿ = 1/aⁿ",
+      "keywords": ["exponents", "powers", "simplify"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-alg-004",
+      "topic": "algebra",
+      "title": "Logarithm Definition",
+      "content": "A logarithm is the inverse operation of exponentiation. log_b(x) = y means b^y = x. Natural log uses base e; common log uses base 10.",
+      "formula": "log_b(x) = y ⟺ b^y = x; ln(e) = 1; log(10) = 1",
+      "keywords": ["logarithm", "inverse", "exponential"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-alg-005",
+      "topic": "algebra",
+      "title": "Systems of Linear Equations",
+      "content": "Two or more linear equations solved together. Methods: substitution, elimination, or matrix methods. A unique solution exists when lines intersect at one point; no solution if parallel; infinitely many if coincident.",
+      "example": "2x + y = 7 and x - y = 2 → x = 3, y = 1",
+      "keywords": ["linear", "system", "substitution", "elimination"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
