@@ -1,0 +1,51 @@
+{
+  "domain": "calculus",
+  "entries": [
+    {
+      "id": "math-calc-001",
+      "topic": "calculus",
+      "title": "Definition of a Limit",
+      "content": "The limit of f(x) as x approaches a is L if f(x) gets arbitrarily close to L as x approaches a (from either side). Foundation for derivatives and continuity.",
+      "formula": "lim(x→a) f(x) = L",
+      "keywords": ["limit", "continuity", "approach"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-calc-002",
+      "topic": "calculus",
+      "title": "Power Rule (Derivative)",
+      "content": "Derivative of x raised to a constant power. Multiply by the exponent and reduce power by one. Applies to polynomials term by term.",
+      "formula": "d/dx(xⁿ) = n·xⁿ⁻¹",
+      "example": "d/dx(x³) = 3x²",
+      "keywords": ["derivative", "power rule", "differentiation"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-calc-003",
+      "topic": "calculus",
+      "title": "Product Rule",
+      "content": "Derivative of a product of two functions. Not the product of derivatives — use: first times derivative of second plus second times derivative of first.",
+      "formula": "(fg)' = f'g + fg'",
+      "keywords": ["product rule", "derivative", "multiplication"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-calc-004",
+      "topic": "calculus",
+      "title": "Fundamental Theorem of Calculus",
+      "content": "Links differentiation and integration. If F is an antiderivative of f on [a,b], then the definite integral of f equals F(b) - F(a).",
+      "formula": "∫ₐᵇ f(x)dx = F(b) - F(a)",
+      "keywords": ["integral", "antiderivative", "FTC"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "math-calc-005",
+      "topic": "calculus",
+      "title": "Chain Rule",
+      "content": "Derivative of a composite function. Differentiate the outer function while keeping inner unchanged, then multiply by derivative of inner function.",
+      "formula": "d/dx[f(g(x))] = f'(g(x)) · g'(x)",
+      "keywords": ["chain rule", "composite", "derivative"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
