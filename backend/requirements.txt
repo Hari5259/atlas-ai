@@ -4,3 +4,5 @@ requests
 chromadb
 python-multipart
 ollama
+pydantic
+aiofiles
