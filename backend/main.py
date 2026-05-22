@@ -5,8 +5,12 @@ import requests
 import chromadb
 from chromadb.config import Settings
 import os
+from conversational import ConversationalAI
 
 app = FastAPI()
+
+# Initialize conversational AI (offline, no Ollama needed)
+conversation_engine = ConversationalAI()
 
 # Allow frontend to communicate with backend
 app.add_middleware(
@@ -64,9 +68,23 @@ async def feed_data(request: DocumentRequest):
 
 @app.post("/api/chat")
 async def chat(request: ChatRequest):
-    """Chat with RAG - retrieves context from local data if available"""
+    """Chat endpoint - checks conversational patterns first, then uses RAG/Ollama"""
     try:
+        # First, check if this is a conversational message (greetings, small talk, etc.)
+        conversational_response, is_conversational = conversation_engine.get_conversational_response(request.prompt)
+        
+        if is_conversational:
+            # Return conversational response without using Ollama
+            return {
+                "response": conversational_response,
+                "used_context": False,
+                "context_docs": 0,
+                "response_type": "conversational"
+            }
+        
+        # If not conversational, proceed with RAG + Ollama
         context = ""
+        results = {"documents": [[]]}
         
         # If use_context is enabled and we have documents, retrieve relevant ones
         if request.use_context and collection.count() > 0:
@@ -106,7 +124,8 @@ async def chat(request: ChatRequest):
         return {
             "response": data.get("response", "No response generated."),
             "used_context": request.use_context and collection.count() > 0,
-            "context_docs": len(results["documents"][0]) if request.use_context and collection.count() > 0 else 0
+            "context_docs": len(results["documents"][0]) if request.use_context and collection.count() > 0 else 0,
+            "response_type": "knowledge_based"
         }
     except requests.exceptions.RequestException as e:
         return {"error": f"Failed to process request: {str(e)}"}
