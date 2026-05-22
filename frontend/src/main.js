@@ -141,9 +141,16 @@ async function sendMessage() {
       addMessage('bot', `❌ Error: ${result.error}`)
     } else {
       let botMsg = result.response
-      if (result.used_context) {
-        botMsg += `\n\n_(Used ${result.context_docs} document(s) from knowledge base)_`
+      
+      // Add response type indicator
+      if (result.response_type === 'conversational') {
+        botMsg += '\n\n_💬 Quick response_'
+      } else if (result.used_context) {
+        botMsg += `\n\n_📚 Based on ${result.context_docs} document(s)_`
+      } else if (result.response_type === 'knowledge_based') {
+        botMsg += `\n\n_🧠 AI generated response_`
       }
+      
       addMessage('bot', botMsg)
     }
   } catch (error) {
