@@ -1,0 +1,50 @@
+{
+  "domain": "linear_algebra",
+  "entries": [
+    {
+      "id": "math-la-001",
+      "topic": "linear_algebra",
+      "title": "Dot Product",
+      "content": "Combines two vectors into a scalar. Geometrically: |a||b|cos θ. Zero dot product means vectors are perpendicular (orthogonal).",
+      "formula": "a · b = Σ aᵢbᵢ = |a||b|cos θ",
+      "keywords": ["dot product", "scalar", "orthogonal"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-la-002",
+      "topic": "linear_algebra",
+      "title": "Matrix Multiplication",
+      "content": "Product AB defined when columns of A equal rows of B. Entry (i,j) is dot product of row i of A and column j of B. Not commutative: AB ≠ BA in general.",
+      "keywords": ["matrix", "multiplication", "linear transform"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-la-003",
+      "topic": "linear_algebra",
+      "title": "Determinant (2×2)",
+      "content": "Scalar value indicating if a matrix is invertible. Zero determinant means singular (no inverse). For 2×2, ad - bc.",
+      "formula": "det([[a,b],[c,d]]) = ad - bc",
+      "keywords": ["determinant", "inverse", "2x2"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-la-004",
+      "topic": "linear_algebra",
+      "title": "Eigenvalues and Eigenvectors",
+      "content": "For matrix A, vector v is an eigenvector if Av = λv for scalar λ (eigenvalue). Used in PCA, stability analysis, and quantum mechanics.",
+      "formula": "Av = λv",
+      "keywords": ["eigenvalue", "eigenvector", "PCA"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "math-la-005",
+      "topic": "linear_algebra",
+      "title": "Vector Magnitude",
+      "content": "Length of a vector in Euclidean space. Generalizes Pythagorean theorem to n dimensions.",
+      "formula": "|v| = √(v₁² + v₂² + ... + vₙ²)",
+      "example": "v = (3, 4) → |v| = 5",
+      "keywords": ["magnitude", "norm", "length", "euclidean"],
+      "difficulty": "beginner"
+    }
+  ]
+}
