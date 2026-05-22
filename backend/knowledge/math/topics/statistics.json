@@ -1,0 +1,51 @@
+{
+  "domain": "statistics",
+  "entries": [
+    {
+      "id": "math-stat-001",
+      "topic": "statistics",
+      "title": "Mean (Arithmetic Average)",
+      "content": "Sum of all data values divided by the count. Sensitive to outliers. For grouped data, use midpoint × frequency.",
+      "formula": "μ = (Σxᵢ) / n",
+      "example": "Data: 2, 4, 6 → mean = 12/3 = 4",
+      "keywords": ["mean", "average", "central tendency"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-stat-002",
+      "topic": "statistics",
+      "title": "Standard Deviation",
+      "content": "Measures spread of data around the mean. Population uses N; sample uses n-1 (Bessel correction) for unbiased estimate.",
+      "formula": "σ = √(Σ(xᵢ - μ)² / N); s = √(Σ(xᵢ - x̄)² / (n-1))",
+      "keywords": ["standard deviation", "variance", "spread"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-stat-003",
+      "topic": "statistics",
+      "title": "Probability of Independent Events",
+      "content": "If events A and B are independent, the probability both occur is the product of individual probabilities.",
+      "formula": "P(A ∩ B) = P(A) · P(B)",
+      "example": "Two fair coins: P(both heads) = 0.5 × 0.5 = 0.25",
+      "keywords": ["probability", "independent", "multiplication rule"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-stat-004",
+      "topic": "statistics",
+      "title": "Bayes' Theorem",
+      "content": "Updates probability of a hypothesis given new evidence. Combines prior belief with likelihood of observed data.",
+      "formula": "P(A|B) = P(B|A)·P(A) / P(B)",
+      "keywords": ["bayes", "conditional probability", "prior"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "math-stat-005",
+      "topic": "statistics",
+      "title": "Normal Distribution (68-95-99.7 Rule)",
+      "content": "For a normal distribution, approximately 68% of data falls within 1σ of mean, 95% within 2σ, and 99.7% within 3σ.",
+      "keywords": ["normal", "gaussian", "empirical rule", "bell curve"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
