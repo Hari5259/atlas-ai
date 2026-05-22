@@ -1,0 +1,51 @@
+{
+  "domain": "geometry",
+  "entries": [
+    {
+      "id": "math-geo-001",
+      "topic": "geometry",
+      "title": "Pythagorean Theorem",
+      "content": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides. Only applies to right triangles (one 90° angle).",
+      "formula": "a² + b² = c²",
+      "example": "Sides 3 and 4 → hypotenuse c = √(9+16) = 5",
+      "keywords": ["right triangle", "hypotenuse", "pythagoras"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-geo-002",
+      "topic": "geometry",
+      "title": "Area of a Circle",
+      "content": "The area enclosed by a circle is proportional to the square of its radius. Pi (π) is approximately 3.14159, the ratio of circumference to diameter.",
+      "formula": "A = πr²",
+      "example": "r = 5 → A ≈ 78.54 square units",
+      "keywords": ["circle", "area", "radius", "pi"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-geo-003",
+      "topic": "geometry",
+      "title": "Volume of a Sphere",
+      "content": "Three-dimensional measure of space inside a sphere. Related to surface area formula; both involve π and radius.",
+      "formula": "V = (4/3)πr³",
+      "keywords": ["sphere", "volume", "3d"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "math-geo-004",
+      "topic": "geometry",
+      "title": "Sum of Interior Angles (Polygon)",
+      "content": "The sum of interior angles of any n-sided convex polygon is (n-2)×180°. For triangles n=3 gives 180°; quadrilateral gives 360°.",
+      "formula": "S = (n - 2) × 180°",
+      "keywords": ["polygon", "angles", "interior"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "math-geo-005",
+      "topic": "geometry",
+      "title": "Similar Triangles",
+      "content": "Triangles with equal corresponding angles and proportional sides. Ratio of corresponding sides is constant (scale factor). Used in indirect measurement and proofs.",
+      "keywords": ["similar", "proportion", "scale factor", "congruent"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
