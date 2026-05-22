@@ -18,6 +18,12 @@ A full-stack application that combines offline conversational AI with local LLMs
 - Local storage with ChromaDB
 - Fast and efficient retrieval
 
+### 🔢 Mathematics Knowledge Base
+- 30 structured entries across 6 topics (JSON)
+- Offline keyword search via `/api/math/search`
+- Auto-routing in chat for math questions (no Ollama)
+- Optional ChromaDB seed: `python knowledge/math/seed_math_kb.py`
+
 ### 🧠 Intelligent Responses
 - Conversational routing for instant replies
 - Knowledge-base augmented generation (RAG)

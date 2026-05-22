@@ -47,11 +47,14 @@ class MathKnowledgeBase:
         topic_lower = topic.lower()
         return [e for e in self._entries if e["topic"].lower() == topic_lower]
 
-    def search(self, query: str, limit: int = 5) -> list[dict[str, Any]]:
+    def search(self, query: str, limit: int = 5, min_score: int = 2) -> list[dict[str, Any]]:
         """Score entries by keyword and text overlap with the query."""
         if not query.strip():
             return []
-        terms = [t.lower() for t in query.split() if len(t) > 1]
+        stop = {"the", "and", "for", "what", "how", "why", "can", "you", "are", "is", "a", "an", "to", "of", "in", "me", "my", "do", "does"}
+        terms = [t.lower() for t in query.split() if len(t) > 2 and t.lower() not in stop]
+        if not terms:
+            return []
         scored: list[tuple[int, dict[str, Any]]] = []
 
         for entry in self._entries:
@@ -60,7 +63,6 @@ class MathKnowledgeBase:
             content = entry.get("content", "").lower()
             formula = entry.get("formula", "").lower()
             keywords = [k.lower() for k in entry.get("keywords", [])]
-            blob = f"{title} {content} {formula} {' '.join(keywords)}"
 
             for term in terms:
                 if term in title:
@@ -72,7 +74,7 @@ class MathKnowledgeBase:
                 if term in content:
                     score += 1
 
-            if score > 0:
+            if score >= min_score:
                 scored.append((score, entry))
 
         scored.sort(key=lambda x: x[0], reverse=True)

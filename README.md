@@ -14,6 +14,7 @@ Atlas AI is a locally running offline AI assistant built using custom-trained re
 * Fast local processing
 * Private and secure AI interaction
 * Expandable training dataset
+* **Mathematics knowledge base** — 30+ offline math entries (algebra, geometry, calculus, trigonometry, statistics, linear algebra)
 
 ---
 
@@ -103,6 +104,24 @@ ollama run llama3
 
 ```bash
 npm run dev
+```
+
+### Mathematics Knowledge Base
+
+The backend includes structured math data under `backend/knowledge/math/`. Search works offline without Ollama:
+
+```bash
+cd backend
+python -m uvicorn main:app --reload
+# GET http://localhost:8000/api/math/search?q=quadratic+formula
+# GET http://localhost:8000/api/math/stats
+```
+
+Optional: seed math into ChromaDB for vector search (requires Ollama):
+
+```bash
+cd backend
+python knowledge/math/seed_math_kb.py
 ```
 
 ---
