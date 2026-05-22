@@ -6,8 +6,10 @@ import chromadb
 from chromadb.config import Settings
 import os
 from conversational import ConversationalAI
+from knowledge.math.math_kb import MathKnowledgeBase
 
 app = FastAPI()
+math_kb = MathKnowledgeBase()
 
 # Initialize conversational AI (offline, no Ollama needed)
 conversation_engine = ConversationalAI()
@@ -81,6 +83,17 @@ async def chat(request: ChatRequest):
                 "context_docs": 0,
                 "response_type": "conversational"
             }
+
+        # Offline mathematics knowledge base (no Ollama required)
+        math_results = math_kb.search(request.prompt, limit=3, min_score=2)
+        if math_results:
+            return {
+                "response": math_kb.search_formatted(request.prompt, limit=3),
+                "used_context": True,
+                "context_docs": len(math_results),
+                "response_type": "mathematics",
+                "sources": [e["id"] for e in math_results],
+            }
         
         # If not conversational, proceed with RAG + Ollama
         context = ""
@@ -137,6 +150,49 @@ async def get_knowledge_base():
         "total_documents": collection.count(),
         "status": "ready" if collection.count() > 0 else "empty"
     }
+
+
+@app.get("/api/math/stats")
+async def math_stats():
+    """Mathematics knowledge base statistics"""
+    return {
+        "total_entries": math_kb.count,
+        "topics": math_kb.topics,
+        "status": "ready",
+    }
+
+
+@app.get("/api/math/topics")
+async def math_topics():
+    """List available mathematics topics"""
+    return {"topics": math_kb.topics}
+
+
+@app.get("/api/math/search")
+async def math_search(q: str, limit: int = 5):
+    """Search mathematics knowledge by keyword"""
+    results = math_kb.search(q, limit=min(limit, 20))
+    return {
+        "query": q,
+        "count": len(results),
+        "results": results,
+    }
+
+
+@app.get("/api/math/entry/{entry_id}")
+async def math_entry(entry_id: str):
+    """Get a single mathematics entry by ID"""
+    entry = math_kb.get_by_id(entry_id)
+    if not entry:
+        return {"error": f"Entry '{entry_id}' not found"}
+    return entry
+
+
+@app.get("/api/math/topic/{topic}")
+async def math_by_topic(topic: str):
+    """List all entries for a topic (algebra, geometry, etc.)"""
+    entries = math_kb.list_by_topic(topic)
+    return {"topic": topic, "count": len(entries), "entries": entries}
 
 if __name__ == "__main__":
     import uvicorn
