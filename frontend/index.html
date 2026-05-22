@@ -1681,20 +1681,35 @@
                 if (lowerText.includes('hello') || lowerText.includes('hi ') || lowerText === 'hi' || lowerText.includes('hey') || lowerText.includes('morning') || lowerText.includes('evening') || lowerText.includes('what\'s up') || lowerText.includes('greetings')) {
                     response = "Greetings! I am Atlas AI, your premium intelligence assistant. Whether you need help with UI design, complex algorithms, or system architecture, I'm ready to assist. How can we elevate your project today?";
                 } else if (lowerText.includes('topic') || lowerText.includes('help') || lowerText.includes('list') || lowerText.includes('knowledge') || lowerText.includes('data') || lowerText.includes('capability') || lowerText.includes('know')) {
-                    response = "I have been pre-fed with cognitive telemetry on a wide range of developer and mathematical topics. You can ask me about:\n\n" +
-                               "• **Mathematics**: Calculus, Algebra, and Linear Algebra\n" +
+                    response = "I have been pre-fed with cognitive telemetry on a wide range of topics. You can ask me about:\n\n" +
+                               "**🔬 Sciences**\n" +
+                               "• **Mathematics**: Calculus, Algebra, Linear Algebra, Euler's Identity\n" +
+                               "• **Physics**: Newton's Laws, Quantum Mechanics, Relativity, Kinetic Energy\n" +
+                               "• **Chemistry**: Atomic Structure, Chemical Bonding, pH Scale, Molar Mass\n" +
+                               "• **Biology**: Cell Theory, DNA & Genetics, Evolution, Metabolism\n\n" +
+                               "**💻 Computer Science & Engineering**\n" +
                                "• **AI & Machine Learning**: Neural Networks, Loss Functions, Optimizers, Transformers\n" +
-                               "• **Algorithms**: Big O Complexity, Sorting, Trees, Graphs\n" +
+                               "• **Algorithms & Data Structures**: Big O, Sorting, Trees, Graphs, DP, Recursion\n" +
+                               "• **Programming Languages**: Python, JavaScript, Rust, Go, Java, C++\n" +
                                "• **APIs & Backends**: REST, GraphQL, gRPC, Redis caching\n" +
-                               "• **Git Version Control**: Commits, branches, merging, rebasing\n" +
-                               "• **Cybersecurity**: AES-256, TLS 1.3, JWT tokens\n" +
-                               "• **Frontend Frameworks**: TypeScript, Vite, TailwindCSS, Next.js\n" +
+                               "• **Networking**: OSI Model, TCP/UDP, HTTP/3, DNS, Latency\n" +
+                               "• **Operating Systems**: Linux, Kernel, Processes, Threads, Virtual Memory\n" +
+                               "• **DevOps**: Docker, Kubernetes, CI/CD pipelines\n\n" +
+                               "**🎨 Design & Frameworks**\n" +
+                               "• **UI/UX Design**: Glassmorphism, CSS gradients, responsive layouts\n" +
+                               "• **Frontend Frameworks**: TypeScript, Vite, TailwindCSS, Next.js, Vue\n" +
                                "• **Mobile Development**: Flutter, React Native, iOS, Android\n" +
-                               "• **Software Testing**: Unit testing, Integration, E2E (Jest, Playwright, Cypress)\n" +
-                               "• **UI/UX Design**: Glassmorphism, CSS radial-gradients, responsive mesh grids\n" +
                                "• **React Performance**: useMemo, useCallback, React.memo\n" +
                                "• **WebGL & Shaders**: GLSL, Vertex/Fragment shaders\n" +
-                               "• **Authentication**: Secure JWT sessions, HttpOnly cookies, sign-out routing\n" +
+                               "• **Software Testing**: Jest, Playwright, Cypress, E2E\n\n" +
+                               "**🌍 Humanities & Social Sciences**\n" +
+                               "• **History**: Ancient civilizations, Industrial Revolution, World Wars\n" +
+                               "• **Economics**: GDP, Supply & Demand, Inflation, Crypto\n" +
+                               "• **Psychology**: Cognitive, Behavioral, Developmental, Neuroscience\n\n" +
+                               "**🔒 Security & Infrastructure**\n" +
+                               "• **Cybersecurity**: AES-256, TLS 1.3, JWT tokens, CSRF\n" +
+                               "• **Git Version Control**: Commits, branches, merging, rebasing\n" +
+                               "• **Authentication**: Secure sessions, HttpOnly cookies\n" +
                                "• **Database Design**: Relational SQL vs Document NoSQL\n\n" +
                                "What topic would you like to explore in detail?";
                 } else if (lowerText.includes('math') || lowerText.includes('calculus') || lowerText.includes('algebra') || lowerText.includes('equation') || lowerText.includes('integral') || lowerText.includes('derivative') || lowerText.includes('matrix') || lowerText.includes('matrices') || lowerText.includes('geometry')) {
