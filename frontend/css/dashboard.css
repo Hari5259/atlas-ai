@@ -361,4 +361,10 @@ textarea {
 .btn-back-home:hover {
   color: var(--text-primary);
   border-color: var(--surface-border-hover);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.btn-back-home:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
 }
