@@ -1,6 +1,7 @@
 {
-  "name": "atlas-ai",
-  "version": "0.0.0",
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Atlas — A Teach, Learn and Study AI",
   "private": true,
   "type": "module",
   "scripts": {
