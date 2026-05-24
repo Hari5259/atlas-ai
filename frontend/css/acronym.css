@@ -1,0 +1,177 @@
+/* Premium ATLAS acronym — letter-to-word mapping */
+.atlas-acronym-card {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  padding: 1.75rem 1.5rem 1.5rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: blur(24px);
+  box-shadow: var(--shadow-card), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.atlas-acronym-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(124, 58, 237, 0.12), transparent 55%);
+  pointer-events: none;
+}
+
+.acronym-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-tertiary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.atlas-letter-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-bottom: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.letter-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 3.5rem;
+}
+
+.letter-tile .glyph {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 800;
+  border-radius: 14px;
+  border: 1px solid var(--surface-border);
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.letter-tile:hover .glyph {
+  transform: translateY(-4px);
+}
+
+.letter-tile .meaning {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 4.5rem;
+}
+
+.letter-tile.tile-a1 .glyph { color: var(--brand-teach); border-color: rgba(196, 181, 253, 0.25); }
+.letter-tile.tile-t .glyph { color: #fff; background: linear-gradient(145deg, rgba(124, 58, 237, 0.35), rgba(124, 58, 237, 0.1)); }
+.letter-tile.tile-l .glyph { color: #fff; background: linear-gradient(145deg, rgba(37, 99, 235, 0.35), rgba(37, 99, 235, 0.1)); }
+.letter-tile.tile-a2 .glyph { color: var(--brand-and); border-color: rgba(240, 171, 252, 0.25); }
+.letter-tile.tile-s .glyph { color: #fff; background: linear-gradient(145deg, rgba(6, 214, 160, 0.35), rgba(6, 214, 160, 0.08)); }
+
+.letter-connector {
+  align-self: center;
+  color: var(--text-tertiary);
+  font-size: 1.25rem;
+  margin-bottom: 1.75rem;
+  opacity: 0.5;
+}
+
+.atlas-ai-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1rem 0 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.atlas-ai-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  background: var(--gradient-brand);
+  color: white;
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+}
+
+.acronym-full-line {
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.acronym-full-line em {
+  font-style: normal;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Compact strip for dashboard */
+.atlas-acronym-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--surface-border);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.atlas-acronym-strip .mini-letter {
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.7rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.atlas-acronym-strip .mini-letter:nth-child(1) { color: var(--brand-teach); }
+.atlas-acronym-strip .mini-letter:nth-child(2) { color: #e9d5ff; }
+.atlas-acronym-strip .mini-letter:nth-child(3) { color: var(--brand-learn); }
+.atlas-acronym-strip .mini-letter:nth-child(4) { color: var(--brand-and); }
+.atlas-acronym-strip .mini-letter:nth-child(5) { color: var(--brand-study); }
+
+.atlas-acronym-strip .strip-ai {
+  margin-left: 0.25rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  background: var(--gradient-brand);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
