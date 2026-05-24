@@ -2,7 +2,18 @@
 
 ## Brand
 
-**Atlas** = **A** Teach · **L** Learn · **S** Study · **AI**
+**ATLAS** letter map:
+
+| Letter | Meaning |
+|--------|---------|
+| **A** | A |
+| **T** | Teach |
+| **L** | Learn |
+| **A** | And |
+| **S** | Study |
+| **AI** | Artificial Intelligence |
+
+Full form: **A Teach, Learn and Study AI**
 
 ## Flow
 

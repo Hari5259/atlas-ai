@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#030712",
-  "theme_color": "#8b5cf6",
+  "theme_color": "#7c3aed",
   "icons": [
     {
       "src": "/atlas-logo.png",
