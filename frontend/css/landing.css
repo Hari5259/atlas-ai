@@ -1,0 +1,270 @@
+/* Atlas landing page */
+.landing-page {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-base);
+  background-image: var(--gradient-mesh);
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.landing-page.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.02);
+}
+
+.landing-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid transparent;
+}
+
+.landing-nav.scrolled {
+  border-bottom-color: var(--surface-border);
+  background: rgba(3, 7, 18, 0.75);
+}
+
+.landing-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.landing-brand img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 20px rgba(139, 92, 246, 0.45));
+}
+
+.landing-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.5rem 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.landing-logo-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 2rem;
+}
+
+.landing-logo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  animation: logo-float 5s ease-in-out infinite;
+  filter: drop-shadow(0 20px 40px rgba(59, 130, 246, 0.35));
+}
+
+.landing-logo-glow {
+  position: absolute;
+  inset: 10%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.35) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(24px);
+  z-index: -1;
+  animation: glow-pulse 4s ease-in-out infinite alternate;
+}
+
+.landing-title {
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.landing-acronym {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  margin: 1.25rem 0 1.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-weight: 600;
+}
+
+.acronym-letter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: blur(8px);
+}
+
+.acronym-letter span:first-child {
+  font-weight: 800;
+  font-size: 1.15em;
+}
+
+.acronym-letter.teach span:first-child { color: var(--brand-teach); }
+.acronym-letter.learn span:first-child { color: var(--brand-learn); }
+.acronym-letter.study span:first-child { color: var(--brand-study); }
+.acronym-letter.ai span:first-child {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-tagline {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 560px;
+  line-height: 1.65;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+.landing-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3.5rem;
+}
+
+.btn-get-started {
+  padding: 1rem 2.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  background: var(--gradient-brand);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: 0 8px 32px rgba(139, 92, 246, 0.4);
+  transition: transform 0.25s, box-shadow 0.25s, filter 0.25s;
+}
+
+.btn-get-started:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(139, 92, 246, 0.5);
+  filter: brightness(1.08);
+}
+
+.btn-secondary-outline {
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-secondary-outline:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--surface-border-hover);
+}
+
+.landing-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.pillar-card {
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.pillar-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--surface-border-hover);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.pillar-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pillar-card.teach .pillar-icon {
+  background: rgba(167, 139, 250, 0.15);
+  color: var(--brand-teach);
+}
+
+.pillar-card.learn .pillar-icon {
+  background: rgba(96, 165, 250, 0.15);
+  color: var(--brand-learn);
+}
+
+.pillar-card.study .pillar-icon {
+  background: rgba(52, 211, 153, 0.15);
+  color: var(--brand-study);
+}
+
+.pillar-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.pillar-card p {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  line-height: 1.55;
+}
+
+.landing-footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+@media (max-width: 768px) {
+  .landing-nav { padding: 1rem 1.25rem; }
+  .landing-pillars { grid-template-columns: 1fr; }
+  .landing-logo-wrap { width: 120px; height: 120px; }
+}
