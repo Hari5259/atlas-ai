@@ -177,6 +177,11 @@
   filter: brightness(1.08);
 }
 
+.btn-get-started:focus-visible {
+  outline: 2px solid var(--brand-secondary);
+  outline-offset: 3px;
+}
+
 .btn-secondary-outline {
   padding: 1rem 1.75rem;
   font-size: 1rem;
@@ -261,6 +266,11 @@
   text-align: center;
   font-size: 0.85rem;
   color: var(--text-tertiary);
+}
+
+.landing-footer strong {
+  color: var(--text-secondary);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
