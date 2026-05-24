@@ -1,0 +1,42 @@
+/* Responsive refinements */
+@media (max-width: 900px) {
+  .landing-cta-group {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .btn-get-started,
+  .btn-secondary-outline {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .landing-nav .btn-get-started {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sidebar {
+    display: none;
+  }
+
+  .app-dashboard.is-active {
+    flex-direction: column;
+  }
+
+  .message-wrapper {
+    padding: 1rem;
+  }
+
+  .welcome-title {
+    font-size: 1.85rem;
+  }
+
+  .suggestion-cards .card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
