@@ -1,6 +1,12 @@
-# Atlas AI - Local AI with Your Own Data
+# Atlas — A Teach, Learn and Study AI
 
 A full-stack application that combines offline conversational AI with local LLMs and vector database for intelligent Q&A over your own data.
+
+## Landing Page
+
+The frontend opens on an **Atlas** landing screen (no login). Click **Get Started** to enter the study chat. Branding:
+
+**A** Teach · **L** Learn · **S** Study · **AI**
 
 ## Key Features
 
