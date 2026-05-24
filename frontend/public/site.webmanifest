@@ -1,0 +1,16 @@
+{
+  "name": "Atlas — A Teach, Learn and Study AI",
+  "short_name": "Atlas",
+  "description": "Private offline learning assistant for teaching, learning, and studying.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/atlas-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
