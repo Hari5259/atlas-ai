@@ -3,7 +3,7 @@
   .landing-cta-group {
     flex-direction: column;
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
   }
 
   .btn-get-started,
@@ -12,9 +12,8 @@
     justify-content: center;
   }
 
-  .landing-nav .btn-get-started {
-    padding: 0.65rem 1.25rem;
-    font-size: 0.9rem;
+  .suggestion-cards {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -23,20 +22,29 @@
     display: none;
   }
 
-  .app-dashboard.is-active {
-    flex-direction: column;
-  }
-
   .message-wrapper {
     padding: 1rem;
   }
 
   .welcome-title {
-    font-size: 1.85rem;
+    font-size: 1.75rem;
   }
 
-  .suggestion-cards .card {
-    min-width: 100%;
-    max-width: 100%;
+  .atlas-letter-row {
+    gap: 0.25rem;
+  }
+
+  .letter-tile {
+    min-width: 2.75rem;
+  }
+
+  .letter-tile .glyph {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+  }
+
+  .letter-tile .meaning {
+    font-size: 0.65rem;
   }
 }
