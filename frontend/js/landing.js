@@ -8,10 +8,13 @@ export function initLanding(onStart) {
 
   if (!landing || !getStartedBtn) return;
 
-  getStartedBtn.addEventListener('click', () => {
+  const startSession = () => {
     sessionStorage.setItem('atlas_started', '1');
     enterApp(landing, onStart);
-  });
+  };
+
+  getStartedBtn.addEventListener('click', startSession);
+  document.getElementById('btn-get-started-nav')?.addEventListener('click', startSession);
 
   if (exploreBtn) {
     exploreBtn.addEventListener('click', () => {
