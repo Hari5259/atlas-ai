@@ -1,11 +1,13 @@
-# Atlas AI
+# Atlas
 
-Atlas AI is a locally running offline AI assistant built using custom-trained responses and local LLM integration. The project focuses on private AI interaction, semantic response handling, and intelligent offline assistance without relying completely on cloud-based AI systems.
+**A Teach, Learn and Study AI** — a locally running offline learning assistant built with custom-trained responses and local LLM integration. Atlas focuses on private study sessions, clear explanations, and intelligent help without relying on cloud APIs.
 
 ---
 
 ## Features
 
+* Beautiful landing page with **Get Started** (no login required)
+* **A · Teach · L · Learn · S · Study · AI** branding
 * Offline AI assistant
 * Local AI inference using Ollama
 * Custom-trained response system
@@ -103,8 +105,12 @@ ollama run llama3
 ## Run Project
 
 ```bash
+cd frontend
+npm install
 npm run dev
 ```
+
+Open the URL shown in the terminal. You will see the **Atlas** landing page — click **Get Started** to open the study chat (no account required).
 
 ### Mathematics Knowledge Base
 
