@@ -2,7 +2,7 @@
 
 export function initLanding(onStart) {
   const landing = document.getElementById('landing-page');
-  const nav = document.querySelector('.landing-nav');
+  const nav = document.getElementById('landing-nav');
   const getStartedBtn = document.getElementById('btn-get-started');
   const exploreBtn = document.getElementById('btn-explore-features');
 

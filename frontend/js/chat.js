@@ -123,8 +123,8 @@ export function initChat() {
     if (/quadratic|algebra|calculus|derivative|integral|math/.test(t)) {
       return "For quadratics **ax² + bx + c = 0**, use **x = (−b ± √(b²−4ac)) / 2a**. I can walk through examples step by step — what equation are you solving?";
     }
-    if (/teach|learn|study|atlas|full form|stand for|meaning/.test(t)) {
-      return "**Atlas** = **A** Teach · **L** Learn · **S** Study · **AI**\n\nI explain topics clearly (Teach), help you understand deeply (Learn), and support quizzes and revision (Study) — all running locally on your machine.";
+    if (/teach|learn|study|atlas|full form|stand for|meaning|abbreviation|acronym/.test(t)) {
+      return "**ATLAS** maps to:\n\n**A** · **T**each · **L**earn · **A**nd · **S**tudy · **AI**\n\n= **A Teach, Learn and Study AI**\n\nI explain (Teach), help you understand (Learn), and quiz you (Study) — all offline on your device.";
     }
     return `You asked about "${text}". Connect the backend (\`uvicorn main:app\`) for full AI responses, or try: math formulas, study tips, or "what is Atlas?"`;
   }
