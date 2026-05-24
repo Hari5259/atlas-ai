@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Atlas — A Teach, Learn and Study AI. Your private offline learning assistant.">
-  <meta name="theme-color" content="#8b5cf6">
+  <meta name="theme-color" content="#7c3aed">
   <meta name="apple-mobile-web-app-title" content="Atlas">
   <title>Atlas | A Teach, Learn and Study AI</title>
   <link rel="icon" type="image/png" href="/atlas-logo.png">
   <link rel="apple-touch-icon" href="/atlas-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/variables.css">
   <link rel="stylesheet" href="/css/animations.css">
+  <link rel="stylesheet" href="/css/acronym.css">
   <link rel="stylesheet" href="/css/landing.css">
   <link rel="stylesheet" href="/css/dashboard.css">
   <link rel="stylesheet" href="/css/responsive.css">
@@ -25,97 +26,130 @@
   <div class="ambient-orb orb-2"></div>
   <div class="ambient-orb orb-3"></div>
 
-  <!-- Landing (default — no login) -->
   <div class="landing-page" id="landing-page">
-    <nav class="landing-nav">
-      <div class="landing-brand">
-        <img src="/atlas-logo.png" alt="Atlas logo">
-        <span>Atlas</span>
+    <nav class="landing-nav" id="landing-nav">
+      <div class="landing-nav-inner">
+        <div class="landing-brand">
+          <img src="/atlas-logo.png" alt="Atlas">
+          <span>Atlas</span>
+        </div>
+        <button type="button" class="btn-get-started" id="btn-get-started-nav">Get Started</button>
       </div>
-      <button type="button" class="btn-get-started" id="btn-get-started-nav">
-        Get Started
-      </button>
     </nav>
 
     <section class="landing-hero">
-      <div class="landing-logo-wrap animate-in">
-        <div class="landing-logo-glow"></div>
-        <img src="/atlas-logo.png" alt="Atlas — A Teach, Learn and Study AI">
+      <div class="hero-intro">
+        <span class="landing-badge animate-in">
+          <i data-feather="zap" width="14" height="14"></i>
+          Offline · Private · Built to Study
+        </span>
+        <div class="landing-logo-wrap animate-in">
+          <div class="landing-logo-glow"></div>
+          <img src="/atlas-logo.png" alt="Atlas logo">
+        </div>
+        <h1 class="landing-title animate-in delay-1">Atlas</h1>
+        <p class="landing-tagline animate-in delay-2">
+          Your intelligent companion for teaching concepts, deepening understanding,
+          and focused study — running locally on your machine.
+        </p>
+        <div class="landing-cta-group animate-in delay-3">
+          <button type="button" class="btn-get-started" id="btn-get-started">
+            Get Started <i data-feather="arrow-right"></i>
+          </button>
+          <button type="button" class="btn-secondary-outline" id="btn-explore-features">
+            See How It Works
+          </button>
+        </div>
       </div>
 
-      <h1 class="landing-title animate-in delay-1">Atlas</h1>
-
-      <div class="landing-acronym animate-in delay-2" aria-label="Atlas full form">
-        <span class="acronym-letter teach"><span>A</span> Teach</span>
-        <span class="acronym-letter learn"><span>L</span> Learn</span>
-        <span class="acronym-letter study"><span>S</span> Study</span>
-        <span class="acronym-letter ai"><span>AI</span></span>
-      </div>
-
-      <p class="landing-tagline animate-in delay-2">
-        <strong>A Teach, Learn and Study AI</strong> — your private companion for explanations,
-        practice, and focused study. Offline-first. Built for students and lifelong learners.
-      </p>
-
-      <div class="landing-cta-group animate-in delay-3">
-        <button type="button" class="btn-get-started" id="btn-get-started">
-          Get Started
-          <i data-feather="arrow-right"></i>
-        </button>
-        <button type="button" class="btn-secondary-outline" id="btn-explore-features">
-          Explore Features
-        </button>
+      <div class="atlas-acronym-card animate-in delay-2" aria-label="ATLAS acronym: A Teach, Learn and Study AI">
+        <p class="acronym-eyebrow">What ATLAS means</p>
+        <div class="atlas-letter-row">
+          <div class="letter-tile tile-a1">
+            <span class="glyph">A</span>
+            <span class="meaning">A</span>
+          </div>
+          <span class="letter-connector" aria-hidden="true">·</span>
+          <div class="letter-tile tile-t">
+            <span class="glyph">T</span>
+            <span class="meaning">Teach</span>
+          </div>
+          <span class="letter-connector" aria-hidden="true">·</span>
+          <div class="letter-tile tile-l">
+            <span class="glyph">L</span>
+            <span class="meaning">Learn</span>
+          </div>
+          <span class="letter-connector" aria-hidden="true">·</span>
+          <div class="letter-tile tile-a2">
+            <span class="glyph">A</span>
+            <span class="meaning">And</span>
+          </div>
+          <span class="letter-connector" aria-hidden="true">·</span>
+          <div class="letter-tile tile-s">
+            <span class="glyph">S</span>
+            <span class="meaning">Study</span>
+          </div>
+        </div>
+        <div class="atlas-ai-row">
+          <span class="atlas-ai-badge">AI</span>
+        </div>
+        <p class="acronym-full-line">
+          <em>A Teach, Learn and Study AI</em>
+        </p>
       </div>
 
       <div class="landing-pillars animate-in delay-4" id="landing-pillars">
         <article class="pillar-card teach">
           <div class="pillar-icon"><i data-feather="book-open"></i></div>
           <h3>Teach</h3>
-          <p>Clear explanations, step-by-step breakdowns, and intuitive answers across math, science, and more.</p>
+          <p>Step-by-step explanations across math, science, and coding — like a patient tutor.</p>
         </article>
         <article class="pillar-card learn">
-          <div class="pillar-icon"><i data-feather="cpu"></i></div>
+          <div class="pillar-icon"><i data-feather="layers"></i></div>
           <h3>Learn</h3>
-          <p>Interactive Q&amp;A, knowledge-base search, and adaptive help powered by local AI — private by design.</p>
+          <p>Ask follow-ups, explore topics deeply, and build real understanding — not just answers.</p>
         </article>
         <article class="pillar-card study">
           <div class="pillar-icon"><i data-feather="target"></i></div>
           <h3>Study</h3>
-          <p>Upload notes, quiz yourself, and stay focused with an assistant built for deep work sessions.</p>
+          <p>Upload notes, run quizzes, and stay in the zone for exam prep and revision.</p>
         </article>
       </div>
     </section>
 
     <footer class="landing-footer">
-      <strong>Atlas</strong> · A Teach, Learn and Study AI · Educational use
+      <strong>Atlas</strong> — A Teach, Learn and Study AI
     </footer>
   </div>
 
-  <!-- Chat dashboard -->
   <div class="app-dashboard" id="app-dashboard">
     <aside class="sidebar">
       <div class="brand">
-        <img src="/atlas-logo.png" alt="Atlas">
+        <img src="/atlas-logo.png" alt="">
         Atlas
+      </div>
+      <div class="sidebar-acronym-mini">
+        <strong>ATLAS</strong>
+        A · Teach · L · Learn · A · And · S · Study · AI
       </div>
       <button type="button" class="btn-back-home" id="btn-back-home">
         <i data-feather="arrow-left" width="16"></i> Home
       </button>
       <button type="button" class="new-chat-btn">
         <i data-feather="plus" width="18"></i>
-        New Study Session
+        New Session
       </button>
       <div class="history-list">
-        <div class="history-group">Study Sessions</div>
+        <div class="history-group">Today</div>
         <div class="history-item active">
-          <i data-feather="message-circle" width="16"></i> Mathematics · Algebra
+          <i data-feather="message-circle" width="16"></i> Math · Quadratic
         </div>
         <div class="history-item">
-          <i data-feather="message-circle" width="16"></i> Physics · Newton's Laws
+          <i data-feather="message-circle" width="16"></i> Physics · Forces
         </div>
         <div class="history-group">Earlier</div>
         <div class="history-item">
-          <i data-feather="message-circle" width="16"></i> Chemistry · Bonding
+          <i data-feather="message-circle" width="16"></i> Biology · Cells
         </div>
       </div>
       <div class="sidebar-footer">
@@ -135,24 +169,31 @@
       <div class="chat-container" id="chat-container">
         <div class="welcome-screen" id="welcome-screen">
           <img src="/atlas-logo.png" alt="Atlas">
-          <h1 class="welcome-title">Ready to learn?</h1>
-          <p class="welcome-acronym-mini">A · Teach · L · Learn · S · Study · AI</p>
-          <p class="welcome-subtitle">Ask about any subject, upload study materials, or try a quick prompt below.</p>
+          <h1 class="welcome-title">Start learning</h1>
+          <div class="atlas-acronym-strip" aria-label="ATLAS acronym">
+            <span class="mini-letter">A</span>
+            <span class="mini-letter">T</span>
+            <span class="mini-letter">L</span>
+            <span class="mini-letter">A</span>
+            <span class="mini-letter">S</span>
+            <span class="strip-ai">AI</span>
+          </div>
+          <p class="welcome-subtitle">Teach · Learn · Study — pick a topic or ask anything below.</p>
           <div class="suggestion-cards">
-            <div class="card" onclick="fillInput('Explain the quadratic formula with an example')">
-              <i data-feather="divide"></i>
+            <div class="card" onclick="fillInput('Explain the quadratic formula with a worked example')">
+              <i data-feather="percent"></i>
               <div class="card-title">Mathematics</div>
-              <div class="card-desc">Formulas, proofs, and step-by-step solutions</div>
+              <div class="card-desc">Formulas and step-by-step solutions</div>
             </div>
-            <div class="card" onclick="fillInput('Teach me Newton\'s three laws of motion simply')">
+            <div class="card" onclick="fillInput('Teach me Newton\'s laws of motion in simple terms')">
               <i data-feather="zap"></i>
               <div class="card-title">Science</div>
-              <div class="card-desc">Physics, chemistry, and biology concepts</div>
+              <div class="card-desc">Physics, chemistry, and biology</div>
             </div>
-            <div class="card" onclick="fillInput('Create a 5-question quiz on cellular respiration')">
-              <i data-feather="check-square"></i>
+            <div class="card" onclick="fillInput('Quiz me with 5 questions on cellular respiration')">
+              <i data-feather="check-circle"></i>
               <div class="card-title">Study Quiz</div>
-              <div class="card-desc">Practice and test your understanding</div>
+              <div class="card-desc">Test what you have learned</div>
             </div>
           </div>
         </div>
@@ -161,16 +202,16 @@
       <div class="input-container">
         <div class="input-box">
           <input type="file" id="data-feed-input" hidden multiple onchange="handleDataFeed(this)">
-          <button type="button" class="icon-btn" onclick="document.getElementById('data-feed-input').click()" title="Upload study materials">
-            <i data-feather="paperclip" width="22"></i>
+          <button type="button" class="icon-btn" onclick="document.getElementById('data-feed-input').click()" title="Upload notes">
+            <i data-feather="paperclip" width="20"></i>
           </button>
-          <textarea id="chat-input" placeholder="Ask Atlas to teach, help you learn, or study with you…" rows="1"
+          <textarea id="chat-input" placeholder="Ask Atlas to teach, help you learn, or quiz you…" rows="1"
             oninput="this.style.height='';this.style.height=Math.min(this.scrollHeight,200)+'px'"></textarea>
           <button type="button" class="icon-btn send-btn" id="send-btn">
             <i data-feather="arrow-up" width="20"></i>
           </button>
         </div>
-        <p class="input-hint">Atlas can make mistakes. Verify important facts for exams and assignments.</p>
+        <p class="input-hint">Verify important facts before exams and assignments.</p>
       </div>
     </main>
   </div>
