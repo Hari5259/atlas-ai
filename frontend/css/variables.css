@@ -1,29 +1,37 @@
 :root {
-  --bg-base: #030712;
-  --surface-1: rgba(17, 24, 39, 0.6);
-  --surface-2: rgba(31, 41, 55, 0.4);
-  --surface-border: rgba(255, 255, 255, 0.08);
-  --surface-border-hover: rgba(255, 255, 255, 0.15);
+  --bg-base: #020617;
+  --bg-elevated: #0b1120;
+  --surface-1: rgba(15, 23, 42, 0.72);
+  --surface-2: rgba(30, 41, 59, 0.55);
+  --surface-glass: rgba(255, 255, 255, 0.04);
+  --surface-border: rgba(255, 255, 255, 0.09);
+  --surface-border-hover: rgba(255, 255, 255, 0.18);
 
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --text-tertiary: #6b7280;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
 
-  --brand-primary: #8b5cf6;
-  --brand-secondary: #3b82f6;
-  --brand-accent: #10b981;
-  --brand-teach: #a78bfa;
-  --brand-learn: #60a5fa;
-  --brand-study: #34d399;
+  --brand-primary: #7c3aed;
+  --brand-secondary: #2563eb;
+  --brand-accent: #06d6a0;
+  --brand-teach: #c4b5fd;
+  --brand-learn: #7dd3fc;
+  --brand-study: #6ee7b7;
+  --brand-and: #f0abfc;
 
-  --gradient-brand: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
+  --gradient-brand: linear-gradient(135deg, #7c3aed 0%, #2563eb 55%, #06d6a0 100%);
+  --gradient-text: linear-gradient(135deg, #ffffff 0%, #c7d2fe 45%, #7dd3fc 100%);
   --gradient-mesh:
-    radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.18) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.18) 0px, transparent 50%),
-    radial-gradient(at 50% 100%, rgba(16, 185, 129, 0.08) 0px, transparent 50%);
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(124, 58, 237, 0.22), transparent),
+    radial-gradient(ellipse 60% 40% at 90% 10%, rgba(37, 99, 235, 0.18), transparent),
+    radial-gradient(ellipse 50% 30% at 50% 100%, rgba(6, 214, 160, 0.1), transparent);
 
   --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Outfit", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
-  --shadow-glow: 0 0 60px rgba(139, 92, 246, 0.25);
+  --shadow-glow: 0 0 80px rgba(124, 58, 237, 0.2);
+  --shadow-card: 0 24px 48px -12px rgba(0, 0, 0, 0.55);
 }
