@@ -1,0 +1,45 @@
+{
+  "domain": "programming",
+  "entries": [
+    {
+      "id": "gen-prog-001",
+      "topic": "programming",
+      "title": "Python Basics",
+      "content": "High-level language known for readability. Uses indentation for blocks. Great for data science, automation, and web backends (FastAPI, Django).",
+      "keywords": ["python", "programming", "code", "script"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-prog-002",
+      "topic": "programming",
+      "title": "JavaScript Essentials",
+      "content": "Runs in browsers and on servers (Node.js). Core for interactive web apps. Use const/let, async/await for modern async code.",
+      "keywords": ["javascript", "js", "node", "web", "frontend"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-prog-003",
+      "topic": "programming",
+      "title": "Recursion",
+      "content": "A function that calls itself with a smaller subproblem. Always define a base case to stop. Used in trees, divide-and-conquer, and dynamic programming.",
+      "keywords": ["recursion", "recursive", "function", "base case"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-prog-004",
+      "topic": "programming",
+      "title": "Object-Oriented Programming",
+      "content": "Organize code into classes (blueprints) and objects (instances). Encapsulation, inheritance, and polymorphism reduce complexity.",
+      "keywords": ["oop", "class", "object", "inheritance", "encapsulation"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-prog-005",
+      "topic": "programming",
+      "title": "Debugging Strategy",
+      "content": "Reproduce the bug, read the error message, isolate with print/logs or a debugger, fix one issue at a time, then add a test to prevent regression.",
+      "keywords": ["debug", "error", "fix", "troubleshoot", "bug"],
+      "difficulty": "beginner"
+    }
+  ]
+}
