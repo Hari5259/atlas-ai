@@ -125,7 +125,7 @@ class ConversationalAI:
                 name = match.group(1)
                 self.user_name = name.capitalize()
                 responses = [
-                    f"Nice to meet you, {self.user_name}! 👋 I'm Atlas AI, your personal assistant for analyzing data and answering questions!",
+                    f"Nice to meet you, {self.user_name}! I'm Atlas — A Teach, Learn and Study AI. What would you like to learn today?",
                     f"Pleased to meet you, {self.user_name}! I'm Atlas, your AI companion for exploring and understanding your data! 🎯",
                     f"Awesome, {self.user_name}! I'm Atlas AI - here to help you get the most out of your information! 🚀",
                     f"Great to have you here, {self.user_name}! I'm Atlas, your friendly data assistant! 💡"
@@ -138,10 +138,9 @@ class ConversationalAI:
         for pattern in what_are_you:
             if re.search(pattern, message_lower):
                 responses = [
-                    "I'm Atlas AI! 🤖 I'm a conversational AI designed to help you interact with your data intelligently. I can answer questions based on documents you feed me, provide greetings, and have friendly conversations. I work completely offline using local AI models!",
-                    "Hey! I'm Atlas, your personal AI assistant! 💡 I specialize in understanding your data and answering questions about it. I also love chatting and can handle everything from casual conversation to serious Q&A!",
-                    "I'm Atlas AI - a local, offline intelligence system! 🎯 I can: answer questions about your data, have natural conversations, provide assistance, and give you personalized responses. All processing happens right on your machine!",
-                    "Welcome! I'm Atlas, your intelligent data companion! 🌟 I use advanced AI techniques to understand your documents and answer your questions. No cloud, no external APIs - everything runs locally for privacy and speed!"
+                    "I'm **Atlas** — **A** Teach, **L** Learn and **S** Study **AI**! I explain concepts clearly, help you understand deeply, and support quizzes and revision. I run locally with a built-in knowledge base in math, science, CS, and study skills.",
+                    "Hey! I'm Atlas, your study companion. Ask me to **teach** a topic, help you **learn** with Q&A, or **study** with practice questions. I work offline with rich reference data — optional Ollama for longer answers.",
+                    "I'm Atlas — A Teach, Learn and Study AI. I can explain math and science, programming basics, study techniques, and answer from documents you upload. What subject are you working on?",
                 ]
                 import random
                 self.last_interaction_type = "who_are_you"
