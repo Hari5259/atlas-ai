@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/css/acronym.css">
   <link rel="stylesheet" href="/css/landing.css">
   <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/chatgpt.css">
   <link rel="stylesheet" href="/css/responsive.css">
   <link rel="manifest" href="/site.webmanifest">
   <script src="https://unpkg.com/feather-icons"></script>
@@ -123,95 +124,71 @@
   </div>
 
   <div class="app-dashboard" id="app-dashboard">
-    <aside class="sidebar">
-      <div class="brand">
-        <img src="/atlas-logo.png" alt="">
-        Atlas
-      </div>
-      <div class="sidebar-acronym-mini">
-        <strong>ATLAS</strong>
-        A · Teach · L · Learn · A · And · S · Study · AI
-      </div>
-      <button type="button" class="btn-back-home" id="btn-back-home">
-        <i data-feather="arrow-left" width="16"></i> Home
-      </button>
-      <button type="button" class="new-chat-btn">
-        <i data-feather="plus" width="18"></i>
-        New Session
-      </button>
-      <div class="history-list">
-        <div class="history-group">Today</div>
-        <div class="history-item active">
-          <i data-feather="message-circle" width="16"></i> Math · Quadratic
+    <aside class="gpt-sidebar">
+      <div class="gpt-sidebar-top">
+        <div class="gpt-brand">
+          <img src="/atlas-logo.png" alt="">
+          <span>Atlas</span>
         </div>
-        <div class="history-item">
-          <i data-feather="message-circle" width="16"></i> Physics · Forces
-        </div>
-        <div class="history-group">Earlier</div>
-        <div class="history-item">
-          <i data-feather="message-circle" width="16"></i> Biology · Cells
-        </div>
+        <button type="button" class="gpt-new-chat" id="gpt-new-chat">
+          <i data-feather="edit-3" width="16"></i> New chat
+        </button>
+        <button type="button" class="gpt-home-btn" id="btn-back-home">
+          <i data-feather="home" width="14"></i> Home
+        </button>
       </div>
-      <div class="sidebar-footer">
+      <div class="gpt-history" id="gpt-history"></div>
+      <div class="gpt-sidebar-footer">
         <strong>Atlas</strong>
         A Teach, Learn and Study AI
+        <div class="gpt-status" id="gpt-status">
+          <span class="dot"></span>
+          <span class="status-text">Checking…</span>
+        </div>
       </div>
     </aside>
 
-    <main class="main-content">
-      <header class="header">
-        <div class="model-pill">
-          <span class="dot"></span>
-          Atlas · Study Mode
-        </div>
-      </header>
-
-      <div class="chat-container" id="chat-container">
-        <div class="welcome-screen" id="welcome-screen">
-          <img src="/atlas-logo.png" alt="Atlas">
-          <h1 class="welcome-title">Start learning</h1>
-          <div class="atlas-acronym-strip" aria-label="ATLAS acronym">
-            <span class="mini-letter">A</span>
-            <span class="mini-letter">T</span>
-            <span class="mini-letter">L</span>
-            <span class="mini-letter">A</span>
-            <span class="mini-letter">S</span>
-            <span class="strip-ai">AI</span>
-          </div>
-          <p class="welcome-subtitle">Teach · Learn · Study — pick a topic or ask anything below.</p>
-          <div class="suggestion-cards">
-            <div class="card" onclick="fillInput('Explain the quadratic formula with a worked example')">
-              <i data-feather="percent"></i>
-              <div class="card-title">Mathematics</div>
-              <div class="card-desc">Formulas and step-by-step solutions</div>
-            </div>
-            <div class="card" onclick="fillInput('Teach me Newton\'s laws of motion in simple terms')">
-              <i data-feather="zap"></i>
-              <div class="card-title">Science</div>
-              <div class="card-desc">Physics, chemistry, and biology</div>
-            </div>
-            <div class="card" onclick="fillInput('Quiz me with 5 questions on cellular respiration')">
-              <i data-feather="check-circle"></i>
-              <div class="card-title">Study Quiz</div>
-              <div class="card-desc">Test what you have learned</div>
-            </div>
+    <main class="gpt-main">
+      <div class="gpt-thread" id="chat-container">
+        <div class="gpt-welcome" id="welcome-screen">
+          <img src="/atlas-logo.png" alt="Atlas" width="56" height="56" style="border-radius:12px;margin-bottom:1rem">
+          <h1>How can I help you study today?</h1>
+          <p>Ask about math, science, programming, or study skills — Atlas teaches, helps you learn, and quizzes you.</p>
+          <div class="gpt-starters">
+            <button type="button" class="gpt-starter" data-prompt="Explain the quadratic formula with a step-by-step example">
+              Quadratic formula
+              <span>Algebra · worked example</span>
+            </button>
+            <button type="button" class="gpt-starter" data-prompt="Teach me Newton's three laws of motion simply">
+              Newton's laws
+              <span>Physics · fundamentals</span>
+            </button>
+            <button type="button" class="gpt-starter" data-prompt="What is photosynthesis and cellular respiration?">
+              Photosynthesis
+              <span>Biology · energy in cells</span>
+            </button>
+            <button type="button" class="gpt-starter" data-prompt="What topics can you help me study?">
+              Topics list
+              <span>See everything Atlas knows</span>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="input-container">
-        <div class="input-box">
-          <input type="file" id="data-feed-input" hidden multiple onchange="handleDataFeed(this)">
-          <button type="button" class="icon-btn" onclick="document.getElementById('data-feed-input').click()" title="Upload notes">
-            <i data-feather="paperclip" width="20"></i>
-          </button>
-          <textarea id="chat-input" placeholder="Ask Atlas to teach, help you learn, or quiz you…" rows="1"
-            oninput="this.style.height='';this.style.height=Math.min(this.scrollHeight,200)+'px'"></textarea>
-          <button type="button" class="icon-btn send-btn" id="send-btn">
-            <i data-feather="arrow-up" width="20"></i>
-          </button>
+      <div class="gpt-composer">
+        <div class="gpt-composer-inner">
+          <div class="gpt-input-wrap">
+            <input type="file" id="data-feed-input" hidden multiple onchange="handleDataFeed(this)">
+            <button type="button" class="gpt-icon-btn" onclick="document.getElementById('data-feed-input').click()" title="Upload notes">
+              <i data-feather="paperclip" width="18"></i>
+            </button>
+            <textarea id="chat-input" placeholder="Message Atlas…" rows="1"></textarea>
+            <button type="button" class="gpt-send" id="send-btn" title="Send">
+              <i data-feather="arrow-up" width="18"></i>
+            </button>
+          </div>
+          <p class="gpt-disclaimer">Atlas can make mistakes. Check important facts for exams and assignments.</p>
         </div>
-        <p class="input-hint">Verify important facts before exams and assignments.</p>
       </div>
     </main>
   </div>
