@@ -1,0 +1,47 @@
+{
+  "domain": "chemistry",
+  "entries": [
+    {
+      "id": "gen-chem-001",
+      "topic": "chemistry",
+      "title": "Atomic Structure",
+      "content": "Atoms have a nucleus (protons + neutrons) surrounded by electrons in shells. Atomic number = protons; mass number = protons + neutrons.",
+      "keywords": ["atom", "proton", "neutron", "electron", "nucleus"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-chem-002",
+      "topic": "chemistry",
+      "title": "pH Scale",
+      "content": "Measures acidity/alkalinity from 0–14. pH 7 is neutral; below 7 acidic, above 7 basic. pH = −log[H⁺].",
+      "keywords": ["ph", "acid", "base", "alkaline", "neutral"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-chem-003",
+      "topic": "chemistry",
+      "title": "Mole and Avogadro's Number",
+      "content": "One mole contains 6.022×10²³ particles. Molar mass (g/mol) lets you convert between grams and moles.",
+      "formula": "n = mass / molar mass",
+      "keywords": ["mole", "avogadro", "molar", "stoichiometry"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-chem-004",
+      "topic": "chemistry",
+      "title": "Chemical Bonding Types",
+      "content": "Ionic: electron transfer (metal + nonmetal). Covalent: electron sharing. Metallic: electron sea in metals.",
+      "keywords": ["ionic", "covalent", "metallic", "bond", "molecule"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-chem-005",
+      "topic": "chemistry",
+      "title": "Balancing Chemical Equations",
+      "content": "Same number of each atom on both sides. Start with complex molecules, leave H and O for last. Coefficients multiply entire formulas.",
+      "example": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "keywords": ["balance", "equation", "reaction", "stoichiometry"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
