@@ -18,6 +18,14 @@
 }
 
 @media (max-width: 640px) {
+  .gpt-sidebar {
+    display: none;
+  }
+
+  .gpt-starters {
+    grid-template-columns: 1fr;
+  }
+
   .sidebar {
     display: none;
   }
