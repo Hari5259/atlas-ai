@@ -1,0 +1,45 @@
+{
+  "domain": "study_skills",
+  "entries": [
+    {
+      "id": "gen-study-001",
+      "topic": "study_skills",
+      "title": "Pomodoro Technique",
+      "content": "Study 25 minutes, break 5 minutes. After 4 cycles, take a longer 15–30 min break. Improves focus and reduces burnout.",
+      "keywords": ["pomodoro", "focus", "break", "productivity", "study"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-study-002",
+      "topic": "study_skills",
+      "title": "Active Recall",
+      "content": "Test yourself instead of re-reading. Close notes and explain concepts aloud or use flashcards. Strengthens long-term memory.",
+      "keywords": ["active recall", "flashcard", "memory", "revision", "exam"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-study-003",
+      "topic": "study_skills",
+      "title": "Spaced Repetition",
+      "content": "Review material at increasing intervals (1 day, 3 days, 1 week). Fights forgetting curve. Tools: Anki, Atlas quiz mode.",
+      "keywords": ["spaced", "repetition", "review", "anki", "forgetting"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-study-004",
+      "topic": "study_skills",
+      "title": "Feynman Technique",
+      "content": "Learn by teaching: explain the topic in simple words as if to a beginner. Gaps in your explanation reveal what to study next.",
+      "keywords": ["feynman", "explain", "teach", "understand", "learn"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-study-005",
+      "topic": "study_skills",
+      "title": "Exam Preparation Checklist",
+      "content": "1) Gather syllabus topics 2) Practice past papers 3) Focus weak areas 4) Sleep well before exam 5) Verify formulas and units.",
+      "keywords": ["exam", "test", "prepare", "revision", "checklist"],
+      "difficulty": "beginner"
+    }
+  ]
+}
