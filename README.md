@@ -16,7 +16,9 @@
 * Fast local processing
 * Private and secure AI interaction
 * Expandable training dataset
-* **Mathematics knowledge base** — 30+ offline math entries (algebra, geometry, calculus, trigonometry, statistics, linear algebra)
+* **65+ topic knowledge base** — math, physics, chemistry, biology, CS, programming, study skills (proper markdown responses)
+* **ChatGPT-style chat UI** — sidebar, typing indicator, session history, markdown rendering
+* **Mathematics knowledge base** — 30 offline math entries (algebra, geometry, calculus, trigonometry, statistics, linear algebra)
 
 ---
 
@@ -111,6 +113,16 @@ npm run dev
 ```
 
 Open the URL shown in the terminal. You will see the **Atlas** landing page — click **Get Started** to open the study chat (no account required).
+
+Start the API for full responses:
+
+```bash
+cd backend
+pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+Ask: *Explain Newton's second law*, *What is the quadratic formula?*, or *What topics can you help with?*
 
 ### Mathematics Knowledge Base
 
