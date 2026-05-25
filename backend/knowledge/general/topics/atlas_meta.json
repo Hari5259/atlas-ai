@@ -1,0 +1,37 @@
+{
+  "domain": "atlas",
+  "entries": [
+    {
+      "id": "gen-atlas-001",
+      "topic": "atlas",
+      "title": "What is Atlas?",
+      "content": "Atlas is A Teach, Learn and Study AI — an offline-first learning assistant. It explains concepts (Teach), helps you understand (Learn), and supports quizzes and revision (Study) using local knowledge and optional Ollama models.",
+      "keywords": ["atlas", "what is", "who are you", "about", "introduction"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-atlas-002",
+      "topic": "atlas",
+      "title": "ATLAS Acronym",
+      "content": "ATLAS stands for: A (article) + Teach + L Learn + A And + S Study + AI. Full name: A Teach, Learn and Study AI.",
+      "keywords": ["acronym", "abbreviation", "stand for", "meaning", "full form", "atlas"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-atlas-003",
+      "topic": "atlas",
+      "title": "Topics Atlas Knows",
+      "content": "Mathematics, physics, chemistry, biology, computer science, programming, study skills, and your uploaded notes. Ask naturally or upload materials to extend the knowledge base.",
+      "keywords": ["topics", "help", "capabilities", "subjects", "what can"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-atlas-004",
+      "topic": "atlas",
+      "title": "How to Get Better Answers",
+      "content": "Be specific: include subject, level, and what you tried. Example: 'Explain photosynthesis steps for GCSE biology.' Upload notes for context-aware answers when the backend is running.",
+      "keywords": ["tips", "better", "question", "how to ask", "improve"],
+      "difficulty": "beginner"
+    }
+  ]
+}
