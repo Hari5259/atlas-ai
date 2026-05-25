@@ -1,0 +1,478 @@
+/* ChatGPT-style chat interface */
+body.app-mode {
+  background: #212121;
+  background-image: none;
+  color: #ececec;
+  font-family: "Söhne", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+.app-dashboard {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: #212121;
+}
+
+.app-dashboard.is-active {
+  display: flex;
+}
+
+/* Sidebar */
+.gpt-sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: #171717;
+  border-right: 1px solid #2f2f2f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.gpt-sidebar-top {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gpt-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.65rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #ececec;
+}
+
+.gpt-brand img {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.gpt-new-chat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  background: transparent;
+  color: #ececec;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.gpt-new-chat:hover {
+  background: #2f2f2f;
+}
+
+.gpt-home-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.55rem 0.85rem;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #9b9b9b;
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.gpt-home-btn:hover {
+  background: #2f2f2f;
+  color: #ececec;
+}
+
+.gpt-history {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem 0.75rem;
+}
+
+.gpt-history-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0.5rem 0.35rem;
+}
+
+.gpt-history-item {
+  padding: 0.6rem 0.65rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #b4b4b4;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background 0.15s;
+}
+
+.gpt-history-item:hover,
+.gpt-history-item.active {
+  background: #2f2f2f;
+  color: #ececec;
+}
+
+.gpt-sidebar-footer {
+  padding: 0.85rem 1rem;
+  border-top: 1px solid #2f2f2f;
+  font-size: 0.75rem;
+  color: #6b6b6b;
+}
+
+.gpt-sidebar-footer strong {
+  display: block;
+  color: #9b9b9b;
+  font-size: 0.8rem;
+  margin-bottom: 0.15rem;
+}
+
+.gpt-status {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+  font-size: 0.7rem;
+}
+
+.gpt-status .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6b6b6b;
+}
+
+.gpt-status.online .dot {
+  background: #10a37f;
+  box-shadow: 0 0 6px #10a37f;
+}
+
+/* Main chat area */
+.gpt-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background: #212121;
+}
+
+.gpt-thread {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.gpt-thread-inner {
+  max-width: 768px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1.5rem 1rem 2rem;
+}
+
+/* Welcome */
+.gpt-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 55vh;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.gpt-welcome h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #ececec;
+  margin-bottom: 0.75rem;
+}
+
+.gpt-welcome p {
+  color: #9b9b9b;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  max-width: 420px;
+}
+
+.gpt-starters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.65rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.gpt-starter {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  border: 1px solid #424242;
+  border-radius: 12px;
+  background: #2f2f2f;
+  color: #ececec;
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.gpt-starter:hover {
+  background: #3a3a3a;
+}
+
+.gpt-starter span {
+  display: block;
+  color: #9b9b9b;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Messages */
+.msg-row {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  animation: fade-up 0.3s ease-out;
+}
+
+.msg-row.user {
+  flex-direction: row-reverse;
+}
+
+.msg-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.msg-row.assistant .msg-avatar {
+  background: #10a37f;
+}
+
+.msg-row.assistant .msg-avatar img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.msg-row.user .msg-avatar {
+  background: #5436da;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.msg-body {
+  flex: 1;
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #ececec;
+}
+
+.msg-row.user .msg-body {
+  background: #2f2f2f;
+  border-radius: 18px;
+  padding: 0.75rem 1rem;
+  max-width: 85%;
+}
+
+.msg-body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  color: #fff;
+}
+
+.msg-body h3:first-child {
+  margin-top: 0;
+}
+
+.msg-body p {
+  margin: 0.5rem 0;
+}
+
+.msg-body ul,
+.msg-body ol {
+  margin: 0.5rem 0;
+  padding-left: 1.35rem;
+}
+
+.msg-body code {
+  background: #1a1a1a;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: ui-monospace, monospace;
+}
+
+.msg-body pre {
+  background: #1a1a1a;
+  border: 1px solid #424242;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 0.75rem 0;
+}
+
+.msg-body pre code {
+  background: none;
+  padding: 0;
+}
+
+.msg-body hr {
+  border: none;
+  border-top: 1px solid #424242;
+  margin: 1rem 0;
+}
+
+.msg-body strong {
+  font-weight: 600;
+  color: #fff;
+}
+
+.msg-body em {
+  color: #b4b4b4;
+}
+
+.msg-meta {
+  font-size: 0.7rem;
+  color: #6b6b6b;
+  margin-top: 0.35rem;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  display: flex;
+  gap: 4px;
+  padding: 0.5rem 0;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background: #9b9b9b;
+  border-radius: 50%;
+  animation: typing-bounce 1.2s infinite;
+}
+
+.typing-indicator span:nth-child(2) { animation-delay: 0.15s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes typing-bounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+  30% { transform: translateY(-6px); opacity: 1; }
+}
+
+/* Composer */
+.gpt-composer {
+  padding: 0.75rem 1rem 1.25rem;
+  background: linear-gradient(transparent, #212121 30%);
+}
+
+.gpt-composer-inner {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.gpt-input-wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  background: #2f2f2f;
+  border: 1px solid #424242;
+  border-radius: 24px;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  box-shadow: 0 0 0 0 transparent;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.gpt-input-wrap:focus-within {
+  border-color: #565656;
+  box-shadow: 0 0 0 1px #565656;
+}
+
+.gpt-input-wrap textarea {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #ececec;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: none;
+  max-height: 200px;
+  padding: 0.45rem 0;
+  outline: none;
+}
+
+.gpt-input-wrap textarea::placeholder {
+  color: #6b6b6b;
+}
+
+.gpt-icon-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #9b9b9b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.gpt-icon-btn:hover {
+  background: #424242;
+  color: #ececec;
+}
+
+.gpt-send {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  background: #ececec;
+  color: #212121;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.gpt-send:hover:not(:disabled) {
+  background: #fff;
+}
+
+.gpt-send:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.gpt-disclaimer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #6b6b6b;
+  margin-top: 0.65rem;
+}
