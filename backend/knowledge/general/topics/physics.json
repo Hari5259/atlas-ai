@@ -1,0 +1,52 @@
+{
+  "domain": "physics",
+  "entries": [
+    {
+      "id": "gen-phy-001",
+      "topic": "physics",
+      "title": "Newton's Second Law",
+      "content": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. This is the most used law for solving force problems.",
+      "formula": "F = m × a  (Force = mass × acceleration)",
+      "example": "A 10 kg object with 50 N net force accelerates at a = 50/10 = 5 m/s².",
+      "keywords": ["newton", "force", "acceleration", "mass", "f=ma"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-phy-002",
+      "topic": "physics",
+      "title": "Kinetic Energy",
+      "content": "Energy of motion. Depends on mass and the square of velocity — doubling speed quadruples kinetic energy.",
+      "formula": "KE = ½mv²",
+      "keywords": ["kinetic", "energy", "motion", "velocity"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-phy-003",
+      "topic": "physics",
+      "title": "Ohm's Law",
+      "content": "Relates voltage, current, and resistance in an electrical circuit. Foundation for circuit analysis.",
+      "formula": "V = I × R",
+      "example": "12 V battery, 4 Ω resistor → I = 12/4 = 3 A",
+      "keywords": ["ohm", "voltage", "current", "resistance", "circuit", "electricity"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-phy-004",
+      "topic": "physics",
+      "title": "Wave Speed Equation",
+      "content": "Speed of a wave equals frequency times wavelength. Applies to sound, light, and water waves.",
+      "formula": "v = f × λ",
+      "keywords": ["wave", "frequency", "wavelength", "sound", "light"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-phy-005",
+      "topic": "physics",
+      "title": "Einstein Mass-Energy Equivalence",
+      "content": "Mass and energy are interchangeable. A tiny amount of mass converts to enormous energy — principle behind nuclear power.",
+      "formula": "E = mc²",
+      "keywords": ["einstein", "relativity", "energy", "nuclear", "mass"],
+      "difficulty": "advanced"
+    }
+  ]
+}
