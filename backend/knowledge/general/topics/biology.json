@@ -1,0 +1,47 @@
+{
+  "domain": "biology",
+  "entries": [
+    {
+      "id": "gen-bio-001",
+      "topic": "biology",
+      "title": "Cell Theory",
+      "content": "All living things are made of cells. Cells come from pre-existing cells. The cell is the basic unit of life.",
+      "keywords": ["cell", "theory", "life", "organism"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-bio-002",
+      "topic": "biology",
+      "title": "DNA Structure",
+      "content": "DNA is a double helix of nucleotides (A-T, G-C pairs). Stores genetic instructions for building proteins.",
+      "keywords": ["dna", "genetics", "helix", "nucleotide", "gene"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-bio-003",
+      "topic": "biology",
+      "title": "Photosynthesis",
+      "content": "Plants convert light energy into chemical energy (glucose), releasing oxygen.",
+      "formula": "6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂",
+      "keywords": ["photosynthesis", "plant", "chlorophyll", "glucose", "oxygen"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-bio-004",
+      "topic": "biology",
+      "title": "Cellular Respiration",
+      "content": "Cells break down glucose to produce ATP energy. Opposite overall reaction to photosynthesis.",
+      "formula": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP",
+      "keywords": ["respiration", "atp", "mitochondria", "energy", "glucose"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-bio-005",
+      "topic": "biology",
+      "title": "Natural Selection",
+      "content": "Organisms with traits better suited to their environment survive and reproduce more. Over generations, populations adapt.",
+      "keywords": ["evolution", "darwin", "selection", "adaptation", "fitness"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
