@@ -8,6 +8,21 @@ The frontend opens on an **Atlas** landing screen (no login). Click **Get Starte
 
 **A** Teach · **L** Learn · **S** Study · **AI**
 
+## Knowledge Base (65 entries)
+
+| Domain | Topics |
+|--------|--------|
+| Math (30) | algebra, geometry, calculus, trigonometry, statistics, linear algebra |
+| Science (15) | physics, chemistry, biology |
+| CS (11) | algorithms, APIs, ML, programming, study skills |
+| Atlas (4) | acronym, capabilities, study tips |
+
+Chat pipeline: conversational → knowledge search → offline topics → Ollama (optional).
+
+## Chat UI
+
+Chat interface matches **ChatGPT** layout: dark sidebar, centered thread, typing indicator, markdown answers.
+
 ## Key Features
 
 ### 🤖 Conversational AI (No Ollama Required!)
