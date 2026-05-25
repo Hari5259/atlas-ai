@@ -1,0 +1,53 @@
+{
+  "domain": "computer_science",
+  "entries": [
+    {
+      "id": "gen-cs-001",
+      "topic": "computer_science",
+      "title": "Big O Notation",
+      "content": "Describes how algorithm runtime or space grows with input size n. O(1) constant, O(log n) logarithmic, O(n) linear, O(n log n) linearithmic, O(n²) quadratic.",
+      "keywords": ["big o", "complexity", "algorithm", "runtime", "efficiency"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-cs-002",
+      "topic": "computer_science",
+      "title": "Binary Search",
+      "content": "Find target in sorted array by halving search space each step. Very efficient: O(log n) time.",
+      "keywords": ["binary", "search", "sorted", "algorithm"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-cs-003",
+      "topic": "computer_science",
+      "title": "REST API Principles",
+      "content": "Stateless HTTP API using resources and standard methods: GET (read), POST (create), PUT/PATCH (update), DELETE (remove).",
+      "keywords": ["rest", "api", "http", "endpoint", "backend"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-cs-004",
+      "topic": "computer_science",
+      "title": "Machine Learning Basics",
+      "content": "Models learn patterns from data. Supervised: labeled examples. Unsupervised: find structure. Training minimizes a loss function.",
+      "keywords": ["machine learning", "ml", "neural", "training", "model", "ai"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-cs-005",
+      "topic": "computer_science",
+      "title": "Git Version Control",
+      "content": "Track code changes with commits. Branches isolate features. Merge combines work. Never force-push shared main branches.",
+      "keywords": ["git", "commit", "branch", "merge", "version", "github"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-cs-006",
+      "topic": "computer_science",
+      "title": "SQL vs NoSQL",
+      "content": "SQL databases use structured tables and relationships (PostgreSQL, MySQL). NoSQL offers flexible documents or key-value stores (MongoDB, Redis).",
+      "keywords": ["sql", "nosql", "database", "postgres", "mongodb"],
+      "difficulty": "beginner"
+    }
+  ]
+}
