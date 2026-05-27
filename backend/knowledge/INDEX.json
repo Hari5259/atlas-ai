@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "description": "Atlas knowledge base index — all topic files loaded at startup",
+  "math_topics_dir": "math/topics",
+  "general_topics_dir": "general/topics",
+  "domains": [
+    "mathematics", "physics", "chemistry", "biology",
+    "computer_science", "programming", "networking", "cybersecurity",
+    "web_development", "data_science", "study_skills", "atlas",
+    "history", "geography", "economics", "psychology", "astronomy",
+    "environment", "literature", "health", "civics", "engineering",
+    "philosophy", "arts", "linguistics", "quick_facts", "world_facts", "inventions"
+  ]
+}
