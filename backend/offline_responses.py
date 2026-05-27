@@ -19,6 +19,11 @@ def try_offline_response(prompt: str) -> str | None:
         _study,
         _history,
         _economics,
+        _geography,
+        _astronomy,
+        _health,
+        _philosophy,
+        _environment,
     ]
     for handler in handlers:
         result = handler(t)
@@ -31,7 +36,10 @@ def _topics_list(t: str) -> str | None:
     if re.search(r"\b(topics?|subjects?|what can you|capabilities|help with|know about)\b", t):
         topics = [
             "mathematics", "physics", "chemistry", "biology",
-            "computer science", "programming", "study skills",
+            "computer science", "programming", "networking", "cybersecurity",
+            "history", "geography", "economics", "psychology", "astronomy",
+            "environment", "health", "civics", "engineering", "philosophy",
+            "literature", "arts", "study skills", "quick facts",
         ]
         return format_topics_list(topics)
     return None
@@ -156,4 +164,69 @@ def _economics(t: str) -> str | None:
         "- **GDP** = C + I + G + (X − M)\n"
         "- **Inflation:** rising price level; central banks use interest rates\n\n"
         "Ask about a specific concept for examples."
+    )
+
+
+def _geography(t: str) -> str | None:
+    if not re.search(r"\b(geography|continent|country|capital|river|mountain|climate)\b", t):
+        return None
+    return (
+        "### Geography highlights\n\n"
+        "- **7 continents** — Asia largest by population\n"
+        "- **Nile & Amazon** — among longest rivers\n"
+        "- **Everest** — highest peak (8,849 m)\n"
+        "- **Climate zones** — tropical, temperate, polar\n\n"
+        "Ask about a specific country or feature."
+    )
+
+
+def _astronomy(t: str) -> str | None:
+    if not re.search(r"\b(space|planet|star|moon|sun|galaxy|universe|astronomy)\b", t):
+        return None
+    return (
+        "### Astronomy snapshot\n\n"
+        "- **8 planets** orbit the Sun\n"
+        "- **Light speed** ≈ 3×10⁸ m/s\n"
+        "- **Moon phases** — ~29.5 day cycle\n"
+        "- **Big Bang** — universe ~13.8 billion years old\n\n"
+        "Ask about a specific planet or phenomenon."
+    )
+
+
+def _health(t: str) -> str | None:
+    if not re.search(r"\b(health|nutrition|diet|sleep|exercise|immune|vitamin)\b", t):
+        return None
+    return (
+        "### Health & wellness\n\n"
+        "- **Balanced diet** — carbs, protein, fats\n"
+        "- **Sleep** — 7–9 hours for adults; aids memory\n"
+        "- **Exercise** — 150 min/week moderate activity\n"
+        "- **Hydration** — essential for focus and energy\n\n"
+        "This is educational info, not medical advice."
+    )
+
+
+def _philosophy(t: str) -> str | None:
+    if not re.search(r"\b(philosophy|ethics|logic|socrates|plato|descartes|fallacy)\b", t):
+        return None
+    return (
+        "### Philosophy introduction\n\n"
+        "- **Ethics** — right and wrong (utilitarianism, deontology)\n"
+        "- **Logic** — valid reasoning, avoid fallacies\n"
+        "- **Epistemology** — what we can know\n"
+        "- **Socratic method** — learning through questions\n\n"
+        "Which branch interests you?"
+    )
+
+
+def _environment(t: str) -> str | None:
+    if not re.search(r"\b(climate|environment|pollution|renewable|carbon|ecosystem|greenhouse)\b", t):
+        return None
+    return (
+        "### Environment & climate\n\n"
+        "- **Greenhouse effect** — CO₂ traps heat\n"
+        "- **Renewables** — solar, wind, hydro\n"
+        "- **Biodiversity** — variety of life on Earth\n"
+        "- **Carbon footprint** — emissions from daily activities\n\n"
+        "Ask about a specific environmental topic."
     )
