@@ -1,0 +1,10 @@
+{
+  "domain": "inventions",
+  "entries": [
+    {"id": "gen-inv-001", "topic": "inventions", "title": "Printing Press", "content": "Johannes Gutenberg (~1440) enabled mass production of books in Europe, spreading literacy and Reformation ideas.", "keywords": ["gutenberg", "printing", "books", "invention"], "difficulty": "beginner"},
+    {"id": "gen-inv-002", "topic": "inventions", "title": "Electric Light Bulb", "content": "Thomas Edison commercialized practical incandescent bulb (1879). Revolutionized work hours, safety, and industry.", "keywords": ["edison", "light bulb", "electricity", "invention"], "difficulty": "beginner"},
+    {"id": "gen-inv-003", "topic": "inventions", "title": "Internet Origins", "content": "ARPANET (1969) evolved into global Internet. TCP/IP (1980s), World Wide Web (Tim Berners-Lee, 1989).", "keywords": ["internet", "arpanet", "www", "web", "technology"], "difficulty": "intermediate"},
+    {"id": "gen-inv-004", "topic": "inventions", "title": "Penicillin", "content": "Alexander Fleming discovered antibiotic properties (1928). Transformed medicine by treating bacterial infections.", "keywords": ["penicillin", "fleming", "antibiotic", "medicine"], "difficulty": "beginner"},
+    {"id": "gen-inv-005", "topic": "inventions", "title": "Wheel", "content": "One of earliest technologies (~3500 BCE Mesopotamia). Enabled transport, pottery wheels, and machinery.", "keywords": ["wheel", "ancient", "transport", "invention"], "difficulty": "beginner"}
+  ]
+}
