@@ -8,6 +8,23 @@ STOP_WORDS = {
     "the", "and", "for", "what", "how", "why", "can", "you", "are", "is", "a", "an",
     "to", "of", "in", "me", "my", "do", "does", "did", "with", "this", "that", "from",
     "about", "when", "where", "which", "who", "will", "would", "could", "should",
+    "explain", "tell", "describe", "define", "give", "help", "please", "just",
+}
+
+# Query synonyms expand search terms for better factual matches
+SYNONYMS: dict[str, list[str]] = {
+    "math": ["mathematics", "algebra", "calculus"],
+    "mathematics": ["math", "algebra"],
+    "ai": ["artificial", "intelligence", "machine"],
+    "ml": ["machine", "learning"],
+    "ww2": ["world", "war"],
+    "wwii": ["world", "war"],
+    "newton": ["force", "physics", "motion"],
+    "dna": ["genetics", "gene", "biology"],
+    "atom": ["atomic", "chemistry"],
+    "code": ["programming", "software"],
+    "study": ["learn", "revision", "exam"],
+    "exam": ["test", "study", "revision"],
 }
 
 
@@ -40,7 +57,17 @@ class KnowledgeBase:
     def search(self, query: str, limit: int = 5, min_score: int = 2) -> list[tuple[int, dict[str, Any]]]:
         if not query.strip():
             return []
-        terms = [t.lower() for t in query.split() if len(t) > 2 and t.lower() not in STOP_WORDS]
+        raw = [t.lower() for t in query.split() if len(t) > 2 and t.lower() not in STOP_WORDS]
+        terms: list[str] = []
+        seen: set[str] = set()
+        for t in raw:
+            if t not in seen:
+                seen.add(t)
+                terms.append(t)
+            for syn in SYNONYMS.get(t, []):
+                if syn not in seen:
+                    seen.add(syn)
+                    terms.append(syn)
         if not terms:
             return []
         scored: list[tuple[int, dict[str, Any]]] = []
