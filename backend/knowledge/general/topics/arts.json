@@ -1,0 +1,10 @@
+{
+  "domain": "arts",
+  "entries": [
+    {"id": "gen-art-001", "topic": "arts", "title": "Color Theory", "content": "Primary colors: red, blue, yellow (paint) or red, green, blue (light). Complementary colors opposite on wheel.", "keywords": ["color", "art", "primary", "design"], "difficulty": "beginner"},
+    {"id": "gen-art-002", "topic": "arts", "title": "Music Scales", "content": "Major scale: W-W-H-W-W-W-H (whole/half steps). Minor scales convey different moods. Key signature sets sharps/flats.", "keywords": ["music", "scale", "major", "minor", "theory"], "difficulty": "intermediate"},
+    {"id": "gen-art-003", "topic": "arts", "title": "Impressionism", "content": "19th-century art movement (Monet, Renoir) capturing light and moment with visible brushstrokes, often outdoors.", "keywords": ["impressionism", "monet", "painting", "art history"], "difficulty": "beginner"},
+    {"id": "gen-art-004", "topic": "arts", "title": "Film Shot Types", "content": "Wide shot (context), medium (dialogue), close-up (emotion). Editing, lighting, and sound shape storytelling.", "keywords": ["film", "cinema", "shot", "directing"], "difficulty": "beginner"},
+    {"id": "gen-art-005", "topic": "arts", "title": "Rhythm in Music", "content": "Pattern of beats in time. Time signature (4/4 common). Tempo measured in BPM (beats per minute).", "keywords": ["rhythm", "tempo", "beat", "music"], "difficulty": "beginner"}
+  ]
+}
