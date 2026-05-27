@@ -1,0 +1,45 @@
+{
+  "domain": "psychology",
+  "entries": [
+    {
+      "id": "gen-psy-001",
+      "topic": "psychology",
+      "title": "Classical Conditioning",
+      "content": "Learning by association (Pavlov). Neutral stimulus paired with unconditioned stimulus until neutral alone triggers response.",
+      "keywords": ["pavlov", "conditioning", "classical", "learning", "behavior"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-psy-002",
+      "topic": "psychology",
+      "title": "Maslow's Hierarchy of Needs",
+      "content": "Motivation pyramid: physiological → safety → love/belonging → esteem → self-actualization. Lower needs must be met before higher ones dominate.",
+      "keywords": ["maslow", "needs", "motivation", "hierarchy"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-psy-003",
+      "topic": "psychology",
+      "title": "Cognitive Dissonance",
+      "content": "Mental discomfort when beliefs and actions conflict. People often change attitudes or rationalize to reduce dissonance.",
+      "keywords": ["cognitive dissonance", "belief", "behavior", "festinger"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-psy-004",
+      "topic": "psychology",
+      "title": "Working Memory",
+      "content": "Short-term system holding ~4 items actively (revised from Miller's 7±2). Used for reasoning, comprehension, and learning.",
+      "keywords": ["memory", "working memory", "cognitive", "brain"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-psy-005",
+      "topic": "psychology",
+      "title": "Growth Mindset",
+      "content": "Belief that abilities can develop through effort and learning (Dweck). Contrasts with fixed mindset; improves resilience and performance.",
+      "keywords": ["growth mindset", "dweck", "learning", "effort", "intelligence"],
+      "difficulty": "beginner"
+    }
+  ]
+}
