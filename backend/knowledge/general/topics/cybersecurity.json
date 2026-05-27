@@ -1,0 +1,10 @@
+{
+  "domain": "cybersecurity",
+  "entries": [
+    {"id": "gen-sec-001", "topic": "cybersecurity", "title": "Strong Passwords", "content": "Use 12+ characters mixing cases, numbers, symbols. Unique per site. Password managers generate and store securely.", "keywords": ["password", "security", "authentication"], "difficulty": "beginner"},
+    {"id": "gen-sec-002", "topic": "cybersecurity", "title": "Phishing", "content": "Fake emails or sites trick users into revealing credentials. Verify sender, avoid suspicious links, enable 2FA.", "keywords": ["phishing", "scam", "email", "fraud"], "difficulty": "beginner"},
+    {"id": "gen-sec-003", "topic": "cybersecurity", "title": "Encryption", "content": "AES-256 encrypts data at rest; TLS encrypts data in transit (HTTPS). Keys must be kept secret.", "keywords": ["encryption", "aes", "tls", "https", "crypto"], "difficulty": "intermediate"},
+    {"id": "gen-sec-004", "topic": "cybersecurity", "title": "Two-Factor Authentication", "content": "Requires password plus second factor (phone code, app, hardware key). Blocks most account takeovers.", "keywords": ["2fa", "mfa", "authentication", "security"], "difficulty": "beginner"},
+    {"id": "gen-sec-005", "topic": "cybersecurity", "title": "SQL Injection", "content": "Attack inserting malicious SQL via input fields. Prevent with parameterized queries and input validation.", "keywords": ["sql injection", "security", "database", "hack"], "difficulty": "advanced"}
+  ]
+}
