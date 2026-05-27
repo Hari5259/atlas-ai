@@ -1,0 +1,10 @@
+{
+  "domain": "philosophy",
+  "entries": [
+    {"id": "gen-philo-001", "topic": "philosophy", "title": "Socratic Method", "content": "Teaching through questioning to expose assumptions and stimulate critical thinking. Named after Socrates of ancient Athens.", "keywords": ["socrates", "philosophy", "question", "critical thinking"], "difficulty": "beginner"},
+    {"id": "gen-philo-002", "topic": "philosophy", "title": "Ethics: Utilitarianism", "content": "Actions are right if they maximize overall happiness or well-being (greatest good for greatest number). Associated with Bentham and Mill.", "keywords": ["utilitarianism", "ethics", "morality", "mill"], "difficulty": "intermediate"},
+    {"id": "gen-philo-003", "topic": "philosophy", "title": "Cogito Ergo Sum", "content": "Descartes: 'I think, therefore I am.' Foundational certainty in philosophy—existence proved by thinking.", "keywords": ["descartes", "cogito", "existence", "rationalism"], "difficulty": "intermediate"},
+    {"id": "gen-philo-004", "topic": "philosophy", "title": "Logical Fallacies", "content": "Errors in reasoning: ad hominem (attack person), straw man (distort argument), false dilemma (only two options), appeal to authority.", "keywords": ["fallacy", "logic", "argument", "reasoning"], "difficulty": "beginner"},
+    {"id": "gen-philo-005", "topic": "philosophy", "title": "Plato's Allegory of the Cave", "content": "Prisoners see only shadows; leaving cave means discovering true reality. Metaphor for education and philosophical enlightenment.", "keywords": ["plato", "cave", "allegory", "reality", "forms"], "difficulty": "intermediate"}
+  ]
+}
