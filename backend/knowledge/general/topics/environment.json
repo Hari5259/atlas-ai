@@ -1,0 +1,10 @@
+{
+  "domain": "environment",
+  "entries": [
+    {"id": "gen-env-001", "topic": "environment", "title": "Greenhouse Effect", "content": "Gases (CO₂, methane) trap heat in atmosphere. Natural effect keeps Earth warm; human emissions intensify global warming.", "keywords": ["greenhouse", "climate", "co2", "warming", "emissions"], "difficulty": "beginner"},
+    {"id": "gen-env-002", "topic": "environment", "title": "Renewable Energy", "content": "Solar, wind, hydro, geothermal, and biomass replenish naturally. Key to reducing fossil fuel dependence and carbon emissions.", "keywords": ["renewable", "solar", "wind", "energy", "green"], "difficulty": "beginner"},
+    {"id": "gen-env-003", "topic": "environment", "title": "Water Cycle", "content": "Evaporation → condensation → precipitation → collection. Powers weather, distributes fresh water, and sustains ecosystems.", "keywords": ["water cycle", "evaporation", "rain", "hydrology"], "difficulty": "beginner"},
+    {"id": "gen-env-004", "topic": "environment", "title": "Biodiversity", "content": "Variety of life at genetic, species, and ecosystem levels. Threatened by habitat loss, pollution, and climate change.", "keywords": ["biodiversity", "ecosystem", "species", "conservation"], "difficulty": "intermediate"},
+    {"id": "gen-env-005", "topic": "environment", "title": "Carbon Footprint", "content": "Total greenhouse gases produced by actions or organizations. Reduced by efficiency, renewables, and sustainable transport.", "keywords": ["carbon", "footprint", "emissions", "sustainability"], "difficulty": "beginner"}
+  ]
+}
