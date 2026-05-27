@@ -1,0 +1,10 @@
+{
+  "domain": "literature",
+  "entries": [
+    {"id": "gen-lit-001", "topic": "literature", "title": "Shakespeare", "content": "English playwright (1564–1616). Major works: Hamlet, Romeo and Juliet, Macbeth, Othello. Influenced language and Western drama.", "keywords": ["shakespeare", "hamlet", "drama", "english", "play"], "difficulty": "beginner"},
+    {"id": "gen-lit-002", "topic": "literature", "title": "Literary Devices", "content": "Metaphor, simile, alliteration, personification, irony, foreshadowing. Tools writers use to create meaning and style.", "keywords": ["metaphor", "simile", "literary device", "figurative"], "difficulty": "beginner"},
+    {"id": "gen-lit-003", "topic": "literature", "title": "Sonnet Form", "content": "14-line poem, often iambic pentameter. Shakespearean: ABAB CDCD EFEF GG. Petrarchan: octave + sestet.", "keywords": ["sonnet", "poetry", "iambic", "shakespearean"], "difficulty": "intermediate"},
+    {"id": "gen-lit-004", "topic": "literature", "title": "Greek Tragedy", "content": "Drama exploring fate and human flaw. Sophocles' Oedipus Rex, Euripides' Medea. Featured chorus and catharsis.", "keywords": ["greek", "tragedy", "sophocles", "drama", "oedipus"], "difficulty": "intermediate"},
+    {"id": "gen-lit-005", "topic": "literature", "title": "Novel vs Short Story", "content": "Novel: long prose fiction with developed plot and characters. Short story: brief, single focus, often one main conflict.", "keywords": ["novel", "short story", "fiction", "prose"], "difficulty": "beginner"}
+  ]
+}
