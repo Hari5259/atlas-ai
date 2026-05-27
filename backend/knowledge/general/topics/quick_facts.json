@@ -1,0 +1,12 @@
+{
+  "domain": "quick_facts",
+  "entries": [
+    {"id": "gen-fact-001", "topic": "quick_facts", "title": "Speed of Sound", "content": "Sound travels ~343 m/s in air at 20°C. Faster in water and steel. Supersonic means faster than sound.", "formula": "v_sound ≈ 343 m/s", "keywords": ["sound", "speed", "physics"], "difficulty": "beginner"},
+    {"id": "gen-fact-002", "topic": "quick_facts", "title": "Human Body Facts", "content": "Adult human has ~206 bones, ~37 trillion cells, and heart beats ~100,000 times per day. Brain uses ~20% of body's energy.", "keywords": ["human", "body", "bones", "heart", "brain"], "difficulty": "beginner"},
+    {"id": "gen-fact-003", "topic": "quick_facts", "title": "Periodic Table", "content": "118 known elements. Organized by atomic number. Metals left/center, nonmetals right, noble gases far right column.", "keywords": ["periodic table", "elements", "chemistry"], "difficulty": "beginner"},
+    {"id": "gen-fact-004", "topic": "quick_facts", "title": "Pi (π)", "content": "Ratio of circle circumference to diameter ≈ 3.14159. Irrational—decimal never ends or repeats.", "formula": "C = 2πr, A = πr²", "keywords": ["pi", "circle", "math", "geometry"], "difficulty": "beginner"},
+    {"id": "gen-fact-005", "topic": "quick_facts", "title": "Absolute Zero", "content": "Lowest possible temperature: 0 Kelvin = −273.15°C. Atoms have minimum motion. Unreachable in practice but approached in labs.", "keywords": ["absolute zero", "kelvin", "temperature", "physics"], "difficulty": "intermediate"},
+    {"id": "gen-fact-006", "topic": "quick_facts", "title": "World Population", "content": "Over 8 billion people (2020s). Growth slowing. Most populous countries: India, China, USA.", "keywords": ["population", "world", "demographics"], "difficulty": "beginner"},
+    {"id": "gen-fact-007", "topic": "quick_facts", "title": "Languages of the World", "content": "~7,000 living languages. Mandarin Chinese has most native speakers; English most widespread second language.", "keywords": ["language", "english", "mandarin", "linguistics"], "difficulty": "beginner"}
+  ]
+}
