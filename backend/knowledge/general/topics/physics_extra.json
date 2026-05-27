@@ -1,0 +1,10 @@
+{
+  "domain": "physics",
+  "entries": [
+    {"id": "gen-phy-006", "topic": "physics", "title": "Newton's First Law", "content": "An object remains at rest or in uniform motion unless acted on by a net external force. Also called law of inertia.", "keywords": ["newton", "first law", "inertia", "motion"], "difficulty": "beginner"},
+    {"id": "gen-phy-007", "topic": "physics", "title": "Newton's Third Law", "content": "For every action there is an equal and opposite reaction. Forces always occur in pairs.", "keywords": ["newton", "third law", "action", "reaction", "force"], "difficulty": "beginner"},
+    {"id": "gen-phy-008", "topic": "physics", "title": "Potential Energy", "content": "Stored energy due to position. Gravitational: PE = mgh. Elastic: stored in springs.", "formula": "PE = mgh", "keywords": ["potential energy", "gravity", "height", "energy"], "difficulty": "beginner"},
+    {"id": "gen-phy-009", "topic": "physics", "title": "Snell's Law", "content": "Describes refraction of light at boundary between media. Light bends toward normal in denser medium.", "formula": "n₁ sin θ₁ = n₂ sin θ₂", "keywords": ["refraction", "light", "optics", "snell"], "difficulty": "intermediate"},
+    {"id": "gen-phy-010", "topic": "physics", "title": "Doppler Effect", "content": "Frequency shifts when source and observer move relative to each other. Higher pitch approaching, lower receding.", "keywords": ["doppler", "sound", "frequency", "wave"], "difficulty": "intermediate"}
+  ]
+}
