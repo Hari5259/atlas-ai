@@ -1,0 +1,10 @@
+{
+  "domain": "world_facts",
+  "entries": [
+    {"id": "gen-world-001", "topic": "world_facts", "title": "Largest Countries by Area", "content": "Russia (17M km²), Canada, USA, China, Brazil. Smallest: Vatican City, Monaco.", "keywords": ["country", "area", "russia", "largest"], "difficulty": "beginner"},
+    {"id": "gen-world-002", "topic": "world_facts", "title": "Capital Cities", "content": "Examples: France–Paris, Japan–Tokyo, India–New Delhi, USA–Washington D.C., UK–London, Australia–Canberra.", "keywords": ["capital", "city", "country", "geography"], "difficulty": "beginner"},
+    {"id": "gen-world-003", "topic": "world_facts", "title": "Seven Wonders (Ancient)", "content": "Great Pyramid of Giza (only survivor), Hanging Gardens of Babylon, Temple of Artemis, Statue of Zeus, Mausoleum at Halicarnassus, Colossus of Rhodes, Lighthouse of Alexandria.", "keywords": ["wonders", "ancient", "pyramid", "history"], "difficulty": "beginner"},
+    {"id": "gen-world-004", "topic": "world_facts", "title": "Time Zones", "content": "Earth divided into 24 standard zones (15° longitude each). UTC is reference; countries may use daylight saving.", "keywords": ["time zone", "utc", "gmt", "clock"], "difficulty": "beginner"},
+    {"id": "gen-world-005", "topic": "world_facts", "title": "Oceans", "content": "Pacific (largest), Atlantic, Indian, Southern, Arctic. Oceans cover ~71% of Earth's surface.", "keywords": ["ocean", "pacific", "atlantic", "sea"], "difficulty": "beginner"}
+  ]
+}
