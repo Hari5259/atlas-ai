@@ -1,0 +1,46 @@
+{
+  "domain": "economics",
+  "entries": [
+    {
+      "id": "gen-econ-001",
+      "topic": "economics",
+      "title": "Supply and Demand",
+      "content": "Price equilibrium occurs where quantity supplied equals quantity demanded. Higher demand raises price; higher supply lowers price (other factors equal).",
+      "keywords": ["supply", "demand", "price", "market", "equilibrium"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-econ-002",
+      "topic": "economics",
+      "title": "GDP Components",
+      "content": "Gross Domestic Product measures total output: GDP = Consumption + Investment + Government spending + (Exports − Imports).",
+      "formula": "GDP = C + I + G + (X − M)",
+      "keywords": ["gdp", "economy", "growth", "national income"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-econ-003",
+      "topic": "economics",
+      "title": "Inflation",
+      "content": "Sustained rise in general price level. Measured by CPI. Central banks raise interest rates to cool inflation; lower rates to stimulate economy.",
+      "keywords": ["inflation", "cpi", "prices", "interest rate", "fed"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-econ-004",
+      "topic": "economics",
+      "title": "Opportunity Cost",
+      "content": "The value of the next-best alternative forgone when making a choice. Core concept in economics and decision-making.",
+      "keywords": ["opportunity cost", "choice", "tradeoff", "scarcity"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-econ-005",
+      "topic": "economics",
+      "title": "Comparative Advantage",
+      "content": "Countries benefit from trade by specializing in goods they produce relatively more efficiently, even if one country is better at everything.",
+      "keywords": ["trade", "comparative advantage", "specialization", "export"],
+      "difficulty": "advanced"
+    }
+  ]
+}
