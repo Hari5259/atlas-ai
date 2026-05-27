@@ -1,0 +1,10 @@
+{
+  "domain": "biology",
+  "entries": [
+    {"id": "gen-bio-006", "topic": "biology", "title": "Mitosis vs Meiosis", "content": "Mitosis: 2 identical diploid cells (growth/repair). Meiosis: 4 haploid gametes (sexual reproduction), increases genetic diversity.", "keywords": ["mitosis", "meiosis", "cell division", "genetics"], "difficulty": "intermediate"},
+    {"id": "gen-bio-007", "topic": "biology", "title": "Ecosystems", "content": "Producers (plants) → consumers (herbivores, carnivores) → decomposers. Energy flows; nutrients cycle.", "keywords": ["ecosystem", "food chain", "producer", "consumer"], "difficulty": "beginner"},
+    {"id": "gen-bio-008", "topic": "biology", "title": "Human Digestive System", "content": "Mouth → esophagus → stomach (acid) → small intestine (absorption) → large intestine → rectum. Enzymes break down macromolecules.", "keywords": ["digestion", "stomach", "intestine", "enzyme"], "difficulty": "beginner"},
+    {"id": "gen-bio-009", "topic": "biology", "title": "Vaccines", "content": "Expose immune system to weakened/inactive pathogen or fragment to build memory without severe disease.", "keywords": ["vaccine", "immunity", "antibody", "disease"], "difficulty": "beginner"},
+    {"id": "gen-bio-010", "topic": "biology", "title": "Genotype vs Phenotype", "content": "Genotype: genetic makeup (alleles). Phenotype: observable traits. Environment also influences phenotype.", "keywords": ["genotype", "phenotype", "gene", "trait", "allele"], "difficulty": "intermediate"}
+  ]
+}
