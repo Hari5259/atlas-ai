@@ -1,0 +1,46 @@
+{
+  "domain": "astronomy",
+  "entries": [
+    {
+      "id": "gen-astro-001",
+      "topic": "astronomy",
+      "title": "Solar System",
+      "content": "Sun plus eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Asteroid belt between Mars and Jupiter; Kuiper belt beyond Neptune.",
+      "keywords": ["solar system", "planets", "sun", "space"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-astro-002",
+      "topic": "astronomy",
+      "title": "Speed of Light",
+      "content": "Light travels at ~299,792 km/s in vacuum. Nothing with mass can reach this speed. Light from Sun reaches Earth in about 8 minutes 20 seconds.",
+      "formula": "c ≈ 3 × 10⁸ m/s",
+      "keywords": ["light", "speed", "physics", "relativity", "c"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-astro-003",
+      "topic": "astronomy",
+      "title": "Black Holes",
+      "content": "Regions where gravity is so strong that not even light escapes. Formed when massive stars collapse. Event horizon marks point of no return.",
+      "keywords": ["black hole", "gravity", "space", "event horizon"],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "gen-astro-004",
+      "topic": "astronomy",
+      "title": "Phases of the Moon",
+      "content": "Caused by relative positions of Sun, Earth, and Moon. Full cycle (~29.5 days): new → waxing → full → waning → new.",
+      "keywords": ["moon", "phases", "lunar", "tide", "orbit"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-astro-005",
+      "topic": "astronomy",
+      "title": "Big Bang Theory",
+      "content": "Universe began ~13.8 billion years ago from extremely hot, dense state and has been expanding since. Supported by cosmic microwave background radiation.",
+      "keywords": ["big bang", "universe", "cosmology", "expansion"],
+      "difficulty": "intermediate"
+    }
+  ]
+}
