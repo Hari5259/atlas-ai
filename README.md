@@ -16,7 +16,7 @@
 * Fast local processing
 * Private and secure AI interaction
 * Expandable training dataset
-* **65+ topic knowledge base** — math, physics, chemistry, biology, CS, programming, study skills (proper markdown responses)
+* **193 factual knowledge entries** — 28 domains: math, sciences, history, geography, CS, health, philosophy, and more
 * **ChatGPT-style chat UI** — sidebar, typing indicator, session history, markdown rendering
 * **Mathematics knowledge base** — 30 offline math entries (algebra, geometry, calculus, trigonometry, statistics, linear algebra)
 

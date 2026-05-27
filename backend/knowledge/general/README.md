@@ -1,15 +1,9 @@
 # General Knowledge Base
 
-JSON topic files loaded at startup into `general_kb`.
+30 JSON topic files → **153 entries** loaded at startup into `general_kb`.
 
-| File | Entries |
-|------|---------|
-| physics.json | 5 |
-| chemistry.json | 5 |
-| biology.json | 5 |
-| computer_science.json | 6 |
-| programming.json | 5 |
-| study_skills.json | 5 |
-| atlas_meta.json | 4 |
+Domains include: physics, chemistry, biology, history, geography, economics, psychology, astronomy, environment, literature, health, civics, engineering, philosophy, networking, cybersecurity, web development, data science, arts, linguistics, quick facts, world facts, inventions, and more.
 
-Search is keyword-scored via `knowledge/kb_loader.py`. Responses are formatted as markdown in `response_formatter.py`.
+Combined with **40 math entries** = **193 total** factual responses.
+
+Run `python seed_all_knowledge.py` to see live counts.
