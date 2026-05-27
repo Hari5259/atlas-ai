@@ -1,0 +1,10 @@
+{
+  "domain": "data_science",
+  "entries": [
+    {"id": "gen-ds-001", "topic": "data_science", "title": "Mean, Median, Mode", "content": "Mean: average. Median: middle value (robust to outliers). Mode: most frequent value.", "keywords": ["mean", "median", "mode", "statistics", "average"], "difficulty": "beginner"},
+    {"id": "gen-ds-002", "topic": "data_science", "title": "Correlation vs Causation", "content": "Correlation means variables move together; causation means one drives the other. Correlation alone does not prove cause.", "keywords": ["correlation", "causation", "statistics", "data"], "difficulty": "intermediate"},
+    {"id": "gen-ds-003", "topic": "data_science", "title": "Train/Test Split", "content": "Split data: train model on training set, evaluate on unseen test set. Prevents overfitting to memorized data.", "keywords": ["train", "test", "machine learning", "overfitting"], "difficulty": "intermediate"},
+    {"id": "gen-ds-004", "topic": "data_science", "title": "Pandas DataFrame", "content": "Python library for tabular data: rows and columns, filtering, grouping, merging. Core tool in data analysis.", "keywords": ["pandas", "dataframe", "python", "data analysis"], "difficulty": "intermediate"},
+    {"id": "gen-ds-005", "topic": "data_science", "title": "Overfitting", "content": "Model memorizes training noise and fails on new data. Fix with more data, regularization, simpler models, or cross-validation.", "keywords": ["overfitting", "machine learning", "generalization"], "difficulty": "advanced"}
+  ]
+}
