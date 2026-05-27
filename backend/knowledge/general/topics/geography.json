@@ -1,0 +1,45 @@
+{
+  "domain": "geography",
+  "entries": [
+    {
+      "id": "gen-geo-001",
+      "topic": "geography",
+      "title": "Continents of the World",
+      "content": "Seven continents: Africa, Antarctica, Asia, Europe, North America, Oceania (Australia), South America. Asia is largest by area and population.",
+      "keywords": ["continent", "world", "asia", "africa", "europe"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-geo-002",
+      "topic": "geography",
+      "title": "Longest Rivers",
+      "content": "Nile (~6,650 km) and Amazon (~6,400 km) compete for longest. Amazon carries greatest water volume. Ganges, Yangtze, and Mississippi are also major.",
+      "keywords": ["river", "nile", "amazon", "longest", "water"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-geo-003",
+      "topic": "geography",
+      "title": "Tectonic Plates",
+      "content": "Earth's lithosphere is divided into plates that move slowly. Collisions form mountains; separation forms rifts. Earthquakes and volcanoes occur at boundaries.",
+      "keywords": ["tectonic", "plate", "earthquake", "volcano", "geology"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-geo-004",
+      "topic": "geography",
+      "title": "Climate Zones",
+      "content": "Tropical (near equator), dry (deserts), temperate (moderate seasons), continental (large seasonal swings), polar (cold year-round).",
+      "keywords": ["climate", "tropical", "temperate", "polar", "weather"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-geo-005",
+      "topic": "geography",
+      "title": "Mount Everest",
+      "content": "Highest mountain above sea level at 8,849 m (29,032 ft) in the Himalayas on the Nepal–China border. Formed by Indian and Eurasian plate collision.",
+      "keywords": ["everest", "mountain", "himalaya", "highest", "nepal"],
+      "difficulty": "beginner"
+    }
+  ]
+}
