@@ -1,0 +1,10 @@
+{
+  "domain": "engineering",
+  "entries": [
+    {"id": "gen-eng-001", "topic": "engineering", "title": "Engineering Design Process", "content": "Define problem → research → brainstorm → prototype → test → improve. Iterative cycle used across mechanical, civil, and software engineering.", "keywords": ["engineering", "design", "prototype", "test"], "difficulty": "beginner"},
+    {"id": "gen-eng-002", "topic": "engineering", "title": "Stress and Strain", "content": "Stress = force/area. Strain = deformation/original length. Materials fail beyond yield point; safety factors prevent failure.", "formula": "σ = F/A", "keywords": ["stress", "strain", "material", "mechanical"], "difficulty": "intermediate"},
+    {"id": "gen-eng-003", "topic": "engineering", "title": "Electric Circuits", "content": "Series: same current. Parallel: same voltage across branches. Kirchhoff's laws govern complex circuits.", "keywords": ["circuit", "voltage", "current", "resistor", "parallel"], "difficulty": "intermediate"},
+    {"id": "gen-eng-004", "topic": "engineering", "title": "Bridge Types", "content": "Beam (simple spans), arch (compression), truss (triangles), suspension (cables). Choice depends on span and load.", "keywords": ["bridge", "civil", "structure", "truss"], "difficulty": "beginner"},
+    {"id": "gen-eng-005", "topic": "engineering", "title": "Thermodynamics First Law", "content": "Energy cannot be created or destroyed—only transferred or converted. ΔU = Q − W for a system.", "keywords": ["thermodynamics", "energy", "heat", "work"], "difficulty": "advanced"}
+  ]
+}
