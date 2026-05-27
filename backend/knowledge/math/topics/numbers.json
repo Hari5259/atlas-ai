@@ -1,0 +1,10 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {"id": "math-num-001", "topic": "mathematics", "title": "Prime Numbers", "content": "Integer greater than 1 divisible only by 1 and itself. 2 is the only even prime. Fundamental to cryptography.", "keywords": ["prime", "number theory", "factor"], "difficulty": "beginner"},
+    {"id": "math-num-002", "topic": "mathematics", "title": "Fibonacci Sequence", "content": "Each term is sum of previous two: 0, 1, 1, 2, 3, 5, 8, 13… Appears in nature and art (golden ratio limit).", "keywords": ["fibonacci", "sequence", "golden ratio"], "difficulty": "intermediate"},
+    {"id": "math-num-003", "topic": "mathematics", "title": "Greatest Common Divisor (GCD)", "content": "Largest integer dividing two numbers evenly. Euclidean algorithm finds GCD efficiently.", "keywords": ["gcd", "divisor", "euclidean", "factor"], "difficulty": "intermediate"},
+    {"id": "math-num-004", "topic": "mathematics", "title": "Least Common Multiple (LCM)", "content": "Smallest number divisible by both given numbers. LCM × GCD = product of the numbers.", "keywords": ["lcm", "multiple", "gcd"], "difficulty": "intermediate"},
+    {"id": "math-num-005", "topic": "mathematics", "title": "Percentage Change", "content": "Percent change = ((new − old) / old) × 100%. Used in finance, science, and statistics.", "formula": "% change = ((new−old)/old)×100", "keywords": ["percent", "percentage", "change", "ratio"], "difficulty": "beginner"}
+  ]
+}
