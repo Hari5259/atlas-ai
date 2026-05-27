@@ -1,0 +1,10 @@
+{
+  "domain": "web_development",
+  "entries": [
+    {"id": "gen-web-001", "topic": "web_development", "title": "HTML Structure", "content": "Semantic tags: header, nav, main, article, section, footer. Improves accessibility and SEO.", "keywords": ["html", "semantic", "web", "markup"], "difficulty": "beginner"},
+    {"id": "gen-web-002", "topic": "web_development", "title": "CSS Flexbox", "content": "One-dimensional layout: justify-content (main axis), align-items (cross axis). Ideal for nav bars and centered content.", "keywords": ["css", "flexbox", "layout", "design"], "difficulty": "beginner"},
+    {"id": "gen-web-003", "topic": "web_development", "title": "Responsive Design", "content": "Sites adapt to screen size using fluid grids, flexible images, and media queries. Mobile-first is common practice.", "keywords": ["responsive", "mobile", "media query", "css"], "difficulty": "beginner"},
+    {"id": "gen-web-004", "topic": "web_development", "title": "React Components", "content": "UI built from reusable components with state and props. Virtual DOM improves update performance.", "keywords": ["react", "component", "javascript", "frontend"], "difficulty": "intermediate"},
+    {"id": "gen-web-005", "topic": "web_development", "title": "Accessibility (a11y)", "content": "Alt text for images, keyboard navigation, sufficient contrast, ARIA labels. Makes web usable for everyone.", "keywords": ["accessibility", "a11y", "aria", "wcag"], "difficulty": "intermediate"}
+  ]
+}
