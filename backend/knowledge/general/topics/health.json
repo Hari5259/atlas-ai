@@ -1,0 +1,10 @@
+{
+  "domain": "health",
+  "entries": [
+    {"id": "gen-health-001", "topic": "health", "title": "Macronutrients", "content": "Carbohydrates (energy), proteins (building/repair), fats (energy, hormones, cell membranes). Balanced diet includes all three.", "keywords": ["nutrition", "protein", "carb", "fat", "diet"], "difficulty": "beginner"},
+    {"id": "gen-health-002", "topic": "health", "title": "Immune System Basics", "content": "White blood cells, antibodies, and lymph nodes defend against pathogens. Vaccines train adaptive immunity without full illness.", "keywords": ["immune", "vaccine", "antibody", "white blood cell"], "difficulty": "beginner"},
+    {"id": "gen-health-003", "topic": "health", "title": "Sleep and Learning", "content": "Sleep consolidates memory and clears brain waste. Teens need 8–10 hours; adults 7–9. Poor sleep hurts focus and grades.", "keywords": ["sleep", "memory", "brain", "study", "rest"], "difficulty": "beginner"},
+    {"id": "gen-health-004", "topic": "health", "title": "Hydration", "content": "Water regulates temperature, transports nutrients, and removes waste. Dehydration causes fatigue and poor concentration.", "keywords": ["water", "hydration", "health", "drink"], "difficulty": "beginner"},
+    {"id": "gen-health-005", "topic": "health", "title": "Exercise Benefits", "content": "Improves cardiovascular health, mood (endorphins), bone density, and cognitive function. WHO recommends 150 min moderate activity/week.", "keywords": ["exercise", "fitness", "cardio", "health"], "difficulty": "beginner"}
+  ]
+}
