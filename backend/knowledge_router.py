@@ -13,12 +13,12 @@ def _math_entries(scored: list) -> list[dict[str, Any]]:
     return [e for _, e in scored]
 
 
-def search_knowledge(query: str, limit: int = 3) -> tuple[str | None, str, list[str]]:
+def search_knowledge(query: str, limit: int = 4) -> tuple[str | None, str, list[str]]:
     """
     Search math + general KBs. Returns (response_text, response_type, source_ids).
     """
-    math_scored = math_kb.search(query, limit=limit, min_score=2)
-    general_scored = general_kb.search(query, limit=limit, min_score=2)
+    math_scored = math_kb.search(query, limit=limit + 2, min_score=2)
+    general_scored = general_kb.search(query, limit=limit + 2, min_score=2)
 
     combined: list[tuple[int, dict[str, Any], str]] = []
     for score, entry in math_scored:
