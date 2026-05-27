@@ -1,0 +1,53 @@
+{
+  "domain": "history",
+  "entries": [
+    {
+      "id": "gen-hist-001",
+      "topic": "history",
+      "title": "Industrial Revolution",
+      "content": "Period from roughly 1760 to 1840 when manufacturing shifted from hand tools to machines, steam power, and factories. It began in Britain and transformed transport, textiles, and urban life.",
+      "keywords": ["industrial", "revolution", "factory", "steam", "britain"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-hist-002",
+      "topic": "history",
+      "title": "World War II Overview",
+      "content": "Global war (1939–1945) between Axis powers (Germany, Italy, Japan) and Allies (UK, USSR, USA, France, China). Ended with Allied victory; led to United Nations and Cold War.",
+      "keywords": ["world war", "ww2", "axis", "allies", "war"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-hist-003",
+      "topic": "history",
+      "title": "Ancient Egypt",
+      "content": "Civilization along the Nile (~3100 BCE–30 BCE). Known for pharaohs, pyramids, hieroglyphic writing, and advanced agriculture using annual Nile floods.",
+      "keywords": ["egypt", "pharaoh", "pyramid", "ancient", "nile"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "gen-hist-004",
+      "topic": "history",
+      "title": "French Revolution",
+      "content": "1789–1799 uprising against monarchy and feudalism in France. Key ideas: liberty, equality, fraternity. Led to Napoleon Bonaparte's rise.",
+      "keywords": ["french", "revolution", "1789", "napoleon", "liberty"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-hist-005",
+      "topic": "history",
+      "title": "Cold War",
+      "content": "Geopolitical tension (1947–1991) between USA and USSR without direct large-scale fighting. Featured nuclear arms race, space race, and proxy wars.",
+      "keywords": ["cold war", "usa", "ussr", "soviet", "nuclear"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "gen-hist-006",
+      "topic": "history",
+      "title": "Renaissance",
+      "content": "Cultural rebirth in Europe (14th–17th century). Revived classical learning, art, and science. Figures: Leonardo da Vinci, Michelangelo, Galileo.",
+      "keywords": ["renaissance", "europe", "art", "leonardo", "culture"],
+      "difficulty": "beginner"
+    }
+  ]
+}
