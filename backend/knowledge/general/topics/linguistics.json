@@ -1,0 +1,10 @@
+{
+  "domain": "linguistics",
+  "entries": [
+    {"id": "gen-ling-001", "topic": "linguistics", "title": "Parts of Speech", "content": "Noun, verb, adjective, adverb, pronoun, preposition, conjunction, interjection. Foundation of grammar analysis.", "keywords": ["grammar", "parts of speech", "noun", "verb", "english"], "difficulty": "beginner"},
+    {"id": "gen-ling-002", "topic": "linguistics", "title": "Etymology", "content": "Study of word origins and history. English borrows from Latin, Greek, French, Germanic roots.", "keywords": ["etymology", "word origin", "language", "history"], "difficulty": "beginner"},
+    {"id": "gen-ling-003", "topic": "linguistics", "title": "Phonetics vs Phonology", "content": "Phonetics: physical sounds of speech. Phonology: sound patterns in a language system.", "keywords": ["phonetics", "phonology", "sound", "speech"], "difficulty": "intermediate"},
+    {"id": "gen-ling-004", "topic": "linguistics", "title": "Figurative Language", "content": "Non-literal meaning: metaphor, simile, hyperbole, personification, oxymoron. Common in literature and persuasion.", "keywords": ["figurative", "metaphor", "simile", "language"], "difficulty": "beginner"},
+    {"id": "gen-ling-005", "topic": "linguistics", "title": "Language Families", "content": "Indo-European (English, Hindi, Spanish), Sino-Tibetan (Chinese), Afro-Asiatic (Arabic), Niger-Congo, Austronesian.", "keywords": ["language family", "indo-european", "linguistics"], "difficulty": "intermediate"}
+  ]
+}
