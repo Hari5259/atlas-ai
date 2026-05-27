@@ -1,0 +1,10 @@
+{
+  "domain": "networking",
+  "entries": [
+    {"id": "gen-net-001", "topic": "networking", "title": "OSI Model (7 Layers)", "content": "Physical, Data Link, Network, Transport, Session, Presentation, Application. TCP/IP stack maps roughly to layers 1–4 and 7.", "keywords": ["osi", "network", "layers", "tcp ip"], "difficulty": "intermediate"},
+    {"id": "gen-net-002", "topic": "networking", "title": "TCP vs UDP", "content": "TCP: reliable, ordered, connection-oriented (web, email). UDP: fast, no guarantee (streaming, gaming, DNS).", "keywords": ["tcp", "udp", "protocol", "internet"], "difficulty": "intermediate"},
+    {"id": "gen-net-003", "topic": "networking", "title": "IP Address", "content": "IPv4: 32-bit (e.g. 192.168.1.1). IPv6: 128-bit for more addresses. DHCP assigns IPs dynamically on networks.", "keywords": ["ip", "ipv4", "ipv6", "address", "dhcp"], "difficulty": "beginner"},
+    {"id": "gen-net-004", "topic": "networking", "title": "DNS", "content": "Domain Name System translates names (google.com) to IP addresses. Uses hierarchical servers and caching (TTL).", "keywords": ["dns", "domain", "url", "internet"], "difficulty": "beginner"},
+    {"id": "gen-net-005", "topic": "networking", "title": "HTTP Status Codes", "content": "200 OK, 301 redirect, 400 bad request, 401 unauthorized, 403 forbidden, 404 not found, 500 server error.", "keywords": ["http", "status", "404", "api", "web"], "difficulty": "beginner"}
+  ]
+}
