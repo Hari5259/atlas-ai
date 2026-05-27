@@ -1,0 +1,10 @@
+{
+  "domain": "civics",
+  "entries": [
+    {"id": "gen-civ-001", "topic": "civics", "title": "Three Branches of Government", "content": "Legislative (makes laws), Executive (enforces laws), Judicial (interprets laws). Separation of powers prevents tyranny.", "keywords": ["government", "legislative", "executive", "judicial", "democracy"], "difficulty": "beginner"},
+    {"id": "gen-civ-002", "topic": "civics", "title": "Constitution", "content": "Supreme law defining government structure and rights. Many democracies have written constitutions amendable by defined process.", "keywords": ["constitution", "law", "rights", "amendment"], "difficulty": "beginner"},
+    {"id": "gen-civ-003", "topic": "civics", "title": "Rule of Law", "content": "Everyone, including leaders, is subject to law. Ensures fairness, predictability, and protection of rights.", "keywords": ["rule of law", "justice", "rights", "democracy"], "difficulty": "beginner"},
+    {"id": "gen-civ-004", "topic": "civics", "title": "United Nations", "content": "International organization (1945) promoting peace, security, and cooperation. HQ in New York; 193 member states.", "keywords": ["un", "united nations", "international", "peace"], "difficulty": "beginner"},
+    {"id": "gen-civ-005", "topic": "civics", "title": "Voting and Democracy", "content": "Citizens choose representatives or policies. Free elections require universal suffrage, secret ballot, and fair competition.", "keywords": ["vote", "election", "democracy", "citizen"], "difficulty": "beginner"}
+  ]
+}
