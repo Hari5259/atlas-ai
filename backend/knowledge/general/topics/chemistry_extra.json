@@ -1,0 +1,10 @@
+{
+  "domain": "chemistry",
+  "entries": [
+    {"id": "gen-chem-006", "topic": "chemistry", "title": "Periodic Trends", "content": "Atomic radius decreases across period, increases down group. Electronegativity increases up and right (except noble gases).", "keywords": ["periodic table", "trends", "electronegativity", "radius"], "difficulty": "intermediate"},
+    {"id": "gen-chem-007", "topic": "chemistry", "title": "Ideal Gas Law", "content": "Relates pressure, volume, temperature, and moles of gas. Assumes negligible intermolecular forces.", "formula": "PV = nRT", "keywords": ["ideal gas", "pressure", "volume", "temperature"], "difficulty": "intermediate"},
+    {"id": "gen-chem-008", "topic": "chemistry", "title": "Oxidation and Reduction", "content": "Oxidation: loss of electrons. Reduction: gain of electrons. OIL RIG mnemonic (Oxidation Is Loss, Reduction Is Gain).", "keywords": ["redox", "oxidation", "reduction", "electrons"], "difficulty": "intermediate"},
+    {"id": "gen-chem-009", "topic": "chemistry", "title": "Endothermic vs Exothermic", "content": "Exothermic releases heat (ΔH negative). Endothermic absorbs heat (ΔH positive).", "keywords": ["endothermic", "exothermic", "enthalpy", "reaction"], "difficulty": "beginner"},
+    {"id": "gen-chem-010", "topic": "chemistry", "title": "Organic Chemistry Basics", "content": "Study of carbon compounds. Hydrocarbons: alkanes (single bonds), alkenes (double), alkynes (triple). Functional groups define properties.", "keywords": ["organic", "carbon", "hydrocarbon", "alkane"], "difficulty": "intermediate"}
+  ]
+}
