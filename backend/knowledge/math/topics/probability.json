@@ -1,0 +1,10 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {"id": "math-prob-001", "topic": "mathematics", "title": "Probability Basics", "content": "P(event) = favorable outcomes / total outcomes (equally likely). Value between 0 and 1.", "formula": "P(A) = n(A)/n(S)", "keywords": ["probability", "chance", "outcome", "event"], "difficulty": "beginner"},
+    {"id": "math-prob-002", "topic": "mathematics", "title": "Conditional Probability", "content": "Probability of A given B already occurred: P(A|B) = P(A∩B) / P(B).", "formula": "P(A|B) = P(A∩B)/P(B)", "keywords": ["conditional", "probability", "given"], "difficulty": "intermediate"},
+    {"id": "math-prob-003", "topic": "mathematics", "title": "Permutations", "content": "Ordered arrangements. nPr = n! / (n−r)! — choosing r items from n in order.", "formula": "nPr = n!/(n−r)!", "keywords": ["permutation", "arrangement", "factorial", "combinatorics"], "difficulty": "intermediate"},
+    {"id": "math-prob-004", "topic": "mathematics", "title": "Combinations", "content": "Unordered selections. nCr = n! / (r!(n−r)!).", "formula": "nCr = n!/(r!(n−r)!)", "keywords": ["combination", "choose", "combinatorics"], "difficulty": "intermediate"},
+    {"id": "math-prob-005", "topic": "mathematics", "title": "Expected Value", "content": "Average outcome over many trials: E(X) = Σ x·P(x). Used in games, insurance, and decision theory.", "keywords": ["expected value", "mean", "probability", "statistics"], "difficulty": "advanced"}
+  ]
+}
