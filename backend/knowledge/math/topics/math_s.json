@@ -1,0 +1,567 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-s-001",
+      "topic": "statistics and sets",
+      "title": "Sample Mean",
+      "content": "Mathematical entry and definition for Sample Mean, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sample",
+        "mean",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Sample Mean",
+      "example": "Example demonstrating the application of Sample Mean"
+    },
+    {
+      "id": "math-s-002",
+      "topic": "statistics and sets",
+      "title": "Sample Space",
+      "content": "Mathematical entry and definition for Sample Space, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sample",
+        "space",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Sample Space",
+      "example": "Example demonstrating the application of Sample Space"
+    },
+    {
+      "id": "math-s-003",
+      "topic": "statistics and sets",
+      "title": "Sample Variance",
+      "content": "Mathematical entry and definition for Sample Variance, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sample",
+        "variance",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Sample Variance",
+      "example": "Example demonstrating the application of Sample Variance"
+    },
+    {
+      "id": "math-s-004",
+      "topic": "statistics and sets",
+      "title": "Scalar Multiplication",
+      "content": "Mathematical entry and definition for Scalar Multiplication, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "scalar",
+        "multiplication",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Scalar Multiplication",
+      "example": "Example demonstrating the application of Scalar Multiplication"
+    },
+    {
+      "id": "math-s-005",
+      "topic": "statistics and sets",
+      "title": "Scalar Product",
+      "content": "Mathematical entry and definition for Scalar Product, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "scalar",
+        "product",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Scalar Product",
+      "example": "Example demonstrating the application of Scalar Product"
+    },
+    {
+      "id": "math-s-006",
+      "topic": "statistics and sets",
+      "title": "Scale Factor",
+      "content": "Mathematical entry and definition for Scale Factor, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "scale",
+        "factor",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Scale Factor",
+      "example": "Example demonstrating the application of Scale Factor"
+    },
+    {
+      "id": "math-s-007",
+      "topic": "statistics and sets",
+      "title": "Scalene Triangle",
+      "content": "Mathematical entry and definition for Scalene Triangle, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "scalene",
+        "triangle",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Scalene Triangle",
+      "example": "Example demonstrating the application of Scalene Triangle"
+    },
+    {
+      "id": "math-s-008",
+      "topic": "statistics and sets",
+      "title": "Scatter Plot",
+      "content": "Mathematical entry and definition for Scatter Plot, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "scatter",
+        "plot",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Scatter Plot",
+      "example": "Example demonstrating the application of Scatter Plot"
+    },
+    {
+      "id": "math-s-009",
+      "topic": "statistics and sets",
+      "title": "Secant Line",
+      "content": "Mathematical entry and definition for Secant Line, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "secant",
+        "line",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Secant Line",
+      "example": "Example demonstrating the application of Secant Line"
+    },
+    {
+      "id": "math-s-010",
+      "topic": "statistics and sets",
+      "title": "Second Derivative Test",
+      "content": "Mathematical entry and definition for Second Derivative Test, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "second",
+        "derivative",
+        "test",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Second Derivative Test",
+      "example": "Example demonstrating the application of Second Derivative Test"
+    },
+    {
+      "id": "math-s-011",
+      "topic": "statistics and sets",
+      "title": "Sector Area",
+      "content": "Mathematical entry and definition for Sector Area, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sector",
+        "area",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Sector Area",
+      "example": "Example demonstrating the application of Sector Area"
+    },
+    {
+      "id": "math-s-012",
+      "topic": "statistics and sets",
+      "title": "Segment Area",
+      "content": "Mathematical entry and definition for Segment Area, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "segment",
+        "area",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Segment Area",
+      "example": "Example demonstrating the application of Segment Area"
+    },
+    {
+      "id": "math-s-013",
+      "topic": "statistics and sets",
+      "title": "Semi-Major Axis",
+      "content": "Mathematical entry and definition for Semi-Major Axis, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "semi-major",
+        "axis",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Semi-Major Axis",
+      "example": "Example demonstrating the application of Semi-Major Axis"
+    },
+    {
+      "id": "math-s-014",
+      "topic": "statistics and sets",
+      "title": "Sequence Arithmetic",
+      "content": "Mathematical entry and definition for Sequence Arithmetic, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sequence",
+        "arithmetic",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Sequence Arithmetic",
+      "example": "Example demonstrating the application of Sequence Arithmetic"
+    },
+    {
+      "id": "math-s-015",
+      "topic": "statistics and sets",
+      "title": "Sequence Geometric",
+      "content": "Mathematical entry and definition for Sequence Geometric, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sequence",
+        "geometric",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Sequence Geometric",
+      "example": "Example demonstrating the application of Sequence Geometric"
+    },
+    {
+      "id": "math-s-016",
+      "topic": "statistics and sets",
+      "title": "Sequence Fibonacci",
+      "content": "Mathematical entry and definition for Sequence Fibonacci, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sequence",
+        "fibonacci",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Sequence Fibonacci",
+      "example": "Example demonstrating the application of Sequence Fibonacci"
+    },
+    {
+      "id": "math-s-017",
+      "topic": "statistics and sets",
+      "title": "Series Arithmetic",
+      "content": "Mathematical entry and definition for Series Arithmetic, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "series",
+        "arithmetic",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Series Arithmetic",
+      "example": "Example demonstrating the application of Series Arithmetic"
+    },
+    {
+      "id": "math-s-018",
+      "topic": "statistics and sets",
+      "title": "Series Geometric",
+      "content": "Mathematical entry and definition for Series Geometric, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "series",
+        "geometric",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Series Geometric",
+      "example": "Example demonstrating the application of Series Geometric"
+    },
+    {
+      "id": "math-s-019",
+      "topic": "statistics and sets",
+      "title": "Set Complement",
+      "content": "Mathematical entry and definition for Set Complement, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "set",
+        "complement",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Set Complement",
+      "example": "Example demonstrating the application of Set Complement"
+    },
+    {
+      "id": "math-s-020",
+      "topic": "statistics and sets",
+      "title": "Set Difference",
+      "content": "Mathematical entry and definition for Set Difference, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "set",
+        "difference",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Set Difference",
+      "example": "Example demonstrating the application of Set Difference"
+    },
+    {
+      "id": "math-s-021",
+      "topic": "statistics and sets",
+      "title": "Set Intersection",
+      "content": "Mathematical entry and definition for Set Intersection, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "set",
+        "intersection",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Set Intersection",
+      "example": "Example demonstrating the application of Set Intersection"
+    },
+    {
+      "id": "math-s-022",
+      "topic": "statistics and sets",
+      "title": "Set Union",
+      "content": "Mathematical entry and definition for Set Union, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "set",
+        "union",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Set Union",
+      "example": "Example demonstrating the application of Set Union"
+    },
+    {
+      "id": "math-s-023",
+      "topic": "statistics and sets",
+      "title": "Set Subset",
+      "content": "Mathematical entry and definition for Set Subset, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "set",
+        "subset",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Set Subset",
+      "example": "Example demonstrating the application of Set Subset"
+    },
+    {
+      "id": "math-s-024",
+      "topic": "statistics and sets",
+      "title": "Sigmoid Function",
+      "content": "Mathematical entry and definition for Sigmoid Function, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sigmoid",
+        "function",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Sigmoid Function",
+      "example": "Example demonstrating the application of Sigmoid Function"
+    },
+    {
+      "id": "math-s-025",
+      "topic": "statistics and sets",
+      "title": "Similar Triangles",
+      "content": "Mathematical entry and definition for Similar Triangles, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "similar",
+        "triangles",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Similar Triangles",
+      "example": "Example demonstrating the application of Similar Triangles"
+    },
+    {
+      "id": "math-s-026",
+      "topic": "statistics and sets",
+      "title": "Simple Interest",
+      "content": "Mathematical entry and definition for Simple Interest, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "simple",
+        "interest",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Simple Interest",
+      "example": "Example demonstrating the application of Simple Interest"
+    },
+    {
+      "id": "math-s-027",
+      "topic": "statistics and sets",
+      "title": "Simplex Method",
+      "content": "Mathematical entry and definition for Simplex Method, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "simplex",
+        "method",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Simplex Method",
+      "example": "Example demonstrating the application of Simplex Method"
+    },
+    {
+      "id": "math-s-028",
+      "topic": "statistics and sets",
+      "title": "Simpson's Rule",
+      "content": "Mathematical entry and definition for Simpson's Rule, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "simpson's",
+        "rule",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Simpson's Rule",
+      "example": "Example demonstrating the application of Simpson's Rule"
+    },
+    {
+      "id": "math-s-029",
+      "topic": "statistics and sets",
+      "title": "Sine Function",
+      "content": "Mathematical entry and definition for Sine Function, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "sine",
+        "function",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Sine Function",
+      "example": "Example demonstrating the application of Sine Function"
+    },
+    {
+      "id": "math-s-030",
+      "topic": "statistics and sets",
+      "title": "Single-Variable Calculus",
+      "content": "Mathematical entry and definition for Single-Variable Calculus, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "single-variable",
+        "calculus",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Single-Variable Calculus",
+      "example": "Example demonstrating the application of Single-Variable Calculus"
+    },
+    {
+      "id": "math-s-031",
+      "topic": "statistics and sets",
+      "title": "Singular Matrix",
+      "content": "Mathematical entry and definition for Singular Matrix, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "singular",
+        "matrix",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Singular Matrix",
+      "example": "Example demonstrating the application of Singular Matrix"
+    },
+    {
+      "id": "math-s-032",
+      "topic": "statistics and sets",
+      "title": "Skew Lines",
+      "content": "Mathematical entry and definition for Skew Lines, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "skew",
+        "lines",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Skew Lines",
+      "example": "Example demonstrating the application of Skew Lines"
+    },
+    {
+      "id": "math-s-033",
+      "topic": "statistics and sets",
+      "title": "Skewness",
+      "content": "Mathematical entry and definition for Skewness, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "skewness",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Skewness",
+      "example": "Example demonstrating the application of Skewness"
+    },
+    {
+      "id": "math-s-034",
+      "topic": "statistics and sets",
+      "title": "Slope of Line",
+      "content": "Mathematical entry and definition for Slope of Line, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "slope",
+        "of",
+        "line",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Slope of Line",
+      "example": "Example demonstrating the application of Slope of Line"
+    },
+    {
+      "id": "math-s-035",
+      "topic": "statistics and sets",
+      "title": "Slope-Intercept",
+      "content": "Mathematical entry and definition for Slope-Intercept, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "slope-intercept",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Slope-Intercept",
+      "example": "Example demonstrating the application of Slope-Intercept"
+    },
+    {
+      "id": "math-s-036",
+      "topic": "statistics and sets",
+      "title": "Spherical Coordinates",
+      "content": "Mathematical entry and definition for Spherical Coordinates, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "spherical",
+        "coordinates",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Spherical Coordinates",
+      "example": "Example demonstrating the application of Spherical Coordinates"
+    },
+    {
+      "id": "math-s-037",
+      "topic": "statistics and sets",
+      "title": "Standard Deviation Population",
+      "content": "Mathematical entry and definition for Standard Deviation Population, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "standard",
+        "deviation",
+        "population",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Standard Deviation Population",
+      "example": "Example demonstrating the application of Standard Deviation Population"
+    },
+    {
+      "id": "math-s-038",
+      "topic": "statistics and sets",
+      "title": "Standard Deviation Sample",
+      "content": "Mathematical entry and definition for Standard Deviation Sample, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "standard",
+        "deviation",
+        "sample",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Standard Deviation Sample",
+      "example": "Example demonstrating the application of Standard Deviation Sample"
+    },
+    {
+      "id": "math-s-039",
+      "topic": "statistics and sets",
+      "title": "Standard Form",
+      "content": "Mathematical entry and definition for Standard Form, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "standard",
+        "form",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Standard Form",
+      "example": "Example demonstrating the application of Standard Form"
+    },
+    {
+      "id": "math-s-040",
+      "topic": "statistics and sets",
+      "title": "Substitution Method",
+      "content": "Mathematical entry and definition for Substitution Method, a core concept in the domain of statistics and sets.",
+      "keywords": [
+        "substitution",
+        "method",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Substitution Method",
+      "example": "Example demonstrating the application of Substitution Method"
+    }
+  ]
+}
