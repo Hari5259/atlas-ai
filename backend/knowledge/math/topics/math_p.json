@@ -1,0 +1,561 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-p-001",
+      "topic": "probability and polynomials",
+      "title": "Parabola",
+      "content": "Mathematical entry and definition for Parabola, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "parabola",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Parabola",
+      "example": "Example demonstrating the application of Parabola"
+    },
+    {
+      "id": "math-p-002",
+      "topic": "probability and polynomials",
+      "title": "Parallel Lines",
+      "content": "Mathematical entry and definition for Parallel Lines, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "parallel",
+        "lines",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Parallel Lines",
+      "example": "Example demonstrating the application of Parallel Lines"
+    },
+    {
+      "id": "math-p-003",
+      "topic": "probability and polynomials",
+      "title": "Parallelogram",
+      "content": "Mathematical entry and definition for Parallelogram, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "parallelogram",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Parallelogram",
+      "example": "Example demonstrating the application of Parallelogram"
+    },
+    {
+      "id": "math-p-004",
+      "topic": "probability and polynomials",
+      "title": "Parameter",
+      "content": "Mathematical entry and definition for Parameter, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "parameter",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Parameter",
+      "example": "Example demonstrating the application of Parameter"
+    },
+    {
+      "id": "math-p-005",
+      "topic": "probability and polynomials",
+      "title": "Parametric Equations",
+      "content": "Mathematical entry and definition for Parametric Equations, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "parametric",
+        "equations",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Parametric Equations",
+      "example": "Example demonstrating the application of Parametric Equations"
+    },
+    {
+      "id": "math-p-006",
+      "topic": "probability and polynomials",
+      "title": "Partial Derivative",
+      "content": "Mathematical entry and definition for Partial Derivative, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "partial",
+        "derivative",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Partial Derivative",
+      "example": "Example demonstrating the application of Partial Derivative"
+    },
+    {
+      "id": "math-p-007",
+      "topic": "probability and polynomials",
+      "title": "PDE",
+      "content": "Mathematical entry and definition for PDE, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "pde",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to PDE",
+      "example": "Example demonstrating the application of PDE"
+    },
+    {
+      "id": "math-p-008",
+      "topic": "probability and polynomials",
+      "title": "Partial Fractions",
+      "content": "Mathematical entry and definition for Partial Fractions, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "partial",
+        "fractions",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Partial Fractions",
+      "example": "Example demonstrating the application of Partial Fractions"
+    },
+    {
+      "id": "math-p-009",
+      "topic": "probability and polynomials",
+      "title": "Partial Sum",
+      "content": "Mathematical entry and definition for Partial Sum, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "partial",
+        "sum",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Partial Sum",
+      "example": "Example demonstrating the application of Partial Sum"
+    },
+    {
+      "id": "math-p-010",
+      "topic": "probability and polynomials",
+      "title": "Partition of Set",
+      "content": "Mathematical entry and definition for Partition of Set, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "partition",
+        "of",
+        "set",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Partition of Set",
+      "example": "Example demonstrating the application of Partition of Set"
+    },
+    {
+      "id": "math-p-011",
+      "topic": "probability and polynomials",
+      "title": "Pascal's Triangle",
+      "content": "Mathematical entry and definition for Pascal's Triangle, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "pascal's",
+        "triangle",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Pascal's Triangle",
+      "example": "Example demonstrating the application of Pascal's Triangle"
+    },
+    {
+      "id": "math-p-012",
+      "topic": "probability and polynomials",
+      "title": "Payoff Matrix",
+      "content": "Mathematical entry and definition for Payoff Matrix, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "payoff",
+        "matrix",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Payoff Matrix",
+      "example": "Example demonstrating the application of Payoff Matrix"
+    },
+    {
+      "id": "math-p-013",
+      "topic": "probability and polynomials",
+      "title": "Pearson Correlation",
+      "content": "Mathematical entry and definition for Pearson Correlation, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "pearson",
+        "correlation",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Pearson Correlation",
+      "example": "Example demonstrating the application of Pearson Correlation"
+    },
+    {
+      "id": "math-p-014",
+      "topic": "probability and polynomials",
+      "title": "Penrose Tilings",
+      "content": "Mathematical entry and definition for Penrose Tilings, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "penrose",
+        "tilings",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Penrose Tilings",
+      "example": "Example demonstrating the application of Penrose Tilings"
+    },
+    {
+      "id": "math-p-015",
+      "topic": "probability and polynomials",
+      "title": "Pentagon Area",
+      "content": "Mathematical entry and definition for Pentagon Area, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "pentagon",
+        "area",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Pentagon Area",
+      "example": "Example demonstrating the application of Pentagon Area"
+    },
+    {
+      "id": "math-p-016",
+      "topic": "probability and polynomials",
+      "title": "Percent Error",
+      "content": "Mathematical entry and definition for Percent Error, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "percent",
+        "error",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Percent Error",
+      "example": "Example demonstrating the application of Percent Error"
+    },
+    {
+      "id": "math-p-017",
+      "topic": "probability and polynomials",
+      "title": "Percentile Rank",
+      "content": "Mathematical entry and definition for Percentile Rank, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "percentile",
+        "rank",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Percentile Rank",
+      "example": "Example demonstrating the application of Percentile Rank"
+    },
+    {
+      "id": "math-p-018",
+      "topic": "probability and polynomials",
+      "title": "Perfect Number",
+      "content": "Mathematical entry and definition for Perfect Number, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "perfect",
+        "number",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Perfect Number",
+      "example": "Example demonstrating the application of Perfect Number"
+    },
+    {
+      "id": "math-p-019",
+      "topic": "probability and polynomials",
+      "title": "Perimeter",
+      "content": "Mathematical entry and definition for Perimeter, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "perimeter",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Perimeter",
+      "example": "Example demonstrating the application of Perimeter"
+    },
+    {
+      "id": "math-p-020",
+      "topic": "probability and polynomials",
+      "title": "Permutation Formula",
+      "content": "Mathematical entry and definition for Permutation Formula, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "permutation",
+        "formula",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Permutation Formula",
+      "example": "Example demonstrating the application of Permutation Formula"
+    },
+    {
+      "id": "math-p-021",
+      "topic": "probability and polynomials",
+      "title": "Permutation Matrix",
+      "content": "Mathematical entry and definition for Permutation Matrix, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "permutation",
+        "matrix",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Permutation Matrix",
+      "example": "Example demonstrating the application of Permutation Matrix"
+    },
+    {
+      "id": "math-p-022",
+      "topic": "probability and polynomials",
+      "title": "Perpendicular Bisector",
+      "content": "Mathematical entry and definition for Perpendicular Bisector, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "perpendicular",
+        "bisector",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Perpendicular Bisector",
+      "example": "Example demonstrating the application of Perpendicular Bisector"
+    },
+    {
+      "id": "math-p-023",
+      "topic": "probability and polynomials",
+      "title": "Perpendicular Lines",
+      "content": "Mathematical entry and definition for Perpendicular Lines, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "perpendicular",
+        "lines",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Perpendicular Lines",
+      "example": "Example demonstrating the application of Perpendicular Lines"
+    },
+    {
+      "id": "math-p-024",
+      "topic": "probability and polynomials",
+      "title": "Phase Shift",
+      "content": "Mathematical entry and definition for Phase Shift, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "phase",
+        "shift",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Phase Shift",
+      "example": "Example demonstrating the application of Phase Shift"
+    },
+    {
+      "id": "math-p-025",
+      "topic": "probability and polynomials",
+      "title": "Pigeonhole Principle",
+      "content": "Mathematical entry and definition for Pigeonhole Principle, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "pigeonhole",
+        "principle",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Pigeonhole Principle",
+      "example": "Example demonstrating the application of Pigeonhole Principle"
+    },
+    {
+      "id": "math-p-026",
+      "topic": "probability and polynomials",
+      "title": "Plane Equation",
+      "content": "Mathematical entry and definition for Plane Equation, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "plane",
+        "equation",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Plane Equation",
+      "example": "Example demonstrating the application of Plane Equation"
+    },
+    {
+      "id": "math-p-027",
+      "topic": "probability and polynomials",
+      "title": "Platonic Solids",
+      "content": "Mathematical entry and definition for Platonic Solids, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "platonic",
+        "solids",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Platonic Solids",
+      "example": "Example demonstrating the application of Platonic Solids"
+    },
+    {
+      "id": "math-p-028",
+      "topic": "probability and polynomials",
+      "title": "Point-Slope Form",
+      "content": "Mathematical entry and definition for Point-Slope Form, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "point-slope",
+        "form",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Point-Slope Form",
+      "example": "Example demonstrating the application of Point-Slope Form"
+    },
+    {
+      "id": "math-p-029",
+      "topic": "probability and polynomials",
+      "title": "Poisson Distribution",
+      "content": "Mathematical entry and definition for Poisson Distribution, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "poisson",
+        "distribution",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Poisson Distribution",
+      "example": "Example demonstrating the application of Poisson Distribution"
+    },
+    {
+      "id": "math-p-030",
+      "topic": "probability and polynomials",
+      "title": "Polar Coordinates",
+      "content": "Mathematical entry and definition for Polar Coordinates, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polar",
+        "coordinates",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Polar Coordinates",
+      "example": "Example demonstrating the application of Polar Coordinates"
+    },
+    {
+      "id": "math-p-031",
+      "topic": "probability and polynomials",
+      "title": "Polar Form",
+      "content": "Mathematical entry and definition for Polar Form, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polar",
+        "form",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Polar Form",
+      "example": "Example demonstrating the application of Polar Form"
+    },
+    {
+      "id": "math-p-032",
+      "topic": "probability and polynomials",
+      "title": "Polygon Area",
+      "content": "Mathematical entry and definition for Polygon Area, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polygon",
+        "area",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Polygon Area",
+      "example": "Example demonstrating the application of Polygon Area"
+    },
+    {
+      "id": "math-p-033",
+      "topic": "probability and polynomials",
+      "title": "Polynomial Degree",
+      "content": "Mathematical entry and definition for Polynomial Degree, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polynomial",
+        "degree",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Polynomial Degree",
+      "example": "Example demonstrating the application of Polynomial Degree"
+    },
+    {
+      "id": "math-p-034",
+      "topic": "probability and polynomials",
+      "title": "Polynomial Division",
+      "content": "Mathematical entry and definition for Polynomial Division, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polynomial",
+        "division",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Polynomial Division",
+      "example": "Example demonstrating the application of Polynomial Division"
+    },
+    {
+      "id": "math-p-035",
+      "topic": "probability and polynomials",
+      "title": "Polynomial Multiplication",
+      "content": "Mathematical entry and definition for Polynomial Multiplication, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "polynomial",
+        "multiplication",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Polynomial Multiplication",
+      "example": "Example demonstrating the application of Polynomial Multiplication"
+    },
+    {
+      "id": "math-p-036",
+      "topic": "probability and polynomials",
+      "title": "Population Mean",
+      "content": "Mathematical entry and definition for Population Mean, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "population",
+        "mean",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Population Mean",
+      "example": "Example demonstrating the application of Population Mean"
+    },
+    {
+      "id": "math-p-037",
+      "topic": "probability and polynomials",
+      "title": "Population Variance",
+      "content": "Mathematical entry and definition for Population Variance, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "population",
+        "variance",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Population Variance",
+      "example": "Example demonstrating the application of Population Variance"
+    },
+    {
+      "id": "math-p-038",
+      "topic": "probability and polynomials",
+      "title": "Power Rule",
+      "content": "Mathematical entry and definition for Power Rule, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "power",
+        "rule",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Power Rule",
+      "example": "Example demonstrating the application of Power Rule"
+    },
+    {
+      "id": "math-p-039",
+      "topic": "probability and polynomials",
+      "title": "Power Series",
+      "content": "Mathematical entry and definition for Power Series, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "power",
+        "series",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Power Series",
+      "example": "Example demonstrating the application of Power Series"
+    },
+    {
+      "id": "math-p-040",
+      "topic": "probability and polynomials",
+      "title": "Power Set",
+      "content": "Mathematical entry and definition for Power Set, a core concept in the domain of probability and polynomials.",
+      "keywords": [
+        "power",
+        "set",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Power Set",
+      "example": "Example demonstrating the application of Power Set"
+    }
+  ]
+}
