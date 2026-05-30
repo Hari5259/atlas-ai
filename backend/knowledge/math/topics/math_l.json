@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-l-001",
+      "topic": "linear algebra and limits",
+      "title": "Lagrange Multipliers",
+      "content": "A strategy for finding the local maxima and minima of a function subject to equality constraints.",
+      "keywords": [
+        "lagrange",
+        "multipliers",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "grad(f) = lambda * grad(g)",
+      "example": "Maximizing utility subject to a budget constraint"
+    },
+    {
+      "id": "math-l-002",
+      "topic": "linear algebra and limits",
+      "title": "Lagrange's Theorem Groups",
+      "content": "Theorem stating that for any finite group G, the order of every subgroup H divides the order of G.",
+      "keywords": [
+        "lagrange",
+        "subgroup",
+        "group"
+      ],
+      "difficulty": "intermediate",
+      "formula": "|G| = [G:H] * |H|",
+      "example": "A group of order 6 can only have subgroups of order 1, 2, 3, or 6"
+    },
+    {
+      "id": "math-l-003",
+      "topic": "linear algebra and limits",
+      "title": "Laplace Transform",
+      "content": "An integral transform that converts a function of a real variable (often time) to a function of a complex variable.",
+      "keywords": [
+        "laplace",
+        "transform",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "L{f(t)} = integral from 0 to infinity of e^(-s*t)*f(t) dt",
+      "example": "Solving linear differential equations in control theory"
+    },
+    {
+      "id": "math-l-004",
+      "topic": "linear algebra and limits",
+      "title": "Laplace's Equation",
+      "content": "A second-order partial differential equation whose solutions are harmonic functions.",
+      "keywords": [
+        "laplace",
+        "pde",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "del^2 * f = 0",
+      "example": "Finding steady-state temperature distribution on a plate"
+    },
+    {
+      "id": "math-l-005",
+      "topic": "linear algebra and limits",
+      "title": "Law of Cosines",
+      "content": "Generalization of the Pythagorean theorem relating the lengths of sides of a triangle to the cosine of one of its angles.",
+      "keywords": [
+        "cosines",
+        "law",
+        "triangle"
+      ],
+      "difficulty": "intermediate",
+      "formula": "c^2 = a^2 + b^2 - 2*a*b*cos(C)",
+      "example": "Finding the third side of a triangle when two sides and the included angle are known"
+    },
+    {
+      "id": "math-l-006",
+      "topic": "linear algebra and limits",
+      "title": "Law of Large Numbers",
+      "content": "Theorem describing the result of performing the same experiment a large number of times, where average approaches expected value.",
+      "keywords": [
+        "probability",
+        "limit",
+        "expectation"
+      ],
+      "difficulty": "advanced",
+      "formula": "limit as n->inf of X_bar = mu",
+      "example": "The percentage of heads in coin flips approaches 50% as flips increase"
+    },
+    {
+      "id": "math-l-007",
+      "topic": "linear algebra and limits",
+      "title": "Law of Sines",
+      "content": "Equation relating the lengths of the sides of any shape triangle to the sines of its angles.",
+      "keywords": [
+        "sines",
+        "law",
+        "triangle"
+      ],
+      "difficulty": "beginner",
+      "formula": "a / sin(A) = b / sin(B) = c / sin(C)",
+      "example": "Solving a triangle given two angles and one side"
+    },
+    {
+      "id": "math-l-008",
+      "topic": "linear algebra and limits",
+      "title": "Law of Syllogism",
+      "content": "A rule of inference in propositional logic stating that if p implies q and q implies r, then p implies r.",
+      "keywords": [
+        "syllogism",
+        "logic",
+        "implication"
+      ],
+      "difficulty": "intermediate",
+      "formula": "((p -> q) and (q -> r)) -> (p -> r)",
+      "example": "If it rains, streets get wet; if streets get wet, cars slip; therefore if it rains, cars slip"
+    },
+    {
+      "id": "math-l-009",
+      "topic": "linear algebra and limits",
+      "title": "Least Common Multiple",
+      "content": "The smallest positive integer that is divisible by two or more numbers.",
+      "keywords": [
+        "lcm",
+        "divisor",
+        "multiples"
+      ],
+      "difficulty": "advanced",
+      "formula": "lcm(a, b) = (a * b) / gcd(a, b)",
+      "example": "lcm(4, 6) = 12"
+    },
+    {
+      "id": "math-l-010",
+      "topic": "linear algebra and limits",
+      "title": "Least Squares Regression",
+      "content": "A method for finding the best-fitting curve to a given set of points by minimizing the sum of the squares of the residuals.",
+      "keywords": [
+        "regression",
+        "least-squares",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "min sum of (y_i - f(x_i))^2",
+      "example": "Fitting a trendline to scatterplot data points"
+    },
+    {
+      "id": "math-l-011",
+      "topic": "linear algebra and limits",
+      "title": "Lebesgue Integral",
+      "content": "An alternative definition of the integral based on measure theory, generalising the Riemann integral.",
+      "keywords": [
+        "lebesgue",
+        "measure",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "integral of f dmu",
+      "example": "Integrating highly discontinuous functions like the indicator function of rationals"
+    },
+    {
+      "id": "math-l-012",
+      "topic": "linear algebra and limits",
+      "title": "Legendre Polynomials",
+      "content": "A system of complete and orthogonal polynomials that solve Legendre's differential equation.",
+      "keywords": [
+        "legendre",
+        "polynomials",
+        "orthogonal"
+      ],
+      "difficulty": "advanced",
+      "formula": "P_n(x) formula",
+      "example": "Solving potential theory problems in spherical coordinates"
+    },
+    {
+      "id": "math-l-013",
+      "topic": "linear algebra and limits",
+      "title": "Leibniz Rule",
+      "content": "Formula for the derivative of the product of two functions, or for differentiating under the integral sign.",
+      "keywords": [
+        "leibniz",
+        "product",
+        "derivative"
+      ],
+      "difficulty": "beginner",
+      "formula": "(f*g)' = f'*g + f*g'",
+      "example": "Differentiating x * sin(x) to get sin(x) + x*cos(x)"
+    },
+    {
+      "id": "math-l-014",
+      "topic": "linear algebra and limits",
+      "title": "Lemma in Mathematics",
+      "content": "A helper proposition or minor theorem used as a stepping stone to prove a larger theorem.",
+      "keywords": [
+        "lemma",
+        "proof",
+        "theorem"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Helper statement",
+      "example": "Euclid's lemma used to prove unique factorization"
+    },
+    {
+      "id": "math-l-015",
+      "topic": "linear algebra and limits",
+      "title": "Length of Vector",
+      "content": "The magnitude of a vector, calculated as the square root of the sum of its squared components.",
+      "keywords": [
+        "vector",
+        "length",
+        "magnitude"
+      ],
+      "difficulty": "advanced",
+      "formula": "||v|| = sqrt(sum(v_i^2))",
+      "example": "Length of vector [3, 4] is 5"
+    },
+    {
+      "id": "math-l-016",
+      "topic": "linear algebra and limits",
+      "title": "L'Hopital's Rule",
+      "content": "A method in calculus for evaluating limits of indeterminate forms using derivatives.",
+      "keywords": [
+        "lhopital",
+        "limit",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "lim f(x)/g(x) = lim f'(x)/g'(x)",
+      "example": "Evaluating limit of sin(x)/x as x approaches 0"
+    },
+    {
+      "id": "math-l-017",
+      "topic": "linear algebra and limits",
+      "title": "Lie Algebra",
+      "content": "A non-associative algebra whose multiplication is anticommutative and satisfies the Jacobi identity.",
+      "keywords": [
+        "lie",
+        "algebra",
+        "structure"
+      ],
+      "difficulty": "intermediate",
+      "formula": "[x, y] = -[y, x]",
+      "example": "Matrix commutator algebra [A, B] = AB - BA"
+    },
+    {
+      "id": "math-l-018",
+      "topic": "linear algebra and limits",
+      "title": "Lie Group",
+      "content": "A group that is also a differentiable manifold, with smooth group operations.",
+      "keywords": [
+        "lie",
+        "group",
+        "manifold"
+      ],
+      "difficulty": "advanced",
+      "formula": "G is manifold, product is smooth",
+      "example": "The rotation group SO(3) representing 3D rotations"
+    },
+    {
+      "id": "math-l-019",
+      "topic": "linear algebra and limits",
+      "title": "Limit Definition",
+      "content": "The value that a function approaches as the input approaches some value.",
+      "keywords": [
+        "limit",
+        "definition",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "lim x->c f(x) = L",
+      "example": "Limit of 1/x as x goes to infinity is 0"
+    },
+    {
+      "id": "math-l-020",
+      "topic": "linear algebra and limits",
+      "title": "Limit Laws",
+      "content": "Rules for evaluating limits of combinations of functions algebraically.",
+      "keywords": [
+        "limits",
+        "laws",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "lim (f(x) + g(x)) = lim f(x) + lim g(x)",
+      "example": "Finding limit of x^2 + 3x as x approaches 2"
+    },
+    {
+      "id": "math-l-021",
+      "topic": "linear algebra and limits",
+      "title": "Line Equation Slope-Intercept",
+      "content": "Equation of a straight line using its slope and y-intercept.",
+      "keywords": [
+        "line",
+        "slope",
+        "intercept"
+      ],
+      "difficulty": "advanced",
+      "formula": "y = m*x + b",
+      "example": "Line with slope 2 passing through y-axis at (0, 3) is y = 2x + 3"
+    },
+    {
+      "id": "math-l-022",
+      "topic": "linear algebra and limits",
+      "title": "Linear Combination",
+      "content": "An expression constructed from a set of terms by multiplying each term by a constant and adding the results.",
+      "keywords": [
+        "linear",
+        "combination",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "v = c_1*v_1 + ... + c_k*v_k",
+      "example": "Vector [5, 8] written as 5*[1,0] + 8*[0,1]"
+    },
+    {
+      "id": "math-l-023",
+      "topic": "linear algebra and limits",
+      "title": "Linear Dependence",
+      "content": "A set of vectors where at least one vector can be written as a linear combination of the others.",
+      "keywords": [
+        "dependence",
+        "vector",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "exists non-zero c_i with sum(c_i*v_i) = 0",
+      "example": "Vectors [1, 2] and [2, 4] are linearly dependent"
+    },
+    {
+      "id": "math-l-024",
+      "topic": "linear algebra and limits",
+      "title": "Linear Equation",
+      "content": "An algebraic equation of the first degree, whose graph is a straight line.",
+      "keywords": [
+        "linear",
+        "equation",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "a*x + b = 0",
+      "example": "3x + 5 = 14"
+    },
+    {
+      "id": "math-l-025",
+      "topic": "linear algebra and limits",
+      "title": "Linear Independence",
+      "content": "A set of vectors where no vector can be written as a linear combination of the others.",
+      "keywords": [
+        "independence",
+        "vector",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "sum(c_i*v_i) = 0 implies all c_i = 0",
+      "example": "Vectors [1, 0] and [0, 1] are linearly independent"
+    },
+    {
+      "id": "math-l-026",
+      "topic": "linear algebra and limits",
+      "title": "Linear Programming",
+      "content": "Method to achieve the best outcome in a mathematical model whose requirements are represented by linear relationships.",
+      "keywords": [
+        "programming",
+        "linear",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "max c^T * x subject to A*x <= b",
+      "example": "Optimizing factory output subject to resource constraints"
+    },
+    {
+      "id": "math-l-027",
+      "topic": "linear algebra and limits",
+      "title": "Linear Regression",
+      "content": "Linear approach to modeling the relationship between a scalar response and one or more explanatory variables.",
+      "keywords": [
+        "regression",
+        "linear",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "y = beta_0 + beta_1 * x + epsilon",
+      "example": "Modeling weight based on height metrics"
+    },
+    {
+      "id": "math-l-028",
+      "topic": "linear algebra and limits",
+      "title": "Linear Transformation",
+      "content": "A mapping between two vector spaces that preserves vector addition and scalar multiplication.",
+      "keywords": [
+        "transformation",
+        "linear",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "T(u + v) = T(u) + T(v); T(c*u) = c*T(u)",
+      "example": "Rotating coordinates 90 degrees around origin"
+    },
+    {
+      "id": "math-l-029",
+      "topic": "linear algebra and limits",
+      "title": "Linearity of Expectation",
+      "content": "Property stating that the expectation of a sum of random variables is the sum of their expectations.",
+      "keywords": [
+        "expectation",
+        "linearity",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "E[X + Y] = E[X] + E[Y]",
+      "example": "Expected sum of rolling two dice is expected of first plus second"
+    },
+    {
+      "id": "math-l-030",
+      "topic": "linear algebra and limits",
+      "title": "Lipschitz Continuity",
+      "content": "A strong form of uniform continuity where the slope of the secant line never exceeds a constant.",
+      "keywords": [
+        "lipschitz",
+        "continuity",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "formula": "|f(x) - f(y)| <= L * |x - y|",
+      "example": "f(x) = sin(x) is Lipschitz continuous with L = 1"
+    },
+    {
+      "id": "math-l-031",
+      "topic": "linear algebra and limits",
+      "title": "Local Maximum",
+      "content": "A point where a function's value is greater than or equal to its values at nearby points.",
+      "keywords": [
+        "maximum",
+        "local",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(c) >= f(x) for all x near c",
+      "example": "The peak of y = 4 - x^2 at (0, 4)"
+    },
+    {
+      "id": "math-l-032",
+      "topic": "linear algebra and limits",
+      "title": "Local Minimum",
+      "content": "A point where a function's value is less than or equal to its values at nearby points.",
+      "keywords": [
+        "minimum",
+        "local",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(c) <= f(x) for all x near c",
+      "example": "The trough of y = x^2 - 3 at (0, -3)"
+    },
+    {
+      "id": "math-l-033",
+      "topic": "linear algebra and limits",
+      "title": "Logarithm Base Conversion",
+      "content": "Converting a logarithm of one base to another base using quotients.",
+      "keywords": [
+        "logarithm",
+        "base",
+        "conversion"
+      ],
+      "difficulty": "advanced",
+      "formula": "log_a(x) = log_b(x) / log_b(a)",
+      "example": "Converting log base 2 to natural log"
+    },
+    {
+      "id": "math-l-034",
+      "topic": "linear algebra and limits",
+      "title": "Logarithm Change of Base",
+      "content": "The change of base formula for logarithms.",
+      "keywords": [
+        "logarithm",
+        "base",
+        "change"
+      ],
+      "difficulty": "beginner",
+      "formula": "log_b(a) = ln(a) / ln(b)",
+      "example": "Evaluating log2(5) as ln(5)/ln(2)"
+    },
+    {
+      "id": "math-l-035",
+      "topic": "linear algebra and limits",
+      "title": "Logarithm Definition Natural",
+      "content": "A logarithm with base e, the mathematical constant approximately 2.718.",
+      "keywords": [
+        "logarithm",
+        "natural",
+        "euler"
+      ],
+      "difficulty": "intermediate",
+      "formula": "ln(x) = y <=> e^y = x",
+      "example": "ln(e^3) = 3"
+    },
+    {
+      "id": "math-l-036",
+      "topic": "linear algebra and limits",
+      "title": "Logarithm Product Rule",
+      "content": "Property stating the logarithm of a product is the sum of the logarithms.",
+      "keywords": [
+        "logarithm",
+        "product",
+        "rule"
+      ],
+      "difficulty": "advanced",
+      "formula": "log_b(x * y) = log_b(x) + log_b(y)",
+      "example": "log(20) = log(2) + log(10)"
+    },
+    {
+      "id": "math-l-037",
+      "topic": "linear algebra and limits",
+      "title": "Logarithm Quotient Rule",
+      "content": "Property stating the logarithm of a quotient is the difference of the logarithms.",
+      "keywords": [
+        "logarithm",
+        "quotient",
+        "rule"
+      ],
+      "difficulty": "beginner",
+      "formula": "log_b(x / y) = log_b(x) - log_b(y)",
+      "example": "log(5) = log(10) - log(2)"
+    },
+    {
+      "id": "math-l-038",
+      "topic": "linear algebra and limits",
+      "title": "Logarithmic Differentiation",
+      "content": "A method of differentiating functions by taking the natural logarithm first.",
+      "keywords": [
+        "logarithmic",
+        "differentiation",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y' = y * d/dx[ln(f(x))]",
+      "example": "Differentiating y = x^x to get y' = x^x * (ln(x) + 1)"
+    },
+    {
+      "id": "math-l-039",
+      "topic": "linear algebra and limits",
+      "title": "Logistic Growth Function",
+      "content": "A model for population growth that slows as it approaches a carrying capacity.",
+      "keywords": [
+        "logistic",
+        "growth",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "P(t) = L / (1 + e^(-k*(t-t_0)))",
+      "example": "Modeling population growth in a limited environment"
+    },
+    {
+      "id": "math-l-040",
+      "topic": "linear algebra and limits",
+      "title": "Lower Triangular Matrix",
+      "content": "A square matrix in which all entries above the main diagonal are zero.",
+      "keywords": [
+        "matrix",
+        "triangular",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "L_ij = 0 for i < j",
+      "example": "Matrix with zeroes on top right section"
+    }
+  ]
+}
