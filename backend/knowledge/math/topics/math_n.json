@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-n-001",
+      "topic": "number systems and normal distribution",
+      "title": "Nash Equilibrium",
+      "content": "A game theory concept where no player can benefit by changing their strategy unilaterally.",
+      "keywords": [
+        "game",
+        "nash",
+        "strategy"
+      ],
+      "difficulty": "beginner",
+      "formula": "Optimal strategies profile",
+      "example": "Firms choosing prices in Bertrand competition"
+    },
+    {
+      "id": "math-n-002",
+      "topic": "number systems and normal distribution",
+      "title": "Natural Logarithm",
+      "content": "Logarithm with base e (approx 2.71828).",
+      "keywords": [
+        "logarithm",
+        "natural",
+        "euler"
+      ],
+      "difficulty": "intermediate",
+      "formula": "ln(x) = y",
+      "example": "ln(10) approx 2.302"
+    },
+    {
+      "id": "math-n-003",
+      "topic": "number systems and normal distribution",
+      "title": "Natural Numbers",
+      "content": "The set of positive integers used for counting.",
+      "keywords": [
+        "natural",
+        "counting",
+        "numbers"
+      ],
+      "difficulty": "advanced",
+      "formula": "N = {1, 2, 3, ...}",
+      "example": "Numbers 1, 4, 100 are natural numbers"
+    },
+    {
+      "id": "math-n-004",
+      "topic": "number systems and normal distribution",
+      "title": "Negation Logical",
+      "content": "An operator that flips the truth value of a proposition.",
+      "keywords": [
+        "negation",
+        "not",
+        "logic"
+      ],
+      "difficulty": "beginner",
+      "formula": "NOT P",
+      "example": "Negation of 'It is raining' is 'It is not raining'"
+    },
+    {
+      "id": "math-n-005",
+      "topic": "number systems and normal distribution",
+      "title": "Negative Exponent",
+      "content": "An exponent indicating reciprocal division rather than multiplication.",
+      "keywords": [
+        "exponent",
+        "reciprocal",
+        "powers"
+      ],
+      "difficulty": "intermediate",
+      "formula": "x^-n = 1/x^n",
+      "example": "2^-3 = 1/8 = 0.125"
+    },
+    {
+      "id": "math-n-006",
+      "topic": "number systems and normal distribution",
+      "title": "Neighborhood in Topology",
+      "content": "A set containing an open set that contains the point.",
+      "keywords": [
+        "neighborhood",
+        "topology",
+        "open"
+      ],
+      "difficulty": "advanced",
+      "formula": "N contains open U containing x",
+      "example": "An open interval around a point on a line"
+    },
+    {
+      "id": "math-n-007",
+      "topic": "number systems and normal distribution",
+      "title": "Network Flow",
+      "content": "Directing flow through a network graph from source to sink under capacities.",
+      "keywords": [
+        "network",
+        "flow",
+        "graph"
+      ],
+      "difficulty": "beginner",
+      "formula": "sum of flow in = sum of flow out",
+      "example": "Maximizing data throughput in internet routing"
+    },
+    {
+      "id": "math-n-008",
+      "topic": "number systems and normal distribution",
+      "title": "Newton-Raphson Method",
+      "content": "An iterative numerical method for finding roots of real-valued functions.",
+      "keywords": [
+        "newton",
+        "roots",
+        "numerical"
+      ],
+      "difficulty": "intermediate",
+      "formula": "x_(n+1) = x_n - f(x_n)/f'(x_n)",
+      "example": "Finding root of x^2 - 2 = 0 to approximate sqrt(2)"
+    },
+    {
+      "id": "math-n-009",
+      "topic": "number systems and normal distribution",
+      "title": "Newton's Divided Differences",
+      "content": "An algorithm for calculating the coefficients of the interpolating polynomial.",
+      "keywords": [
+        "newton",
+        "differences",
+        "interpolation"
+      ],
+      "difficulty": "advanced",
+      "formula": "f[x_0, x_1] = (f(x_1) - f(x_0))/(x_1 - x_0)",
+      "example": "Interpolating a curve passing through 4 given points"
+    },
+    {
+      "id": "math-n-010",
+      "topic": "number systems and normal distribution",
+      "title": "Nine-Point Circle",
+      "content": "A circle that can be constructed for any given triangle, passing through nine significant concyclic points.",
+      "keywords": [
+        "circle",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "9 points on circle",
+      "example": "Drawing circle passing through midpoints of triangle sides"
+    },
+    {
+      "id": "math-n-011",
+      "topic": "number systems and normal distribution",
+      "title": "Nominal Data",
+      "content": "A type of categorical data where values represent discrete labels with no intrinsic ordering.",
+      "keywords": [
+        "nominal",
+        "data",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Labels list",
+      "example": "Categories like hair color or country names"
+    },
+    {
+      "id": "math-n-012",
+      "topic": "number systems and normal distribution",
+      "title": "Non-Euclidean Geometry",
+      "content": "Geometries where Euclid's parallel postulate does not hold (e.g. spherical, hyperbolic).",
+      "keywords": [
+        "geometry",
+        "spherical",
+        "hyperbolic"
+      ],
+      "difficulty": "advanced",
+      "formula": "Parallel postulate fails",
+      "example": "Angles of triangle on a sphere summing to >180 degrees"
+    },
+    {
+      "id": "math-n-013",
+      "topic": "number systems and normal distribution",
+      "title": "Non-Singular Matrix",
+      "content": "An invertible square matrix with a non-zero determinant.",
+      "keywords": [
+        "matrix",
+        "invertible",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "det(A) != 0",
+      "example": "Solving A*x = b uniquely as x = A^-1 * b"
+    },
+    {
+      "id": "math-n-014",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Distribution",
+      "content": "A symmetric bell-shaped continuous probability distribution.",
+      "keywords": [
+        "normal",
+        "statistics",
+        "gaussian"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Bell curve formula",
+      "example": "Distribution of SAT test scores"
+    },
+    {
+      "id": "math-n-015",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Distribution Standard",
+      "content": "Normal distribution with mean 0 and standard deviation 1.",
+      "keywords": [
+        "normal",
+        "z-score",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "N(0, 1)",
+      "example": "Using z-score tables to find probabilities"
+    },
+    {
+      "id": "math-n-016",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Line to Curve",
+      "content": "A line perpendicular to the tangent line at a point on a curve.",
+      "keywords": [
+        "normal",
+        "perpendicular",
+        "tangent"
+      ],
+      "difficulty": "beginner",
+      "formula": "y - y_0 = (-1/m) * (x - x_0)",
+      "example": "Finding normal line to y = x^2 at (1, 1)"
+    },
+    {
+      "id": "math-n-017",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Subgroup",
+      "content": "A subgroup invariant under conjugation by elements of the parent group.",
+      "keywords": [
+        "normal",
+        "subgroup",
+        "group"
+      ],
+      "difficulty": "intermediate",
+      "formula": "g * H * g^-1 = H",
+      "example": "Subgroups of Abelian groups are always normal"
+    },
+    {
+      "id": "math-n-018",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Vector",
+      "content": "A vector perpendicular to a surface or curve at a given point.",
+      "keywords": [
+        "vector",
+        "normal",
+        "perpendicular"
+      ],
+      "difficulty": "advanced",
+      "formula": "n . v = 0 for tangent v",
+      "example": "Normal vector of plane ax+by+cz=d is [a, b, c]"
+    },
+    {
+      "id": "math-n-019",
+      "topic": "number systems and normal distribution",
+      "title": "Null Hypothesis",
+      "content": "The hypothesis that there is no significant difference or effect, tested for rejection.",
+      "keywords": [
+        "hypothesis",
+        "null",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "H_0",
+      "example": "Testing if a new drug has zero effect compared to standard"
+    },
+    {
+      "id": "math-n-020",
+      "topic": "number systems and normal distribution",
+      "title": "Null Space of Matrix",
+      "content": "The vector space of all vectors that map to zero under matrix multiplication.",
+      "keywords": [
+        "nullspace",
+        "matrix",
+        "kernel"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Null(A) = {x : A*x = 0}",
+      "example": "Finding the kernel of a system of equations"
+    },
+    {
+      "id": "math-n-021",
+      "topic": "number systems and normal distribution",
+      "title": "Number Line",
+      "content": "A visual representation of real numbers as points on a straight line.",
+      "keywords": [
+        "line",
+        "real",
+        "numbers"
+      ],
+      "difficulty": "advanced",
+      "formula": "Coordinates line",
+      "example": "Placing fractions and integers visually on a scale"
+    },
+    {
+      "id": "math-n-022",
+      "topic": "number systems and normal distribution",
+      "title": "Number Theory Prime Numbers",
+      "content": "The study of properties of prime numbers and integers.",
+      "keywords": [
+        "primes",
+        "integers",
+        "theory"
+      ],
+      "difficulty": "beginner",
+      "formula": "Primes study",
+      "example": "Investigating Goldbach's conjecture"
+    },
+    {
+      "id": "math-n-023",
+      "topic": "number systems and normal distribution",
+      "title": "Numerator of Fraction",
+      "content": "The top number in a fraction, representing parts chosen.",
+      "keywords": [
+        "numerator",
+        "fraction",
+        "arithmetic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Numerator / Denominator",
+      "example": "In 3/7, the numerator is 3"
+    },
+    {
+      "id": "math-n-024",
+      "topic": "number systems and normal distribution",
+      "title": "Numerical Integration",
+      "content": "Algorithms for calculating the numerical value of a definite integral.",
+      "keywords": [
+        "numerical",
+        "integration",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "Trapezoidal and Simpson's rules",
+      "example": "Approximating area under e^(-x^2) from 0 to 1"
+    },
+    {
+      "id": "math-n-025",
+      "topic": "number systems and normal distribution",
+      "title": "Numerical Analysis Bisection",
+      "content": "A root-finding algorithm that repeatedly bisects an interval and selects a subinterval.",
+      "keywords": [
+        "bisection",
+        "roots",
+        "numerical"
+      ],
+      "difficulty": "beginner",
+      "formula": "x_mid = (a + b)/2",
+      "example": "Finding where a polynomial crosses y=0 by bracket narrowing"
+    },
+    {
+      "id": "math-n-026",
+      "topic": "number systems and normal distribution",
+      "title": "Numerical Analysis Secant",
+      "content": "A root-finding algorithm that uses a succession of roots of secant lines to approximate roots.",
+      "keywords": [
+        "secant",
+        "roots",
+        "numerical"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Secant line formula",
+      "example": "Iterative root approximation without needing derivatives"
+    },
+    {
+      "id": "math-n-027",
+      "topic": "number systems and normal distribution",
+      "title": "Net Present Value",
+      "content": "The present value of cash inflows minus outflows over time.",
+      "keywords": [
+        "finance",
+        "npv",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "NPV = sum(CF_t / (1+r)^t)",
+      "example": "Evaluating the profitability of a business project investment"
+    },
+    {
+      "id": "math-n-028",
+      "topic": "number systems and normal distribution",
+      "title": "Nilpotent Matrix",
+      "content": "A square matrix N such that N^k = 0 for some positive integer k.",
+      "keywords": [
+        "nilpotent",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "N^k = 0",
+      "example": "A strictly upper triangular matrix is nilpotent"
+    },
+    {
+      "id": "math-n-029",
+      "topic": "number systems and normal distribution",
+      "title": "Nondegenerate Matrix",
+      "content": "A matrix whose determinant is non-zero, or a bilinear form with no non-zero orthogonal vectors.",
+      "keywords": [
+        "matrix",
+        "nondegenerate",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "det(A) != 0",
+      "example": "Standard dot product is nondegenerate"
+    },
+    {
+      "id": "math-n-030",
+      "topic": "number systems and normal distribution",
+      "title": "Nontrivial Solution",
+      "content": "A solution to a system of equations where at least one variable is non-zero.",
+      "keywords": [
+        "solution",
+        "nontrivial",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "x != 0",
+      "example": "Solving A*x = 0 where x is not the zero vector"
+    },
+    {
+      "id": "math-n-031",
+      "topic": "number systems and normal distribution",
+      "title": "Norm of Vector",
+      "content": "A function assigning a positive length or size to all vectors in a vector space.",
+      "keywords": [
+        "norm",
+        "vector",
+        "length"
+      ],
+      "difficulty": "beginner",
+      "formula": "||v||",
+      "example": "Euclidean norm or Manhattan norm of a vector"
+    },
+    {
+      "id": "math-n-032",
+      "topic": "number systems and normal distribution",
+      "title": "Normalized Vector",
+      "content": "A vector scaled to have a length of exactly 1, also called a unit vector.",
+      "keywords": [
+        "normalized",
+        "unit",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "u = v / ||v||",
+      "example": "Normalizing [3, 4] to [0.6, 0.8]"
+    },
+    {
+      "id": "math-n-033",
+      "topic": "number systems and normal distribution",
+      "title": "Normal Distribution Z-score",
+      "content": "The number of standard deviations a data point is from the mean.",
+      "keywords": [
+        "z-score",
+        "normal",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "z = (x - mean) / sigma",
+      "example": "Converting a test score of 85 to a z-score of 1.5"
+    },
+    {
+      "id": "math-n-034",
+      "topic": "number systems and normal distribution",
+      "title": "Null Set Definition",
+      "content": "A set with no elements, or a set of measure zero in integration.",
+      "keywords": [
+        "null",
+        "set",
+        "measure"
+      ],
+      "difficulty": "beginner",
+      "formula": "Empty set or set of measure 0",
+      "example": "The set of rational numbers has Lebesgue measure zero"
+    },
+    {
+      "id": "math-n-035",
+      "topic": "number systems and normal distribution",
+      "title": "Number of Subsets Formula",
+      "content": "The number of subsets in a power set of a set with n elements is 2^n.",
+      "keywords": [
+        "subsets",
+        "power-set",
+        "counting"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Count = 2^n",
+      "example": "A set of 3 elements has 8 subsets"
+    },
+    {
+      "id": "math-n-036",
+      "topic": "number systems and normal distribution",
+      "title": "Numerical ODE Solving",
+      "content": "Using step algorithms to solve differential equations.",
+      "keywords": [
+        "ode",
+        "numerical",
+        "differential"
+      ],
+      "difficulty": "advanced",
+      "formula": "Euler and Runge-Kutta methods",
+      "example": "Simulating planetary motion over time intervals"
+    },
+    {
+      "id": "math-n-037",
+      "topic": "number systems and normal distribution",
+      "title": "Numerical Differentiation",
+      "content": "Estimating the derivative of a function using values at discrete points.",
+      "keywords": [
+        "differentiation",
+        "numerical",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "f'(x) approx (f(x+h) - f(x-h))/(2h)",
+      "example": "Estimating velocity from GPS location logs"
+    },
+    {
+      "id": "math-n-038",
+      "topic": "number systems and normal distribution",
+      "title": "Napierian Logarithm",
+      "content": "The original form of logarithms defined by John Napier, closely related to natural logarithms.",
+      "keywords": [
+        "napier",
+        "logarithm",
+        "history"
+      ],
+      "difficulty": "intermediate",
+      "formula": "log_napier(x)",
+      "example": "Historical base calculations"
+    },
+    {
+      "id": "math-n-039",
+      "topic": "number systems and normal distribution",
+      "title": "Natural Spline",
+      "content": "A piecewise polynomial interpolation curve that is twice continuously differentiable and has zero second derivatives at endpoints.",
+      "keywords": [
+        "spline",
+        "interpolation",
+        "curves"
+      ],
+      "difficulty": "advanced",
+      "formula": "S''(endpoints) = 0",
+      "example": "Creating smooth curves through data points for graphics"
+    },
+    {
+      "id": "math-n-040",
+      "topic": "number systems and normal distribution",
+      "title": "Net of 3D Shape",
+      "content": "A two-dimensional pattern that can be folded to form a three-dimensional solid.",
+      "keywords": [
+        "net",
+        "folding",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Foldable 2D shape",
+      "example": "A cross pattern of six squares folding into a cube"
+    }
+  ]
+}
