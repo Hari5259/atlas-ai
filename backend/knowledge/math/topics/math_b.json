@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-b-001",
+      "topic": "boolean algebra and bases",
+      "title": "Banach Space",
+      "content": "A complete normed vector space, where every Cauchy sequence converges to a limit within the space.",
+      "keywords": [
+        "banach",
+        "norm",
+        "space"
+      ],
+      "difficulty": "advanced",
+      "formula": "||x_n - x_m|| -> 0 implies x_n -> x",
+      "example": "The space of real numbers R with absolute norm"
+    },
+    {
+      "id": "math-b-002",
+      "topic": "boolean algebra and bases",
+      "title": "Barycenter",
+      "content": "The center of mass of two or more bodies that orbit each other, or the centroid of a geometric shape.",
+      "keywords": [
+        "barycenter",
+        "centroid",
+        "mass"
+      ],
+      "difficulty": "intermediate",
+      "formula": "x_g = sum(m_i * x_i) / sum(m_i)",
+      "example": "Barycenter of the Earth-Moon system"
+    },
+    {
+      "id": "math-b-003",
+      "topic": "boolean algebra and bases",
+      "title": "Base Ten",
+      "content": "The decimal number system that uses ten distinct digits (0-9) to represent numbers.",
+      "keywords": [
+        "base",
+        "decimal",
+        "numbers"
+      ],
+      "difficulty": "beginner",
+      "formula": "Value = sum(d_i * 10^i)",
+      "example": "The number 345 is 3*100 + 4*10 + 5*1"
+    },
+    {
+      "id": "math-b-004",
+      "topic": "boolean algebra and bases",
+      "title": "Bayes' Theorem",
+      "content": "A formula that describes the probability of an event based on prior knowledge of conditions related to the event.",
+      "keywords": [
+        "bayes",
+        "probability",
+        "conditional"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(A|B) = (P(B|A) * P(A)) / P(B)",
+      "example": "Calculating probability of disease given positive test"
+    },
+    {
+      "id": "math-b-005",
+      "topic": "boolean algebra and bases",
+      "title": "Bell Curve",
+      "content": "The informal name for the graph of a normal distribution in statistics.",
+      "keywords": [
+        "normal",
+        "bell",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "y = (1 / (sigma * sqrt(2*pi))) * e^(-(x-mu)^2 / (2*sigma^2))",
+      "example": "Distribution of heights in a population"
+    },
+    {
+      "id": "math-b-006",
+      "topic": "boolean algebra and bases",
+      "title": "Bernoulli Trial",
+      "content": "A random experiment with exactly two possible outcomes: success and failure.",
+      "keywords": [
+        "bernoulli",
+        "probability",
+        "trial"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(Success) = p, P(Failure) = 1-p",
+      "example": "Tossing a coin (heads or tails)"
+    },
+    {
+      "id": "math-b-007",
+      "topic": "boolean algebra and bases",
+      "title": "Bessel Function",
+      "content": "Canonical solutions of Bessel's differential equation, useful in wave propagation and physics.",
+      "keywords": [
+        "bessel",
+        "physics",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "x^2*y'' + x*y' + (x^2 - alpha^2)*y = 0",
+      "example": "Solving electromagnetic waves inside a cylinder"
+    },
+    {
+      "id": "math-b-008",
+      "topic": "boolean algebra and bases",
+      "title": "Beta Distribution",
+      "content": "A family of continuous probability distributions defined on the interval [0, 1] parameterized by two positive shape parameters.",
+      "keywords": [
+        "beta",
+        "probability",
+        "distribution"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x; alpha, beta) = x^(alpha-1)*(1-x)^(beta-1) / B(alpha, beta)",
+      "example": "Modeling probabilities or proportions in Bayesian inference"
+    },
+    {
+      "id": "math-b-009",
+      "topic": "boolean algebra and bases",
+      "title": "Bezout's Identity",
+      "content": "A theorem in number theory stating that the greatest common divisor of two integers can be expressed as a linear combination of them.",
+      "keywords": [
+        "bezout",
+        "gcd",
+        "numbers"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a*x + b*y = gcd(a, b)",
+      "example": "For a=12, b=15: 12*(-1) + 15*(1) = 3"
+    },
+    {
+      "id": "math-b-010",
+      "topic": "boolean algebra and bases",
+      "title": "Bijective Function",
+      "content": "A function that is both injective (one-to-one) and surjective (onto), meaning every element maps to a unique element.",
+      "keywords": [
+        "bijection",
+        "function",
+        "mapping"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(x_1) = f(x_2) <=> x_1 = x_2 and f(X) = Y",
+      "example": "f(x) = x + 1 is a bijection on real numbers"
+    },
+    {
+      "id": "math-b-011",
+      "topic": "boolean algebra and bases",
+      "title": "Bilinear Form",
+      "content": "A bilinear map from V x V to the field of scalars, linear in both arguments.",
+      "keywords": [
+        "bilinear",
+        "vector",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "B(u + v, w) = B(u, w) + B(v, w) etc.",
+      "example": "Dot product of vectors"
+    },
+    {
+      "id": "math-b-012",
+      "topic": "boolean algebra and bases",
+      "title": "Bimodal Distribution",
+      "content": "A probability distribution with two distinct modes or peaks.",
+      "keywords": [
+        "bimodal",
+        "statistics",
+        "distribution"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Graph shows two local maximum heights",
+      "example": "Distribution of restaurant customer counts at lunch and dinner"
+    },
+    {
+      "id": "math-b-013",
+      "topic": "boolean algebra and bases",
+      "title": "Binary Number System",
+      "content": "A base-2 numeral system that represents numeric values using two unique symbols: 0 and 1.",
+      "keywords": [
+        "binary",
+        "base-2",
+        "computer"
+      ],
+      "difficulty": "beginner",
+      "formula": "Value = sum(d_i * 2^i)",
+      "example": "Binary 1010 equals decimal 10"
+    },
+    {
+      "id": "math-b-014",
+      "topic": "boolean algebra and bases",
+      "title": "Binary Operation",
+      "content": "A rule that combines two elements of a set to produce another element of the set.",
+      "keywords": [
+        "operation",
+        "binary",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "*: S x S -> S",
+      "example": "Addition on integers"
+    },
+    {
+      "id": "math-b-015",
+      "topic": "boolean algebra and bases",
+      "title": "Binary Search Tree",
+      "content": "A node-based binary tree data structure where each node has a key greater than all keys in its left subtree.",
+      "keywords": [
+        "tree",
+        "binary",
+        "algorithm"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Left_child.key < Node.key < Right_child.key",
+      "example": "Searching for a number in O(log n) time"
+    },
+    {
+      "id": "math-b-016",
+      "topic": "boolean algebra and bases",
+      "title": "Binomial Coefficient",
+      "content": "The number of ways to choose k elements from a set of n elements without regard to order.",
+      "keywords": [
+        "binomial",
+        "combinations",
+        "coefficient"
+      ],
+      "difficulty": "beginner",
+      "formula": "nCr = n! / (k! * (n - k)!)",
+      "example": "5C2 = 10"
+    },
+    {
+      "id": "math-b-017",
+      "topic": "boolean algebra and bases",
+      "title": "Binomial Distribution",
+      "content": "The discrete probability distribution of the number of successes in a sequence of n independent Bernoulli trials.",
+      "keywords": [
+        "binomial",
+        "probability",
+        "distribution"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(X = k) = nCr * p^k * (1-p)^(n-k)",
+      "example": "Flipping a coin 10 times and counting heads"
+    },
+    {
+      "id": "math-b-018",
+      "topic": "boolean algebra and bases",
+      "title": "Binomial Theorem",
+      "content": "A formula for expanding powers of binomials algebraically.",
+      "keywords": [
+        "binomial",
+        "theorem",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "(x + y)^n = sum(nCr * x^(n-r) * y^r)",
+      "example": "Expanding (x+y)^2 = x^2 + 2xy + y^2"
+    },
+    {
+      "id": "math-b-019",
+      "topic": "boolean algebra and bases",
+      "title": "Bipartite Graph",
+      "content": "A graph whose vertices can be divided into two disjoint sets such that no two graph vertices in the same set are connected.",
+      "keywords": [
+        "graph",
+        "bipartite",
+        "networks"
+      ],
+      "difficulty": "intermediate",
+      "formula": "V = V_1 union V_2, E only between V_1 and V_2",
+      "example": "A matching problem between jobs and applicants"
+    },
+    {
+      "id": "math-b-020",
+      "topic": "boolean algebra and bases",
+      "title": "Birthday Paradox",
+      "content": "The counter-intuitive probability that in a group of 23 people, there is a 50% chance two share a birthday.",
+      "keywords": [
+        "probability",
+        "birthday",
+        "paradox"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(match) = 1 - (365! / (365^n * (365 - n)!))",
+      "example": "In a room of 30 people, probability of match is ~70%"
+    },
+    {
+      "id": "math-b-021",
+      "topic": "boolean algebra and bases",
+      "title": "Bisector",
+      "content": "A line, ray, or segment that cuts another geometric figure (like a line segment or angle) into two equal parts.",
+      "keywords": [
+        "bisector",
+        "line",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Length_1 = Length_2",
+      "example": "Perpendicular bisector of a line segment"
+    },
+    {
+      "id": "math-b-022",
+      "topic": "boolean algebra and bases",
+      "title": "Bivariate Data",
+      "content": "Data that involves two different variables, which are measured on the same units to analyze relationships.",
+      "keywords": [
+        "bivariate",
+        "data",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Pairs of data (x_i, y_i)",
+      "example": "Analyzing study hours vs exam scores"
+    },
+    {
+      "id": "math-b-023",
+      "topic": "boolean algebra and bases",
+      "title": "Block Matrix",
+      "content": "A matrix partitioned into smaller matrices called blocks.",
+      "keywords": [
+        "matrix",
+        "block",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "Matrix = [[A, B], [C, D]]",
+      "example": "Subdividing a large matrix for faster computation"
+    },
+    {
+      "id": "math-b-024",
+      "topic": "boolean algebra and bases",
+      "title": "Bolzano-Weierstrass Theorem",
+      "content": "A fundamental theorem in analysis stating that every bounded sequence in R^n has a convergent subsequence.",
+      "keywords": [
+        "bolzano",
+        "analysis",
+        "sequence"
+      ],
+      "difficulty": "advanced",
+      "formula": "Bounded x_n => exists convergent x_n_k",
+      "example": "Selecting convergent terms from sequence (-1)^n * (1 - 1/n)"
+    },
+    {
+      "id": "math-b-025",
+      "topic": "boolean algebra and bases",
+      "title": "Boolean Algebra",
+      "content": "A branch of algebra where variable values are truth values: true (1) and false (0).",
+      "keywords": [
+        "boolean",
+        "logic",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "x AND y; x OR y; NOT x",
+      "example": "Logic gate operations in microchips"
+    },
+    {
+      "id": "math-b-026",
+      "topic": "boolean algebra and bases",
+      "title": "Boolean Function",
+      "content": "A function that maps boolean inputs (0 or 1) to a boolean output.",
+      "keywords": [
+        "boolean",
+        "function",
+        "logic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f: {0, 1}^n -> {0, 1}",
+      "example": "f(x, y) = x AND NOT y"
+    },
+    {
+      "id": "math-b-027",
+      "topic": "boolean algebra and bases",
+      "title": "Boolean Matrix",
+      "content": "A matrix whose entries are elements of a Boolean algebra, typically 0 and 1.",
+      "keywords": [
+        "boolean",
+        "matrix",
+        "relations"
+      ],
+      "difficulty": "intermediate",
+      "formula": "M_ij in {0, 1}",
+      "example": "Representing relations between sets"
+    },
+    {
+      "id": "math-b-028",
+      "topic": "boolean algebra and bases",
+      "title": "Boundary Value Problem",
+      "content": "A differential equation together with a set of additional constraints called boundary conditions.",
+      "keywords": [
+        "boundary",
+        "differential",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "y'' + y = 0, y(0) = 0, y(pi) = 1",
+      "example": "Heat distribution in a wire with fixed end temperatures"
+    },
+    {
+      "id": "math-b-029",
+      "topic": "boolean algebra and bases",
+      "title": "Bounded Function",
+      "content": "A function whose values are all contained within a fixed interval of real numbers.",
+      "keywords": [
+        "bounded",
+        "function",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "|f(x)| <= M for all x",
+      "example": "f(x) = sin(x) is bounded because |sin(x)| <= 1"
+    },
+    {
+      "id": "math-b-030",
+      "topic": "boolean algebra and bases",
+      "title": "Bounded Sequence",
+      "content": "A sequence of numbers whose values never exceed a certain upper bound or fall below a lower bound.",
+      "keywords": [
+        "bounded",
+        "sequence",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "m <= a_n <= M for all n",
+      "example": "Sequence 1/n is bounded between 0 and 1"
+    },
+    {
+      "id": "math-b-031",
+      "topic": "boolean algebra and bases",
+      "title": "Box-and-Whisker Plot",
+      "content": "A graphical display summarizing a data set using five summaries: minimum, Q1, median, Q3, and maximum.",
+      "keywords": [
+        "plot",
+        "box",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Visual boxes and whiskers",
+      "example": "Plotting test scores to see dispersion"
+    },
+    {
+      "id": "math-b-032",
+      "topic": "boolean algebra and bases",
+      "title": "Boxplot Median",
+      "content": "The central horizontal line inside the box of a boxplot, representing the 50th percentile of the dataset.",
+      "keywords": [
+        "boxplot",
+        "median",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Median = Q2",
+      "example": "Finding median score in a boxplot"
+    },
+    {
+      "id": "math-b-033",
+      "topic": "boolean algebra and bases",
+      "title": "Brahmagupta's Formula",
+      "content": "A formula for the area of a cyclic quadrilateral given its four side lengths.",
+      "keywords": [
+        "brahmagupta",
+        "area",
+        "quadrilateral"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Area = sqrt((s-a)(s-b)(s-c)(s-d)) where s is semiperimeter",
+      "example": "Quadrilateral inscribed in a circle with sides 3, 4, 5, 6"
+    },
+    {
+      "id": "math-b-034",
+      "topic": "boolean algebra and bases",
+      "title": "Branch Cut",
+      "content": "A curve in the complex plane across which a multi-valued analytic function is discontinuous.",
+      "keywords": [
+        "complex",
+        "branch",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "Complex log branch cut",
+      "example": "Defining a single-valued branch of the square root function"
+    },
+    {
+      "id": "math-b-035",
+      "topic": "boolean algebra and bases",
+      "title": "Breadth-First Search",
+      "content": "An algorithm for traversing or searching tree or graph structures, starting at the root and exploring neighbor nodes first.",
+      "keywords": [
+        "bfs",
+        "algorithm",
+        "graph"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Queue-based traversal",
+      "example": "Finding the shortest path in an unweighted grid"
+    },
+    {
+      "id": "math-b-036",
+      "topic": "boolean algebra and bases",
+      "title": "Briggsian Logarithm",
+      "content": "Another name for the common logarithm, which uses base 10.",
+      "keywords": [
+        "briggsian",
+        "logarithm",
+        "base-10"
+      ],
+      "difficulty": "beginner",
+      "formula": "log10(x)",
+      "example": "log10(100) = 2"
+    },
+    {
+      "id": "math-b-037",
+      "topic": "boolean algebra and bases",
+      "title": "Buffon's Needle",
+      "content": "A classic probability problem that estimates the value of pi by dropping needles on parallel lines.",
+      "keywords": [
+        "buffon",
+        "needle",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "P = 2*L / (d * pi)",
+      "example": "Dropping needles of length 2cm on lines 4cm apart"
+    },
+    {
+      "id": "math-b-038",
+      "topic": "boolean algebra and bases",
+      "title": "Butterfly Effect",
+      "content": "A phenomenon in chaos theory where tiny differences in initial conditions produce widely differing outcomes.",
+      "keywords": [
+        "chaos",
+        "butterfly",
+        "differential"
+      ],
+      "difficulty": "advanced",
+      "formula": "dx/dt = sigma*(y-x) etc. (Lorenz equations)",
+      "example": "Weather prediction limits"
+    },
+    {
+      "id": "math-b-039",
+      "topic": "boolean algebra and bases",
+      "title": "Base of Natural Logarithm",
+      "content": "The mathematical constant e, approximately equal to 2.71828, which is the base of natural logarithms.",
+      "keywords": [
+        "base",
+        "euler",
+        "exponential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "e = lim (1 + 1/n)^n",
+      "example": "e^x derivative is e^x"
+    },
+    {
+      "id": "math-b-040",
+      "topic": "boolean algebra and bases",
+      "title": "Basis of Vector Space",
+      "content": "A set of linearly independent vectors in a vector space that span the entire space.",
+      "keywords": [
+        "basis",
+        "vector",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "v = c_1*b_1 + ... + c_n*b_n",
+      "example": "Vectors (1,0) and (0,1) form a basis for R^2"
+    }
+  ]
+}
