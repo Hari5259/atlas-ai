@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-i-001",
+      "topic": "integrals and series",
+      "title": "Identity Element",
+      "content": "An element of a set that, when combined with any element under a binary operation, leaves it unchanged.",
+      "keywords": [
+        "identity",
+        "operation",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "a * e = e * a = a",
+      "example": "0 is the identity element for integer addition"
+    },
+    {
+      "id": "math-i-002",
+      "topic": "integrals and series",
+      "title": "Identity Matrix",
+      "content": "A square matrix with ones on the main diagonal and zeros elsewhere, acting as multiplication identity.",
+      "keywords": [
+        "matrix",
+        "identity",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "I_ij = 1 if i=j else 0",
+      "example": "Matrix I * Matrix A = Matrix A"
+    },
+    {
+      "id": "math-i-003",
+      "topic": "integrals and series",
+      "title": "Identity Relation",
+      "content": "A binary relation where every element relates only to itself.",
+      "keywords": [
+        "identity",
+        "relation",
+        "sets"
+      ],
+      "difficulty": "beginner",
+      "formula": "I = {(x, x) : x in X}",
+      "example": "Equality relation on a set"
+    },
+    {
+      "id": "math-i-004",
+      "topic": "integrals and series",
+      "title": "Image of Function",
+      "content": "The set of all output values a function can produce from its domain.",
+      "keywords": [
+        "image",
+        "range",
+        "function"
+      ],
+      "difficulty": "beginner",
+      "formula": "Im(f) = {f(x) : x in Domain}",
+      "example": "Image of f(x) = x^2 over real numbers is non-negative reals"
+    },
+    {
+      "id": "math-i-005",
+      "topic": "integrals and series",
+      "title": "Imaginary Number",
+      "content": "A complex number whose squared value is a negative real number.",
+      "keywords": [
+        "imaginary",
+        "complex",
+        "number"
+      ],
+      "difficulty": "beginner",
+      "formula": "z = i * y",
+      "example": "The number 5i"
+    },
+    {
+      "id": "math-i-006",
+      "topic": "integrals and series",
+      "title": "Imaginary Unit",
+      "content": "The constant i, defined by the property that its square is equal to -1.",
+      "keywords": [
+        "imaginary",
+        "unit",
+        "complex"
+      ],
+      "difficulty": "beginner",
+      "formula": "i^2 = -1",
+      "example": "Used to define the complex number system"
+    },
+    {
+      "id": "math-i-007",
+      "topic": "integrals and series",
+      "title": "Implicit Differentiation",
+      "content": "A technique in calculus for finding the derivative of a variable when it is not isolated on one side.",
+      "keywords": [
+        "implicit",
+        "derivative",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "d/dx [y^2] = 2y * dy/dx",
+      "example": "Finding slope of a circle x^2 + y^2 = 25"
+    },
+    {
+      "id": "math-i-008",
+      "topic": "integrals and series",
+      "title": "Implicit Function",
+      "content": "A function defined by an equation relating two or more variables, rather than an explicit formula.",
+      "keywords": [
+        "implicit",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F(x, y) = 0",
+      "example": "Equation x^2 * y - y^3 = 5"
+    },
+    {
+      "id": "math-i-009",
+      "topic": "integrals and series",
+      "title": "Improper Integral",
+      "content": "An integral where either the interval of integration is infinite or the integrand becomes infinite.",
+      "keywords": [
+        "integral",
+        "improper",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Integral from a to infinity of f(x) dx",
+      "example": "Evaluating integral of 1/x^2 from 1 to infinity"
+    },
+    {
+      "id": "math-i-010",
+      "topic": "integrals and series",
+      "title": "Incenter of Triangle",
+      "content": "The point where the three angle bisectors of a triangle intersect, which is the center of the incircle.",
+      "keywords": [
+        "incenter",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Center of inscribed circle",
+      "example": "Incenter coordinates calculation"
+    },
+    {
+      "id": "math-i-011",
+      "topic": "integrals and series",
+      "title": "Incircle",
+      "content": "The largest circle that can fit inside a triangle, tangent to all three sides.",
+      "keywords": [
+        "incircle",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Radius r = Area / semiperimeter",
+      "example": "Drawing an inscribed circle inside a triangle"
+    },
+    {
+      "id": "math-i-012",
+      "topic": "integrals and series",
+      "title": "Inconsistent System",
+      "content": "A system of equations that has no solution because the equations represent contradictory constraints.",
+      "keywords": [
+        "inconsistent",
+        "system",
+        "equations"
+      ],
+      "difficulty": "beginner",
+      "formula": "Lines never intersect (e.g. parallel lines)",
+      "example": "System: x + y = 2 and x + y = 5"
+    },
+    {
+      "id": "math-i-013",
+      "topic": "integrals and series",
+      "title": "Increasing Function",
+      "content": "A function whose output values increase or remain the same as the input values increase.",
+      "keywords": [
+        "increasing",
+        "function",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(x_1) <= f(x_2) for x_1 < x_2",
+      "example": "f(x) = e^x is strictly increasing"
+    },
+    {
+      "id": "math-i-014",
+      "topic": "integrals and series",
+      "title": "Indefinite Integral",
+      "content": "The collection of all antiderivatives of a function, written with a constant of integration C.",
+      "keywords": [
+        "integral",
+        "indefinite",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Integral of f(x) dx = F(x) + C",
+      "example": "Integral of cos(x) dx is sin(x) + C"
+    },
+    {
+      "id": "math-i-015",
+      "topic": "integrals and series",
+      "title": "Independent Events",
+      "content": "Events in probability where the occurrence of one event does not affect the probability of the other.",
+      "keywords": [
+        "independent",
+        "probability",
+        "events"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(A and B) = P(A) * P(B)",
+      "example": "Rolling a 6 and flipping a heads"
+    },
+    {
+      "id": "math-i-016",
+      "topic": "integrals and series",
+      "title": "Independent Variables",
+      "content": "The input variables in a mathematical model or experiment that are manipulated.",
+      "keywords": [
+        "independent",
+        "variable",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "x in y = f(x)",
+      "example": "Time in a velocity-time graph"
+    },
+    {
+      "id": "math-i-017",
+      "topic": "integrals and series",
+      "title": "Indeterminate Form",
+      "content": "An algebraic expression obtained as a limit whose value cannot be determined directly without algebraic manipulation or L'Hopital's rule.",
+      "keywords": [
+        "limit",
+        "indeterminate",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Forms: 0/0, inf/inf, 0*inf, inf-inf, 0^0, 1^inf, inf^0",
+      "example": "Limit of sin(x)/x as x approaches 0"
+    },
+    {
+      "id": "math-i-018",
+      "topic": "integrals and series",
+      "title": "Index of Radical",
+      "content": "The integer n in a radical expression indicating which root is to be taken.",
+      "keywords": [
+        "index",
+        "radical",
+        "root"
+      ],
+      "difficulty": "beginner",
+      "formula": "n-th root of x",
+      "example": "In cube root of 8, the index is 3"
+    },
+    {
+      "id": "math-i-019",
+      "topic": "integrals and series",
+      "title": "Indirect Proof",
+      "content": "A method of proof where the statement is proven by demonstrating that its negation leads to a contradiction.",
+      "keywords": [
+        "proof",
+        "contradiction",
+        "logic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Assume NOT P, derive contradiction",
+      "example": "Proving that sqrt(2) is irrational"
+    },
+    {
+      "id": "math-i-020",
+      "topic": "integrals and series",
+      "title": "Induction Step",
+      "content": "The step in a proof by mathematical induction where you show that if the statement holds for k, it holds for k+1.",
+      "keywords": [
+        "induction",
+        "proof",
+        "induction-step"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(k) implies P(k+1)",
+      "example": "Completing induction proof of sum of first n integers"
+    },
+    {
+      "id": "math-i-021",
+      "topic": "integrals and series",
+      "title": "Inequality Solving",
+      "content": "Finding the set of all values that satisfy an inequality statement.",
+      "keywords": [
+        "inequality",
+        "solve",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Solve: 2x - 5 > 9 => x > 7",
+      "example": "Solving quadratic inequality x^2 - 4 < 0"
+    },
+    {
+      "id": "math-i-022",
+      "topic": "integrals and series",
+      "title": "Infimum of Set",
+      "content": "The greatest lower bound of a set of numbers, which may or may not belong to the set.",
+      "keywords": [
+        "infimum",
+        "bound",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "inf(S)",
+      "example": "Infimum of the open interval (2, 5) is 2"
+    },
+    {
+      "id": "math-i-023",
+      "topic": "integrals and series",
+      "title": "Infinite Product",
+      "content": "The limit of the product of a sequence of terms as the number of terms goes to infinity.",
+      "keywords": [
+        "product",
+        "infinite",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "formula": "product from 1 to infinity of a_n",
+      "example": "Euler's product formula for the Riemann zeta function"
+    },
+    {
+      "id": "math-i-024",
+      "topic": "integrals and series",
+      "title": "Infinite Series",
+      "content": "The sum of the terms of an infinite sequence.",
+      "keywords": [
+        "series",
+        "infinite",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "sum from 1 to infinity of a_n",
+      "example": "1 + 1/2 + 1/4 + 1/8 + ..."
+    },
+    {
+      "id": "math-i-025",
+      "topic": "integrals and series",
+      "title": "Infinite Set",
+      "content": "A set that is not finite, meaning its elements cannot be placed in a one-to-one correspondence with a finite set of integers.",
+      "keywords": [
+        "set",
+        "infinite",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Cardinality is transfinite",
+      "example": "The set of all prime numbers"
+    },
+    {
+      "id": "math-i-026",
+      "topic": "integrals and series",
+      "title": "Inflection Point",
+      "content": "A point on a curve at which the concavity changes from concave up to concave down, or vice versa.",
+      "keywords": [
+        "inflection",
+        "curve",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f''(c) = 0 or undefined",
+      "example": "y = x^3 has an inflection point at (0,0)"
+    },
+    {
+      "id": "math-i-027",
+      "topic": "integrals and series",
+      "title": "Information Entropy",
+      "content": "The average rate at which information is produced by a stochastic source of data.",
+      "keywords": [
+        "entropy",
+        "information",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "H = -sum(p_i * log(p_i))",
+      "example": "Calculating compression efficiency of text"
+    },
+    {
+      "id": "math-i-028",
+      "topic": "integrals and series",
+      "title": "Initial Value Problem",
+      "content": "An ordinary differential equation accompanied by the value of the unknown function at a specific starting point.",
+      "keywords": [
+        "initial",
+        "differential",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y' = f(x, y), y(x_0) = y_0",
+      "example": "Solving kinematics equation given initial position"
+    },
+    {
+      "id": "math-i-029",
+      "topic": "integrals and series",
+      "title": "Injective Function",
+      "content": "A function that maps distinct inputs to distinct outputs, also called one-to-one.",
+      "keywords": [
+        "injective",
+        "one-to-one",
+        "function"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(a) = f(b) implies a = b",
+      "example": "f(x) = 5x is injective"
+    },
+    {
+      "id": "math-i-030",
+      "topic": "integrals and series",
+      "title": "Inner Product Space",
+      "content": "A vector space equipped with an inner product, which defines angles and lengths of vectors.",
+      "keywords": [
+        "inner-product",
+        "vector",
+        "space"
+      ],
+      "difficulty": "advanced",
+      "formula": "<u, v>",
+      "example": "R^n with the dot product is an inner product space"
+    },
+    {
+      "id": "math-i-031",
+      "topic": "integrals and series",
+      "title": "Integers Set",
+      "content": "The set containing all whole numbers, their negatives, and zero.",
+      "keywords": [
+        "integers",
+        "set",
+        "numbers"
+      ],
+      "difficulty": "beginner",
+      "formula": "Z = {..., -3, -2, -1, 0, 1, 2, 3, ...}",
+      "example": "-45, 0, and 989 are integers"
+    },
+    {
+      "id": "math-i-032",
+      "topic": "integrals and series",
+      "title": "Integrability",
+      "content": "A function is integrable if its integral exists over a given domain.",
+      "keywords": [
+        "integrability",
+        "calculus",
+        "integral"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Riemann sum limit exists",
+      "example": "Continuous functions on closed intervals are integrable"
+    },
+    {
+      "id": "math-i-033",
+      "topic": "integrals and series",
+      "title": "Integral Calculus",
+      "content": "The branch of calculus concerned with accumulation of quantities and finding areas under curves.",
+      "keywords": [
+        "integral",
+        "calculus",
+        "area"
+      ],
+      "difficulty": "intermediate",
+      "formula": "integral f(x) dx",
+      "example": "Calculating total distance from velocity profile"
+    },
+    {
+      "id": "math-i-034",
+      "topic": "integrals and series",
+      "title": "Integrating Factor",
+      "content": "A function used to multiply a non-separable differential equation to make it integrable.",
+      "keywords": [
+        "factor",
+        "integrating",
+        "differential"
+      ],
+      "difficulty": "advanced",
+      "formula": "I(x) = e^(integral P(x) dx)",
+      "example": "Solving first-order linear differential equations"
+    },
+    {
+      "id": "math-i-035",
+      "topic": "integrals and series",
+      "title": "Integration by Parts",
+      "content": "A technique for integrating the product of two functions, derived from the product rule.",
+      "keywords": [
+        "parts",
+        "integration",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "integral u dv = u*v - integral v du",
+      "example": "Integrating x * ln(x) dx"
+    },
+    {
+      "id": "math-i-036",
+      "topic": "integrals and series",
+      "title": "Integration by Substitution",
+      "content": "A method for solving integrals by introducing a new variable to simplify the integrand.",
+      "keywords": [
+        "substitution",
+        "integration",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "integral f(g(x))*g'(x) dx = integral f(u) du",
+      "example": "Integrating 2x * cos(x^2) dx setting u = x^2"
+    },
+    {
+      "id": "math-i-037",
+      "topic": "integrals and series",
+      "title": "Interior Point",
+      "content": "A point x in a set S is an interior point if there exists an open ball around x contained entirely in S.",
+      "keywords": [
+        "interior",
+        "set",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "exists r > 0 such that B(x, r) in S",
+      "example": "Every point in open interval (0, 1) is an interior point"
+    },
+    {
+      "id": "math-i-038",
+      "topic": "integrals and series",
+      "title": "Interquartile Range",
+      "content": "A measure of statistical dispersion, equal to the difference between the third and first quartiles.",
+      "keywords": [
+        "iqr",
+        "quartiles",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "IQR = Q3 - Q1",
+      "example": "IQR of dataset with Q1=10 and Q3=25 is 15"
+    },
+    {
+      "id": "math-i-039",
+      "topic": "integrals and series",
+      "title": "Intersection of Sets",
+      "content": "The set containing all elements that are common to two or more sets.",
+      "keywords": [
+        "intersection",
+        "set",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "A intersect B = {x : x in A and x in B}",
+      "example": "Intersection of {1, 2, 3} and {2, 3, 4} is {2, 3}"
+    },
+    {
+      "id": "math-i-040",
+      "topic": "integrals and series",
+      "title": "Inverse Matrix",
+      "content": "A matrix that, when multiplied by the original matrix, yields the identity matrix.",
+      "keywords": [
+        "inverse",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A * A^-1 = I",
+      "example": "Solving matrix equation A*x = b as x = A^-1 * b"
+    }
+  ]
+}
