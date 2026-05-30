@@ -1,0 +1,585 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-v-001",
+      "topic": "vector spaces and volume",
+      "title": "Expected Value Prob",
+      "content": "Mathematical entry and definition for Expected Value Prob, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "expected",
+        "value",
+        "prob",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Expected Value Prob",
+      "example": "Example demonstrating the application of Expected Value Prob"
+    },
+    {
+      "id": "math-v-002",
+      "topic": "vector spaces and volume",
+      "title": "Vandermonde Determinant",
+      "content": "Mathematical entry and definition for Vandermonde Determinant, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vandermonde",
+        "determinant",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vandermonde Determinant",
+      "example": "Example demonstrating the application of Vandermonde Determinant"
+    },
+    {
+      "id": "math-v-003",
+      "topic": "vector spaces and volume",
+      "title": "Variable Independent",
+      "content": "Mathematical entry and definition for Variable Independent, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "variable",
+        "independent",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Variable Independent",
+      "example": "Example demonstrating the application of Variable Independent"
+    },
+    {
+      "id": "math-v-004",
+      "topic": "vector spaces and volume",
+      "title": "Variance Population",
+      "content": "Mathematical entry and definition for Variance Population, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "variance",
+        "population",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Variance Population",
+      "example": "Example demonstrating the application of Variance Population"
+    },
+    {
+      "id": "math-v-005",
+      "topic": "vector spaces and volume",
+      "title": "Variance Sample",
+      "content": "Mathematical entry and definition for Variance Sample, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "variance",
+        "sample",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Variance Sample",
+      "example": "Example demonstrating the application of Variance Sample"
+    },
+    {
+      "id": "math-v-006",
+      "topic": "vector spaces and volume",
+      "title": "Vector Addition",
+      "content": "Mathematical entry and definition for Vector Addition, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "addition",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Addition",
+      "example": "Example demonstrating the application of Vector Addition"
+    },
+    {
+      "id": "math-v-007",
+      "topic": "vector spaces and volume",
+      "title": "Vector Angle",
+      "content": "Mathematical entry and definition for Vector Angle, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "angle",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Angle",
+      "example": "Example demonstrating the application of Vector Angle"
+    },
+    {
+      "id": "math-v-008",
+      "topic": "vector spaces and volume",
+      "title": "Vector Gradient",
+      "content": "Mathematical entry and definition for Vector Gradient, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "gradient",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Gradient",
+      "example": "Example demonstrating the application of Vector Gradient"
+    },
+    {
+      "id": "math-v-009",
+      "topic": "vector spaces and volume",
+      "title": "Vector Divergence",
+      "content": "Mathematical entry and definition for Vector Divergence, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "divergence",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Divergence",
+      "example": "Example demonstrating the application of Vector Divergence"
+    },
+    {
+      "id": "math-v-010",
+      "topic": "vector spaces and volume",
+      "title": "Vector Curl",
+      "content": "Mathematical entry and definition for Vector Curl, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "curl",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Curl",
+      "example": "Example demonstrating the application of Vector Curl"
+    },
+    {
+      "id": "math-v-011",
+      "topic": "vector spaces and volume",
+      "title": "Vector Cross Product",
+      "content": "Mathematical entry and definition for Vector Cross Product, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "cross",
+        "product",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Cross Product",
+      "example": "Example demonstrating the application of Vector Cross Product"
+    },
+    {
+      "id": "math-v-012",
+      "topic": "vector spaces and volume",
+      "title": "Vector Dot Product",
+      "content": "Mathematical entry and definition for Vector Dot Product, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "dot",
+        "product",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Dot Product",
+      "example": "Example demonstrating the application of Vector Dot Product"
+    },
+    {
+      "id": "math-v-013",
+      "topic": "vector spaces and volume",
+      "title": "Vector Length",
+      "content": "Mathematical entry and definition for Vector Length, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "length",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Length",
+      "example": "Example demonstrating the application of Vector Length"
+    },
+    {
+      "id": "math-v-014",
+      "topic": "vector spaces and volume",
+      "title": "Vector Line Equation",
+      "content": "Mathematical entry and definition for Vector Line Equation, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "line",
+        "equation",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Line Equation",
+      "example": "Example demonstrating the application of Vector Line Equation"
+    },
+    {
+      "id": "math-v-015",
+      "topic": "vector spaces and volume",
+      "title": "Vector Normalization",
+      "content": "Mathematical entry and definition for Vector Normalization, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "normalization",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Normalization",
+      "example": "Example demonstrating the application of Vector Normalization"
+    },
+    {
+      "id": "math-v-016",
+      "topic": "vector spaces and volume",
+      "title": "Vector Projection",
+      "content": "Mathematical entry and definition for Vector Projection, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "projection",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Projection",
+      "example": "Example demonstrating the application of Vector Projection"
+    },
+    {
+      "id": "math-v-017",
+      "topic": "vector spaces and volume",
+      "title": "Vector Space Axioms",
+      "content": "Mathematical entry and definition for Vector Space Axioms, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "space",
+        "axioms",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Space Axioms",
+      "example": "Example demonstrating the application of Vector Space Axioms"
+    },
+    {
+      "id": "math-v-018",
+      "topic": "vector spaces and volume",
+      "title": "Vector Subspace",
+      "content": "Mathematical entry and definition for Vector Subspace, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "subspace",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Subspace",
+      "example": "Example demonstrating the application of Vector Subspace"
+    },
+    {
+      "id": "math-v-019",
+      "topic": "vector spaces and volume",
+      "title": "Vector Subtraction",
+      "content": "Mathematical entry and definition for Vector Subtraction, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "subtraction",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Subtraction",
+      "example": "Example demonstrating the application of Vector Subtraction"
+    },
+    {
+      "id": "math-v-020",
+      "topic": "vector spaces and volume",
+      "title": "Vector Valued Function",
+      "content": "Mathematical entry and definition for Vector Valued Function, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "valued",
+        "function",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Valued Function",
+      "example": "Example demonstrating the application of Vector Valued Function"
+    },
+    {
+      "id": "math-v-021",
+      "topic": "vector spaces and volume",
+      "title": "Velocity Vector",
+      "content": "Mathematical entry and definition for Velocity Vector, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "velocity",
+        "vector",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Velocity Vector",
+      "example": "Example demonstrating the application of Velocity Vector"
+    },
+    {
+      "id": "math-v-022",
+      "topic": "vector spaces and volume",
+      "title": "Venn Intersection",
+      "content": "Mathematical entry and definition for Venn Intersection, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "venn",
+        "intersection",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Venn Intersection",
+      "example": "Example demonstrating the application of Venn Intersection"
+    },
+    {
+      "id": "math-v-023",
+      "topic": "vector spaces and volume",
+      "title": "Venn Union",
+      "content": "Mathematical entry and definition for Venn Union, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "venn",
+        "union",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Venn Union",
+      "example": "Example demonstrating the application of Venn Union"
+    },
+    {
+      "id": "math-v-024",
+      "topic": "vector spaces and volume",
+      "title": "Vertex of Angle",
+      "content": "Mathematical entry and definition for Vertex of Angle, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertex",
+        "of",
+        "angle",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vertex of Angle",
+      "example": "Example demonstrating the application of Vertex of Angle"
+    },
+    {
+      "id": "math-v-025",
+      "topic": "vector spaces and volume",
+      "title": "Vertex of Parabola",
+      "content": "Mathematical entry and definition for Vertex of Parabola, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertex",
+        "of",
+        "parabola",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vertex of Parabola",
+      "example": "Example demonstrating the application of Vertex of Parabola"
+    },
+    {
+      "id": "math-v-026",
+      "topic": "vector spaces and volume",
+      "title": "Vertex of Polygon",
+      "content": "Mathematical entry and definition for Vertex of Polygon, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertex",
+        "of",
+        "polygon",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vertex of Polygon",
+      "example": "Example demonstrating the application of Vertex of Polygon"
+    },
+    {
+      "id": "math-v-027",
+      "topic": "vector spaces and volume",
+      "title": "Vertical Angles",
+      "content": "Mathematical entry and definition for Vertical Angles, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertical",
+        "angles",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vertical Angles",
+      "example": "Example demonstrating the application of Vertical Angles"
+    },
+    {
+      "id": "math-v-028",
+      "topic": "vector spaces and volume",
+      "title": "Vertical Asymptote",
+      "content": "Mathematical entry and definition for Vertical Asymptote, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertical",
+        "asymptote",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vertical Asymptote",
+      "example": "Example demonstrating the application of Vertical Asymptote"
+    },
+    {
+      "id": "math-v-029",
+      "topic": "vector spaces and volume",
+      "title": "Vertical Line Test",
+      "content": "Mathematical entry and definition for Vertical Line Test, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vertical",
+        "line",
+        "test",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vertical Line Test",
+      "example": "Example demonstrating the application of Vertical Line Test"
+    },
+    {
+      "id": "math-v-030",
+      "topic": "vector spaces and volume",
+      "title": "Volume of Cone",
+      "content": "Mathematical entry and definition for Volume of Cone, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "volume",
+        "of",
+        "cone",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Volume of Cone",
+      "example": "Example demonstrating the application of Volume of Cone"
+    },
+    {
+      "id": "math-v-031",
+      "topic": "vector spaces and volume",
+      "title": "Volume of Cylinder",
+      "content": "Mathematical entry and definition for Volume of Cylinder, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "volume",
+        "of",
+        "cylinder",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Volume of Cylinder",
+      "example": "Example demonstrating the application of Volume of Cylinder"
+    },
+    {
+      "id": "math-v-032",
+      "topic": "vector spaces and volume",
+      "title": "Volume of Prism",
+      "content": "Mathematical entry and definition for Volume of Prism, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "volume",
+        "of",
+        "prism",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Volume of Prism",
+      "example": "Example demonstrating the application of Volume of Prism"
+    },
+    {
+      "id": "math-v-033",
+      "topic": "vector spaces and volume",
+      "title": "Volume of Pyramid",
+      "content": "Mathematical entry and definition for Volume of Pyramid, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "volume",
+        "of",
+        "pyramid",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Volume of Pyramid",
+      "example": "Example demonstrating the application of Volume of Pyramid"
+    },
+    {
+      "id": "math-v-034",
+      "topic": "vector spaces and volume",
+      "title": "Volume of Sphere",
+      "content": "Mathematical entry and definition for Volume of Sphere, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "volume",
+        "of",
+        "sphere",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Volume of Sphere",
+      "example": "Example demonstrating the application of Volume of Sphere"
+    },
+    {
+      "id": "math-v-035",
+      "topic": "vector spaces and volume",
+      "title": "Vector Space Basis",
+      "content": "Mathematical entry and definition for Vector Space Basis, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "space",
+        "basis",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Space Basis",
+      "example": "Example demonstrating the application of Vector Space Basis"
+    },
+    {
+      "id": "math-v-036",
+      "topic": "vector spaces and volume",
+      "title": "Vector Space Dimension",
+      "content": "Mathematical entry and definition for Vector Space Dimension, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "space",
+        "dimension",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vector Space Dimension",
+      "example": "Example demonstrating the application of Vector Space Dimension"
+    },
+    {
+      "id": "math-v-037",
+      "topic": "vector spaces and volume",
+      "title": "Vector Space Span",
+      "content": "Mathematical entry and definition for Vector Space Span, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "space",
+        "span",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vector Space Span",
+      "example": "Example demonstrating the application of Vector Space Span"
+    },
+    {
+      "id": "math-v-038",
+      "topic": "vector spaces and volume",
+      "title": "Vector Space Linear Map",
+      "content": "Mathematical entry and definition for Vector Space Linear Map, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vector",
+        "space",
+        "linear",
+        "map",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Vector Space Linear Map",
+      "example": "Example demonstrating the application of Vector Space Linear Map"
+    },
+    {
+      "id": "math-v-039",
+      "topic": "vector spaces and volume",
+      "title": "Vandermonde Matrix",
+      "content": "Mathematical entry and definition for Vandermonde Matrix, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vandermonde",
+        "matrix",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Vandermonde Matrix",
+      "example": "Example demonstrating the application of Vandermonde Matrix"
+    },
+    {
+      "id": "math-v-040",
+      "topic": "vector spaces and volume",
+      "title": "Vigenere Cipher",
+      "content": "Mathematical entry and definition for Vigenere Cipher, a core concept in the domain of vector spaces and volume.",
+      "keywords": [
+        "vigenere",
+        "cipher",
+        "vector"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Vigenere Cipher",
+      "example": "Example demonstrating the application of Vigenere Cipher"
+    }
+  ]
+}
