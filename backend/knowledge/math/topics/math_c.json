@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-c-001",
+      "topic": "calculus and curves",
+      "title": "Calculus Fundamental Theorem",
+      "content": "The theorem linking differentiation and integration, showing they are inverse operations.",
+      "keywords": [
+        "calculus",
+        "fundamental",
+        "theorem"
+      ],
+      "difficulty": "intermediate",
+      "formula": "d/dx (integral from a to x of f(t) dt) = f(x)",
+      "example": "Evaluating integral of x^2 from 1 to 3 as (27/3) - (1/3)"
+    },
+    {
+      "id": "math-c-002",
+      "topic": "calculus and curves",
+      "title": "Cartesian Coordinates",
+      "content": "A coordinate system specifying each point uniquely in a plane by a pair of numerical coordinates.",
+      "keywords": [
+        "cartesian",
+        "coordinates",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "(x, y)",
+      "example": "Point (3, -2) in the plane"
+    },
+    {
+      "id": "math-c-003",
+      "topic": "calculus and curves",
+      "title": "Cartesian Product",
+      "content": "The set of all ordered pairs where the first element is from set A and the second is from set B.",
+      "keywords": [
+        "set",
+        "product",
+        "cartesian"
+      ],
+      "difficulty": "beginner",
+      "formula": "A x B = {(a, b) : a in A, b in B}",
+      "example": "{1, 2} x {x, y} = {(1,x), (1,y), (2,x), (2,y)}"
+    },
+    {
+      "id": "math-c-004",
+      "topic": "calculus and curves",
+      "title": "Cauchy-Schwarz Inequality",
+      "content": "An inequality relating the inner product of two vectors to their individual norms.",
+      "keywords": [
+        "cauchy",
+        "schwarz",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "|<u, v>| <= ||u|| * ||v||",
+      "example": "Dot product of [1, 2] and [3, 4] is less than product of their lengths"
+    },
+    {
+      "id": "math-c-005",
+      "topic": "calculus and curves",
+      "title": "Cauchy's Integral Formula",
+      "content": "A central statement in complex analysis showing that a holomorphic function on a disk is completely determined by its values on the boundary.",
+      "keywords": [
+        "cauchy",
+        "complex",
+        "integral"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(z_0) = (1 / (2*pi*i)) * contour_integral (f(z) / (z - z_0)) dz",
+      "example": "Evaluating contour integrals of complex functions"
+    },
+    {
+      "id": "math-c-006",
+      "topic": "calculus and curves",
+      "title": "Cayley-Hamilton Theorem",
+      "content": "A theorem in linear algebra stating that every square matrix satisfies its own characteristic equation.",
+      "keywords": [
+        "cayley",
+        "hamilton",
+        "matrix"
+      ],
+      "difficulty": "advanced",
+      "formula": "p(A) = 0",
+      "example": "Substituting matrix A into characteristic polynomial results in zero matrix"
+    },
+    {
+      "id": "math-c-007",
+      "topic": "calculus and curves",
+      "title": "Central Limit Theorem",
+      "content": "In probability theory, the distribution of sample means approaches a normal distribution as sample size grows, regardless of shape.",
+      "keywords": [
+        "statistics",
+        "mean",
+        "normal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Z = (X_bar - mu) / (sigma / sqrt(n))",
+      "example": "Averages of 100 die rolls follow a bell curve"
+    },
+    {
+      "id": "math-c-008",
+      "topic": "calculus and curves",
+      "title": "Central Tendency",
+      "content": "A single value that attempts to describe a set of data by identifying the central position within that data.",
+      "keywords": [
+        "statistics",
+        "tendency",
+        "mean"
+      ],
+      "difficulty": "beginner",
+      "formula": "Mean, Median, and Mode",
+      "example": "Reporting the median salary of a company"
+    },
+    {
+      "id": "math-c-009",
+      "topic": "calculus and curves",
+      "title": "Centroid of Triangle",
+      "content": "The point where the three medians of a triangle intersect, representing the geometric center.",
+      "keywords": [
+        "centroid",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "x_c = (x_1 + x_2 + x_3) / 3",
+      "example": "Centroid of triangle with vertices (0,0), (6,0), and (0,6) is (2,2)"
+    },
+    {
+      "id": "math-c-010",
+      "topic": "calculus and curves",
+      "title": "Chain Rule",
+      "content": "A formula for computing the derivative of the composition of two or more functions.",
+      "keywords": [
+        "derivative",
+        "chain",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "d/dx [f(g(x))] = f'(g(x)) * g'(x)",
+      "example": "Derivative of sin(x^2) is cos(x^2) * 2x"
+    },
+    {
+      "id": "math-c-011",
+      "topic": "calculus and curves",
+      "title": "Characteristic Polynomial",
+      "content": "A polynomial associated with a square matrix, whose roots are the eigenvalues of that matrix.",
+      "keywords": [
+        "matrix",
+        "eigenvalues",
+        "polynomial"
+      ],
+      "difficulty": "intermediate",
+      "formula": "p(lambda) = det(A - lambda * I)",
+      "example": "Finding eigenvalues of a 2x2 matrix"
+    },
+    {
+      "id": "math-c-012",
+      "topic": "calculus and curves",
+      "title": "Chebyshev's Inequality",
+      "content": "A theorem guaranteeing that in any probability distribution, nearly all values are close to the mean.",
+      "keywords": [
+        "probability",
+        "chebyshev",
+        "deviation"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(|X - mu| >= k*sigma) <= 1 / k^2",
+      "example": "At least 75% of data lies within 2 standard deviations"
+    },
+    {
+      "id": "math-c-013",
+      "topic": "calculus and curves",
+      "title": "Chi-Square Distribution",
+      "content": "A continuous probability distribution of the sum of squares of independent standard normal random variables.",
+      "keywords": [
+        "chi-square",
+        "probability",
+        "distribution"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(x) proportional to x^(k/2 - 1) * e^(-x/2)",
+      "example": "Used extensively in hypothesis testing and contingency tables"
+    },
+    {
+      "id": "math-c-014",
+      "topic": "calculus and curves",
+      "title": "Chi-Square Test",
+      "content": "A statistical test used to determine if there is a significant difference between observed and expected frequencies.",
+      "keywords": [
+        "chi-square",
+        "test",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "chi^2 = sum((O_i - E_i)^2 / E_i)",
+      "example": "Testing if a coin is fair by counting heads and tails"
+    },
+    {
+      "id": "math-c-015",
+      "topic": "calculus and curves",
+      "title": "Chord of Circle",
+      "content": "A straight line segment whose endpoints both lie on a circle.",
+      "keywords": [
+        "chord",
+        "circle",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Length = 2 * r * sin(theta / 2)",
+      "example": "A diameter is the longest possible chord of a circle"
+    },
+    {
+      "id": "math-c-016",
+      "topic": "calculus and curves",
+      "title": "Circle Equation",
+      "content": "The algebraic equation representing all points at a fixed distance from a center point.",
+      "keywords": [
+        "circle",
+        "equation",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "(x - h)^2 + (y - k)^2 = r^2",
+      "example": "Circle centered at (1, 2) with radius 5"
+    },
+    {
+      "id": "math-c-017",
+      "topic": "calculus and curves",
+      "title": "Circular Permutation",
+      "content": "The number of unique ways to arrange n distinct objects in a circle.",
+      "keywords": [
+        "circular",
+        "permutation",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "P_circular = (n - 1)!",
+      "example": "Arranging 5 people around a round dining table in 24 ways"
+    },
+    {
+      "id": "math-c-018",
+      "topic": "calculus and curves",
+      "title": "Circumference",
+      "content": "The linear distance around the outside edge of a circle.",
+      "keywords": [
+        "circle",
+        "perimeter",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "C = 2 * pi * r",
+      "example": "Circumference of a wheel with diameter 10 is 10*pi"
+    },
+    {
+      "id": "math-c-019",
+      "topic": "calculus and curves",
+      "title": "Circumscribed Circle",
+      "content": "A circle that passes through all the vertices of a polygon.",
+      "keywords": [
+        "circle",
+        "polygon",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Radius R = a*b*c / (4*Area) for triangle",
+      "example": "Drawing a circle exactly enclosing a triangle"
+    },
+    {
+      "id": "math-c-020",
+      "topic": "calculus and curves",
+      "title": "Closed Set",
+      "content": "A set whose complement is an open set, meaning it contains all its limit points.",
+      "keywords": [
+        "set",
+        "closed",
+        "topology"
+      ],
+      "difficulty": "intermediate",
+      "formula": "S contains all x such that x is limit point of S",
+      "example": "The closed interval [0, 1] contains 0 and 1"
+    },
+    {
+      "id": "math-c-021",
+      "topic": "calculus and curves",
+      "title": "Coefficient of Determination",
+      "content": "R-squared, the proportion of variance in the dependent variable that is predictable from the independent variable.",
+      "keywords": [
+        "regression",
+        "statistics",
+        "correlation"
+      ],
+      "difficulty": "intermediate",
+      "formula": "R^2 = 1 - (SS_res / SS_tot)",
+      "example": "R-squared of 0.85 indicates good model fit"
+    },
+    {
+      "id": "math-c-022",
+      "topic": "calculus and curves",
+      "title": "Coefficient of Variation",
+      "content": "A standardized measure of dispersion of a probability distribution, defined as standard deviation over mean.",
+      "keywords": [
+        "variation",
+        "dispersion",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "CV = sigma / mu",
+      "example": "Comparing variability between salary data in USD and EUR"
+    },
+    {
+      "id": "math-c-023",
+      "topic": "calculus and curves",
+      "title": "Cofactor Matrix",
+      "content": "A matrix formed by replacing each element of a square matrix with its cofactor.",
+      "keywords": [
+        "cofactor",
+        "matrix",
+        "determinant"
+      ],
+      "difficulty": "intermediate",
+      "formula": "C_ij = (-1)^(i+j) * M_ij",
+      "example": "Used in calculating the inverse of a matrix"
+    },
+    {
+      "id": "math-c-024",
+      "topic": "calculus and curves",
+      "title": "Combinations",
+      "content": "The selection of items from a larger group where the order of selection does not matter.",
+      "keywords": [
+        "combinations",
+        "probability",
+        "selection"
+      ],
+      "difficulty": "beginner",
+      "formula": "nCr = n! / (k! * (n - k)!)",
+      "example": "Choosing a committee of 3 students from a class of 10"
+    },
+    {
+      "id": "math-c-025",
+      "topic": "calculus and curves",
+      "title": "Commutative Group",
+      "content": "Also known as an Abelian group, where the operation commutes.",
+      "keywords": [
+        "group",
+        "commutative",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a * b = b * a",
+      "example": "Real numbers under addition"
+    },
+    {
+      "id": "math-c-026",
+      "topic": "calculus and curves",
+      "title": "Commutative Property",
+      "content": "The order of numbers in addition or multiplication does not change the result.",
+      "keywords": [
+        "commutative",
+        "property",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "a * b = b * a",
+      "example": "5 * 4 = 4 * 5"
+    },
+    {
+      "id": "math-c-027",
+      "topic": "calculus and curves",
+      "title": "Compact Space",
+      "content": "A topological space where every open cover has a finite subcover.",
+      "keywords": [
+        "compact",
+        "topology",
+        "space"
+      ],
+      "difficulty": "advanced",
+      "formula": "Every open cover U_i has finite subcover U_1...U_n",
+      "example": "Closed and bounded subsets of R^n are compact"
+    },
+    {
+      "id": "math-c-028",
+      "topic": "calculus and curves",
+      "title": "Complement of Event",
+      "content": "The event that the original event does not occur in a probability experiment.",
+      "keywords": [
+        "complement",
+        "probability",
+        "event"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(A') = 1 - P(A)",
+      "example": "If chance of rain is 30%, chance of no rain is 70%"
+    },
+    {
+      "id": "math-c-029",
+      "topic": "calculus and curves",
+      "title": "Complement of Set",
+      "content": "The set of elements in the universal set that are not in the given set.",
+      "keywords": [
+        "complement",
+        "set",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "A' = {x in U : x not in A}",
+      "example": "Universal set integers, A is evens, A' is odds"
+    },
+    {
+      "id": "math-c-030",
+      "topic": "calculus and curves",
+      "title": "Complementary Angles",
+      "content": "Two angles whose sum is exactly 90 degrees (or pi/2 radians).",
+      "keywords": [
+        "angles",
+        "complementary",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "angle_1 + angle_2 = 90 degrees",
+      "example": "Angles of 35 and 55 degrees are complementary"
+    },
+    {
+      "id": "math-c-031",
+      "topic": "calculus and curves",
+      "title": "Complex Conjugate",
+      "content": "A pair of complex numbers with equal real parts and imaginary parts of equal magnitude but opposite signs.",
+      "keywords": [
+        "complex",
+        "conjugate",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "z* = x - i*y for z = x + i*y",
+      "example": "Conjugate of 3 + 4i is 3 - 4i"
+    },
+    {
+      "id": "math-c-032",
+      "topic": "calculus and curves",
+      "title": "Complex Number",
+      "content": "A number that can be expressed in the form x + iy, where x and y are real numbers, and i is the imaginary unit.",
+      "keywords": [
+        "complex",
+        "imaginary",
+        "numbers"
+      ],
+      "difficulty": "beginner",
+      "formula": "z = x + i * y",
+      "example": "5 - 2i"
+    },
+    {
+      "id": "math-c-033",
+      "topic": "calculus and curves",
+      "title": "Complex Plane",
+      "content": "A geometric representation of complex numbers as points in a two-dimensional Cartesian plane.",
+      "keywords": [
+        "complex",
+        "plane",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "x-axis = Real, y-axis = Imaginary",
+      "example": "Plotting 3 + 2i at coordinates (3, 2)"
+    },
+    {
+      "id": "math-c-034",
+      "topic": "calculus and curves",
+      "title": "Composite Function",
+      "content": "An operation where the output of one function becomes the input of another function.",
+      "keywords": [
+        "composition",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "(f o g)(x) = f(g(x))",
+      "example": "If f(x)=x^2 and g(x)=x+1, then f(g(x))=(x+1)^2"
+    },
+    {
+      "id": "math-c-035",
+      "topic": "calculus and curves",
+      "title": "Composite Number",
+      "content": "A positive integer greater than 1 that has a positive divisor other than 1 and itself.",
+      "keywords": [
+        "composite",
+        "number",
+        "integers"
+      ],
+      "difficulty": "beginner",
+      "formula": "n = a * b where a, b > 1",
+      "example": "6 is composite because 6 = 2 * 3"
+    },
+    {
+      "id": "math-c-036",
+      "topic": "calculus and curves",
+      "title": "Compound Interest",
+      "content": "Interest calculated on the initial principal and also on the accumulated interest of previous periods.",
+      "keywords": [
+        "interest",
+        "finance",
+        "compound"
+      ],
+      "difficulty": "beginner",
+      "formula": "A = P * (1 + r/n)^(n*t)",
+      "example": "Earning interest on savings account balance monthly"
+    },
+    {
+      "id": "math-c-037",
+      "topic": "calculus and curves",
+      "title": "Conditional Probability",
+      "content": "The probability of event A occurring, given that event B has already occurred.",
+      "keywords": [
+        "probability",
+        "conditional",
+        "bayes"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(A|B) = P(A and B) / P(B)",
+      "example": "Probability of drawing a spade given it is a black card"
+    },
+    {
+      "id": "math-c-038",
+      "topic": "calculus and curves",
+      "title": "Conic Sections",
+      "content": "Curves obtained by intersecting a circular cone with a flat plane: circle, ellipse, parabola, hyperbola.",
+      "keywords": [
+        "conic",
+        "geometry",
+        "curves"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0",
+      "example": "Orbit of a planet is an ellipse"
+    },
+    {
+      "id": "math-c-039",
+      "topic": "calculus and curves",
+      "title": "Conjugate Transpose",
+      "content": "The matrix obtained by taking the transpose and then the complex conjugate of each entry.",
+      "keywords": [
+        "matrix",
+        "transpose",
+        "complex"
+      ],
+      "difficulty": "advanced",
+      "formula": "A^H = (A_ji)*",
+      "example": "Conjugate transpose of a complex matrix"
+    },
+    {
+      "id": "math-c-040",
+      "topic": "calculus and curves",
+      "title": "Continuity of Function",
+      "content": "A function is continuous if a small change in the input results in a small change in the output, with no sudden jumps.",
+      "keywords": [
+        "continuity",
+        "function",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "lim x->c f(x) = f(c)",
+      "example": "f(x) = x^2 is continuous everywhere"
+    }
+  ]
+}
