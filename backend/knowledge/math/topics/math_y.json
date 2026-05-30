@@ -1,0 +1,578 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-y-001",
+      "topic": "yield and financial math",
+      "title": "Y-axis",
+      "content": "Mathematical entry and definition for Y-axis, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-axis",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-axis",
+      "example": "Example demonstrating the application of Y-axis"
+    },
+    {
+      "id": "math-y-002",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Slope",
+      "content": "Mathematical entry and definition for Y-intercept Slope, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "slope",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-intercept Slope",
+      "example": "Example demonstrating the application of Y-intercept Slope"
+    },
+    {
+      "id": "math-y-003",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Linear",
+      "content": "Mathematical entry and definition for Y-intercept Linear, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "linear",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-intercept Linear",
+      "example": "Example demonstrating the application of Y-intercept Linear"
+    },
+    {
+      "id": "math-y-004",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Quadratic",
+      "content": "Mathematical entry and definition for Y-intercept Quadratic, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "quadratic",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-intercept Quadratic",
+      "example": "Example demonstrating the application of Y-intercept Quadratic"
+    },
+    {
+      "id": "math-y-005",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Exponential",
+      "content": "Mathematical entry and definition for Y-intercept Exponential, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "exponential",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-intercept Exponential",
+      "example": "Example demonstrating the application of Y-intercept Exponential"
+    },
+    {
+      "id": "math-y-006",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Logarithmic",
+      "content": "Mathematical entry and definition for Y-intercept Logarithmic, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "logarithmic",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-intercept Logarithmic",
+      "example": "Example demonstrating the application of Y-intercept Logarithmic"
+    },
+    {
+      "id": "math-y-007",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Sine",
+      "content": "Mathematical entry and definition for Y-intercept Sine, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "sine",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-intercept Sine",
+      "example": "Example demonstrating the application of Y-intercept Sine"
+    },
+    {
+      "id": "math-y-008",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Cosine",
+      "content": "Mathematical entry and definition for Y-intercept Cosine, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "cosine",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-intercept Cosine",
+      "example": "Example demonstrating the application of Y-intercept Cosine"
+    },
+    {
+      "id": "math-y-009",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Cubic",
+      "content": "Mathematical entry and definition for Y-intercept Cubic, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "cubic",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-intercept Cubic",
+      "example": "Example demonstrating the application of Y-intercept Cubic"
+    },
+    {
+      "id": "math-y-010",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Absolute",
+      "content": "Mathematical entry and definition for Y-intercept Absolute, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "absolute",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-intercept Absolute",
+      "example": "Example demonstrating the application of Y-intercept Absolute"
+    },
+    {
+      "id": "math-y-011",
+      "topic": "yield and financial math",
+      "title": "Y-axis Equation",
+      "content": "Mathematical entry and definition for Y-axis Equation, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-axis",
+        "equation",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-axis Equation",
+      "example": "Example demonstrating the application of Y-axis Equation"
+    },
+    {
+      "id": "math-y-012",
+      "topic": "yield and financial math",
+      "title": "Y-coordinate",
+      "content": "Mathematical entry and definition for Y-coordinate, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-coordinate",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-coordinate",
+      "example": "Example demonstrating the application of Y-coordinate"
+    },
+    {
+      "id": "math-y-013",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Polynomial",
+      "content": "Mathematical entry and definition for Y-intercept Polynomial, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "polynomial",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-intercept Polynomial",
+      "example": "Example demonstrating the application of Y-intercept Polynomial"
+    },
+    {
+      "id": "math-y-014",
+      "topic": "yield and financial math",
+      "title": "Y-intercept Regression",
+      "content": "Mathematical entry and definition for Y-intercept Regression, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-intercept",
+        "regression",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-intercept Regression",
+      "example": "Example demonstrating the application of Y-intercept Regression"
+    },
+    {
+      "id": "math-y-015",
+      "topic": "yield and financial math",
+      "title": "Y-axis Reflection",
+      "content": "Mathematical entry and definition for Y-axis Reflection, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-axis",
+        "reflection",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-axis Reflection",
+      "example": "Example demonstrating the application of Y-axis Reflection"
+    },
+    {
+      "id": "math-y-016",
+      "topic": "yield and financial math",
+      "title": "Y-component Force",
+      "content": "Mathematical entry and definition for Y-component Force, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-component",
+        "force",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Y-component Force",
+      "example": "Example demonstrating the application of Y-component Force"
+    },
+    {
+      "id": "math-y-017",
+      "topic": "yield and financial math",
+      "title": "Y-component Velocity",
+      "content": "Mathematical entry and definition for Y-component Velocity, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-component",
+        "velocity",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Y-component Velocity",
+      "example": "Example demonstrating the application of Y-component Velocity"
+    },
+    {
+      "id": "math-y-018",
+      "topic": "yield and financial math",
+      "title": "Y-component Acceleration",
+      "content": "Mathematical entry and definition for Y-component Acceleration, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "y-component",
+        "acceleration",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Y-component Acceleration",
+      "example": "Example demonstrating the application of Y-component Acceleration"
+    },
+    {
+      "id": "math-y-019",
+      "topic": "yield and financial math",
+      "title": "Yield Simple",
+      "content": "Mathematical entry and definition for Yield Simple, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "simple",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Simple",
+      "example": "Example demonstrating the application of Yield Simple"
+    },
+    {
+      "id": "math-y-020",
+      "topic": "yield and financial math",
+      "title": "Yield Compound",
+      "content": "Mathematical entry and definition for Yield Compound, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "compound",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Compound",
+      "example": "Example demonstrating the application of Yield Compound"
+    },
+    {
+      "id": "math-y-021",
+      "topic": "yield and financial math",
+      "title": "Yield Annuity Present",
+      "content": "Mathematical entry and definition for Yield Annuity Present, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "annuity",
+        "present",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Annuity Present",
+      "example": "Example demonstrating the application of Yield Annuity Present"
+    },
+    {
+      "id": "math-y-022",
+      "topic": "yield and financial math",
+      "title": "Yield Annuity Future",
+      "content": "Mathematical entry and definition for Yield Annuity Future, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "annuity",
+        "future",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Annuity Future",
+      "example": "Example demonstrating the application of Yield Annuity Future"
+    },
+    {
+      "id": "math-y-023",
+      "topic": "yield and financial math",
+      "title": "Yield Bond Valuation",
+      "content": "Mathematical entry and definition for Yield Bond Valuation, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "bond",
+        "valuation",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Bond Valuation",
+      "example": "Example demonstrating the application of Yield Bond Valuation"
+    },
+    {
+      "id": "math-y-024",
+      "topic": "yield and financial math",
+      "title": "Yield Internal Rate",
+      "content": "Mathematical entry and definition for Yield Internal Rate, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "internal",
+        "rate",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Internal Rate",
+      "example": "Example demonstrating the application of Yield Internal Rate"
+    },
+    {
+      "id": "math-y-025",
+      "topic": "yield and financial math",
+      "title": "Yield Net Present",
+      "content": "Mathematical entry and definition for Yield Net Present, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "net",
+        "present",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Net Present",
+      "example": "Example demonstrating the application of Yield Net Present"
+    },
+    {
+      "id": "math-y-026",
+      "topic": "yield and financial math",
+      "title": "Yield Continuous",
+      "content": "Mathematical entry and definition for Yield Continuous, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "continuous",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Continuous",
+      "example": "Example demonstrating the application of Yield Continuous"
+    },
+    {
+      "id": "math-y-027",
+      "topic": "yield and financial math",
+      "title": "Yield Amortization",
+      "content": "Mathematical entry and definition for Yield Amortization, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "amortization",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Amortization",
+      "example": "Example demonstrating the application of Yield Amortization"
+    },
+    {
+      "id": "math-y-028",
+      "topic": "yield and financial math",
+      "title": "Yield Perpetuity",
+      "content": "Mathematical entry and definition for Yield Perpetuity, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "perpetuity",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Perpetuity",
+      "example": "Example demonstrating the application of Yield Perpetuity"
+    },
+    {
+      "id": "math-y-029",
+      "topic": "yield and financial math",
+      "title": "Yield Effective Annual",
+      "content": "Mathematical entry and definition for Yield Effective Annual, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "effective",
+        "annual",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Effective Annual",
+      "example": "Example demonstrating the application of Yield Effective Annual"
+    },
+    {
+      "id": "math-y-030",
+      "topic": "yield and financial math",
+      "title": "Yield Nominal Interest",
+      "content": "Mathematical entry and definition for Yield Nominal Interest, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "nominal",
+        "interest",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Nominal Interest",
+      "example": "Example demonstrating the application of Yield Nominal Interest"
+    },
+    {
+      "id": "math-y-031",
+      "topic": "yield and financial math",
+      "title": "Yield Capitalization",
+      "content": "Mathematical entry and definition for Yield Capitalization, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "capitalization",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Capitalization",
+      "example": "Example demonstrating the application of Yield Capitalization"
+    },
+    {
+      "id": "math-y-032",
+      "topic": "yield and financial math",
+      "title": "Yield Present Value",
+      "content": "Mathematical entry and definition for Yield Present Value, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "present",
+        "value",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Present Value",
+      "example": "Example demonstrating the application of Yield Present Value"
+    },
+    {
+      "id": "math-y-033",
+      "topic": "yield and financial math",
+      "title": "Yield Future Value",
+      "content": "Mathematical entry and definition for Yield Future Value, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "future",
+        "value",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Future Value",
+      "example": "Example demonstrating the application of Yield Future Value"
+    },
+    {
+      "id": "math-y-034",
+      "topic": "yield and financial math",
+      "title": "Yield Rule of 72",
+      "content": "Mathematical entry and definition for Yield Rule of 72, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "rule",
+        "of",
+        "72",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Rule of 72",
+      "example": "Example demonstrating the application of Yield Rule of 72"
+    },
+    {
+      "id": "math-y-035",
+      "topic": "yield and financial math",
+      "title": "Yield Mortgages",
+      "content": "Mathematical entry and definition for Yield Mortgages, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "mortgages",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Mortgages",
+      "example": "Example demonstrating the application of Yield Mortgages"
+    },
+    {
+      "id": "math-y-036",
+      "topic": "yield and financial math",
+      "title": "Yield Inflation",
+      "content": "Mathematical entry and definition for Yield Inflation, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "inflation",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Inflation",
+      "example": "Example demonstrating the application of Yield Inflation"
+    },
+    {
+      "id": "math-y-037",
+      "topic": "yield and financial math",
+      "title": "Yield Real Interest",
+      "content": "Mathematical entry and definition for Yield Real Interest, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "real",
+        "interest",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Real Interest",
+      "example": "Example demonstrating the application of Yield Real Interest"
+    },
+    {
+      "id": "math-y-038",
+      "topic": "yield and financial math",
+      "title": "Yield Compound Growth",
+      "content": "Mathematical entry and definition for Yield Compound Growth, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "compound",
+        "growth",
+        "yield"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Yield Compound Growth",
+      "example": "Example demonstrating the application of Yield Compound Growth"
+    },
+    {
+      "id": "math-y-039",
+      "topic": "yield and financial math",
+      "title": "Yield Depreciation Straight",
+      "content": "Mathematical entry and definition for Yield Depreciation Straight, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "depreciation",
+        "straight",
+        "yield"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Yield Depreciation Straight",
+      "example": "Example demonstrating the application of Yield Depreciation Straight"
+    },
+    {
+      "id": "math-y-040",
+      "topic": "yield and financial math",
+      "title": "Yield Depreciation Declining",
+      "content": "Mathematical entry and definition for Yield Depreciation Declining, a core concept in the domain of yield and financial math.",
+      "keywords": [
+        "yield",
+        "depreciation",
+        "declining",
+        "yield"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Yield Depreciation Declining",
+      "example": "Example demonstrating the application of Yield Depreciation Declining"
+    }
+  ]
+}
