@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-j-001",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobian Determinant",
+      "content": "The determinant of the Jacobian matrix, used in coordinate transformations for multiple integrals.",
+      "keywords": [
+        "jacobian",
+        "determinant",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "det(J)",
+      "example": "Scaling factor dx dy = r dr dtheta in polar coordinates"
+    },
+    {
+      "id": "math-j-002",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobian Matrix",
+      "content": "A matrix of all first-order partial derivatives of a vector-valued function.",
+      "keywords": [
+        "jacobian",
+        "matrix",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "J_ij = d*f_i / d*x_j",
+      "example": "Linearizing non-linear system around equilibrium point"
+    },
+    {
+      "id": "math-j-003",
+      "topic": "jacobians and joint probability",
+      "title": "Jensen's Inequality",
+      "content": "An inequality stating that the secant line of a convex function lies above the graph of the function.",
+      "keywords": [
+        "jensen",
+        "inequality",
+        "convex"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(E[X]) <= E[f(X)] for convex f",
+      "example": "Proving arithmetic-geometric mean inequality"
+    },
+    {
+      "id": "math-j-004",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Probability",
+      "content": "The probability of two or more events occurring simultaneously.",
+      "keywords": [
+        "joint",
+        "probability",
+        "events"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(A and B)",
+      "example": "Probability of drawing a card that is both a Red card and an Ace"
+    },
+    {
+      "id": "math-j-005",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Probability Density",
+      "content": "A function representing the probability distribution of two or more continuous random variables.",
+      "keywords": [
+        "joint",
+        "density",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(x, y) where double integral is 1",
+      "example": "Calculating probability that temperature is >20 and humidity is >60%"
+    },
+    {
+      "id": "math-j-006",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Variation",
+      "content": "A variation where a variable varies directly as the product of two or more other variables.",
+      "keywords": [
+        "variation",
+        "joint",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "z = k * x * y",
+      "example": "Volume of a cylinder varies jointly with height and radius squared"
+    },
+    {
+      "id": "math-j-007",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Canonical Form",
+      "content": "An upper triangular matrix representing a linear operator, simplifying eigenvalue visualization when not diagonalizable.",
+      "keywords": [
+        "jordan",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "J = diag(J_1, ..., J_k)",
+      "example": "Representing linear systems in control theory"
+    },
+    {
+      "id": "math-j-008",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Curve Theorem",
+      "content": "A theorem stating that a simple closed curve divides the plane into an interior and exterior region.",
+      "keywords": [
+        "jordan",
+        "curve",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "Curve partition of R^2",
+      "example": "Any continuous loop drawn on paper separates inside from outside"
+    },
+    {
+      "id": "math-j-009",
+      "topic": "jacobians and joint probability",
+      "title": "Julia Set",
+      "content": "A fractal set defined by the behavior of chaotic dynamical systems under iteration of complex functions.",
+      "keywords": [
+        "julia",
+        "fractal",
+        "chaotic"
+      ],
+      "difficulty": "advanced",
+      "formula": "J(f) boundary of escaping points",
+      "example": "Iterating z_(n+1) = z_n^2 + c"
+    },
+    {
+      "id": "math-j-010",
+      "topic": "jacobians and joint probability",
+      "title": "Jump Discontinuity",
+      "content": "A point where a function has distinct, finite left-hand and right-hand limits.",
+      "keywords": [
+        "jump",
+        "discontinuity",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "lim x->c- f(x) != lim x->c+ f(x)",
+      "example": "The step function y = floor(x) at integer points"
+    },
+    {
+      "id": "math-j-011",
+      "topic": "jacobians and joint probability",
+      "title": "Justification in Proofs",
+      "content": "Providing established theorems, axioms, or definitions to validate each step in a mathematical proof.",
+      "keywords": [
+        "proof",
+        "logic",
+        "justification"
+      ],
+      "difficulty": "beginner",
+      "formula": "Step statement + reason",
+      "example": "Applying distributive law to simplify expression in proof"
+    },
+    {
+      "id": "math-j-012",
+      "topic": "jacobians and joint probability",
+      "title": "Juxtaposition in Algebra",
+      "content": "Indicating multiplication by placing variables or numbers next to each other without an operator.",
+      "keywords": [
+        "multiplication",
+        "notation",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "ab = a * b",
+      "example": "Writing 2x to mean 2 times x"
+    },
+    {
+      "id": "math-j-013",
+      "topic": "jacobians and joint probability",
+      "title": "J-invariant",
+      "content": "A modular function of a complex variable that classifies elliptic curves up to isomorphism.",
+      "keywords": [
+        "j-invariant",
+        "elliptic",
+        "modular"
+      ],
+      "difficulty": "advanced",
+      "formula": "j(tau)",
+      "example": "Classifying elliptic curves in number theory"
+    },
+    {
+      "id": "math-j-014",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobi Identity",
+      "content": "A property of binary operations that determines the relation in Lie algebras.",
+      "keywords": [
+        "jacobi",
+        "identity",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "[x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0",
+      "example": "Cross product of vectors satisfies the Jacobi identity"
+    },
+    {
+      "id": "math-j-015",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobi Method",
+      "content": "An iterative algorithm for determining the solutions of a strictly diagonally dominant system of linear equations.",
+      "keywords": [
+        "jacobi",
+        "numerical",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "x_i^(k+1) = (b_i - sum(a_ij * x_j^k))/a_ii",
+      "example": "Approximating large sparse linear systems"
+    },
+    {
+      "id": "math-j-016",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobi Symbol",
+      "content": "A generalization of the Legendre symbol to odd composite bottom numbers.",
+      "keywords": [
+        "jacobi",
+        "symbol",
+        "primes"
+      ],
+      "difficulty": "advanced",
+      "formula": "(a / n)",
+      "example": "Used in primality testing algorithms like Solovay-Strassen"
+    },
+    {
+      "id": "math-j-017",
+      "topic": "jacobians and joint probability",
+      "title": "Jeffreys Prior",
+      "content": "A non-informative prior distribution in Bayesian statistics, invariant under reparameterization.",
+      "keywords": [
+        "jeffreys",
+        "prior",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "p(theta) proportional to sqrt(I(theta))",
+      "example": "Using Jeffreys prior for coin flip probability estimation"
+    },
+    {
+      "id": "math-j-018",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Cumulative Distribution",
+      "content": "A function expressing the probability that multiple random variables fall below specified values.",
+      "keywords": [
+        "joint",
+        "cdf",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F(x, y) = P(X <= x, Y <= y)",
+      "example": "Evaluating likelihood that height <= 170cm and weight <= 70kg"
+    },
+    {
+      "id": "math-j-019",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Entropy",
+      "content": "A measure of the uncertainty associated with a set of variables.",
+      "keywords": [
+        "entropy",
+        "joint",
+        "information"
+      ],
+      "difficulty": "advanced",
+      "formula": "H(X, Y) = -sum(p(x,y)*log2(p(x,y)))",
+      "example": "Entropy of two combined data channels"
+    },
+    {
+      "id": "math-j-020",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Expectation",
+      "content": "The expected value of a function of two or more random variables.",
+      "keywords": [
+        "expectation",
+        "joint",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "E[g(X, Y)] = sum(g(x,y)*p(x,y))",
+      "example": "Calculating covariance between variables"
+    },
+    {
+      "id": "math-j-021",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Algebra",
+      "content": "A non-associative algebra over a field whose multiplication satisfies Jordan identity.",
+      "keywords": [
+        "jordan",
+        "algebra",
+        "structure"
+      ],
+      "difficulty": "advanced",
+      "formula": "x*y = y*x and (x^2*y)*x = x^2*(y*x)",
+      "example": "Formulating quantum mechanics observables"
+    },
+    {
+      "id": "math-j-022",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Matrix",
+      "content": "A matrix block-composed of Jordan blocks.",
+      "keywords": [
+        "jordan",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "J = diag(J_b1, J_b2)",
+      "example": "Solving linear differential equations systems"
+    },
+    {
+      "id": "math-j-023",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Block",
+      "content": "A square matrix whose diagonal entries are equal, and whose superdiagonal entries are 1.",
+      "keywords": [
+        "jordan",
+        "block",
+        "matrix"
+      ],
+      "difficulty": "advanced",
+      "formula": "J_i = lambda * I + N",
+      "example": "Basic building block of Jordan canonical form"
+    },
+    {
+      "id": "math-j-024",
+      "topic": "jacobians and joint probability",
+      "title": "Julia Set Fractal",
+      "content": "The visualization of the boundary points of the Julia set in the complex plane.",
+      "keywords": [
+        "julia",
+        "fractal",
+        "complex"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Fractal boundaries of z^2 + c",
+      "example": "Rendering beautiful fractal images of complex functions"
+    },
+    {
+      "id": "math-j-025",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Distribution Function",
+      "content": "Function describing probability behavior of multiple random variables combined.",
+      "keywords": [
+        "joint",
+        "distribution",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F_XY(x,y) = P(X<=x, Y<=y)",
+      "example": "Modeling height and weight correlation in health data"
+    },
+    {
+      "id": "math-j-026",
+      "topic": "jacobians and joint probability",
+      "title": "Jaccard Index",
+      "content": "A statistic used for gauging the similarity and diversity of sample sets.",
+      "keywords": [
+        "jaccard",
+        "similarity",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "J(A, B) = |A intersect B| / |A union B|",
+      "example": "Comparing words overlap between two documents"
+    },
+    {
+      "id": "math-j-027",
+      "topic": "jacobians and joint probability",
+      "title": "Jarque-Bera Test",
+      "content": "A goodness-of-fit test of whether sample data have the skewness and kurtosis matching a normal distribution.",
+      "keywords": [
+        "statistics",
+        "normality",
+        "test"
+      ],
+      "difficulty": "intermediate",
+      "formula": "JB = (n/6) * (S^2 + (K-3)^2 / 4)",
+      "example": "Testing if financial returns follow a normal distribution"
+    },
+    {
+      "id": "math-j-028",
+      "topic": "jacobians and joint probability",
+      "title": "Jonckheere's Trend Test",
+      "content": "A statistical test for comparing ordered alternative hypotheses among independent samples.",
+      "keywords": [
+        "trend",
+        "test",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "J-test statistic",
+      "example": "Testing if dosage increase monotonically increases response"
+    },
+    {
+      "id": "math-j-029",
+      "topic": "jacobians and joint probability",
+      "title": "Johnson's Su Distribution",
+      "content": "A four-parameter family of search probability distributions covering a wide range of skewness and kurtosis.",
+      "keywords": [
+        "johnson",
+        "distribution",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "Su distribution equation",
+      "example": "Modeling asset price distribution in risk management"
+    },
+    {
+      "id": "math-j-030",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Moment Generating Function",
+      "content": "A function used to generate joint moments of multiple random variables.",
+      "keywords": [
+        "moment",
+        "joint",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "M(t_1, t_2) = E[e^(t_1*X + t_2*Y)]",
+      "example": "Finding covariance of variables using derivatives"
+    },
+    {
+      "id": "math-j-031",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobi Polynomials",
+      "content": "A class of classical orthogonal polynomials defined on the interval [-1, 1].",
+      "keywords": [
+        "jacobi",
+        "polynomials",
+        "orthogonal"
+      ],
+      "difficulty": "advanced",
+      "formula": "P_n^(alpha, beta)(x)",
+      "example": "Solving differential equations in physics"
+    },
+    {
+      "id": "math-j-032",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Decomposition",
+      "content": "Decomposing a matrix or operator into diagonalizable and nilpotent parts.",
+      "keywords": [
+        "jordan",
+        "decomposition",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "A = D + N where DN = ND",
+      "example": "Analyzing matrix exponentials"
+    },
+    {
+      "id": "math-j-033",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Canonical Form Matrix",
+      "content": "The exact matrix configuration representing a Jordan form.",
+      "keywords": [
+        "jordan",
+        "canonical",
+        "matrix"
+      ],
+      "difficulty": "advanced",
+      "formula": "J = P^-1 * A * P",
+      "example": "Linear system decoupling"
+    },
+    {
+      "id": "math-j-034",
+      "topic": "jacobians and joint probability",
+      "title": "Julia Fractal",
+      "content": "Fractal patterns representing Julia sets.",
+      "keywords": [
+        "fractal",
+        "julia",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "z_next = z^2 + c contour plot",
+      "example": "Generating patterns on complex plane"
+    },
+    {
+      "id": "math-j-035",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Probability Mass Function",
+      "content": "A function giving the probability that discrete variables X and Y equal x and y.",
+      "keywords": [
+        "joint",
+        "pmf",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "p(x, y) = P(X = x, Y = y)",
+      "example": "Probability table for roll of two dice"
+    },
+    {
+      "id": "math-j-036",
+      "topic": "jacobians and joint probability",
+      "title": "Jordan Normal Form",
+      "content": "Another term for Jordan canonical form.",
+      "keywords": [
+        "jordan",
+        "normal",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "A = P * J * P^-1",
+      "example": "Analyzing matrix powers and limits"
+    },
+    {
+      "id": "math-j-037",
+      "topic": "jacobians and joint probability",
+      "title": "Jaccard Similarity",
+      "content": "The Jaccard index value representing similarity percentage.",
+      "keywords": [
+        "jaccard",
+        "similarity",
+        "metrics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "J = intersection / union",
+      "example": "Evaluating recommendation system accuracy"
+    },
+    {
+      "id": "math-j-038",
+      "topic": "jacobians and joint probability",
+      "title": "Jacobi Elliptic Functions",
+      "content": "Standard elliptic functions of interest in math analysis, originating from elliptic integrals.",
+      "keywords": [
+        "jacobi",
+        "elliptic",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "sn(u, k), cn(u, k), dn(u, k)",
+      "example": "Modeling the motion of an arbitrary pendulum"
+    },
+    {
+      "id": "math-j-039",
+      "topic": "jacobians and joint probability",
+      "title": "J-homomorphism",
+      "content": "A mapping from the homotopy groups of orthogonal groups to homotopy groups of spheres.",
+      "keywords": [
+        "homomorphism",
+        "topology",
+        "sphere"
+      ],
+      "difficulty": "advanced",
+      "formula": "J: pi_r(O(n)) -> pi_(r+n)(S^n)",
+      "example": "Calculations in algebraic topology"
+    },
+    {
+      "id": "math-j-040",
+      "topic": "jacobians and joint probability",
+      "title": "Joint Probability Density Function",
+      "content": "The PDF of two combined continuous random variables.",
+      "keywords": [
+        "joint",
+        "pdf",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(x, y)",
+      "example": "Probability density of wind speed and direction"
+    }
+  ]
+}
