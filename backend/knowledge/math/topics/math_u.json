@@ -1,0 +1,579 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-u-001",
+      "topic": "universal algebra and unit circle",
+      "title": "Uniform Distribution Continuous",
+      "content": "Mathematical entry and definition for Uniform Distribution Continuous, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "uniform",
+        "distribution",
+        "continuous",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Uniform Distribution Continuous",
+      "example": "Example demonstrating the application of Uniform Distribution Continuous"
+    },
+    {
+      "id": "math-u-002",
+      "topic": "universal algebra and unit circle",
+      "title": "Uniform Distribution Discrete",
+      "content": "Mathematical entry and definition for Uniform Distribution Discrete, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "uniform",
+        "distribution",
+        "discrete",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Uniform Distribution Discrete",
+      "example": "Example demonstrating the application of Uniform Distribution Discrete"
+    },
+    {
+      "id": "math-u-003",
+      "topic": "universal algebra and unit circle",
+      "title": "Union of Sets",
+      "content": "Mathematical entry and definition for Union of Sets, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "union",
+        "of",
+        "sets",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Union of Sets",
+      "example": "Example demonstrating the application of Union of Sets"
+    },
+    {
+      "id": "math-u-004",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Radians",
+      "content": "Mathematical entry and definition for Unit Circle Radians, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "radians",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Circle Radians",
+      "example": "Example demonstrating the application of Unit Circle Radians"
+    },
+    {
+      "id": "math-u-005",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Coordinates",
+      "content": "Mathematical entry and definition for Unit Circle Coordinates, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "coordinates",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unit Circle Coordinates",
+      "example": "Example demonstrating the application of Unit Circle Coordinates"
+    },
+    {
+      "id": "math-u-006",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Normal Vector",
+      "content": "Mathematical entry and definition for Unit Normal Vector, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "normal",
+        "vector",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unit Normal Vector",
+      "example": "Example demonstrating the application of Unit Normal Vector"
+    },
+    {
+      "id": "math-u-007",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Vector",
+      "content": "Mathematical entry and definition for Unit Vector, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "vector",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Vector",
+      "example": "Example demonstrating the application of Unit Vector"
+    },
+    {
+      "id": "math-u-008",
+      "topic": "universal algebra and unit circle",
+      "title": "Universal Quantifier",
+      "content": "Mathematical entry and definition for Universal Quantifier, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "universal",
+        "quantifier",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Universal Quantifier",
+      "example": "Example demonstrating the application of Universal Quantifier"
+    },
+    {
+      "id": "math-u-009",
+      "topic": "universal algebra and unit circle",
+      "title": "Universal Set",
+      "content": "Mathematical entry and definition for Universal Set, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "universal",
+        "set",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Universal Set",
+      "example": "Example demonstrating the application of Universal Set"
+    },
+    {
+      "id": "math-u-010",
+      "topic": "universal algebra and unit circle",
+      "title": "Upper Triangular Matrix",
+      "content": "Mathematical entry and definition for Upper Triangular Matrix, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "upper",
+        "triangular",
+        "matrix",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Upper Triangular Matrix",
+      "example": "Example demonstrating the application of Upper Triangular Matrix"
+    },
+    {
+      "id": "math-u-011",
+      "topic": "universal algebra and unit circle",
+      "title": "U-Substitution",
+      "content": "Mathematical entry and definition for U-Substitution, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "u-substitution",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to U-Substitution",
+      "example": "Example demonstrating the application of U-Substitution"
+    },
+    {
+      "id": "math-u-012",
+      "topic": "universal algebra and unit circle",
+      "title": "Utility Function",
+      "content": "Mathematical entry and definition for Utility Function, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "utility",
+        "function",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Utility Function",
+      "example": "Example demonstrating the application of Utility Function"
+    },
+    {
+      "id": "math-u-013",
+      "topic": "universal algebra and unit circle",
+      "title": "Unbiased Estimator",
+      "content": "Mathematical entry and definition for Unbiased Estimator, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unbiased",
+        "estimator",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unbiased Estimator",
+      "example": "Example demonstrating the application of Unbiased Estimator"
+    },
+    {
+      "id": "math-u-014",
+      "topic": "universal algebra and unit circle",
+      "title": "Unbounded Function",
+      "content": "Mathematical entry and definition for Unbounded Function, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unbounded",
+        "function",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unbounded Function",
+      "example": "Example demonstrating the application of Unbounded Function"
+    },
+    {
+      "id": "math-u-015",
+      "topic": "universal algebra and unit circle",
+      "title": "Unbounded Sequence",
+      "content": "Mathematical entry and definition for Unbounded Sequence, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unbounded",
+        "sequence",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unbounded Sequence",
+      "example": "Example demonstrating the application of Unbounded Sequence"
+    },
+    {
+      "id": "math-u-016",
+      "topic": "universal algebra and unit circle",
+      "title": "Uniform Convergence",
+      "content": "Mathematical entry and definition for Uniform Convergence, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "uniform",
+        "convergence",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Uniform Convergence",
+      "example": "Example demonstrating the application of Uniform Convergence"
+    },
+    {
+      "id": "math-u-017",
+      "topic": "universal algebra and unit circle",
+      "title": "Unimodal Distribution",
+      "content": "Mathematical entry and definition for Unimodal Distribution, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unimodal",
+        "distribution",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unimodal Distribution",
+      "example": "Example demonstrating the application of Unimodal Distribution"
+    },
+    {
+      "id": "math-u-018",
+      "topic": "universal algebra and unit circle",
+      "title": "Unique Factorization",
+      "content": "Mathematical entry and definition for Unique Factorization, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unique",
+        "factorization",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unique Factorization",
+      "example": "Example demonstrating the application of Unique Factorization"
+    },
+    {
+      "id": "math-u-019",
+      "topic": "universal algebra and unit circle",
+      "title": "Unique Solution",
+      "content": "Mathematical entry and definition for Unique Solution, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unique",
+        "solution",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unique Solution",
+      "example": "Example demonstrating the application of Unique Solution"
+    },
+    {
+      "id": "math-u-020",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Matrix",
+      "content": "Mathematical entry and definition for Unit Matrix, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "matrix",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unit Matrix",
+      "example": "Example demonstrating the application of Unit Matrix"
+    },
+    {
+      "id": "math-u-021",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Sphere",
+      "content": "Mathematical entry and definition for Unit Sphere, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "sphere",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unit Sphere",
+      "example": "Example demonstrating the application of Unit Sphere"
+    },
+    {
+      "id": "math-u-022",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Tangent Vector",
+      "content": "Mathematical entry and definition for Unit Tangent Vector, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "tangent",
+        "vector",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Tangent Vector",
+      "example": "Example demonstrating the application of Unit Tangent Vector"
+    },
+    {
+      "id": "math-u-023",
+      "topic": "universal algebra and unit circle",
+      "title": "Unitary Matrix",
+      "content": "Mathematical entry and definition for Unitary Matrix, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unitary",
+        "matrix",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unitary Matrix",
+      "example": "Example demonstrating the application of Unitary Matrix"
+    },
+    {
+      "id": "math-u-024",
+      "topic": "universal algebra and unit circle",
+      "title": "Univariate Data",
+      "content": "Mathematical entry and definition for Univariate Data, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "univariate",
+        "data",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Univariate Data",
+      "example": "Example demonstrating the application of Univariate Data"
+    },
+    {
+      "id": "math-u-025",
+      "topic": "universal algebra and unit circle",
+      "title": "Universal Algebra",
+      "content": "Mathematical entry and definition for Universal Algebra, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "universal",
+        "algebra",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Universal Algebra",
+      "example": "Example demonstrating the application of Universal Algebra"
+    },
+    {
+      "id": "math-u-026",
+      "topic": "universal algebra and unit circle",
+      "title": "Upper Bound",
+      "content": "Mathematical entry and definition for Upper Bound, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "upper",
+        "bound",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Upper Bound",
+      "example": "Example demonstrating the application of Upper Bound"
+    },
+    {
+      "id": "math-u-027",
+      "topic": "universal algebra and unit circle",
+      "title": "Urn Problems",
+      "content": "Mathematical entry and definition for Urn Problems, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "urn",
+        "problems",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Urn Problems",
+      "example": "Example demonstrating the application of Urn Problems"
+    },
+    {
+      "id": "math-u-028",
+      "topic": "universal algebra and unit circle",
+      "title": "Utility Maximization",
+      "content": "Mathematical entry and definition for Utility Maximization, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "utility",
+        "maximization",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Utility Maximization",
+      "example": "Example demonstrating the application of Utility Maximization"
+    },
+    {
+      "id": "math-u-029",
+      "topic": "universal algebra and unit circle",
+      "title": "Uniform Continuity",
+      "content": "Mathematical entry and definition for Uniform Continuity, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "uniform",
+        "continuity",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Uniform Continuity",
+      "example": "Example demonstrating the application of Uniform Continuity"
+    },
+    {
+      "id": "math-u-030",
+      "topic": "universal algebra and unit circle",
+      "title": "Uniformly Bounded",
+      "content": "Mathematical entry and definition for Uniformly Bounded, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "uniformly",
+        "bounded",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Uniformly Bounded",
+      "example": "Example demonstrating the application of Uniformly Bounded"
+    },
+    {
+      "id": "math-u-031",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Sine",
+      "content": "Mathematical entry and definition for Unit Circle Sine, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "sine",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Circle Sine",
+      "example": "Example demonstrating the application of Unit Circle Sine"
+    },
+    {
+      "id": "math-u-032",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Tangent",
+      "content": "Mathematical entry and definition for Unit Circle Tangent, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "tangent",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unit Circle Tangent",
+      "example": "Example demonstrating the application of Unit Circle Tangent"
+    },
+    {
+      "id": "math-u-033",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Trigonometry",
+      "content": "Mathematical entry and definition for Unit Circle Trigonometry, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "trigonometry",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unit Circle Trigonometry",
+      "example": "Example demonstrating the application of Unit Circle Trigonometry"
+    },
+    {
+      "id": "math-u-034",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Angles",
+      "content": "Mathematical entry and definition for Unit Circle Angles, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "angles",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Circle Angles",
+      "example": "Example demonstrating the application of Unit Circle Angles"
+    },
+    {
+      "id": "math-u-035",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Circle Pi",
+      "content": "Mathematical entry and definition for Unit Circle Pi, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "circle",
+        "pi",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Unit Circle Pi",
+      "example": "Example demonstrating the application of Unit Circle Pi"
+    },
+    {
+      "id": "math-u-036",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Fraction",
+      "content": "Mathematical entry and definition for Unit Fraction, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "fraction",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Unit Fraction",
+      "example": "Example demonstrating the application of Unit Fraction"
+    },
+    {
+      "id": "math-u-037",
+      "topic": "universal algebra and unit circle",
+      "title": "Unit Interval",
+      "content": "Mathematical entry and definition for Unit Interval, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "unit",
+        "interval",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Unit Interval",
+      "example": "Example demonstrating the application of Unit Interval"
+    },
+    {
+      "id": "math-u-038",
+      "topic": "universal algebra and unit circle",
+      "title": "Universal Set Venn",
+      "content": "Mathematical entry and definition for Universal Set Venn, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "universal",
+        "set",
+        "venn",
+        "universal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Universal Set Venn",
+      "example": "Example demonstrating the application of Universal Set Venn"
+    },
+    {
+      "id": "math-u-039",
+      "topic": "universal algebra and unit circle",
+      "title": "Upper Sum Riemann",
+      "content": "Mathematical entry and definition for Upper Sum Riemann, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "upper",
+        "sum",
+        "riemann",
+        "universal"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Upper Sum Riemann",
+      "example": "Example demonstrating the application of Upper Sum Riemann"
+    },
+    {
+      "id": "math-u-040",
+      "topic": "universal algebra and unit circle",
+      "title": "Urn Sampling",
+      "content": "Mathematical entry and definition for Urn Sampling, a core concept in the domain of universal algebra and unit circle.",
+      "keywords": [
+        "urn",
+        "sampling",
+        "universal"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Urn Sampling",
+      "example": "Example demonstrating the application of Urn Sampling"
+    }
+  ]
+}
