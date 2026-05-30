@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-m-001",
+      "topic": "mathematical induction and matrices",
+      "title": "Maclaurin Series",
+      "content": "A Taylor series expansion of a function about 0.",
+      "keywords": [
+        "maclaurin",
+        "series",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(x) = sum(f^(n)(0)/n! * x^n)",
+      "example": "Maclaurin series for e^x is 1 + x + x^2/2 + ..."
+    },
+    {
+      "id": "math-m-002",
+      "topic": "mathematical induction and matrices",
+      "title": "Magic Square",
+      "content": "A square grid of numbers where the sum of numbers in each row, column, and diagonal is the same.",
+      "keywords": [
+        "magic",
+        "square",
+        "combinatorics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Row_Sum = Col_Sum = Diag_Sum",
+      "example": "A 3x3 grid with numbers 1 to 9 having magic constant 15"
+    },
+    {
+      "id": "math-m-003",
+      "topic": "mathematical induction and matrices",
+      "title": "Magnitude of Vector",
+      "content": "The length of a vector in Euclidean space.",
+      "keywords": [
+        "magnitude",
+        "length",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "||v|| = sqrt(v_1^2 + ... + v_n^2)",
+      "example": "Magnitude of [3, 4] is 5"
+    },
+    {
+      "id": "math-m-004",
+      "topic": "mathematical induction and matrices",
+      "title": "Major Axis of Ellipse",
+      "content": "The longest diameter of an ellipse, passing through its center and foci.",
+      "keywords": [
+        "ellipse",
+        "major-axis",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Length = 2*a",
+      "example": "Major axis length of x^2/9 + y^2/4 = 1 is 6"
+    },
+    {
+      "id": "math-m-005",
+      "topic": "mathematical induction and matrices",
+      "title": "Mandelbrot Set",
+      "content": "A famous fractal set of complex numbers that do not diverge under iteration of a quadratic formula.",
+      "keywords": [
+        "mandelbrot",
+        "fractal",
+        "complex"
+      ],
+      "difficulty": "intermediate",
+      "formula": "z_(n+1) = z_n^2 + c remains bounded starting at z_0=0",
+      "example": "Plotting complex boundaries of Mandelbrot fractal"
+    },
+    {
+      "id": "math-m-006",
+      "topic": "mathematical induction and matrices",
+      "title": "Marginal Probability",
+      "content": "The probability of a single event occurring, without regard to other events.",
+      "keywords": [
+        "marginal",
+        "probability",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "P(A) = sum of P(A and B_i) over all i",
+      "example": "Probability of drawing a King regardless of suit"
+    },
+    {
+      "id": "math-m-007",
+      "topic": "mathematical induction and matrices",
+      "title": "Markov Chain",
+      "content": "A stochastic process where the probability of transitioning to a future state depends only on the current state.",
+      "keywords": [
+        "markov",
+        "chain",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(X_n = x | X_1, ..., X_(n-1)) = P(X_n = x | X_(n-1))",
+      "example": "Weather forecasting based only on today's weather"
+    },
+    {
+      "id": "math-m-008",
+      "topic": "mathematical induction and matrices",
+      "title": "Markov's Inequality",
+      "content": "A theorem giving an upper bound for the probability that a non-negative random variable is greater than a constant.",
+      "keywords": [
+        "markov",
+        "inequality",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(X >= a) <= E[X] / a",
+      "example": "Bounding probability of extreme salary levels"
+    },
+    {
+      "id": "math-m-009",
+      "topic": "mathematical induction and matrices",
+      "title": "Mathematical Induction",
+      "content": "A method of mathematical proof used to establish that a statement holds for all natural numbers.",
+      "keywords": [
+        "induction",
+        "proof",
+        "logic"
+      ],
+      "difficulty": "advanced",
+      "formula": "P(1) is true and P(k)=>P(k+1) implies P(n) is true",
+      "example": "Proving the sum formula for first n integers"
+    },
+    {
+      "id": "math-m-010",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Addition",
+      "content": "Adding two matrices of identical dimensions by adding corresponding elements.",
+      "keywords": [
+        "matrix",
+        "addition",
+        "linear"
+      ],
+      "difficulty": "beginner",
+      "formula": "C_ij = A_ij + B_ij",
+      "example": "Adding two 2x2 matrices"
+    },
+    {
+      "id": "math-m-011",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Adjugate",
+      "content": "The transpose of the cofactor matrix of a square matrix.",
+      "keywords": [
+        "matrix",
+        "adjugate",
+        "inverse"
+      ],
+      "difficulty": "intermediate",
+      "formula": "adj(A) = C^T",
+      "example": "Using adjugate to compute inverse matrix: A^-1 = adj(A)/det(A)"
+    },
+    {
+      "id": "math-m-012",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Determinant",
+      "content": "A scalar value representing scaling factor of matrix transformation.",
+      "keywords": [
+        "matrix",
+        "determinant",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "det(A)",
+      "example": "det of diagonal matrix is product of diagonal elements"
+    },
+    {
+      "id": "math-m-013",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Dimension",
+      "content": "The number of rows and columns in a matrix.",
+      "keywords": [
+        "matrix",
+        "dimension",
+        "rows-cols"
+      ],
+      "difficulty": "beginner",
+      "formula": "m x n",
+      "example": "A matrix with 3 rows and 5 columns has dimensions 3x5"
+    },
+    {
+      "id": "math-m-014",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Inverse",
+      "content": "A matrix that yields the identity matrix when multiplied with original matrix.",
+      "keywords": [
+        "matrix",
+        "inverse",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A * A^-1 = I",
+      "example": "Calculating inverse to solve systems of equations"
+    },
+    {
+      "id": "math-m-015",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Multiplication",
+      "content": "Multiplying two matrices by taking dot products of rows and columns.",
+      "keywords": [
+        "matrix",
+        "multiplication",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "C_ij = sum(A_ik * B_kj)",
+      "example": "Multiplying a 2x3 matrix by a 3x2 matrix to get a 2x2 matrix"
+    },
+    {
+      "id": "math-m-016",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Rank",
+      "content": "The maximum number of linearly independent rows or columns in a matrix.",
+      "keywords": [
+        "matrix",
+        "rank",
+        "independence"
+      ],
+      "difficulty": "beginner",
+      "formula": "rank(A)",
+      "example": "Rank of identity matrix I_3 is 3"
+    },
+    {
+      "id": "math-m-017",
+      "topic": "mathematical induction and matrices",
+      "title": "Matrix Transpose",
+      "content": "Flipping a matrix over its diagonal, switching row and column indices.",
+      "keywords": [
+        "matrix",
+        "transpose",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A^T_ij = A_ji",
+      "example": "Transposing a 2x3 matrix into a 3x2 matrix"
+    },
+    {
+      "id": "math-m-018",
+      "topic": "mathematical induction and matrices",
+      "title": "Maximum Likelihood Estimation",
+      "content": "A method of estimating parameters of a probability distribution by maximizing a likelihood function.",
+      "keywords": [
+        "mle",
+        "estimation",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "formula": "max L(theta; x)",
+      "example": "Estimating mean of normal distribution from sample data"
+    },
+    {
+      "id": "math-m-019",
+      "topic": "mathematical induction and matrices",
+      "title": "Maximum Value of Function",
+      "content": "The largest output value of a function on an interval.",
+      "keywords": [
+        "maximum",
+        "value",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "max f(x)",
+      "example": "Maximum of y = -x^2 + 4 is 4 at x = 0"
+    },
+    {
+      "id": "math-m-020",
+      "topic": "mathematical induction and matrices",
+      "title": "Mean Absolute Deviation",
+      "content": "The average of the absolute differences between each data point and the mean.",
+      "keywords": [
+        "mad",
+        "deviation",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "MAD = sum(|x_i - mean|) / n",
+      "example": "Evaluating dispersion of student test grades"
+    },
+    {
+      "id": "math-m-021",
+      "topic": "mathematical induction and matrices",
+      "title": "Mean Value Theorem",
+      "content": "Theorem stating that for a differentiable curve, there is a point where the tangent is parallel to the secant.",
+      "keywords": [
+        "mvt",
+        "mean-value",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "f'(c) = (f(b) - f(a)) / (b - a)",
+      "example": "At some point on a trip, instantaneous speed equals average speed"
+    },
+    {
+      "id": "math-m-022",
+      "topic": "mathematical induction and matrices",
+      "title": "Measure Theory",
+      "content": "A systematic way to assign a size or volume to subsets of a space, generalizing length, area, and volume.",
+      "keywords": [
+        "measure",
+        "theory",
+        "analysis"
+      ],
+      "difficulty": "beginner",
+      "formula": "mu(A) >= 0",
+      "example": "Lebesgue measure on real numbers"
+    },
+    {
+      "id": "math-m-023",
+      "topic": "mathematical induction and matrices",
+      "title": "Median of Data",
+      "content": "The middle value of an ordered dataset, separating the higher half from the lower half.",
+      "keywords": [
+        "median",
+        "average",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Median = value at index (n+1)/2",
+      "example": "Median of 3, 5, 20 is 5"
+    },
+    {
+      "id": "math-m-024",
+      "topic": "mathematical induction and matrices",
+      "title": "Median of Triangle",
+      "content": "A line segment joining a vertex of a triangle to the midpoint of the opposite side.",
+      "keywords": [
+        "median",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "advanced",
+      "formula": "Intersects at centroid",
+      "example": "A triangle has three medians meeting at centroid"
+    },
+    {
+      "id": "math-m-025",
+      "topic": "mathematical induction and matrices",
+      "title": "Metric Space",
+      "content": "A set equipped with a metric (distance function) defining distance between any two elements.",
+      "keywords": [
+        "metric",
+        "space",
+        "topology"
+      ],
+      "difficulty": "beginner",
+      "formula": "d(x, y) >= 0; d(x,y)=0 <=> x=y",
+      "example": "Euclidean space with standard distance metric"
+    },
+    {
+      "id": "math-m-026",
+      "topic": "mathematical induction and matrices",
+      "title": "Midpoint Formula in 2D",
+      "content": "Formula calculating coordinates of the center point between two endpoints in a plane.",
+      "keywords": [
+        "midpoint",
+        "coordinates",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "M = ((x_1 + x_2)/2, (y_1 + y_2)/2)",
+      "example": "Midpoint between (1, 2) and (5, 8) is (3, 5)"
+    },
+    {
+      "id": "math-m-027",
+      "topic": "mathematical induction and matrices",
+      "title": "Midpoint Formula in 3D",
+      "content": "Formula calculating coordinates of the center point between two endpoints in 3D space.",
+      "keywords": [
+        "midpoint",
+        "3d",
+        "geometry"
+      ],
+      "difficulty": "advanced",
+      "formula": "M = ((x_1+x_2)/2, (y_1+y_2)/2, (z_1+z_2)/2)",
+      "example": "Midpoint between (0,0,0) and (2,4,6) is (1,2,3)"
+    },
+    {
+      "id": "math-m-028",
+      "topic": "mathematical induction and matrices",
+      "title": "Midpoint of Segment",
+      "content": "The point dividing a line segment into two congruent halves.",
+      "keywords": [
+        "midpoint",
+        "line",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Length_1 = Length_2",
+      "example": "Finding center of a diagonal line segment"
+    },
+    {
+      "id": "math-m-029",
+      "topic": "mathematical induction and matrices",
+      "title": "Minor Axis of Ellipse",
+      "content": "The shortest diameter of an ellipse, perpendicular to the major axis.",
+      "keywords": [
+        "ellipse",
+        "minor-axis",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Length = 2*b",
+      "example": "Minor axis length of x^2/9 + y^2/4 = 1 is 4"
+    },
+    {
+      "id": "math-m-030",
+      "topic": "mathematical induction and matrices",
+      "title": "Minimax Theorem",
+      "content": "A theorem in game theory showing that for zero-sum games, minimax value equals maximin value.",
+      "keywords": [
+        "minimax",
+        "game",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "formula": "min max f(x, y) = max min f(x, y)",
+      "example": "Finding optimal minimax strategy in rock-paper-scissors"
+    },
+    {
+      "id": "math-m-031",
+      "topic": "mathematical induction and matrices",
+      "title": "Minimum Value of Function",
+      "content": "The smallest output value of a function on an interval.",
+      "keywords": [
+        "minimum",
+        "value",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "min f(x)",
+      "example": "Minimum of y = x^2 is 0 at x = 0"
+    },
+    {
+      "id": "math-m-032",
+      "topic": "mathematical induction and matrices",
+      "title": "Minor of Matrix Element",
+      "content": "The determinant of the submatrix left after deleting the row and column of that element.",
+      "keywords": [
+        "minor",
+        "matrix",
+        "determinant"
+      ],
+      "difficulty": "intermediate",
+      "formula": "M_ij = det(Submatrix)",
+      "example": "Finding minor of top-left element in 3x3 matrix"
+    },
+    {
+      "id": "math-m-033",
+      "topic": "mathematical induction and matrices",
+      "title": "Mixed Numbers",
+      "content": "A number representation containing a whole number part and a fraction part.",
+      "keywords": [
+        "mixed",
+        "number",
+        "arithmetic"
+      ],
+      "difficulty": "advanced",
+      "formula": "A b/c = A + b/c",
+      "example": "2 1/2 is mixed number representing 2.5"
+    },
+    {
+      "id": "math-m-034",
+      "topic": "mathematical induction and matrices",
+      "title": "Mode of Data Set",
+      "content": "The value that appears most frequently in a dataset.",
+      "keywords": [
+        "mode",
+        "frequency",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Mode = most frequent x_i",
+      "example": "Mode of 1, 2, 2, 3, 5 is 2"
+    },
+    {
+      "id": "math-m-035",
+      "topic": "mathematical induction and matrices",
+      "title": "Modular Arithmetic",
+      "content": "A system of arithmetic for integers where numbers wrap around after reaching a certain value (the modulus).",
+      "keywords": [
+        "modulo",
+        "congruence",
+        "arithmetic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a = b (mod n)",
+      "example": "14 modulo 12 equals 2 (like clock time)"
+    },
+    {
+      "id": "math-m-036",
+      "topic": "mathematical induction and matrices",
+      "title": "Monoid Definition",
+      "content": "An algebraic structure with an associative binary operation and an identity element.",
+      "keywords": [
+        "monoid",
+        "algebra",
+        "structure"
+      ],
+      "difficulty": "advanced",
+      "formula": "Associativity + Identity",
+      "example": "Natural numbers under addition with 0 is a monoid"
+    },
+    {
+      "id": "math-m-037",
+      "topic": "mathematical induction and matrices",
+      "title": "Monomial Definition",
+      "content": "An algebraic expression consisting of only one term.",
+      "keywords": [
+        "monomial",
+        "polynomial",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "a * x^n",
+      "example": "4x^3 is a monomial"
+    },
+    {
+      "id": "math-m-038",
+      "topic": "mathematical induction and matrices",
+      "title": "Monotonic Sequence",
+      "content": "A sequence of numbers that either never increases or never decreases.",
+      "keywords": [
+        "monotonic",
+        "sequence",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a_n <= a_(n+1) for all n",
+      "example": "Sequence 1 - 1/n is monotonically increasing"
+    },
+    {
+      "id": "math-m-039",
+      "topic": "mathematical induction and matrices",
+      "title": "Multinomial Coefficient",
+      "content": "The number of ways to partition n distinct objects into k groups of size n_i.",
+      "keywords": [
+        "multinomial",
+        "coefficient",
+        "combinatorics"
+      ],
+      "difficulty": "advanced",
+      "formula": "n! / (n_1! * n_2! * ... * n_k!)",
+      "example": "Finding coefficient of x^2 * y * z in expansion"
+    },
+    {
+      "id": "math-m-040",
+      "topic": "mathematical induction and matrices",
+      "title": "Multinomial Theorem",
+      "content": "Formula describing how to expand powers of a sum of three or more terms.",
+      "keywords": [
+        "multinomial",
+        "theorem",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "(x_1 + ... + x_m)^n expansion",
+      "example": "Expanding (x + y + z)^3 algebraically"
+    }
+  ]
+}
