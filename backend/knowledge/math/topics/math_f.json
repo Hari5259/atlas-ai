@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-f-001",
+      "topic": "functions and fractions",
+      "title": "Factor Theorem",
+      "content": "A polynomial f(x) has a factor (x - c) if and only if f(c) = 0.",
+      "keywords": [
+        "factor",
+        "polynomial",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(x) = (x - c) * q(x) <=> f(c) = 0",
+      "example": "Checking if (x-2) is a factor of x^2 - 4"
+    },
+    {
+      "id": "math-f-002",
+      "topic": "functions and fractions",
+      "title": "Factorial",
+      "content": "The product of all positive integers less than or equal to a given non-negative integer n.",
+      "keywords": [
+        "factorial",
+        "counting",
+        "integers"
+      ],
+      "difficulty": "beginner",
+      "formula": "n! = n * (n-1) * ... * 1",
+      "example": "5! = 120"
+    },
+    {
+      "id": "math-f-003",
+      "topic": "functions and fractions",
+      "title": "Factoring Polynomials",
+      "content": "Breaking down a polynomial into a product of simpler polynomials.",
+      "keywords": [
+        "factoring",
+        "polynomial",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "x^2 + 5x + 6 = (x + 2)(x + 3)",
+      "example": "Factoring a quadratic to find its roots"
+    },
+    {
+      "id": "math-f-004",
+      "topic": "functions and fractions",
+      "title": "Fallacy in Logic",
+      "content": "An error in reasoning that renders an argument invalid or unsound.",
+      "keywords": [
+        "fallacy",
+        "logic",
+        "proof"
+      ],
+      "difficulty": "beginner",
+      "formula": "P => Q, Q implies P (Converse error)",
+      "example": "Assuming because A came before B, A caused B"
+    },
+    {
+      "id": "math-f-005",
+      "topic": "functions and fractions",
+      "title": "False Positive Rate",
+      "content": "In statistics, the probability of falsely rejecting the null hypothesis (type I error rate).",
+      "keywords": [
+        "statistics",
+        "error",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "FPR = FP / (FP + TN)",
+      "example": "Falsely flagging a clean email as spam"
+    },
+    {
+      "id": "math-f-006",
+      "topic": "functions and fractions",
+      "title": "F-Distribution",
+      "content": "A continuous probability distribution used frequently in ANOVA and tests of equality of variances.",
+      "keywords": [
+        "f-distribution",
+        "probability",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F = (s_1^2 / sigma_1^2) / (s_2^2 / sigma_2^2)",
+      "example": "Comparing variances of two samples"
+    },
+    {
+      "id": "math-f-007",
+      "topic": "functions and fractions",
+      "title": "Feasible Region",
+      "content": "The set of all possible points of an optimization problem that satisfy its constraints.",
+      "keywords": [
+        "feasible",
+        "constraints",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Constraints: Ax <= b, x >= 0",
+      "example": "Shaded area in linear programming graph"
+    },
+    {
+      "id": "math-f-008",
+      "topic": "functions and fractions",
+      "title": "Fermat's Last Theorem",
+      "content": "No three positive integers a, b, and c satisfy the equation a^n + b^n = c^n for any integer value of n greater than 2.",
+      "keywords": [
+        "fermat",
+        "theorem",
+        "numbers"
+      ],
+      "difficulty": "advanced",
+      "formula": "a^n + b^n = c^n has no solution for n > 2",
+      "example": "Proven by Andrew Wiles in 1994"
+    },
+    {
+      "id": "math-f-009",
+      "topic": "functions and fractions",
+      "title": "Fermat's Little Theorem",
+      "content": "If p is a prime number, then for any integer a, the number a^p - a is an integer multiple of p.",
+      "keywords": [
+        "fermat",
+        "prime",
+        "numbers"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a^p = a (mod p)",
+      "example": "2^7 = 128 = 2 (mod 7)"
+    },
+    {
+      "id": "math-f-010",
+      "topic": "functions and fractions",
+      "title": "Fibonacci Sequence",
+      "content": "A sequence where each number is the sum of the two preceding ones, starting from 0 and 1.",
+      "keywords": [
+        "fibonacci",
+        "sequence",
+        "numbers"
+      ],
+      "difficulty": "beginner",
+      "formula": "F_n = F_(n-1) + F_(n-2)",
+      "example": "0, 1, 1, 2, 3, 5, 8, 13, 21..."
+    },
+    {
+      "id": "math-f-011",
+      "topic": "functions and fractions",
+      "title": "Field Definition",
+      "content": "An algebraic structure with addition, subtraction, multiplication, and division satisfying field axioms.",
+      "keywords": [
+        "field",
+        "algebra",
+        "structure"
+      ],
+      "difficulty": "advanced",
+      "formula": "Real numbers R form a field",
+      "example": "Rational numbers Q form a field under standard ops"
+    },
+    {
+      "id": "math-f-012",
+      "topic": "functions and fractions",
+      "title": "Finite Set",
+      "content": "A set that has a finite number of elements, which can be counted.",
+      "keywords": [
+        "set",
+        "finite",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Cardinality |S| < infinity",
+      "example": "The set of vowels in English: {a, e, i, o, u}"
+    },
+    {
+      "id": "math-f-013",
+      "topic": "functions and fractions",
+      "title": "First Derivative Test",
+      "content": "Using the first derivative to determine local extrema of a function by looking at sign changes.",
+      "keywords": [
+        "derivative",
+        "extrema",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f'(x) changes sign from + to - at local max",
+      "example": "Finding peak of y = -x^2 + 4x"
+    },
+    {
+      "id": "math-f-014",
+      "topic": "functions and fractions",
+      "title": "First-Order Logic",
+      "content": "Formal logic extending propositional logic by allowing quantifiers, predicates, and relations.",
+      "keywords": [
+        "logic",
+        "quantifiers",
+        "proof"
+      ],
+      "difficulty": "advanced",
+      "formula": "Forall x (P(x) implies Q(x))",
+      "example": "Writing mathematical statements formally"
+    },
+    {
+      "id": "math-f-015",
+      "topic": "functions and fractions",
+      "title": "Fixed Point Theorem",
+      "content": "A theorem stating that a function will have at least one point mapped to itself under certain conditions.",
+      "keywords": [
+        "fixed-point",
+        "function",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(c) = c",
+      "example": "Brouwer fixed-point theorem"
+    },
+    {
+      "id": "math-f-016",
+      "topic": "functions and fractions",
+      "title": "Floor Function",
+      "content": "A function that takes a real number input and outputs the greatest integer less than or equal to it.",
+      "keywords": [
+        "floor",
+        "integer",
+        "functions"
+      ],
+      "difficulty": "beginner",
+      "formula": "floor(x) = [x]",
+      "example": "floor(3.7) = 3; floor(-3.1) = -4"
+    },
+    {
+      "id": "math-f-017",
+      "topic": "functions and fractions",
+      "title": "Focus of Ellipse",
+      "content": "One of the two fixed points that define an ellipse; the sum of distances from any point on the ellipse to the foci is constant.",
+      "keywords": [
+        "focus",
+        "ellipse",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Distance to foci d_1 + d_2 = 2a",
+      "example": "Focal points of planetary orbit"
+    },
+    {
+      "id": "math-f-018",
+      "topic": "functions and fractions",
+      "title": "Focus of Parabola",
+      "content": "A fixed point used to define a parabola; every point on the parabola is equidistant from the focus and directrix.",
+      "keywords": [
+        "focus",
+        "parabola",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Distance to focus = distance to directrix",
+      "example": "Focus of y = x^2 is at (0, 1/4)"
+    },
+    {
+      "id": "math-f-019",
+      "topic": "functions and fractions",
+      "title": "FOIL Method",
+      "content": "A mnemonic for multiplying two binomials: First, Outer, Inner, Last.",
+      "keywords": [
+        "foil",
+        "binomial",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "(a + b)(c + d) = ac + ad + bc + bd",
+      "example": "(x + 2)(x + 3) = x^2 + 5x + 6"
+    },
+    {
+      "id": "math-f-020",
+      "topic": "functions and fractions",
+      "title": "Fourier Series",
+      "content": "A way to represent a periodic function as the sum of simple sine and cosine waves.",
+      "keywords": [
+        "fourier",
+        "series",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x) = a_0/2 + sum(a_n*cos(nx) + b_n*sin(nx))",
+      "example": "Decomposing square wave sound into harmonics"
+    },
+    {
+      "id": "math-f-021",
+      "topic": "functions and fractions",
+      "title": "Fourier Transform",
+      "content": "An integral transform that decomposes a function of time into its constituent frequencies.",
+      "keywords": [
+        "fourier",
+        "transform",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "formula": "F(omega) = integral f(t)*e^(-i*omega*t) dt",
+      "example": "Converting signal from time domain to frequency domain"
+    },
+    {
+      "id": "math-f-022",
+      "topic": "functions and fractions",
+      "title": "Fractal Dimension",
+      "content": "A ratio providing a statistical index of complexity, describing how detail in a fractal pattern changes with scale.",
+      "keywords": [
+        "fractal",
+        "dimension",
+        "geometry"
+      ],
+      "difficulty": "advanced",
+      "formula": "D = log(N) / log(1/s)",
+      "example": "Sierpinski triangle has fractal dimension approx 1.585"
+    },
+    {
+      "id": "math-f-023",
+      "topic": "functions and fractions",
+      "title": "Fraction Simplification",
+      "content": "Reducing a fraction to its lowest terms by dividing the numerator and denominator by their greatest common divisor.",
+      "keywords": [
+        "fraction",
+        "simplify",
+        "arithmetic"
+      ],
+      "difficulty": "beginner",
+      "formula": "a/b = (a/gcd)/(b/gcd)",
+      "example": "Simplifying 6/8 to 3/4"
+    },
+    {
+      "id": "math-f-024",
+      "topic": "functions and fractions",
+      "title": "Fredholm Integral Equation",
+      "content": "An integral equation in which the limits of integration are fixed.",
+      "keywords": [
+        "integral",
+        "equation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x) = g(x) + lambda * integral from a to b of K(x, t)*f(t) dt",
+      "example": "Solving electrostatic potential problems"
+    },
+    {
+      "id": "math-f-025",
+      "topic": "functions and fractions",
+      "title": "Frequency Distribution",
+      "content": "A table or graph displaying the frequency of various outcomes in a sample.",
+      "keywords": [
+        "frequency",
+        "distribution",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Count of occurrences of each data class",
+      "example": "Tally of grade counts A, B, C in a class"
+    },
+    {
+      "id": "math-f-026",
+      "topic": "functions and fractions",
+      "title": "Frequency Polygon",
+      "content": "A graph made by joining the midpoints of the tops of the bars of a histogram.",
+      "keywords": [
+        "polygon",
+        "frequency",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Points plotted at class marks with frequencies",
+      "example": "Visualizing distribution of test marks"
+    },
+    {
+      "id": "math-f-027",
+      "topic": "functions and fractions",
+      "title": "Frobenius Norm",
+      "content": "A matrix norm defined as the square root of the sum of the absolute squares of its elements.",
+      "keywords": [
+        "norm",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "||A||_F = sqrt(sum(|a_ij|^2))",
+      "example": "Calculating magnitude of a matrix"
+    },
+    {
+      "id": "math-f-028",
+      "topic": "functions and fractions",
+      "title": "Frustum Volume",
+      "content": "The volume of the portion of a cone or pyramid that remains after its top is cut off by a plane parallel to the base.",
+      "keywords": [
+        "frustum",
+        "volume",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "V = (1/3)*pi*h*(R^2 + R*r + r^2)",
+      "example": "Volume of a drinking bucket"
+    },
+    {
+      "id": "math-f-029",
+      "topic": "functions and fractions",
+      "title": "Function Composition",
+      "content": "Applying one function to the results of another.",
+      "keywords": [
+        "function",
+        "composition",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "(f o g)(x) = f(g(x))",
+      "example": "f(x) = sqrt(x), g(x) = x - 2 -> f(g(x)) = sqrt(x-2)"
+    },
+    {
+      "id": "math-f-030",
+      "topic": "functions and fractions",
+      "title": "Function Domain",
+      "content": "The set of inputs for which a function produces defined outputs.",
+      "keywords": [
+        "domain",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Domain of y = f(x)",
+      "example": "Domain of y = sqrt(x) is x >= 0"
+    },
+    {
+      "id": "math-f-031",
+      "topic": "functions and fractions",
+      "title": "Function Inverse",
+      "content": "A function that reverses the action of the original function.",
+      "keywords": [
+        "inverse",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f^-1(y) = x <=> f(x) = y",
+      "example": "Inverse of f(x) = 2x is f^-1(x) = x/2"
+    },
+    {
+      "id": "math-f-032",
+      "topic": "functions and fractions",
+      "title": "Function Mapping",
+      "content": "A relation that associates each element of a set with a unique element of another set.",
+      "keywords": [
+        "mapping",
+        "function",
+        "sets"
+      ],
+      "difficulty": "beginner",
+      "formula": "f: A -> B",
+      "example": "Mapping student IDs to their grades"
+    },
+    {
+      "id": "math-f-033",
+      "topic": "functions and fractions",
+      "title": "Fundamental Homomorphism Theorem",
+      "content": "A theorem stating that the image of a homomorphism is isomorphic to the quotient by the kernel.",
+      "keywords": [
+        "homomorphism",
+        "isomorphism",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "G / Ker(phi) isomorphic to Im(phi)",
+      "example": "Isomorphism between groups in abstract algebra"
+    },
+    {
+      "id": "math-f-034",
+      "topic": "functions and fractions",
+      "title": "Fundamental Theorem of Algebra",
+      "content": "Every non-constant single-variable polynomial with complex coefficients has at least one complex root.",
+      "keywords": [
+        "algebra",
+        "fundamental",
+        "polynomials"
+      ],
+      "difficulty": "intermediate",
+      "formula": "deg(p) = n => p(x) has n complex roots",
+      "example": "A cubic equation has exactly three roots (including multiplicity)"
+    },
+    {
+      "id": "math-f-035",
+      "topic": "functions and fractions",
+      "title": "Fundamental Theorem of Arithmetic",
+      "content": "Every integer greater than 1 either is a prime number itself or can be represented as the product of prime numbers uniquely.",
+      "keywords": [
+        "arithmetic",
+        "prime",
+        "integers"
+      ],
+      "difficulty": "intermediate",
+      "formula": "n = p_1^a_1 * p_2^a_2 * ... * p_k^a_k",
+      "example": "60 = 2^2 * 3 * 5"
+    },
+    {
+      "id": "math-f-036",
+      "topic": "functions and fractions",
+      "title": "Fundamental Theorem of Calculus",
+      "content": "Links differentiation with integration.",
+      "keywords": [
+        "calculus",
+        "fundamental",
+        "integral"
+      ],
+      "difficulty": "intermediate",
+      "formula": "integral from a to b of f(x) dx = F(b) - F(a)",
+      "example": "Integrating 3x^2 to find area"
+    },
+    {
+      "id": "math-f-037",
+      "topic": "functions and fractions",
+      "title": "Fuzzy Logic",
+      "content": "A form of many-valued logic in which the truth values of variables may be any real number between 0 and 1.",
+      "keywords": [
+        "fuzzy",
+        "logic",
+        "control"
+      ],
+      "difficulty": "advanced",
+      "formula": "Truth value in [0, 1]",
+      "example": "Defining temperature as 'warm' (0.7 true)"
+    },
+    {
+      "id": "math-f-038",
+      "topic": "functions and fractions",
+      "title": "Fuzzy Set",
+      "content": "A set whose elements have degrees of membership between 0 and 1.",
+      "keywords": [
+        "fuzzy",
+        "set",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "mu_A(x) in [0, 1]",
+      "example": "The set of 'tall people'"
+    },
+    {
+      "id": "math-f-039",
+      "topic": "functions and fractions",
+      "title": "Future Value formula",
+      "content": "The value of a current asset at a specified date in the future based on an assumed rate of growth.",
+      "keywords": [
+        "finance",
+        "future",
+        "value"
+      ],
+      "difficulty": "beginner",
+      "formula": "FV = PV * (1 + r)^t",
+      "example": "Investing $1000 today for 5 years at 5% interest"
+    },
+    {
+      "id": "math-f-040",
+      "topic": "functions and fractions",
+      "title": "F-Test statistics",
+      "content": "A test whose test statistic has an F-distribution under the null hypothesis, used to compare variances.",
+      "keywords": [
+        "f-test",
+        "statistics",
+        "hypothesis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F = Variance_1 / Variance_2",
+      "example": "Testing if two production lines have different variance"
+    }
+  ]
+}
