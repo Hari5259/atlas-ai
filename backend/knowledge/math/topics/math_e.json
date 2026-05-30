@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-e-001",
+      "topic": "equations and constants",
+      "title": "Eccentricity of Conic",
+      "content": "A parameter that determines how much a conic section deviates from being a circle.",
+      "keywords": [
+        "eccentricity",
+        "conic",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "e = c / a",
+      "example": "Eccentricity of a circle is 0"
+    },
+    {
+      "id": "math-e-002",
+      "topic": "equations and constants",
+      "title": "Edge of Graph",
+      "content": "A line segment connecting two vertices in a graph.",
+      "keywords": [
+        "edge",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "beginner",
+      "formula": "e = (u, v)",
+      "example": "Connecting node A to node B"
+    },
+    {
+      "id": "math-e-003",
+      "topic": "equations and constants",
+      "title": "Echelon Form",
+      "content": "A matrix format where all non-zero rows are above zero rows, and leading entry of a row is to the right of the row above.",
+      "keywords": [
+        "echelon",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Row reduction output matrix",
+      "example": "Matrix with zeroes below main diagonal path"
+    },
+    {
+      "id": "math-e-004",
+      "topic": "equations and constants",
+      "title": "Eigenvalue definition",
+      "content": "A scalar lambda associated with a linear transformation such that Av = lambda * v.",
+      "keywords": [
+        "eigenvalue",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "A * v = lambda * v",
+      "example": "Finding growth factor along principal axes"
+    },
+    {
+      "id": "math-e-005",
+      "topic": "equations and constants",
+      "title": "Eigenvector equation",
+      "content": "The non-zero vector v that changes only by a scalar factor when a linear transformation is applied.",
+      "keywords": [
+        "eigenvector",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "det(A - lambda * I) = 0",
+      "example": "Finding direction of stretch in coordinate grid"
+    },
+    {
+      "id": "math-e-006",
+      "topic": "equations and constants",
+      "title": "Element of Set",
+      "content": "An individual object or member contained within a set.",
+      "keywords": [
+        "element",
+        "set",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "x in S",
+      "example": "3 is an element of the set of prime numbers"
+    },
+    {
+      "id": "math-e-007",
+      "topic": "equations and constants",
+      "title": "Elimination Method",
+      "content": "A method of solving systems of equations by adding or subtracting equations to eliminate variables.",
+      "keywords": [
+        "elimination",
+        "equations",
+        "system"
+      ],
+      "difficulty": "beginner",
+      "formula": "Add/subtract equations to find x",
+      "example": "Solving 2x + y = 5 and x - y = 1 by adding them"
+    },
+    {
+      "id": "math-e-008",
+      "topic": "equations and constants",
+      "title": "Ellipse Equation",
+      "content": "The algebraic equation representing a squashed circular path with two focal points.",
+      "keywords": [
+        "ellipse",
+        "equation",
+        "conic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "(x-h)^2 / a^2 + (y-k)^2 / b^2 = 1",
+      "example": "An ellipse centered at origin with width 6 and height 4"
+    },
+    {
+      "id": "math-e-009",
+      "topic": "equations and constants",
+      "title": "Empirical Rule",
+      "content": "In a normal distribution, nearly all data falls within 3 standard deviations of the mean (68-95-99.7).",
+      "keywords": [
+        "empirical",
+        "normal",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "68% within 1SD, 95% within 2SD, 99.7% within 3SD",
+      "example": "Predicting test scores variance in a population"
+    },
+    {
+      "id": "math-e-010",
+      "topic": "equations and constants",
+      "title": "Empty Set",
+      "content": "The unique set containing no elements, denoted by a circle with a slash or empty braces.",
+      "keywords": [
+        "empty",
+        "set",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Empty_Set = {}",
+      "example": "The set of integers that are both odd and even"
+    },
+    {
+      "id": "math-e-011",
+      "topic": "equations and constants",
+      "title": "Endomorphism",
+      "content": "A homomorphism from a mathematical structure to itself.",
+      "keywords": [
+        "homomorphism",
+        "endomorphism",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "phi: M -> M",
+      "example": "Linear transformation from R^2 to R^2"
+    },
+    {
+      "id": "math-e-012",
+      "topic": "equations and constants",
+      "title": "Entire Function",
+      "content": "A complex-valued function that is holomorphic (differentiable) at all points in the complex plane.",
+      "keywords": [
+        "complex",
+        "entire",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(z) is holomorphic on C",
+      "example": "f(z) = e^z is an entire function"
+    },
+    {
+      "id": "math-e-013",
+      "topic": "equations and constants",
+      "title": "Entropy in Information Theory",
+      "content": "A measure of the average amount of information or uncertainty in a random variable's outcomes.",
+      "keywords": [
+        "entropy",
+        "information",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "H(X) = -sum(p_i * log2(p_i))",
+      "example": "Measuring information density in compressed files"
+    },
+    {
+      "id": "math-e-014",
+      "topic": "equations and constants",
+      "title": "Epigraph",
+      "content": "The set of points lying on or above the graph of a function.",
+      "keywords": [
+        "epigraph",
+        "convex",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "epi(f) = {(x, y) : y >= f(x)}",
+      "example": "The area above a parabola y = x^2"
+    },
+    {
+      "id": "math-e-015",
+      "topic": "equations and constants",
+      "title": "Epimorphism",
+      "content": "A surjective homomorphism between two algebraic structures.",
+      "keywords": [
+        "epimorphism",
+        "algebra",
+        "mapping"
+      ],
+      "difficulty": "advanced",
+      "formula": "phi: A -> B is surjective",
+      "example": "Mapping integers to integers modulo 5"
+    },
+    {
+      "id": "math-e-016",
+      "topic": "equations and constants",
+      "title": "Equality Relation",
+      "content": "A binary relation asserting that two expressions represent the same mathematical object.",
+      "keywords": [
+        "equality",
+        "relation",
+        "logic"
+      ],
+      "difficulty": "beginner",
+      "formula": "a = b",
+      "example": "2 + 2 = 4"
+    },
+    {
+      "id": "math-e-017",
+      "topic": "equations and constants",
+      "title": "Equilateral Triangle",
+      "content": "A triangle in which all three sides are equal in length, and all angles are 60 degrees.",
+      "keywords": [
+        "triangle",
+        "equilateral",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "a = b = c, A = B = C = 60 degrees",
+      "example": "Area = (sqrt(3)/4) * s^2"
+    },
+    {
+      "id": "math-e-018",
+      "topic": "equations and constants",
+      "title": "Equivalence Class",
+      "content": "A subset of a set containing all elements that are equivalent to each other under an equivalence relation.",
+      "keywords": [
+        "equivalence",
+        "class",
+        "sets"
+      ],
+      "difficulty": "intermediate",
+      "formula": "[a] = {x in S : x ~ a}",
+      "example": "Integers modulo 2 splits integers into evens and odds classes"
+    },
+    {
+      "id": "math-e-019",
+      "topic": "equations and constants",
+      "title": "Equivalence Relation",
+      "content": "A binary relation that is reflexive, symmetric, and transitive.",
+      "keywords": [
+        "equivalence",
+        "relation",
+        "sets"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a~a; a~b => b~a; a~b & b~c => a~c",
+      "example": "Congruence modulo n on integers"
+    },
+    {
+      "id": "math-e-020",
+      "topic": "equations and constants",
+      "title": "Erlang Distribution",
+      "content": "A continuous probability distribution with two parameters, representing the sum of k independent exponential variables.",
+      "keywords": [
+        "erlang",
+        "probability",
+        "queuing"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x) = lambda^k * x^(k-1) * e^(-lambda*x) / (k-1)!",
+      "example": "Modeling waiting times in telephone queuing systems"
+    },
+    {
+      "id": "math-e-021",
+      "topic": "equations and constants",
+      "title": "Error Function",
+      "content": "A special function of sigmoid shape that occurs in probability, statistics, and partial differential equations.",
+      "keywords": [
+        "erf",
+        "error",
+        "probability"
+      ],
+      "difficulty": "advanced",
+      "formula": "erf(z) = (2/sqrt(pi)) * integral from 0 to z of e^(-t^2) dt",
+      "example": "Calculating probabilities for the standard normal distribution"
+    },
+    {
+      "id": "math-e-022",
+      "topic": "equations and constants",
+      "title": "Euclidean Algorithm",
+      "content": "An efficient method for computing the greatest common divisor (GCD) of two integers.",
+      "keywords": [
+        "euclid",
+        "gcd",
+        "algorithm"
+      ],
+      "difficulty": "intermediate",
+      "formula": "gcd(a, b) = gcd(b, a mod b)",
+      "example": "gcd(48, 18) = gcd(18, 12) = gcd(12, 6) = 6"
+    },
+    {
+      "id": "math-e-023",
+      "topic": "equations and constants",
+      "title": "Euclidean Distance",
+      "content": "The straight line distance between two points in Euclidean space.",
+      "keywords": [
+        "euclidean",
+        "distance",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "d = sqrt(sum((p_i - q_i)^2))",
+      "example": "Distance between points in coordinates"
+    },
+    {
+      "id": "math-e-024",
+      "topic": "equations and constants",
+      "title": "Euclidean Geometry",
+      "content": "The study of plane and solid figures based on the axioms and postulates of Euclid of Alexandria.",
+      "keywords": [
+        "euclid",
+        "geometry",
+        "flat"
+      ],
+      "difficulty": "beginner",
+      "formula": "Euclid's 5 postulates",
+      "example": "Parallel lines never intersect in a flat plane"
+    },
+    {
+      "id": "math-e-025",
+      "topic": "equations and constants",
+      "title": "Euclidean Space",
+      "content": "The fundamental space of classical geometry, representing physical dimensions with coordinates.",
+      "keywords": [
+        "euclidean",
+        "space",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "R^n with standard dot product",
+      "example": "Three-dimensional space R^3"
+    },
+    {
+      "id": "math-e-026",
+      "topic": "equations and constants",
+      "title": "Euler-Mascheroni Constant",
+      "content": "A mathematical constant defined as the limiting difference between the harmonic series and the natural logarithm.",
+      "keywords": [
+        "euler",
+        "mascheroni",
+        "constant"
+      ],
+      "difficulty": "advanced",
+      "formula": "gamma = lim (sum(1/k) - ln(n))",
+      "example": "gamma approximately equals 0.57721"
+    },
+    {
+      "id": "math-e-027",
+      "topic": "equations and constants",
+      "title": "Euler's Constant e",
+      "content": "The base of natural logarithms, representing continuous growth.",
+      "keywords": [
+        "euler",
+        "constant",
+        "exponential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "e = lim (1 + 1/n)^n",
+      "example": "e approx 2.71828"
+    },
+    {
+      "id": "math-e-028",
+      "topic": "equations and constants",
+      "title": "Euler's Formula",
+      "content": "A formula establishing the deep relationship between trigonometric functions and complex exponential functions.",
+      "keywords": [
+        "euler",
+        "formula",
+        "complex"
+      ],
+      "difficulty": "intermediate",
+      "formula": "e^(i * theta) = cos(theta) + i * sin(theta)",
+      "example": "e^(i * pi) + 1 = 0"
+    },
+    {
+      "id": "math-e-029",
+      "topic": "equations and constants",
+      "title": "Euler's Method",
+      "content": "A first-order numerical procedure for solving ordinary differential equations with a given initial value.",
+      "keywords": [
+        "euler",
+        "numerical",
+        "differential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y_(n+1) = y_n + h * f(x_n, y_n)",
+      "example": "Approximating population growth step-by-step"
+    },
+    {
+      "id": "math-e-030",
+      "topic": "equations and constants",
+      "title": "Euler's Totient Function",
+      "content": "An arithmetic function that counts the positive integers up to n that are relatively prime to n.",
+      "keywords": [
+        "totient",
+        "euler",
+        "coprime"
+      ],
+      "difficulty": "intermediate",
+      "formula": "phi(n) = n * product(1 - 1/p)",
+      "example": "phi(10) = 4 (since 1, 3, 7, 9 are coprime to 10)"
+    },
+    {
+      "id": "math-e-031",
+      "topic": "equations and constants",
+      "title": "Even Function",
+      "content": "A function whose graph is symmetric with respect to the y-axis.",
+      "keywords": [
+        "even",
+        "function",
+        "symmetry"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(-x) = f(x)",
+      "example": "f(x) = x^2 or f(x) = cos(x)"
+    },
+    {
+      "id": "math-e-032",
+      "topic": "equations and constants",
+      "title": "Even Number",
+      "content": "An integer that is exactly divisible by 2.",
+      "keywords": [
+        "even",
+        "integer",
+        "divisibility"
+      ],
+      "difficulty": "beginner",
+      "formula": "n = 2 * k",
+      "example": "Numbers like -4, 0, 2, 8"
+    },
+    {
+      "id": "math-e-033",
+      "topic": "equations and constants",
+      "title": "Event Probability",
+      "content": "The likelihood of a specific outcome or set of outcomes occurring in a random experiment.",
+      "keywords": [
+        "probability",
+        "event",
+        "outcome"
+      ],
+      "difficulty": "beginner",
+      "formula": "P(E) = favorable / total",
+      "example": "Probability of rolling a 6 on a six-sided die is 1/6"
+    },
+    {
+      "id": "math-e-034",
+      "topic": "equations and constants",
+      "title": "Exact Differential Equation",
+      "content": "A first-order ordinary differential equation that is the total differential of some function.",
+      "keywords": [
+        "exact",
+        "differential",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "M(x,y)dx + N(x,y)dy = 0 where dM/dy = dN/dx",
+      "example": "Solving equations by finding potential function U(x, y)"
+    },
+    {
+      "id": "math-e-035",
+      "topic": "equations and constants",
+      "title": "Excircle",
+      "content": "An escribed circle of a triangle, which is tangent to one side and extensions of the other two sides.",
+      "keywords": [
+        "excircle",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Radius r_a = Area / (s - a)",
+      "example": "A triangle has exactly three excircles"
+    },
+    {
+      "id": "math-e-036",
+      "topic": "equations and constants",
+      "title": "Existential Quantifier",
+      "content": "A logical symbol indicating that there exists at least one element in the domain satisfying the property.",
+      "keywords": [
+        "quantifier",
+        "existential",
+        "logic"
+      ],
+      "difficulty": "beginner",
+      "formula": "exists x in S such that P(x)",
+      "example": "Statement: 'There exists an even prime number'"
+    },
+    {
+      "id": "math-e-037",
+      "topic": "equations and constants",
+      "title": "Expected Value",
+      "content": "The long-run average value of repetitions of the same random experiment.",
+      "keywords": [
+        "expected",
+        "mean",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "E[X] = sum(x_i * p_i)",
+      "example": "Expected winnings from a lottery ticket"
+    },
+    {
+      "id": "math-e-038",
+      "topic": "equations and constants",
+      "title": "Explicit Function",
+      "content": "A function in which the dependent variable is expressed directly in terms of the independent variable.",
+      "keywords": [
+        "explicit",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "y = f(x)",
+      "example": "y = 3x^2 - 5"
+    },
+    {
+      "id": "math-e-039",
+      "topic": "equations and constants",
+      "title": "Exponent Rules",
+      "content": "Properties for simplifying operations involving powers of terms.",
+      "keywords": [
+        "exponents",
+        "rules",
+        "powers"
+      ],
+      "difficulty": "beginner",
+      "formula": "a^m * a^n = a^(m+n)",
+      "example": "(x^3)^2 = x^6"
+    },
+    {
+      "id": "math-e-040",
+      "topic": "equations and constants",
+      "title": "Exponential Growth",
+      "content": "Growth pattern where the rate of change is proportional to the current value, leading to rapid increase.",
+      "keywords": [
+        "exponential",
+        "growth",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "y = A * e^(k * t)",
+      "example": "Compound interest or unconstrained population growth"
+    }
+  ]
+}
