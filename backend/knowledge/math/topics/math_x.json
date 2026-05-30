@@ -1,0 +1,564 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-x-001",
+      "topic": "xy-plane coordinates",
+      "title": "X-axis",
+      "content": "Mathematical entry and definition for X-axis, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-axis",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-axis",
+      "example": "Example demonstrating the application of X-axis"
+    },
+    {
+      "id": "math-x-002",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Graph",
+      "content": "Mathematical entry and definition for X-intercept Graph, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "graph",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-intercept Graph",
+      "example": "Example demonstrating the application of X-intercept Graph"
+    },
+    {
+      "id": "math-x-003",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Linear",
+      "content": "Mathematical entry and definition for X-intercept Linear, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "linear",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-intercept Linear",
+      "example": "Example demonstrating the application of X-intercept Linear"
+    },
+    {
+      "id": "math-x-004",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Quadratic",
+      "content": "Mathematical entry and definition for X-intercept Quadratic, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "quadratic",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-intercept Quadratic",
+      "example": "Example demonstrating the application of X-intercept Quadratic"
+    },
+    {
+      "id": "math-x-005",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Quadrants",
+      "content": "Mathematical entry and definition for XY-plane Quadrants, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "quadrants",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to XY-plane Quadrants",
+      "example": "Example demonstrating the application of XY-plane Quadrants"
+    },
+    {
+      "id": "math-x-006",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Slope",
+      "content": "Mathematical entry and definition for XY-plane Slope, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "slope",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to XY-plane Slope",
+      "example": "Example demonstrating the application of XY-plane Slope"
+    },
+    {
+      "id": "math-x-007",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Distance",
+      "content": "Mathematical entry and definition for XY-plane Distance, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "distance",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to XY-plane Distance",
+      "example": "Example demonstrating the application of XY-plane Distance"
+    },
+    {
+      "id": "math-x-008",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Midpoint",
+      "content": "Mathematical entry and definition for XY-plane Midpoint, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "midpoint",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to XY-plane Midpoint",
+      "example": "Example demonstrating the application of XY-plane Midpoint"
+    },
+    {
+      "id": "math-x-009",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Circle",
+      "content": "Mathematical entry and definition for XY-plane Circle, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "circle",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to XY-plane Circle",
+      "example": "Example demonstrating the application of XY-plane Circle"
+    },
+    {
+      "id": "math-x-010",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Inequality",
+      "content": "Mathematical entry and definition for XY-plane Inequality, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "inequality",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to XY-plane Inequality",
+      "example": "Example demonstrating the application of XY-plane Inequality"
+    },
+    {
+      "id": "math-x-011",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Reflection",
+      "content": "Mathematical entry and definition for XY-plane Reflection, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "reflection",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to XY-plane Reflection",
+      "example": "Example demonstrating the application of XY-plane Reflection"
+    },
+    {
+      "id": "math-x-012",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Rotation",
+      "content": "Mathematical entry and definition for XY-plane Rotation, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "rotation",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to XY-plane Rotation",
+      "example": "Example demonstrating the application of XY-plane Rotation"
+    },
+    {
+      "id": "math-x-013",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Scaling",
+      "content": "Mathematical entry and definition for XY-plane Scaling, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "scaling",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to XY-plane Scaling",
+      "example": "Example demonstrating the application of XY-plane Scaling"
+    },
+    {
+      "id": "math-x-014",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Translation",
+      "content": "Mathematical entry and definition for XY-plane Translation, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "translation",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to XY-plane Translation",
+      "example": "Example demonstrating the application of XY-plane Translation"
+    },
+    {
+      "id": "math-x-015",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Vector",
+      "content": "Mathematical entry and definition for XY-plane Vector, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "vector",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to XY-plane Vector",
+      "example": "Example demonstrating the application of XY-plane Vector"
+    },
+    {
+      "id": "math-x-016",
+      "topic": "xy-plane coordinates",
+      "title": "X-coordinate",
+      "content": "Mathematical entry and definition for X-coordinate, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-coordinate",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-coordinate",
+      "example": "Example demonstrating the application of X-coordinate"
+    },
+    {
+      "id": "math-x-017",
+      "topic": "xy-plane coordinates",
+      "title": "X-bar Sample",
+      "content": "Mathematical entry and definition for X-bar Sample, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-bar",
+        "sample",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-bar Sample",
+      "example": "Example demonstrating the application of X-bar Sample"
+    },
+    {
+      "id": "math-x-018",
+      "topic": "xy-plane coordinates",
+      "title": "Chi-square Degree",
+      "content": "Mathematical entry and definition for Chi-square Degree, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "chi-square",
+        "degree",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Chi-square Degree",
+      "example": "Example demonstrating the application of Chi-square Degree"
+    },
+    {
+      "id": "math-x-019",
+      "topic": "xy-plane coordinates",
+      "title": "Chi-square Independence",
+      "content": "Mathematical entry and definition for Chi-square Independence, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "chi-square",
+        "independence",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Chi-square Independence",
+      "example": "Example demonstrating the application of Chi-square Independence"
+    },
+    {
+      "id": "math-x-020",
+      "topic": "xy-plane coordinates",
+      "title": "Chi-square Fit",
+      "content": "Mathematical entry and definition for Chi-square Fit, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "chi-square",
+        "fit",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Chi-square Fit",
+      "example": "Example demonstrating the application of Chi-square Fit"
+    },
+    {
+      "id": "math-x-021",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Root",
+      "content": "Mathematical entry and definition for X-intercept Root, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "root",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-intercept Root",
+      "example": "Example demonstrating the application of X-intercept Root"
+    },
+    {
+      "id": "math-x-022",
+      "topic": "xy-plane coordinates",
+      "title": "X-axis Reflection",
+      "content": "Mathematical entry and definition for X-axis Reflection, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-axis",
+        "reflection",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-axis Reflection",
+      "example": "Example demonstrating the application of X-axis Reflection"
+    },
+    {
+      "id": "math-x-023",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Exponential",
+      "content": "Mathematical entry and definition for X-intercept Exponential, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "exponential",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-intercept Exponential",
+      "example": "Example demonstrating the application of X-intercept Exponential"
+    },
+    {
+      "id": "math-x-024",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Logarithmic",
+      "content": "Mathematical entry and definition for X-intercept Logarithmic, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "logarithmic",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-intercept Logarithmic",
+      "example": "Example demonstrating the application of X-intercept Logarithmic"
+    },
+    {
+      "id": "math-x-025",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Sine",
+      "content": "Mathematical entry and definition for X-intercept Sine, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "sine",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-intercept Sine",
+      "example": "Example demonstrating the application of X-intercept Sine"
+    },
+    {
+      "id": "math-x-026",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Cosine",
+      "content": "Mathematical entry and definition for X-intercept Cosine, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "cosine",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-intercept Cosine",
+      "example": "Example demonstrating the application of X-intercept Cosine"
+    },
+    {
+      "id": "math-x-027",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Tangent",
+      "content": "Mathematical entry and definition for X-intercept Tangent, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "tangent",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-intercept Tangent",
+      "example": "Example demonstrating the application of X-intercept Tangent"
+    },
+    {
+      "id": "math-x-028",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Cubic",
+      "content": "Mathematical entry and definition for X-intercept Cubic, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "cubic",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-intercept Cubic",
+      "example": "Example demonstrating the application of X-intercept Cubic"
+    },
+    {
+      "id": "math-x-029",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Absolute",
+      "content": "Mathematical entry and definition for X-intercept Absolute, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "absolute",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-intercept Absolute",
+      "example": "Example demonstrating the application of X-intercept Absolute"
+    },
+    {
+      "id": "math-x-030",
+      "topic": "xy-plane coordinates",
+      "title": "X-axis Motion",
+      "content": "Mathematical entry and definition for X-axis Motion, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-axis",
+        "motion",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-axis Motion",
+      "example": "Example demonstrating the application of X-axis Motion"
+    },
+    {
+      "id": "math-x-031",
+      "topic": "xy-plane coordinates",
+      "title": "X-axis Equation",
+      "content": "Mathematical entry and definition for X-axis Equation, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-axis",
+        "equation",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-axis Equation",
+      "example": "Example demonstrating the application of X-axis Equation"
+    },
+    {
+      "id": "math-x-032",
+      "topic": "xy-plane coordinates",
+      "title": "X-bar Mean",
+      "content": "Mathematical entry and definition for X-bar Mean, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-bar",
+        "mean",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-bar Mean",
+      "example": "Example demonstrating the application of X-bar Mean"
+    },
+    {
+      "id": "math-x-033",
+      "topic": "xy-plane coordinates",
+      "title": "X-bar Variance",
+      "content": "Mathematical entry and definition for X-bar Variance, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-bar",
+        "variance",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-bar Variance",
+      "example": "Example demonstrating the application of X-bar Variance"
+    },
+    {
+      "id": "math-x-034",
+      "topic": "xy-plane coordinates",
+      "title": "X-bar Standard Error",
+      "content": "Mathematical entry and definition for X-bar Standard Error, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-bar",
+        "standard",
+        "error",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-bar Standard Error",
+      "example": "Example demonstrating the application of X-bar Standard Error"
+    },
+    {
+      "id": "math-x-035",
+      "topic": "xy-plane coordinates",
+      "title": "X-coordinate Origin",
+      "content": "Mathematical entry and definition for X-coordinate Origin, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-coordinate",
+        "origin",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-coordinate Origin",
+      "example": "Example demonstrating the application of X-coordinate Origin"
+    },
+    {
+      "id": "math-x-036",
+      "topic": "xy-plane coordinates",
+      "title": "X-component Force",
+      "content": "Mathematical entry and definition for X-component Force, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-component",
+        "force",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-component Force",
+      "example": "Example demonstrating the application of X-component Force"
+    },
+    {
+      "id": "math-x-037",
+      "topic": "xy-plane coordinates",
+      "title": "X-component Velocity",
+      "content": "Mathematical entry and definition for X-component Velocity, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-component",
+        "velocity",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to X-component Velocity",
+      "example": "Example demonstrating the application of X-component Velocity"
+    },
+    {
+      "id": "math-x-038",
+      "topic": "xy-plane coordinates",
+      "title": "X-component Acceleration",
+      "content": "Mathematical entry and definition for X-component Acceleration, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-component",
+        "acceleration",
+        "xy-plane"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to X-component Acceleration",
+      "example": "Example demonstrating the application of X-component Acceleration"
+    },
+    {
+      "id": "math-x-039",
+      "topic": "xy-plane coordinates",
+      "title": "X-intercept Regression",
+      "content": "Mathematical entry and definition for X-intercept Regression, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "x-intercept",
+        "regression",
+        "xy-plane"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to X-intercept Regression",
+      "example": "Example demonstrating the application of X-intercept Regression"
+    },
+    {
+      "id": "math-x-040",
+      "topic": "xy-plane coordinates",
+      "title": "XY-plane Area",
+      "content": "Mathematical entry and definition for XY-plane Area, a core concept in the domain of xy-plane coordinates.",
+      "keywords": [
+        "xy-plane",
+        "area",
+        "xy-plane"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to XY-plane Area",
+      "example": "Example demonstrating the application of XY-plane Area"
+    }
+  ]
+}
