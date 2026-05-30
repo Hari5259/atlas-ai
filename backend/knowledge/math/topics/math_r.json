@@ -1,0 +1,570 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-r-001",
+      "topic": "real analysis and regression",
+      "title": "Radical Simplification",
+      "content": "Mathematical entry and definition for Radical Simplification, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radical",
+        "simplification",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Radical Simplification",
+      "example": "Example demonstrating the application of Radical Simplification"
+    },
+    {
+      "id": "math-r-002",
+      "topic": "real analysis and regression",
+      "title": "Radian Measure",
+      "content": "Mathematical entry and definition for Radian Measure, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radian",
+        "measure",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Radian Measure",
+      "example": "Example demonstrating the application of Radian Measure"
+    },
+    {
+      "id": "math-r-003",
+      "topic": "real analysis and regression",
+      "title": "Radical Equation",
+      "content": "Mathematical entry and definition for Radical Equation, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radical",
+        "equation",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Radical Equation",
+      "example": "Example demonstrating the application of Radical Equation"
+    },
+    {
+      "id": "math-r-004",
+      "topic": "real analysis and regression",
+      "title": "Radicand",
+      "content": "Mathematical entry and definition for Radicand, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radicand",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Radicand",
+      "example": "Example demonstrating the application of Radicand"
+    },
+    {
+      "id": "math-r-005",
+      "topic": "real analysis and regression",
+      "title": "Radius of Convergence",
+      "content": "Mathematical entry and definition for Radius of Convergence, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radius",
+        "of",
+        "convergence",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Radius of Convergence",
+      "example": "Example demonstrating the application of Radius of Convergence"
+    },
+    {
+      "id": "math-r-006",
+      "topic": "real analysis and regression",
+      "title": "Radius of Gyration",
+      "content": "Mathematical entry and definition for Radius of Gyration, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "radius",
+        "of",
+        "gyration",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Radius of Gyration",
+      "example": "Example demonstrating the application of Radius of Gyration"
+    },
+    {
+      "id": "math-r-007",
+      "topic": "real analysis and regression",
+      "title": "Discrete Random Variable",
+      "content": "Mathematical entry and definition for Discrete Random Variable, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "discrete",
+        "random",
+        "variable",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Discrete Random Variable",
+      "example": "Example demonstrating the application of Discrete Random Variable"
+    },
+    {
+      "id": "math-r-008",
+      "topic": "real analysis and regression",
+      "title": "Continuous Random Variable",
+      "content": "Mathematical entry and definition for Continuous Random Variable, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "continuous",
+        "random",
+        "variable",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Continuous Random Variable",
+      "example": "Example demonstrating the application of Continuous Random Variable"
+    },
+    {
+      "id": "math-r-009",
+      "topic": "real analysis and regression",
+      "title": "Range of Function",
+      "content": "Mathematical entry and definition for Range of Function, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "range",
+        "of",
+        "function",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Range of Function",
+      "example": "Example demonstrating the application of Range of Function"
+    },
+    {
+      "id": "math-r-010",
+      "topic": "real analysis and regression",
+      "title": "Range of Data",
+      "content": "Mathematical entry and definition for Range of Data, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "range",
+        "of",
+        "data",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Range of Data",
+      "example": "Example demonstrating the application of Range of Data"
+    },
+    {
+      "id": "math-r-011",
+      "topic": "real analysis and regression",
+      "title": "Rank of Matrix",
+      "content": "Mathematical entry and definition for Rank of Matrix, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rank",
+        "of",
+        "matrix",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Rank of Matrix",
+      "example": "Example demonstrating the application of Rank of Matrix"
+    },
+    {
+      "id": "math-r-012",
+      "topic": "real analysis and regression",
+      "title": "Rank-Nullity Theorem",
+      "content": "Mathematical entry and definition for Rank-Nullity Theorem, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rank-nullity",
+        "theorem",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Rank-Nullity Theorem",
+      "example": "Example demonstrating the application of Rank-Nullity Theorem"
+    },
+    {
+      "id": "math-r-013",
+      "topic": "real analysis and regression",
+      "title": "Ratio Test",
+      "content": "Mathematical entry and definition for Ratio Test, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "ratio",
+        "test",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Ratio Test",
+      "example": "Example demonstrating the application of Ratio Test"
+    },
+    {
+      "id": "math-r-014",
+      "topic": "real analysis and regression",
+      "title": "Rational Equation",
+      "content": "Mathematical entry and definition for Rational Equation, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rational",
+        "equation",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Rational Equation",
+      "example": "Example demonstrating the application of Rational Equation"
+    },
+    {
+      "id": "math-r-015",
+      "topic": "real analysis and regression",
+      "title": "Rational Exponents",
+      "content": "Mathematical entry and definition for Rational Exponents, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rational",
+        "exponents",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Rational Exponents",
+      "example": "Example demonstrating the application of Rational Exponents"
+    },
+    {
+      "id": "math-r-016",
+      "topic": "real analysis and regression",
+      "title": "Rational Function",
+      "content": "Mathematical entry and definition for Rational Function, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rational",
+        "function",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Rational Function",
+      "example": "Example demonstrating the application of Rational Function"
+    },
+    {
+      "id": "math-r-017",
+      "topic": "real analysis and regression",
+      "title": "Rational Numbers",
+      "content": "Mathematical entry and definition for Rational Numbers, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rational",
+        "numbers",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Rational Numbers",
+      "example": "Example demonstrating the application of Rational Numbers"
+    },
+    {
+      "id": "math-r-018",
+      "topic": "real analysis and regression",
+      "title": "Real Analysis",
+      "content": "Mathematical entry and definition for Real Analysis, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "real",
+        "analysis",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Real Analysis",
+      "example": "Example demonstrating the application of Real Analysis"
+    },
+    {
+      "id": "math-r-019",
+      "topic": "real analysis and regression",
+      "title": "Real Numbers",
+      "content": "Mathematical entry and definition for Real Numbers, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "real",
+        "numbers",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Real Numbers",
+      "example": "Example demonstrating the application of Real Numbers"
+    },
+    {
+      "id": "math-r-020",
+      "topic": "real analysis and regression",
+      "title": "Complex Real Part",
+      "content": "Mathematical entry and definition for Complex Real Part, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "complex",
+        "real",
+        "part",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Complex Real Part",
+      "example": "Example demonstrating the application of Complex Real Part"
+    },
+    {
+      "id": "math-r-021",
+      "topic": "real analysis and regression",
+      "title": "Reciprocal Function",
+      "content": "Mathematical entry and definition for Reciprocal Function, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "reciprocal",
+        "function",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Reciprocal Function",
+      "example": "Example demonstrating the application of Reciprocal Function"
+    },
+    {
+      "id": "math-r-022",
+      "topic": "real analysis and regression",
+      "title": "Rectangle Area",
+      "content": "Mathematical entry and definition for Rectangle Area, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rectangle",
+        "area",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Rectangle Area",
+      "example": "Example demonstrating the application of Rectangle Area"
+    },
+    {
+      "id": "math-r-023",
+      "topic": "real analysis and regression",
+      "title": "Rectilinear Motion",
+      "content": "Mathematical entry and definition for Rectilinear Motion, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rectilinear",
+        "motion",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Rectilinear Motion",
+      "example": "Example demonstrating the application of Rectilinear Motion"
+    },
+    {
+      "id": "math-r-024",
+      "topic": "real analysis and regression",
+      "title": "Recurrence Relation",
+      "content": "Mathematical entry and definition for Recurrence Relation, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "recurrence",
+        "relation",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Recurrence Relation",
+      "example": "Example demonstrating the application of Recurrence Relation"
+    },
+    {
+      "id": "math-r-025",
+      "topic": "real analysis and regression",
+      "title": "Recursion",
+      "content": "Mathematical entry and definition for Recursion, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "recursion",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Recursion",
+      "example": "Example demonstrating the application of Recursion"
+    },
+    {
+      "id": "math-r-026",
+      "topic": "real analysis and regression",
+      "title": "RREF Matrix",
+      "content": "Mathematical entry and definition for RREF Matrix, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rref",
+        "matrix",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to RREF Matrix",
+      "example": "Example demonstrating the application of RREF Matrix"
+    },
+    {
+      "id": "math-r-027",
+      "topic": "real analysis and regression",
+      "title": "Reflection",
+      "content": "Mathematical entry and definition for Reflection, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "reflection",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Reflection",
+      "example": "Example demonstrating the application of Reflection"
+    },
+    {
+      "id": "math-r-028",
+      "topic": "real analysis and regression",
+      "title": "Reflexive Relation",
+      "content": "Mathematical entry and definition for Reflexive Relation, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "reflexive",
+        "relation",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Reflexive Relation",
+      "example": "Example demonstrating the application of Reflexive Relation"
+    },
+    {
+      "id": "math-r-029",
+      "topic": "real analysis and regression",
+      "title": "Regression Coefficient",
+      "content": "Mathematical entry and definition for Regression Coefficient, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "regression",
+        "coefficient",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Regression Coefficient",
+      "example": "Example demonstrating the application of Regression Coefficient"
+    },
+    {
+      "id": "math-r-030",
+      "topic": "real analysis and regression",
+      "title": "Regression Line",
+      "content": "Mathematical entry and definition for Regression Line, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "regression",
+        "line",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Regression Line",
+      "example": "Example demonstrating the application of Regression Line"
+    },
+    {
+      "id": "math-r-031",
+      "topic": "real analysis and regression",
+      "title": "Regular Polygon",
+      "content": "Mathematical entry and definition for Regular Polygon, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "regular",
+        "polygon",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Regular Polygon",
+      "example": "Example demonstrating the application of Regular Polygon"
+    },
+    {
+      "id": "math-r-032",
+      "topic": "real analysis and regression",
+      "title": "Related Rates",
+      "content": "Mathematical entry and definition for Related Rates, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "related",
+        "rates",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Related Rates",
+      "example": "Example demonstrating the application of Related Rates"
+    },
+    {
+      "id": "math-r-033",
+      "topic": "real analysis and regression",
+      "title": "Relative Frequency",
+      "content": "Mathematical entry and definition for Relative Frequency, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "relative",
+        "frequency",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Relative Frequency",
+      "example": "Example demonstrating the application of Relative Frequency"
+    },
+    {
+      "id": "math-r-034",
+      "topic": "real analysis and regression",
+      "title": "Remainder Theorem",
+      "content": "Mathematical entry and definition for Remainder Theorem, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "remainder",
+        "theorem",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Remainder Theorem",
+      "example": "Example demonstrating the application of Remainder Theorem"
+    },
+    {
+      "id": "math-r-035",
+      "topic": "real analysis and regression",
+      "title": "Removable Discontinuity",
+      "content": "Mathematical entry and definition for Removable Discontinuity, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "removable",
+        "discontinuity",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Removable Discontinuity",
+      "example": "Example demonstrating the application of Removable Discontinuity"
+    },
+    {
+      "id": "math-r-036",
+      "topic": "real analysis and regression",
+      "title": "Residual",
+      "content": "Mathematical entry and definition for Residual, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "residual",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Residual",
+      "example": "Example demonstrating the application of Residual"
+    },
+    {
+      "id": "math-r-037",
+      "topic": "real analysis and regression",
+      "title": "Rhombus Area",
+      "content": "Mathematical entry and definition for Rhombus Area, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "rhombus",
+        "area",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Rhombus Area",
+      "example": "Example demonstrating the application of Rhombus Area"
+    },
+    {
+      "id": "math-r-038",
+      "topic": "real analysis and regression",
+      "title": "Riemann Sum",
+      "content": "Mathematical entry and definition for Riemann Sum, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "riemann",
+        "sum",
+        "real"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Riemann Sum",
+      "example": "Example demonstrating the application of Riemann Sum"
+    },
+    {
+      "id": "math-r-039",
+      "topic": "real analysis and regression",
+      "title": "Right Angle",
+      "content": "Mathematical entry and definition for Right Angle, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "right",
+        "angle",
+        "real"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Right Angle",
+      "example": "Example demonstrating the application of Right Angle"
+    },
+    {
+      "id": "math-r-040",
+      "topic": "real analysis and regression",
+      "title": "Right Triangle Trig",
+      "content": "Mathematical entry and definition for Right Triangle Trig, a core concept in the domain of real analysis and regression.",
+      "keywords": [
+        "right",
+        "triangle",
+        "trig",
+        "real"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Right Triangle Trig",
+      "example": "Example demonstrating the application of Right Triangle Trig"
+    }
+  ]
+}
