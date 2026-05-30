@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-h-001",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Half-Angle Formulas",
+      "content": "Trigonometric identities that express trigonometric functions of half-angles in terms of functions of the original angles.",
+      "keywords": [
+        "trig",
+        "half-angle",
+        "identities"
+      ],
+      "difficulty": "intermediate",
+      "formula": "sin(theta/2) = +-sqrt((1 - cos(theta)) / 2)",
+      "example": "Finding exact value of sin(15 degrees)"
+    },
+    {
+      "id": "math-h-002",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Half-Life Exponential Decay",
+      "content": "The time required for a quantity to reduce to half of its initial value.",
+      "keywords": [
+        "decay",
+        "half-life",
+        "exponential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "N(t) = N_0 * (1/2)^(t / t_half)",
+      "example": "Decay of radioactive Carbon-14 with half-life of 5730 years"
+    },
+    {
+      "id": "math-h-003",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hamilton's Quaternions",
+      "content": "A four-dimensional number system extending complex numbers, useful for 3D rotations.",
+      "keywords": [
+        "quaternion",
+        "rotations",
+        "algebra"
+      ],
+      "difficulty": "advanced",
+      "formula": "q = a + b*i + c*j + d*k",
+      "example": "Calculating rotation in computer graphics and game engines"
+    },
+    {
+      "id": "math-h-004",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hamiltonian Cycle",
+      "content": "A closed loop path in a graph that visits each vertex exactly once.",
+      "keywords": [
+        "hamiltonian",
+        "cycle",
+        "graph"
+      ],
+      "difficulty": "intermediate",
+      "formula": "v_1 -> v_2 -> ... -> v_n -> v_1",
+      "example": "Solving the traveling salesperson problem path"
+    },
+    {
+      "id": "math-h-005",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hankel Matrix",
+      "content": "A square matrix with constant skew-diagonals.",
+      "keywords": [
+        "hankel",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "H_ij = c_(i+j-1)",
+      "example": "Used in signal processing and time series analysis"
+    },
+    {
+      "id": "math-h-006",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Harmonic Mean",
+      "content": "The reciprocal of the arithmetic mean of the reciprocals of a set of values.",
+      "keywords": [
+        "mean",
+        "harmonic",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "HM = n / sum(1 / x_i)",
+      "example": "Calculating average speed for round trip of different speeds"
+    },
+    {
+      "id": "math-h-007",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Harmonic Progression",
+      "content": "A sequence of numbers whose reciprocals form an arithmetic progression.",
+      "keywords": [
+        "harmonic",
+        "progression",
+        "sequence"
+      ],
+      "difficulty": "beginner",
+      "formula": "1/a_n = 1/a_1 + (n - 1) * d",
+      "example": "Sequence: 1, 1/3, 1/5, 1/7..."
+    },
+    {
+      "id": "math-h-008",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Harmonic Series",
+      "content": "The divergent infinite series of the reciprocals of the positive integers.",
+      "keywords": [
+        "harmonic",
+        "series",
+        "divergent"
+      ],
+      "difficulty": "intermediate",
+      "formula": "sum of 1/n",
+      "example": "1 + 1/2 + 1/3 + 1/4 + ..."
+    },
+    {
+      "id": "math-h-009",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hausdorff Space",
+      "content": "A topological space in which any two distinct points have disjoint neighborhoods.",
+      "keywords": [
+        "hausdorff",
+        "topology",
+        "space"
+      ],
+      "difficulty": "advanced",
+      "formula": "For x != y, exists U, V with x in U, y in V, U intersect V = empty",
+      "example": "Most standard spaces like Euclidean space are Hausdorff"
+    },
+    {
+      "id": "math-h-010",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Heaviside Step Function",
+      "content": "A step function that is zero for negative arguments and one for positive arguments.",
+      "keywords": [
+        "heaviside",
+        "step",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "H(x) = 0 if x < 0 else 1",
+      "example": "Representing sudden switch turning on in circuit modeling"
+    },
+    {
+      "id": "math-h-011",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Heptagon Area",
+      "content": "The area of a regular seven-sided polygon of side length s.",
+      "keywords": [
+        "heptagon",
+        "area",
+        "polygon"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A = (7/4) * s^2 * cot(pi / 7)",
+      "example": "Regular heptagon with side length 5"
+    },
+    {
+      "id": "math-h-012",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hermitian Matrix",
+      "content": "A square matrix that is equal to its own conjugate transpose.",
+      "keywords": [
+        "hermitian",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "advanced",
+      "formula": "A = A^H",
+      "example": "Hermitian matrices have real eigenvalues"
+    },
+    {
+      "id": "math-h-013",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Heron's Formula",
+      "content": "A formula for the area of a triangle given the lengths of all three sides.",
+      "keywords": [
+        "heron",
+        "triangle",
+        "area"
+      ],
+      "difficulty": "beginner",
+      "formula": "Area = sqrt(s * (s-a) * (s-b) * (s-c)) where s = (a+b+c)/2",
+      "example": "Finding area of triangle with sides 5, 12, 13"
+    },
+    {
+      "id": "math-h-014",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Heron's Area Calculation",
+      "content": "Using Heron's formula to determine triangle area.",
+      "keywords": [
+        "heron",
+        "triangle",
+        "area"
+      ],
+      "difficulty": "beginner",
+      "formula": "Area = sqrt(s*(s-a)*(s-b)*(s-c))",
+      "example": "Sides 3, 4, 5 -> semiperimeter s=6 -> Area=6"
+    },
+    {
+      "id": "math-h-015",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hexadecimal Conversion",
+      "content": "Converting numbers between base-10 decimal and base-16 hexadecimal systems.",
+      "keywords": [
+        "hexadecimal",
+        "base-16",
+        "conversion"
+      ],
+      "difficulty": "beginner",
+      "formula": "Decimal 255 equals Hexadecimal FF",
+      "example": "Hex colors in web CSS like #FFFFFF"
+    },
+    {
+      "id": "math-h-016",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hexagon Area",
+      "content": "The area of a regular six-sided polygon of side length s.",
+      "keywords": [
+        "hexagon",
+        "area",
+        "polygon"
+      ],
+      "difficulty": "beginner",
+      "formula": "A = (3 * sqrt(3) / 2) * s^2",
+      "example": "Area of regular hexagon with side length 4 is 24*sqrt(3)"
+    },
+    {
+      "id": "math-h-017",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hilbert Space",
+      "content": "An inner product space that is also a complete metric space.",
+      "keywords": [
+        "hilbert",
+        "space",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "formula": "V with inner product and complete norm",
+      "example": "Quantum mechanics state spaces are Hilbert spaces"
+    },
+    {
+      "id": "math-h-018",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Histogram Representation",
+      "content": "A graphical representation of the distribution of numerical data by grouping into bins.",
+      "keywords": [
+        "histogram",
+        "plot",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "Heights of bars show frequencies in intervals",
+      "example": "Plotting age distribution of survey respondents"
+    },
+    {
+      "id": "math-h-019",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Homeomorphism",
+      "content": "A continuous bijection between topological spaces with a continuous inverse.",
+      "keywords": [
+        "homeomorphism",
+        "topology",
+        "mapping"
+      ],
+      "difficulty": "advanced",
+      "formula": "f: X -> Y is continuous, bijective, f^-1 is continuous",
+      "example": "A coffee mug is homeomorphically equivalent to a donut"
+    },
+    {
+      "id": "math-h-020",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Homogeneous Coordinates",
+      "content": "A system of coordinates used in projective geometry, representing N-dimensional points with N+1 coordinates.",
+      "keywords": [
+        "homogeneous",
+        "coordinates",
+        "graphics"
+      ],
+      "difficulty": "advanced",
+      "formula": "(x, y, w)",
+      "example": "Graphics transformations using 4x4 matrices for 3D points"
+    },
+    {
+      "id": "math-h-021",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Homogeneous Linear ODE",
+      "content": "A linear ordinary differential equation in which the constant term is zero.",
+      "keywords": [
+        "homogeneous",
+        "differential",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a_n(x)*y^(n) + ... + a_0(x)*y = 0",
+      "example": "Solving y'' + 4y = 0"
+    },
+    {
+      "id": "math-h-022",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Homomorphism",
+      "content": "A structure-preserving map between two algebraic structures of the same type.",
+      "keywords": [
+        "homomorphism",
+        "algebra",
+        "mapping"
+      ],
+      "difficulty": "intermediate",
+      "formula": "phi(a * b) = phi(a) * phi(b)",
+      "example": "Mapping vectors through a linear transformation matrix"
+    },
+    {
+      "id": "math-h-023",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hooke's Law Formula",
+      "content": "Physical formula relating spring force to displacement, representing linear variation.",
+      "keywords": [
+        "force",
+        "spring",
+        "physics"
+      ],
+      "difficulty": "beginner",
+      "formula": "F = -k * x",
+      "example": "Force exerted by a stretched spring"
+    },
+    {
+      "id": "math-h-024",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Horizontal Asymptote",
+      "content": "A horizontal line that the graph of a function approaches as x goes to positive or negative infinity.",
+      "keywords": [
+        "asymptote",
+        "horizontal",
+        "limit"
+      ],
+      "difficulty": "beginner",
+      "formula": "y = L where lim x->inf f(x) = L",
+      "example": "Horizontal asymptote of y = (2x+1)/(x-3) is y = 2"
+    },
+    {
+      "id": "math-h-025",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Horizontal Line Test",
+      "content": "A test used to determine if a function is one-to-one (injective) and has a valid inverse function.",
+      "keywords": [
+        "test",
+        "horizontal",
+        "function"
+      ],
+      "difficulty": "beginner",
+      "formula": "If any horizontal line crosses the graph >1 time, not 1-to-1",
+      "example": "f(x) = x^2 fails, f(x) = x^3 passes"
+    },
+    {
+      "id": "math-h-026",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hyperbola Equation",
+      "content": "The algebraic equation representing a curve with two open branches.",
+      "keywords": [
+        "hyperbola",
+        "equation",
+        "conic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "(x-h)^2 / a^2 - (y-k)^2 / b^2 = 1",
+      "example": "Hyperbola with asymptotes y = +- (b/a)x"
+    },
+    {
+      "id": "math-h-027",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hyperbolic Cosine",
+      "content": "A hyperbolic function defined using exponential functions.",
+      "keywords": [
+        "cosh",
+        "hyperbolic",
+        "exponential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "cosh(x) = (e^x + e^-x) / 2",
+      "example": "Shape of a hanging cable (catenary curve)"
+    },
+    {
+      "id": "math-h-028",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hyperbolic Sine",
+      "content": "A hyperbolic function defined using exponential functions.",
+      "keywords": [
+        "sinh",
+        "hyperbolic",
+        "exponential"
+      ],
+      "difficulty": "intermediate",
+      "formula": "sinh(x) = (e^x - e^-x) / 2",
+      "example": "Solving heat and wave differential equations"
+    },
+    {
+      "id": "math-h-029",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hyperbolic Tangent",
+      "content": "A hyperbolic function representing the ratio of sinh to cosh, used as an activation function.",
+      "keywords": [
+        "tanh",
+        "hyperbolic",
+        "sigmoid"
+      ],
+      "difficulty": "intermediate",
+      "formula": "tanh(x) = sinh(x) / cosh(x)",
+      "example": "Neural network activation scaling output to (-1, 1)"
+    },
+    {
+      "id": "math-h-030",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypergeometric Distribution",
+      "content": "A discrete probability distribution of drawing successes from a finite population without replacement.",
+      "keywords": [
+        "probability",
+        "hypergeometric",
+        "sampling"
+      ],
+      "difficulty": "intermediate",
+      "formula": "P(X=k) = (KCk * (N-K)C(n-k)) / NCn",
+      "example": "Probability of drawing 3 red marbles out of 10 without replacement"
+    },
+    {
+      "id": "math-h-031",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypergraph",
+      "content": "A generalization of a graph in which an edge can join any number of vertices.",
+      "keywords": [
+        "hypergraph",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "advanced",
+      "formula": "H = (X, E) where edges in E are subsets of X",
+      "example": "Modeling complex grouping relations in database design"
+    },
+    {
+      "id": "math-h-032",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hyperplane",
+      "content": "A subspace of one dimension less than its ambient space.",
+      "keywords": [
+        "hyperplane",
+        "dimension",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "w . x + b = 0",
+      "example": "A flat 2D plane dividing a 3D space"
+    },
+    {
+      "id": "math-h-033",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypotenuse",
+      "content": "The longest side of a right-angled triangle, opposite the right angle.",
+      "keywords": [
+        "hypotenuse",
+        "triangle",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "c = sqrt(a^2 + b^2)",
+      "example": "Hypotenuse of a triangle with legs 3 and 4 is 5"
+    },
+    {
+      "id": "math-h-034",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypothesis Testing",
+      "content": "A statistical method that uses sample data to evaluate claims about a population parameter.",
+      "keywords": [
+        "hypothesis",
+        "test",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Null vs Alternative hypothesis comparison",
+      "example": "Testing if a new drug works better than a placebo"
+    },
+    {
+      "id": "math-h-035",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypothesis Testing Alpha",
+      "content": "The significance level, the probability of rejecting the null hypothesis when it is actually true.",
+      "keywords": [
+        "hypothesis",
+        "alpha",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "alpha = P(Type I Error)",
+      "example": "Using alpha = 0.05 for a statistical significance test"
+    },
+    {
+      "id": "math-h-036",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypothesis Testing Beta",
+      "content": "The probability of failing to reject the null hypothesis when it is actually false.",
+      "keywords": [
+        "hypothesis",
+        "beta",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "beta = P(Type II Error)",
+      "example": "Calculating the statistical power of a clinical trial"
+    },
+    {
+      "id": "math-h-037",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypothesis Testing Null",
+      "content": "The default assumption that there is no effect, no difference, or no relationship in the population.",
+      "keywords": [
+        "null",
+        "hypothesis",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "H_0",
+      "example": "Null hypothesis: the new teaching method has no effect on scores"
+    },
+    {
+      "id": "math-h-038",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hypothesis Testing Power",
+      "content": "The probability that a test will correctly reject a false null hypothesis.",
+      "keywords": [
+        "power",
+        "hypothesis",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Power = 1 - beta",
+      "example": "Ensuring sample size is large enough to achieve 80% power"
+    },
+    {
+      "id": "math-h-039",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Harmonic Analysis",
+      "content": "A branch of mathematics concerned with the representation of signals or functions as the superposition of basic waves.",
+      "keywords": [
+        "harmonic",
+        "analysis",
+        "waves"
+      ],
+      "difficulty": "advanced",
+      "formula": "Fourier transforms mapping",
+      "example": "Analyzing vibration frequencies in engineering"
+    },
+    {
+      "id": "math-h-040",
+      "topic": "hyperbolic and harmonic functions",
+      "title": "Hilbert Transform",
+      "content": "An integral transform that shifts the phase of the spectral components of a signal by 90 degrees.",
+      "keywords": [
+        "hilbert",
+        "transform",
+        "signal"
+      ],
+      "difficulty": "advanced",
+      "formula": "H(u)(t) = (1/pi) * PV integral (u(tau) / (t - tau)) dtau",
+      "example": "Creating analytic signals in telecommunication"
+    }
+  ]
+}
