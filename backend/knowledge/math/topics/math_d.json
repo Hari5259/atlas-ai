@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-d-001",
+      "topic": "discrete math and derivatives",
+      "title": "Decagon Area",
+      "content": "The area of a regular ten-sided polygon of side length s.",
+      "keywords": [
+        "decagon",
+        "area",
+        "polygon"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A = (5/2) * s^2 * sqrt(5 + 2*sqrt(5))",
+      "example": "A regular decagon with side length 3"
+    },
+    {
+      "id": "math-d-002",
+      "topic": "discrete math and derivatives",
+      "title": "Decimal Conversion",
+      "content": "Converting a number from fractional or binary notation to base-10 decimal representation.",
+      "keywords": [
+        "decimal",
+        "fraction",
+        "conversion"
+      ],
+      "difficulty": "beginner",
+      "formula": "1/4 = 0.25",
+      "example": "Binary 10.1 equals decimal 2.5"
+    },
+    {
+      "id": "math-d-003",
+      "topic": "discrete math and derivatives",
+      "title": "Decision Tree Probability",
+      "content": "A tree-like graph model of decisions and their possible consequences, used to calculate expected values.",
+      "keywords": [
+        "tree",
+        "decision",
+        "probability"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Expected Value = sum(Prob * Value)",
+      "example": "Deciding whether to fund a project with various success rates"
+    },
+    {
+      "id": "math-d-004",
+      "topic": "discrete math and derivatives",
+      "title": "Decreasing Function",
+      "content": "A function whose output values decrease or remain the same as the input values increase.",
+      "keywords": [
+        "decreasing",
+        "function",
+        "calculus"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(x_1) >= f(x_2) for x_1 < x_2",
+      "example": "f(x) = -2x is strictly decreasing"
+    },
+    {
+      "id": "math-d-005",
+      "topic": "discrete math and derivatives",
+      "title": "Definite Integral",
+      "content": "The integral of a function over a closed interval, representing the signed area under the curve.",
+      "keywords": [
+        "integral",
+        "definite",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Area = integral from a to b of f(x) dx",
+      "example": "Integral of x from 0 to 2 is 2"
+    },
+    {
+      "id": "math-d-006",
+      "topic": "discrete math and derivatives",
+      "title": "Degree of Polynomial",
+      "content": "The highest power of the variable in a polynomial expression.",
+      "keywords": [
+        "polynomial",
+        "degree",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "deg(a_n*x^n + ... + a_0) = n",
+      "example": "Degree of 4x^3 - 2x + 7 is 3"
+    },
+    {
+      "id": "math-d-007",
+      "topic": "discrete math and derivatives",
+      "title": "Degree of Vertex",
+      "content": "The number of edges connected to a vertex in a graph.",
+      "keywords": [
+        "degree",
+        "vertex",
+        "graph"
+      ],
+      "difficulty": "beginner",
+      "formula": "deg(v) = count of incident edges",
+      "example": "In a square graph, each corner vertex has degree 2"
+    },
+    {
+      "id": "math-d-008",
+      "topic": "discrete math and derivatives",
+      "title": "De Moivre's Theorem",
+      "content": "A formula that expresses complex powers of complex numbers in polar coordinates.",
+      "keywords": [
+        "complex",
+        "demoivre",
+        "polar"
+      ],
+      "difficulty": "intermediate",
+      "formula": "(cos(x) + i*sin(x))^n = cos(n*x) + i*sin(n*x)",
+      "example": "Finding powers of (1 + i)"
+    },
+    {
+      "id": "math-d-009",
+      "topic": "discrete math and derivatives",
+      "title": "De Morgan's Laws",
+      "content": "A pair of transformation rules in boolean algebra and set theory relating conjunction and disjunction through negation.",
+      "keywords": [
+        "logic",
+        "demorgan",
+        "boolean"
+      ],
+      "difficulty": "beginner",
+      "formula": "NOT (A AND B) = (NOT A) OR (NOT B)",
+      "example": "Complement of A union B is A' intersect B'"
+    },
+    {
+      "id": "math-d-010",
+      "topic": "discrete math and derivatives",
+      "title": "Denominator",
+      "content": "The bottom number in a fraction, indicating the number of equal parts into which the whole is divided.",
+      "keywords": [
+        "denominator",
+        "fraction",
+        "arithmetic"
+      ],
+      "difficulty": "beginner",
+      "formula": "Fraction = Numerator / Denominator",
+      "example": "In 3/4, the denominator is 4"
+    },
+    {
+      "id": "math-d-011",
+      "topic": "discrete math and derivatives",
+      "title": "Dense Set",
+      "content": "A subset S of a topological space X is dense if its closure is equal to X.",
+      "keywords": [
+        "dense",
+        "set",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "Closure(S) = X",
+      "example": "Rational numbers are dense in the real numbers"
+    },
+    {
+      "id": "math-d-012",
+      "topic": "discrete math and derivatives",
+      "title": "Derivative Definition",
+      "content": "The limit representing the instantaneous rate of change of a function with respect to its variable.",
+      "keywords": [
+        "derivative",
+        "calculus",
+        "limit"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f'(x) = lim h->0 (f(x+h) - f(x)) / h",
+      "example": "Derivative of x^2 is 2x"
+    },
+    {
+      "id": "math-d-013",
+      "topic": "discrete math and derivatives",
+      "title": "Determinant of Matrix",
+      "content": "A scalar value calculated from a square matrix that encodes scaling and invertibility properties.",
+      "keywords": [
+        "determinant",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "det(A) = ad - bc for 2x2 matrix",
+      "example": "det([[1,2],[3,4]]) = 1*4 - 2*3 = -2"
+    },
+    {
+      "id": "math-d-014",
+      "topic": "discrete math and derivatives",
+      "title": "Deviation from Mean",
+      "content": "The difference between an observed data value and the mean of the data set.",
+      "keywords": [
+        "deviation",
+        "mean",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "d = x_i - mean",
+      "example": "Deviation of 8 from mean 6 is +2"
+    },
+    {
+      "id": "math-d-015",
+      "topic": "discrete math and derivatives",
+      "title": "Diagonal Matrix",
+      "content": "A square matrix in which all entries outside the main diagonal are zero.",
+      "keywords": [
+        "matrix",
+        "diagonal",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "D_ij = 0 for i != j",
+      "example": "Matrix with elements [2, 0, 0], [0, 5, 0], [0, 0, -1]"
+    },
+    {
+      "id": "math-d-016",
+      "topic": "discrete math and derivatives",
+      "title": "Diameter of Circle",
+      "content": "The straight line distance passing through the center of a circle, connecting two opposite points.",
+      "keywords": [
+        "diameter",
+        "circle",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "d = 2 * r",
+      "example": "Diameter of circle with radius 7 is 14"
+    },
+    {
+      "id": "math-d-017",
+      "topic": "discrete math and derivatives",
+      "title": "Difference of Squares",
+      "content": "An algebraic factoring pattern for the difference of two perfect squares.",
+      "keywords": [
+        "factoring",
+        "squares",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "a^2 - b^2 = (a - b)(a + b)",
+      "example": "x^2 - 16 = (x - 4)(x + 4)"
+    },
+    {
+      "id": "math-d-018",
+      "topic": "discrete math and derivatives",
+      "title": "Difference Quotient",
+      "content": "The ratio of the difference of two values of a function to the difference of the corresponding inputs.",
+      "keywords": [
+        "quotient",
+        "slope",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "DQ = (f(x + h) - f(x)) / h",
+      "example": "Calculating slope of secant line"
+    },
+    {
+      "id": "math-d-019",
+      "topic": "discrete math and derivatives",
+      "title": "Differentiability",
+      "content": "A function is differentiable at a point if its derivative exists at that point.",
+      "keywords": [
+        "differentiable",
+        "calculus",
+        "limits"
+      ],
+      "difficulty": "intermediate",
+      "formula": "lim h->0 (f(c+h) - f(c))/h exists",
+      "example": "f(x) = |x| is not differentiable at x = 0"
+    },
+    {
+      "id": "math-d-020",
+      "topic": "discrete math and derivatives",
+      "title": "Differential Equation",
+      "content": "An equation relating a function to its derivatives.",
+      "keywords": [
+        "differential",
+        "derivative",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "dy/dx = k * y",
+      "example": "Equation for exponential growth of bacteria"
+    },
+    {
+      "id": "math-d-021",
+      "topic": "discrete math and derivatives",
+      "title": "Digraph",
+      "content": "A directed graph where edges have a specific direction associated with them.",
+      "keywords": [
+        "digraph",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "intermediate",
+      "formula": "G = (V, E) with ordered pairs in E",
+      "example": "Flowchart showing work steps"
+    },
+    {
+      "id": "math-d-022",
+      "topic": "discrete math and derivatives",
+      "title": "Dihedral Group",
+      "content": "The group of symmetries of a regular polygon, including rotations and reflections.",
+      "keywords": [
+        "group",
+        "dihedral",
+        "symmetry"
+      ],
+      "difficulty": "advanced",
+      "formula": "D_2n of order 2n",
+      "example": "Symmetries of an equilateral triangle (D_3, order 6)"
+    },
+    {
+      "id": "math-d-023",
+      "topic": "discrete math and derivatives",
+      "title": "Dimension of Vector Space",
+      "content": "The number of vectors in a basis of a vector space.",
+      "keywords": [
+        "dimension",
+        "basis",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "dim(V) = cardinality of basis",
+      "example": "The dimension of R^3 is 3"
+    },
+    {
+      "id": "math-d-024",
+      "topic": "discrete math and derivatives",
+      "title": "Diophantine Equation",
+      "content": "A polynomial equation in which only integer solutions are sought.",
+      "keywords": [
+        "diophantine",
+        "integer",
+        "equations"
+      ],
+      "difficulty": "advanced",
+      "formula": "a*x + b*y = c",
+      "example": "Finding integer solutions for 3x + 5y = 12"
+    },
+    {
+      "id": "math-d-025",
+      "topic": "discrete math and derivatives",
+      "title": "Direct Variation",
+      "content": "A relationship between two variables in which one is a constant multiple of the other.",
+      "keywords": [
+        "variation",
+        "direct",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "y = k * x",
+      "example": "Distance traveled varies directly with time at constant speed"
+    },
+    {
+      "id": "math-d-026",
+      "topic": "discrete math and derivatives",
+      "title": "Directrix of Parabola",
+      "content": "A fixed line used in the geometric definition of a parabola, opposite to the focus.",
+      "keywords": [
+        "directrix",
+        "parabola",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y = -p for y^2 = 4px",
+      "example": "Directrix of y = x^2 is y = -1/4"
+    },
+    {
+      "id": "math-d-027",
+      "topic": "discrete math and derivatives",
+      "title": "Dirichlet's Principle",
+      "content": "Also known as the pigeonhole principle: if n items are put into m containers with n > m, at least one container has >1 item.",
+      "keywords": [
+        "dirichlet",
+        "pigeonhole",
+        "discrete"
+      ],
+      "difficulty": "intermediate",
+      "formula": "If N > M, exists box with >= 2 items",
+      "example": "In a group of 13 people, at least two were born in the same month"
+    },
+    {
+      "id": "math-d-028",
+      "topic": "discrete math and derivatives",
+      "title": "Discrete Fourier Transform",
+      "content": "A transform that converts a finite sequence of equally-spaced samples of a signal into the frequency domain.",
+      "keywords": [
+        "fourier",
+        "transform",
+        "discrete"
+      ],
+      "difficulty": "advanced",
+      "formula": "X_k = sum of x_n * e^(-i*2*pi*k*n/N)",
+      "example": "Analyzing digital audio frequency components"
+    },
+    {
+      "id": "math-d-029",
+      "topic": "discrete math and derivatives",
+      "title": "Discrete Random Variable",
+      "content": "A random variable that can take on only a countable number of distinct values.",
+      "keywords": [
+        "random",
+        "variable",
+        "probability"
+      ],
+      "difficulty": "beginner",
+      "formula": "X in {x_1, x_2, ...}",
+      "example": "Number of heads in 5 coin flips"
+    },
+    {
+      "id": "math-d-030",
+      "topic": "discrete math and derivatives",
+      "title": "Discriminant of Quadratic",
+      "content": "The part of the quadratic formula under the square root that reveals the type of roots.",
+      "keywords": [
+        "discriminant",
+        "roots",
+        "quadratic"
+      ],
+      "difficulty": "beginner",
+      "formula": "D = b^2 - 4*a*c",
+      "example": "Discriminant of x^2 - 4x + 4 is 0 (one real root)"
+    },
+    {
+      "id": "math-d-031",
+      "topic": "discrete math and derivatives",
+      "title": "Disjoint Sets",
+      "content": "Sets that have no elements in common, meaning their intersection is empty.",
+      "keywords": [
+        "disjoint",
+        "sets",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "A intersect B = Empty Set",
+      "example": "Set of evens and set of odds are disjoint"
+    },
+    {
+      "id": "math-d-032",
+      "topic": "discrete math and derivatives",
+      "title": "Disjunction in Logic",
+      "content": "An 'OR' logical operator which is true if at least one of the propositions is true.",
+      "keywords": [
+        "disjunction",
+        "or",
+        "logic"
+      ],
+      "difficulty": "beginner",
+      "formula": "P or Q",
+      "example": "Statement: 'It is raining OR I have an umbrella'"
+    },
+    {
+      "id": "math-d-033",
+      "topic": "discrete math and derivatives",
+      "title": "Distance Formula in 2D",
+      "content": "Formula calculating the straight line distance between two points in a Cartesian plane.",
+      "keywords": [
+        "distance",
+        "coordinates",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "d = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)",
+      "example": "Distance between (0,0) and (3,4) is 5"
+    },
+    {
+      "id": "math-d-034",
+      "topic": "discrete math and derivatives",
+      "title": "Distance Formula in 3D",
+      "content": "Formula calculating the straight line distance between two points in three-dimensional space.",
+      "keywords": [
+        "distance",
+        "3d",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "d = sqrt((x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2)",
+      "example": "Distance between (0,0,0) and (1,2,2) is 3"
+    },
+    {
+      "id": "math-d-035",
+      "topic": "discrete math and derivatives",
+      "title": "Distributive Property",
+      "content": "Multiplying a sum by a number gives the same result as multiplying each addend individually and adding them.",
+      "keywords": [
+        "distributive",
+        "algebra",
+        "property"
+      ],
+      "difficulty": "beginner",
+      "formula": "a * (b + c) = a*b + a*c",
+      "example": "3 * (x + 2) = 3x + 6"
+    },
+    {
+      "id": "math-d-036",
+      "topic": "discrete math and derivatives",
+      "title": "Divergence of Vector Field",
+      "content": "A vector operator that measures the magnitude of a field's source or sink at a given point.",
+      "keywords": [
+        "divergence",
+        "vector",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "div(F) = del . F",
+      "example": "Calculating water flow outward from a sprinkler"
+    },
+    {
+      "id": "math-d-037",
+      "topic": "discrete math and derivatives",
+      "title": "Divergence Test for Series",
+      "content": "A test showing that if the limit of the terms of a series is not zero, the series must diverge.",
+      "keywords": [
+        "divergence",
+        "series",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "lim a_n != 0 implies sum(a_n) diverges",
+      "example": "Series 1 + 1 + 1 + ... diverges because lim(1) = 1 != 0"
+    },
+    {
+      "id": "math-d-038",
+      "topic": "discrete math and derivatives",
+      "title": "Dividend and Divisor",
+      "content": "In division, the dividend is the number being divided, and the divisor is the number by which it is divided.",
+      "keywords": [
+        "division",
+        "divisor",
+        "arithmetic"
+      ],
+      "difficulty": "beginner",
+      "formula": "Dividend / Divisor = Quotient",
+      "example": "In 15 / 3 = 5, 15 is dividend and 3 is divisor"
+    },
+    {
+      "id": "math-d-039",
+      "topic": "discrete math and derivatives",
+      "title": "Divisibility Rules",
+      "content": "Shortcuts to quickly determine if an integer is divisible by another without full division.",
+      "keywords": [
+        "divisibility",
+        "rules",
+        "integers"
+      ],
+      "difficulty": "beginner",
+      "formula": "Even numbers are divisible by 2",
+      "example": "123 is divisible by 3 because 1+2+3=6"
+    },
+    {
+      "id": "math-d-040",
+      "topic": "discrete math and derivatives",
+      "title": "Domain of Function",
+      "content": "The complete set of all possible input values for which a function is defined and outputs real values.",
+      "keywords": [
+        "domain",
+        "function",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "Domain of f(x)",
+      "example": "Domain of f(x) = 1/x is all x != 0"
+    }
+  ]
+}
