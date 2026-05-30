@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-k-001",
+      "topic": "kernels and knot theory",
+      "title": "Kalman Filter",
+      "content": "An algorithm that uses a series of measurements observed over time to produce estimates of unknown variables.",
+      "keywords": [
+        "kalman",
+        "filter",
+        "algorithm"
+      ],
+      "difficulty": "advanced",
+      "formula": "x_k = A*x_(k-1) + B*u_k",
+      "example": "Tracking position of a spacecraft from noisy radar readings"
+    },
+    {
+      "id": "math-k-002",
+      "topic": "kernels and knot theory",
+      "title": "Karnaugh Map",
+      "content": "A method of simplifying Boolean algebra expressions visually without algebraic manipulation.",
+      "keywords": [
+        "karnaugh",
+        "map",
+        "boolean"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Grid of cells with gray code indexing",
+      "example": "Simplifying logic gates count in digital design"
+    },
+    {
+      "id": "math-k-003",
+      "topic": "kernels and knot theory",
+      "title": "Kendall's Rank Correlation",
+      "content": "A non-parametric metric measuring the ordinal association between two quantities.",
+      "keywords": [
+        "correlation",
+        "kendall",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "tau = (C - D) / (n*(n-1)/2)",
+      "example": "Comparing two rank-ordered lists of search results"
+    },
+    {
+      "id": "math-k-004",
+      "topic": "kernels and knot theory",
+      "title": "Kepler's Third Law Formula",
+      "content": "Mathematical relation stating the square of a planet's orbital period is proportional to the cube of its semi-major axis.",
+      "keywords": [
+        "kepler",
+        "orbit",
+        "physics"
+      ],
+      "difficulty": "beginner",
+      "formula": "T^2 = k * a^3",
+      "example": "Calculating the orbit time of Mars around the Sun"
+    },
+    {
+      "id": "math-k-005",
+      "topic": "kernels and knot theory",
+      "title": "Kernel of Homomorphism",
+      "content": "The set of elements in the domain that map to the identity element of the codomain.",
+      "keywords": [
+        "kernel",
+        "homomorphism",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Ker(phi) = {x in G : phi(x) = e_H}",
+      "example": "Finding null space of group map"
+    },
+    {
+      "id": "math-k-006",
+      "topic": "kernels and knot theory",
+      "title": "Kernel of Linear Map",
+      "content": "The set of vectors that map to the zero vector under a linear transformation, also known as the null space.",
+      "keywords": [
+        "kernel",
+        "matrix",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Ker(T) = {v in V : T(v) = 0}",
+      "example": "Solving homogeneous system A*x = 0"
+    },
+    {
+      "id": "math-k-007",
+      "topic": "kernels and knot theory",
+      "title": "Kite Area",
+      "content": "The area of a quadrilateral with two pairs of equal adjacent sides, equal to half the product of its diagonals.",
+      "keywords": [
+        "kite",
+        "area",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "A = (d_1 * d_2) / 2",
+      "example": "A kite with diagonals of 6 cm and 10 cm has area 30 cm^2"
+    },
+    {
+      "id": "math-k-008",
+      "topic": "kernels and knot theory",
+      "title": "Klein Bottle",
+      "content": "A non-orientable one-sided surface with no boundary, which can only be fully embedded in four dimensions.",
+      "keywords": [
+        "klein",
+        "bottle",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "Euler characteristic = 0",
+      "example": "A 3D projection of a bottle that loops back into itself"
+    },
+    {
+      "id": "math-k-009",
+      "topic": "kernels and knot theory",
+      "title": "Knot Invariant",
+      "content": "A property of a mathematical knot that remains unchanged under any ambient isotopy (deformation without cutting).",
+      "keywords": [
+        "knot",
+        "invariant",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "Alexander polynomial, Jones polynomial",
+      "example": "Proving two knots are distinct by calculating invariants"
+    },
+    {
+      "id": "math-k-010",
+      "topic": "kernels and knot theory",
+      "title": "Knot Theory Definition",
+      "content": "The study of mathematical closed curves in three dimensions, analyzing properties of knots.",
+      "keywords": [
+        "knot",
+        "theory",
+        "topology"
+      ],
+      "difficulty": "advanced",
+      "formula": "Knot K in R^3 isomorphic to S^1",
+      "example": "Classifying different types of closed loop twists"
+    },
+    {
+      "id": "math-k-011",
+      "topic": "kernels and knot theory",
+      "title": "Kolmogorov-Smirnov Test",
+      "content": "A non-parametric test comparing a sample distribution with a reference probability distribution.",
+      "keywords": [
+        "kolmogorov",
+        "test",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "D = max|F_obs(x) - F_exp(x)|",
+      "example": "Testing if a sample dataset comes from a normal distribution"
+    },
+    {
+      "id": "math-k-012",
+      "topic": "kernels and knot theory",
+      "title": "Kronecker Delta",
+      "content": "A function of two variables, usually integers, which is 1 if they are equal, and 0 otherwise.",
+      "keywords": [
+        "kronecker",
+        "delta",
+        "tensor"
+      ],
+      "difficulty": "intermediate",
+      "formula": "delta_ij = 1 if i=j else 0",
+      "example": "Identity matrix entries represented as delta_ij"
+    },
+    {
+      "id": "math-k-013",
+      "topic": "kernels and knot theory",
+      "title": "Kronecker Product",
+      "content": "An operation on two matrices of arbitrary size resulting in a block matrix.",
+      "keywords": [
+        "kronecker",
+        "product",
+        "matrix"
+      ],
+      "difficulty": "advanced",
+      "formula": "A (x) B",
+      "example": "Tensor product of vector states in quantum computing"
+    },
+    {
+      "id": "math-k-014",
+      "topic": "kernels and knot theory",
+      "title": "Kruskal's Algorithm",
+      "content": "A minimum spanning tree algorithm that finds an edge of the least possible weight that connects any two trees in a forest.",
+      "keywords": [
+        "kruskal",
+        "algorithm",
+        "mst"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Greedy edge selection sorting weights",
+      "example": "Finding the cheapest fiber-optic network layout connecting cities"
+    },
+    {
+      "id": "math-k-015",
+      "topic": "kernels and knot theory",
+      "title": "Kullback-Leibler Divergence",
+      "content": "A measure of how one probability distribution diverges from a second, expected probability distribution.",
+      "keywords": [
+        "kullback",
+        "divergence",
+        "entropy"
+      ],
+      "difficulty": "advanced",
+      "formula": "KL(P || Q) = sum(P(x) * log(P(x) / Q(x)))",
+      "example": "Measuring information loss in machine learning models"
+    },
+    {
+      "id": "math-k-016",
+      "topic": "kernels and knot theory",
+      "title": "Kurtosis Definition",
+      "content": "A measure of the 'tailedness' of the probability distribution of a real-valued random variable.",
+      "keywords": [
+        "kurtosis",
+        "statistics",
+        "distribution"
+      ],
+      "difficulty": "intermediate",
+      "formula": "kurtosis = E[(X-mu)^4]/sigma^4",
+      "example": "Determining if a dataset has fat tails compared to normal distribution"
+    },
+    {
+      "id": "math-k-017",
+      "topic": "kernels and knot theory",
+      "title": "K-automorphism",
+      "content": "An automorphism of a field extension that fixes every element of the base field K.",
+      "keywords": [
+        "galois",
+        "automorphism",
+        "field"
+      ],
+      "difficulty": "advanced",
+      "formula": "sigma: L -> L fixing K",
+      "example": "Galois group elements of a polynomial splitting field"
+    },
+    {
+      "id": "math-k-018",
+      "topic": "kernels and knot theory",
+      "title": "K-theory Algebraic",
+      "content": "A branch of algebra studying vector bundles and projective modules on rings using K-groups.",
+      "keywords": [
+        "k-theory",
+        "algebra",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "K_0(R), K_1(R)",
+      "example": "Calculating topological invariants of ring structures"
+    },
+    {
+      "id": "math-k-019",
+      "topic": "kernels and knot theory",
+      "title": "K-theory Topological",
+      "content": "A tool in algebraic topology using vector bundles to define generalized cohomology theories.",
+      "keywords": [
+        "topology",
+        "k-theory",
+        "sphere"
+      ],
+      "difficulty": "advanced",
+      "formula": "K(X)",
+      "example": "Classifying vector bundles over a sphere"
+    },
+    {
+      "id": "math-k-020",
+      "topic": "kernels and knot theory",
+      "title": "K-connectivity Graph",
+      "content": "The minimum number of vertices whose removal disconnects the graph or leaves a single vertex.",
+      "keywords": [
+        "connectivity",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "intermediate",
+      "formula": "kappa(G) = k",
+      "example": "A cycle graph C_4 has vertex connectivity 2"
+    },
+    {
+      "id": "math-k-021",
+      "topic": "kernels and knot theory",
+      "title": "K-nearest Neighbors Math",
+      "content": "A classification algorithm that classifies a point based on the majority vote of its k closest neighbors.",
+      "keywords": [
+        "knn",
+        "distance",
+        "algorithm"
+      ],
+      "difficulty": "intermediate",
+      "formula": "d(x, y) distance sorting",
+      "example": "Classifying a new data point based on 5 nearest neighbors"
+    },
+    {
+      "id": "math-k-022",
+      "topic": "kernels and knot theory",
+      "title": "Koch Snowflake Area",
+      "content": "The area of the Koch snowflake fractal, which is 8/5 times the area of the initial triangle.",
+      "keywords": [
+        "koch",
+        "snowflake",
+        "fractal"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A = (8/5) * A_triangle",
+      "example": "Area of snowflake starting with equilateral triangle of area 10"
+    },
+    {
+      "id": "math-k-023",
+      "topic": "kernels and knot theory",
+      "title": "Koch Snowflake Perimeter",
+      "content": "The perimeter of the Koch snowflake fractal, which is infinite.",
+      "keywords": [
+        "fractal",
+        "snowflake",
+        "perimeter"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Perimeter = lim (3 * s * (4/3)^n) = infinity",
+      "example": "A shape with finite area but infinite perimeter boundary"
+    },
+    {
+      "id": "math-k-024",
+      "topic": "kernels and knot theory",
+      "title": "Konigsberg Bridge Problem",
+      "content": "A historical problem solved by Euler, leading to the foundation of graph theory.",
+      "keywords": [
+        "bridges",
+        "euler",
+        "graph"
+      ],
+      "difficulty": "beginner",
+      "formula": "Degree of vertices must be even for Eulerian path",
+      "example": "Attempting to cross 7 bridges in a city without repeating"
+    },
+    {
+      "id": "math-k-025",
+      "topic": "kernels and knot theory",
+      "title": "K-simplex Topology",
+      "content": "A generalization of a triangle or tetrahedron to arbitrary dimensions.",
+      "keywords": [
+        "simplex",
+        "topology",
+        "dimension"
+      ],
+      "difficulty": "advanced",
+      "formula": "S = convex hull of k+1 vertices",
+      "example": "A 0-simplex is a point, 1-simplex is segment, 2-simplex is triangle"
+    },
+    {
+      "id": "math-k-026",
+      "topic": "kernels and knot theory",
+      "title": "Kepler Conjecture",
+      "content": "A mathematical theorem about sphere packing in three-dimensional Euclidean space.",
+      "keywords": [
+        "kepler",
+        "sphere",
+        "packing"
+      ],
+      "difficulty": "advanced",
+      "formula": "Max density = pi / (3 * sqrt(2)) approx 74%",
+      "example": "Packing oranges in a grocery display optimally"
+    },
+    {
+      "id": "math-k-027",
+      "topic": "kernels and knot theory",
+      "title": "Killing Form Lie Algebra",
+      "content": "A symmetric bilinear form on a Lie algebra, invariant under automorphisms.",
+      "keywords": [
+        "killing",
+        "algebra",
+        "bilinear"
+      ],
+      "difficulty": "advanced",
+      "formula": "B(x, y) = tr(ad(x) . ad(y))",
+      "example": "Classifying semisimple Lie algebras"
+    },
+    {
+      "id": "math-k-028",
+      "topic": "kernels and knot theory",
+      "title": "Kleene Closure",
+      "content": "The set of all strings of symbols that can be generated by concatenating elements of a set, including empty string.",
+      "keywords": [
+        "kleene",
+        "closure",
+        "logic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "V* = union of V^i",
+      "example": "Generating valid strings in a formal language alphabet"
+    },
+    {
+      "id": "math-k-029",
+      "topic": "kernels and knot theory",
+      "title": "Klein Four-Group",
+      "content": "The smallest non-cyclic group, isomorphic to the direct product of two cyclic groups of order 2.",
+      "keywords": [
+        "klein",
+        "group",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "V_4 = {e, a, b, c} with a^2=e, ab=c",
+      "example": "Symmetries of a non-square rectangle"
+    },
+    {
+      "id": "math-k-030",
+      "topic": "kernels and knot theory",
+      "title": "Knot Crossing Number",
+      "content": "The minimum number of crossings in any projection of a mathematical knot.",
+      "keywords": [
+        "knot",
+        "crossing",
+        "topology"
+      ],
+      "difficulty": "intermediate",
+      "formula": "c(K)",
+      "example": "The unknot has crossing number 0; trefoil has 3"
+    },
+    {
+      "id": "math-k-031",
+      "topic": "kernels and knot theory",
+      "title": "Knot Unknot",
+      "content": "The simplest knot, which is a simple closed loop without any twists or crossings.",
+      "keywords": [
+        "unknot",
+        "loop",
+        "topology"
+      ],
+      "difficulty": "beginner",
+      "formula": "c(K) = 0",
+      "example": "A circle of rope lying untangled on the floor"
+    },
+    {
+      "id": "math-k-032",
+      "topic": "kernels and knot theory",
+      "title": "Knot Prime",
+      "content": "A knot that cannot be decomposed into the sum of two non-trivial knots.",
+      "keywords": [
+        "prime",
+        "knot",
+        "topology"
+      ],
+      "difficulty": "intermediate",
+      "formula": "K != K_1 # K_2",
+      "example": "The trefoil knot is a prime knot"
+    },
+    {
+      "id": "math-k-033",
+      "topic": "kernels and knot theory",
+      "title": "Knot Trefoil",
+      "content": "The simplest non-trivial knot, having three crossings.",
+      "keywords": [
+        "trefoil",
+        "knot",
+        "topology"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Jones polynomial of trefoil",
+      "example": "A classic overhand knot with ends spliced together"
+    },
+    {
+      "id": "math-k-034",
+      "topic": "kernels and knot theory",
+      "title": "Knot Figure Eight",
+      "content": "The unique prime knot with crossing number four.",
+      "keywords": [
+        "figure-eight",
+        "knot",
+        "topology"
+      ],
+      "difficulty": "intermediate",
+      "formula": "c(K) = 4",
+      "example": "The second simplest non-trivial knot"
+    },
+    {
+      "id": "math-k-035",
+      "topic": "kernels and knot theory",
+      "title": "Kronecker Symbol",
+      "content": "A generalization of the Jacobi symbol to all integers.",
+      "keywords": [
+        "kronecker",
+        "symbol",
+        "number"
+      ],
+      "difficulty": "advanced",
+      "formula": "(a / n)_k",
+      "example": "Analyzing quadratic residues in number theory"
+    },
+    {
+      "id": "math-k-036",
+      "topic": "kernels and knot theory",
+      "title": "Kruskal-Wallis Test",
+      "content": "A non-parametric method for testing whether samples originate from the same distribution.",
+      "keywords": [
+        "statistics",
+        "kruskal",
+        "test"
+      ],
+      "difficulty": "intermediate",
+      "formula": "H statistic calculation",
+      "example": "Comparing test scores from three different classes"
+    },
+    {
+      "id": "math-k-037",
+      "topic": "kernels and knot theory",
+      "title": "Kummer's Theorem",
+      "content": "Formula for the exponent of a prime dividing a binomial coefficient.",
+      "keywords": [
+        "kummer",
+        "binomial",
+        "prime"
+      ],
+      "difficulty": "advanced",
+      "formula": "Exponent = carry counts in base p addition",
+      "example": "Finding powers of 2 in 10C5"
+    },
+    {
+      "id": "math-k-038",
+      "topic": "kernels and knot theory",
+      "title": "K-basis",
+      "content": "A basis of a vector space over the field K.",
+      "keywords": [
+        "basis",
+        "field",
+        "vector"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Basis vectors linear combination coefficients in K",
+      "example": "Standard R basis for vector coordinates"
+    },
+    {
+      "id": "math-k-039",
+      "topic": "kernels and knot theory",
+      "title": "K-dimension",
+      "content": "The dimension of a vector space over the field K.",
+      "keywords": [
+        "dimension",
+        "vector",
+        "field"
+      ],
+      "difficulty": "intermediate",
+      "formula": "dim_K(V)",
+      "example": "Dimension of complex numbers as a real vector space is 2"
+    },
+    {
+      "id": "math-k-040",
+      "topic": "kernels and knot theory",
+      "title": "Kummer's Congruence",
+      "content": "A congruence relation between values of the Bernoulli numbers.",
+      "keywords": [
+        "kummer",
+        "congruence",
+        "bernoulli"
+      ],
+      "difficulty": "advanced",
+      "formula": "B_k / k = B_m / m (mod p)",
+      "example": "Number theory congruence relations of bernoulli values"
+    }
+  ]
+}
