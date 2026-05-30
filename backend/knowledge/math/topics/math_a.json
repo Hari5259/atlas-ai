@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-a-001",
+      "topic": "algebraic structures",
+      "title": "Abelian Group",
+      "content": "A group in which the binary operation is commutative, meaning the order of elements does not affect the result.",
+      "keywords": [
+        "group",
+        "commutative",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a * b = b * a",
+      "example": "Integers under addition (2 + 3 = 3 + 2)"
+    },
+    {
+      "id": "math-a-002",
+      "topic": "algebraic structures",
+      "title": "Absolute Value",
+      "content": "The non-negative distance of a real number from zero on the number line, regardless of its sign.",
+      "keywords": [
+        "absolute",
+        "distance",
+        "modulus"
+      ],
+      "difficulty": "beginner",
+      "formula": "|x| = x if x >= 0 else -x",
+      "example": "|-5| = 5"
+    },
+    {
+      "id": "math-a-003",
+      "topic": "algebraic structures",
+      "title": "Acute Angle",
+      "content": "An angle that measures strictly between 0 and 90 degrees (or between 0 and pi/2 radians).",
+      "keywords": [
+        "angle",
+        "acute",
+        "triangle"
+      ],
+      "difficulty": "beginner",
+      "formula": "0 < theta < 90 degrees",
+      "example": "An angle of 45 degrees in a right triangle"
+    },
+    {
+      "id": "math-a-004",
+      "topic": "algebraic structures",
+      "title": "Addition Property",
+      "content": "Adding the same quantity to both sides of an equation maintains the equality.",
+      "keywords": [
+        "addition",
+        "equality",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "If a = b, then a + c = b + c",
+      "example": "If x - 3 = 5, then x = 8"
+    },
+    {
+      "id": "math-a-005",
+      "topic": "algebraic structures",
+      "title": "Adjacency Matrix",
+      "content": "A square matrix used to represent a finite graph, showing whether pairs of vertices are adjacent or not.",
+      "keywords": [
+        "matrix",
+        "graph",
+        "adjacency"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A_ij = 1 if edge exists else 0",
+      "example": "A 3x3 matrix showing connections in a triangle graph"
+    },
+    {
+      "id": "math-a-006",
+      "topic": "algebraic structures",
+      "title": "Algebraic Expression",
+      "content": "A mathematical phrase that can contain numbers, operators, and variables, but no equals sign.",
+      "keywords": [
+        "algebra",
+        "expression",
+        "variables"
+      ],
+      "difficulty": "beginner",
+      "formula": "3x^2 + 5x - 7",
+      "example": "2x + 4"
+    },
+    {
+      "id": "math-a-007",
+      "topic": "algebraic structures",
+      "title": "Algorithm",
+      "content": "A step-by-step procedure or set of rules to solve a specific mathematical or computational problem.",
+      "keywords": [
+        "algorithm",
+        "steps",
+        "logic"
+      ],
+      "difficulty": "beginner",
+      "formula": "Step 1: Input x. Step 2: Return x * x.",
+      "example": "Euclidean algorithm for greatest common divisor"
+    },
+    {
+      "id": "math-a-008",
+      "topic": "algebraic structures",
+      "title": "Alternate Interior Angles",
+      "content": "A pair of angles on opposite sides of a transversal line and between the two parallel lines it intersects.",
+      "keywords": [
+        "angles",
+        "parallel",
+        "transversal"
+      ],
+      "difficulty": "beginner",
+      "formula": "angle_1 = angle_2",
+      "example": "Angles formed when a diagonal line crosses parallel train tracks"
+    },
+    {
+      "id": "math-a-009",
+      "topic": "algebraic structures",
+      "title": "Amplitude",
+      "content": "The maximum displacement of a periodic wave or function from its equilibrium or mean value.",
+      "keywords": [
+        "wave",
+        "amplitude",
+        "sine"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y = A * sin(B*x)",
+      "example": "Amplitude of y = 3sin(x) is 3"
+    },
+    {
+      "id": "math-a-010",
+      "topic": "algebraic structures",
+      "title": "Angle Bisector",
+      "content": "A line or ray that divides an angle into two equal, adjacent angles.",
+      "keywords": [
+        "angle",
+        "bisector",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "theta_1 = theta_2 = total_theta / 2",
+      "example": "Dividing a 90-degree angle into two 45-degree angles"
+    },
+    {
+      "id": "math-a-011",
+      "topic": "algebraic structures",
+      "title": "Antiderivative",
+      "content": "A function whose derivative is the original given function. Also known as the indefinite integral.",
+      "keywords": [
+        "calculus",
+        "integral",
+        "antiderivative"
+      ],
+      "difficulty": "intermediate",
+      "formula": "F'(x) = f(x)",
+      "example": "Antiderivative of 2x is x^2 + C"
+    },
+    {
+      "id": "math-a-012",
+      "topic": "algebraic structures",
+      "title": "Apex of Cone",
+      "content": "The highest point or tip of a cone, opposite to the base.",
+      "keywords": [
+        "cone",
+        "apex",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "Coordinates of the tip point",
+      "example": "The sharp tip of an ice cream cone"
+    },
+    {
+      "id": "math-a-013",
+      "topic": "algebraic structures",
+      "title": "Apothem",
+      "content": "A line segment from the center of a regular polygon to the midpoint of one of its sides.",
+      "keywords": [
+        "polygon",
+        "apothem",
+        "geometry"
+      ],
+      "difficulty": "intermediate",
+      "formula": "a = s / (2 * tan(pi / n))",
+      "example": "Apothem of a regular hexagon with side length 4"
+    },
+    {
+      "id": "math-a-014",
+      "topic": "algebraic structures",
+      "title": "Arc Length",
+      "content": "The distance along a curved line segment forming all or part of a circle or curve.",
+      "keywords": [
+        "circle",
+        "arc",
+        "length"
+      ],
+      "difficulty": "intermediate",
+      "formula": "s = r * theta",
+      "example": "Arc length of a semicircle with radius 5 is 5*pi"
+    },
+    {
+      "id": "math-a-015",
+      "topic": "algebraic structures",
+      "title": "Area of Circle",
+      "content": "The total two-dimensional space enclosed by a circle of a given radius.",
+      "keywords": [
+        "circle",
+        "area",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "A = pi * r^2",
+      "example": "Area of circle with radius 3 is 9*pi"
+    },
+    {
+      "id": "math-a-016",
+      "topic": "algebraic structures",
+      "title": "Arithmetic Mean",
+      "content": "The average of a set of numbers, calculated by dividing their sum by the total count.",
+      "keywords": [
+        "mean",
+        "average",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "mean = (sum of x_i) / n",
+      "example": "Mean of 2, 4, 6 is 4"
+    },
+    {
+      "id": "math-a-017",
+      "topic": "algebraic structures",
+      "title": "Arithmetic Progression",
+      "content": "A sequence of numbers in which the difference between consecutive terms is constant.",
+      "keywords": [
+        "progression",
+        "sequence",
+        "arithmetic"
+      ],
+      "difficulty": "beginner",
+      "formula": "a_n = a_1 + (n - 1) * d",
+      "example": "Sequence: 3, 7, 11, 15... with d = 4"
+    },
+    {
+      "id": "math-a-018",
+      "topic": "algebraic structures",
+      "title": "Associative Property",
+      "content": "The grouping of numbers does not affect the result of addition or multiplication.",
+      "keywords": [
+        "associative",
+        "property",
+        "algebra"
+      ],
+      "difficulty": "beginner",
+      "formula": "(a + b) + c = a + (b + c)",
+      "example": "(2 + 3) + 4 = 2 + (3 + 4)"
+    },
+    {
+      "id": "math-a-019",
+      "topic": "algebraic structures",
+      "title": "Asymptote",
+      "content": "A line that a curve approaches infinitely closely but never actually meets or crosses.",
+      "keywords": [
+        "asymptote",
+        "limit",
+        "curve"
+      ],
+      "difficulty": "intermediate",
+      "formula": "limit as x approaches infinity of f(x) = L",
+      "example": "Horizontal asymptote of y = 1/x is y = 0"
+    },
+    {
+      "id": "math-a-020",
+      "topic": "algebraic structures",
+      "title": "Augmented Matrix",
+      "content": "A matrix obtained by appending the columns of two matrices, typically for solving systems of linear equations.",
+      "keywords": [
+        "matrix",
+        "augmented",
+        "system"
+      ],
+      "difficulty": "intermediate",
+      "formula": "[A | B]",
+      "example": "Augmenting coefficients matrix with constants vector"
+    },
+    {
+      "id": "math-a-021",
+      "topic": "algebraic structures",
+      "title": "Average Rate of Change",
+      "content": "The change in y divided by the change in x over a specific interval of a function.",
+      "keywords": [
+        "rate",
+        "slope",
+        "change"
+      ],
+      "difficulty": "beginner",
+      "formula": "rate = (f(b) - f(a)) / (b - a)",
+      "example": "Average speed over a trip"
+    },
+    {
+      "id": "math-a-022",
+      "topic": "algebraic structures",
+      "title": "Axiom",
+      "content": "A statement or proposition that is assumed to be true without proof, serving as a premise for further reasoning.",
+      "keywords": [
+        "axiom",
+        "truth",
+        "logic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Axioms of Euclidian geometry",
+      "example": "Parallel postulate in geometry"
+    },
+    {
+      "id": "math-a-023",
+      "topic": "algebraic structures",
+      "title": "Axis of Symmetry",
+      "content": "A line that divides a shape or graph into two symmetric, mirror-image halves.",
+      "keywords": [
+        "symmetry",
+        "parabola",
+        "axis"
+      ],
+      "difficulty": "beginner",
+      "formula": "x = -b / (2a) for a parabola",
+      "example": "Axis of symmetry of y = x^2 is x = 0"
+    },
+    {
+      "id": "math-a-024",
+      "topic": "algebraic structures",
+      "title": "Adjacent Side",
+      "content": "The side of a right triangle that is next to the reference angle, but is not the hypotenuse.",
+      "keywords": [
+        "triangle",
+        "adjacent",
+        "trig"
+      ],
+      "difficulty": "beginner",
+      "formula": "cos(theta) = adjacent / hypotenuse",
+      "example": "Adjacent side of 30-degree angle in 3-4-5 triangle"
+    },
+    {
+      "id": "math-a-025",
+      "topic": "algebraic structures",
+      "title": "Affine Transformation",
+      "content": "A geometric transformation that preserves collinearity and ratios of distances, though not necessarily angles or lengths.",
+      "keywords": [
+        "affine",
+        "transformation",
+        "geometry"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x) = A*x + b",
+      "example": "Translation and rotation of coordinates"
+    },
+    {
+      "id": "math-a-026",
+      "topic": "algebraic structures",
+      "title": "Alternating Series",
+      "content": "An infinite series whose terms alternate between positive and negative signs.",
+      "keywords": [
+        "series",
+        "alternating",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "sum of (-1)^n * a_n",
+      "example": "1 - 1/2 + 1/3 - 1/4 + ..."
+    },
+    {
+      "id": "math-a-027",
+      "topic": "algebraic structures",
+      "title": "Angle of Depression",
+      "content": "The angle between the horizontal line of sight and the object below the horizontal line.",
+      "keywords": [
+        "angle",
+        "depression",
+        "trig"
+      ],
+      "difficulty": "beginner",
+      "formula": "theta_d = angle down from horizontal",
+      "example": "Looking down from a lighthouse at a boat"
+    },
+    {
+      "id": "math-a-028",
+      "topic": "algebraic structures",
+      "title": "Angle of Elevation",
+      "content": "The angle between the horizontal line of sight and the object above the horizontal line.",
+      "keywords": [
+        "angle",
+        "elevation",
+        "trig"
+      ],
+      "difficulty": "beginner",
+      "formula": "theta_e = angle up from horizontal",
+      "example": "Looking up at the top of a tree"
+    },
+    {
+      "id": "math-a-029",
+      "topic": "algebraic structures",
+      "title": "Annulus Area",
+      "content": "The area of the ring-shaped region bounded by two concentric circles of different radii.",
+      "keywords": [
+        "annulus",
+        "ring",
+        "area"
+      ],
+      "difficulty": "intermediate",
+      "formula": "A = pi * (R^2 - r^2)",
+      "example": "Annulus with outer radius 5 and inner radius 3"
+    },
+    {
+      "id": "math-a-030",
+      "topic": "algebraic structures",
+      "title": "Approximation Error",
+      "content": "The difference between an approximate value and the exact, true value.",
+      "keywords": [
+        "error",
+        "approximation",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "error = |exact - approx|",
+      "example": "Approximating pi as 3.14 has error 0.00159"
+    },
+    {
+      "id": "math-a-031",
+      "topic": "algebraic structures",
+      "title": "Argument of Complex Number",
+      "content": "The angle between the positive real axis and the vector representing the complex number in the complex plane.",
+      "keywords": [
+        "complex",
+        "argument",
+        "angle"
+      ],
+      "difficulty": "intermediate",
+      "formula": "arg(z) = atan2(y, x)",
+      "example": "Argument of 1 + i is 45 degrees"
+    },
+    {
+      "id": "math-a-032",
+      "topic": "algebraic structures",
+      "title": "Arithmetic Series",
+      "content": "The sum of the terms of an arithmetic progression sequence.",
+      "keywords": [
+        "series",
+        "arithmetic",
+        "sum"
+      ],
+      "difficulty": "beginner",
+      "formula": "S_n = (n/2) * (a_1 + a_n)",
+      "example": "Sum of 1 + 2 + 3 + ... + 100 = 5050"
+    },
+    {
+      "id": "math-a-033",
+      "topic": "algebraic structures",
+      "title": "Automorphism",
+      "content": "An isomorphism from a mathematical object or structure onto itself.",
+      "keywords": [
+        "automorphism",
+        "algebra",
+        "mapping"
+      ],
+      "difficulty": "advanced",
+      "formula": "phi: G -> G",
+      "example": "Identity map on a vector space"
+    },
+    {
+      "id": "math-a-034",
+      "topic": "algebraic structures",
+      "title": "Auxiliary Equation",
+      "content": "An algebraic equation used to find the general solution of a homogeneous linear differential equation.",
+      "keywords": [
+        "differential",
+        "auxiliary",
+        "equation"
+      ],
+      "difficulty": "advanced",
+      "formula": "a*r^2 + b*r + c = 0",
+      "example": "Solving y'' - 5y' + 6y = 0"
+    },
+    {
+      "id": "math-a-035",
+      "topic": "algebraic structures",
+      "title": "Average Deviation",
+      "content": "The average of the absolute differences between each data point and the mean of the data set.",
+      "keywords": [
+        "deviation",
+        "average",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "formula": "AD = sum(|x_i - mean|) / n",
+      "example": "Average deviation of 1, 2, 9 is 3.55"
+    },
+    {
+      "id": "math-a-036",
+      "topic": "algebraic structures",
+      "title": "Axiomatic System",
+      "content": "A set of axioms from which theorems can be logically derived using rules of inference.",
+      "keywords": [
+        "system",
+        "axioms",
+        "proof"
+      ],
+      "difficulty": "advanced",
+      "formula": "ZF set theory axioms",
+      "example": "Hilbert's axiomatic geometry system"
+    },
+    {
+      "id": "math-a-037",
+      "topic": "algebraic structures",
+      "title": "Abscissa",
+      "content": "The horizontal coordinate of a point in a two-dimensional Cartesian coordinate system.",
+      "keywords": [
+        "abscissa",
+        "x-coordinate",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "x-value in (x, y)",
+      "example": "For point (4, 7), the abscissa is 4"
+    },
+    {
+      "id": "math-a-038",
+      "topic": "algebraic structures",
+      "title": "Absolute Convergence",
+      "content": "An infinite series converges absolutely if the series of absolute values converges.",
+      "keywords": [
+        "convergence",
+        "series",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "sum of |a_n| converges",
+      "example": "Sum of (-1)^n / n^2 converges absolutely"
+    },
+    {
+      "id": "math-a-039",
+      "topic": "algebraic structures",
+      "title": "Accumulation Point",
+      "content": "A point x is an accumulation point of a set S if every neighborhood of x contains a point in S distinct from x.",
+      "keywords": [
+        "topology",
+        "limit",
+        "accumulation"
+      ],
+      "difficulty": "advanced",
+      "formula": "Neighborhood N(x) intersects S \\\\ {x}",
+      "example": "0 is an accumulation point of {1/n : n in N}"
+    },
+    {
+      "id": "math-a-040",
+      "topic": "algebraic structures",
+      "title": "Algebraic Geometry",
+      "content": "A branch of mathematics studying geometry using techniques from abstract algebra, particularly coordinate rings.",
+      "keywords": [
+        "algebra",
+        "geometry",
+        "curves"
+      ],
+      "difficulty": "advanced",
+      "formula": "V(I) = {x in k^n : f(x) = 0 for all f in I}",
+      "example": "Studying curves defined by polynomial equations"
+    }
+  ]
+}
