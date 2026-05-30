@@ -1,0 +1,567 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-o-001",
+      "topic": "optimization and operations",
+      "title": "Objective Function",
+      "content": "Mathematical entry and definition for Objective Function, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "objective",
+        "function",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Objective Function",
+      "example": "Example demonstrating the application of Objective Function"
+    },
+    {
+      "id": "math-o-002",
+      "topic": "optimization and operations",
+      "title": "Oblate Spheroid",
+      "content": "Mathematical entry and definition for Oblate Spheroid, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "oblate",
+        "spheroid",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Oblate Spheroid",
+      "example": "Example demonstrating the application of Oblate Spheroid"
+    },
+    {
+      "id": "math-o-003",
+      "topic": "optimization and operations",
+      "title": "Oblique Asymptote",
+      "content": "Mathematical entry and definition for Oblique Asymptote, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "oblique",
+        "asymptote",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Oblique Asymptote",
+      "example": "Example demonstrating the application of Oblique Asymptote"
+    },
+    {
+      "id": "math-o-004",
+      "topic": "optimization and operations",
+      "title": "Oblique Triangle",
+      "content": "Mathematical entry and definition for Oblique Triangle, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "oblique",
+        "triangle",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Oblique Triangle",
+      "example": "Example demonstrating the application of Oblique Triangle"
+    },
+    {
+      "id": "math-o-005",
+      "topic": "optimization and operations",
+      "title": "Obtuse Angle",
+      "content": "Mathematical entry and definition for Obtuse Angle, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "obtuse",
+        "angle",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Obtuse Angle",
+      "example": "Example demonstrating the application of Obtuse Angle"
+    },
+    {
+      "id": "math-o-006",
+      "topic": "optimization and operations",
+      "title": "Obtuse Triangle",
+      "content": "Mathematical entry and definition for Obtuse Triangle, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "obtuse",
+        "triangle",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Obtuse Triangle",
+      "example": "Example demonstrating the application of Obtuse Triangle"
+    },
+    {
+      "id": "math-o-007",
+      "topic": "optimization and operations",
+      "title": "Octagon Area",
+      "content": "Mathematical entry and definition for Octagon Area, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "octagon",
+        "area",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Octagon Area",
+      "example": "Example demonstrating the application of Octagon Area"
+    },
+    {
+      "id": "math-o-008",
+      "topic": "optimization and operations",
+      "title": "Octahedron",
+      "content": "Mathematical entry and definition for Octahedron, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "octahedron",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Octahedron",
+      "example": "Example demonstrating the application of Octahedron"
+    },
+    {
+      "id": "math-o-009",
+      "topic": "optimization and operations",
+      "title": "Octal Numbers",
+      "content": "Mathematical entry and definition for Octal Numbers, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "octal",
+        "numbers",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Octal Numbers",
+      "example": "Example demonstrating the application of Octal Numbers"
+    },
+    {
+      "id": "math-o-010",
+      "topic": "optimization and operations",
+      "title": "Odd Function",
+      "content": "Mathematical entry and definition for Odd Function, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "odd",
+        "function",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Odd Function",
+      "example": "Example demonstrating the application of Odd Function"
+    },
+    {
+      "id": "math-o-011",
+      "topic": "optimization and operations",
+      "title": "Odd Number",
+      "content": "Mathematical entry and definition for Odd Number, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "odd",
+        "number",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Odd Number",
+      "example": "Example demonstrating the application of Odd Number"
+    },
+    {
+      "id": "math-o-012",
+      "topic": "optimization and operations",
+      "title": "Odds Ratio",
+      "content": "Mathematical entry and definition for Odds Ratio, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "odds",
+        "ratio",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Odds Ratio",
+      "example": "Example demonstrating the application of Odds Ratio"
+    },
+    {
+      "id": "math-o-013",
+      "topic": "optimization and operations",
+      "title": "One-to-One Function",
+      "content": "Mathematical entry and definition for One-to-One Function, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "one-to-one",
+        "function",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to One-to-One Function",
+      "example": "Example demonstrating the application of One-to-One Function"
+    },
+    {
+      "id": "math-o-014",
+      "topic": "optimization and operations",
+      "title": "One-to-One Correspondence",
+      "content": "Mathematical entry and definition for One-to-One Correspondence, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "one-to-one",
+        "correspondence",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to One-to-One Correspondence",
+      "example": "Example demonstrating the application of One-to-One Correspondence"
+    },
+    {
+      "id": "math-o-015",
+      "topic": "optimization and operations",
+      "title": "Onto Function",
+      "content": "Mathematical entry and definition for Onto Function, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "onto",
+        "function",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Onto Function",
+      "example": "Example demonstrating the application of Onto Function"
+    },
+    {
+      "id": "math-o-016",
+      "topic": "optimization and operations",
+      "title": "Open Interval",
+      "content": "Mathematical entry and definition for Open Interval, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "open",
+        "interval",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Open Interval",
+      "example": "Example demonstrating the application of Open Interval"
+    },
+    {
+      "id": "math-o-017",
+      "topic": "optimization and operations",
+      "title": "Open Set",
+      "content": "Mathematical entry and definition for Open Set, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "open",
+        "set",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Open Set",
+      "example": "Example demonstrating the application of Open Set"
+    },
+    {
+      "id": "math-o-018",
+      "topic": "optimization and operations",
+      "title": "Optimization",
+      "content": "Mathematical entry and definition for Optimization, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "optimization",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Optimization",
+      "example": "Example demonstrating the application of Optimization"
+    },
+    {
+      "id": "math-o-019",
+      "topic": "optimization and operations",
+      "title": "Constrained Optimization",
+      "content": "Mathematical entry and definition for Constrained Optimization, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "constrained",
+        "optimization",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Constrained Optimization",
+      "example": "Example demonstrating the application of Constrained Optimization"
+    },
+    {
+      "id": "math-o-020",
+      "topic": "optimization and operations",
+      "title": "Order of Group",
+      "content": "Mathematical entry and definition for Order of Group, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "order",
+        "of",
+        "group",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Order of Group",
+      "example": "Example demonstrating the application of Order of Group"
+    },
+    {
+      "id": "math-o-021",
+      "topic": "optimization and operations",
+      "title": "Order of Matrix",
+      "content": "Mathematical entry and definition for Order of Matrix, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "order",
+        "of",
+        "matrix",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Order of Matrix",
+      "example": "Example demonstrating the application of Order of Matrix"
+    },
+    {
+      "id": "math-o-022",
+      "topic": "optimization and operations",
+      "title": "Order of ODE",
+      "content": "Mathematical entry and definition for Order of ODE, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "order",
+        "of",
+        "ode",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Order of ODE",
+      "example": "Example demonstrating the application of Order of ODE"
+    },
+    {
+      "id": "math-o-023",
+      "topic": "optimization and operations",
+      "title": "Ordered Pair",
+      "content": "Mathematical entry and definition for Ordered Pair, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "ordered",
+        "pair",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Ordered Pair",
+      "example": "Example demonstrating the application of Ordered Pair"
+    },
+    {
+      "id": "math-o-024",
+      "topic": "optimization and operations",
+      "title": "Ordinal Numbers",
+      "content": "Mathematical entry and definition for Ordinal Numbers, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "ordinal",
+        "numbers",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Ordinal Numbers",
+      "example": "Example demonstrating the application of Ordinal Numbers"
+    },
+    {
+      "id": "math-o-025",
+      "topic": "optimization and operations",
+      "title": "Ordinary Differential Equation",
+      "content": "Mathematical entry and definition for Ordinary Differential Equation, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "ordinary",
+        "differential",
+        "equation",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Ordinary Differential Equation",
+      "example": "Example demonstrating the application of Ordinary Differential Equation"
+    },
+    {
+      "id": "math-o-026",
+      "topic": "optimization and operations",
+      "title": "Orthocenter",
+      "content": "Mathematical entry and definition for Orthocenter, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthocenter",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Orthocenter",
+      "example": "Example demonstrating the application of Orthocenter"
+    },
+    {
+      "id": "math-o-027",
+      "topic": "optimization and operations",
+      "title": "Orthogonal Complement",
+      "content": "Mathematical entry and definition for Orthogonal Complement, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthogonal",
+        "complement",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Orthogonal Complement",
+      "example": "Example demonstrating the application of Orthogonal Complement"
+    },
+    {
+      "id": "math-o-028",
+      "topic": "optimization and operations",
+      "title": "Orthogonal Matrix",
+      "content": "Mathematical entry and definition for Orthogonal Matrix, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthogonal",
+        "matrix",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Orthogonal Matrix",
+      "example": "Example demonstrating the application of Orthogonal Matrix"
+    },
+    {
+      "id": "math-o-029",
+      "topic": "optimization and operations",
+      "title": "Orthogonal Vectors",
+      "content": "Mathematical entry and definition for Orthogonal Vectors, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthogonal",
+        "vectors",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Orthogonal Vectors",
+      "example": "Example demonstrating the application of Orthogonal Vectors"
+    },
+    {
+      "id": "math-o-030",
+      "topic": "optimization and operations",
+      "title": "Orthonormal Basis",
+      "content": "Mathematical entry and definition for Orthonormal Basis, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthonormal",
+        "basis",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Orthonormal Basis",
+      "example": "Example demonstrating the application of Orthonormal Basis"
+    },
+    {
+      "id": "math-o-031",
+      "topic": "optimization and operations",
+      "title": "Orthonormal Set",
+      "content": "Mathematical entry and definition for Orthonormal Set, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "orthonormal",
+        "set",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Orthonormal Set",
+      "example": "Example demonstrating the application of Orthonormal Set"
+    },
+    {
+      "id": "math-o-032",
+      "topic": "optimization and operations",
+      "title": "Osculating Circle",
+      "content": "Mathematical entry and definition for Osculating Circle, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "osculating",
+        "circle",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Osculating Circle",
+      "example": "Example demonstrating the application of Osculating Circle"
+    },
+    {
+      "id": "math-o-033",
+      "topic": "optimization and operations",
+      "title": "Outlier Detection",
+      "content": "Mathematical entry and definition for Outlier Detection, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "outlier",
+        "detection",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Outlier Detection",
+      "example": "Example demonstrating the application of Outlier Detection"
+    },
+    {
+      "id": "math-o-034",
+      "topic": "optimization and operations",
+      "title": "Outlier Z-Score",
+      "content": "Mathematical entry and definition for Outlier Z-Score, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "outlier",
+        "z-score",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Outlier Z-Score",
+      "example": "Example demonstrating the application of Outlier Z-Score"
+    },
+    {
+      "id": "math-o-035",
+      "topic": "optimization and operations",
+      "title": "Oval of Cassini",
+      "content": "Mathematical entry and definition for Oval of Cassini, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "oval",
+        "of",
+        "cassini",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Oval of Cassini",
+      "example": "Example demonstrating the application of Oval of Cassini"
+    },
+    {
+      "id": "math-o-036",
+      "topic": "optimization and operations",
+      "title": "Overdetermined System",
+      "content": "Mathematical entry and definition for Overdetermined System, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "overdetermined",
+        "system",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Overdetermined System",
+      "example": "Example demonstrating the application of Overdetermined System"
+    },
+    {
+      "id": "math-o-037",
+      "topic": "optimization and operations",
+      "title": "Open Ball",
+      "content": "Mathematical entry and definition for Open Ball, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "open",
+        "ball",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Open Ball",
+      "example": "Example demonstrating the application of Open Ball"
+    },
+    {
+      "id": "math-o-038",
+      "topic": "optimization and operations",
+      "title": "Operations Research",
+      "content": "Mathematical entry and definition for Operations Research, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "operations",
+        "research",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Formula or representation related to Operations Research",
+      "example": "Example demonstrating the application of Operations Research"
+    },
+    {
+      "id": "math-o-039",
+      "topic": "optimization and operations",
+      "title": "Linear Operator",
+      "content": "Mathematical entry and definition for Linear Operator, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "linear",
+        "operator",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "formula": "Formula or representation related to Linear Operator",
+      "example": "Example demonstrating the application of Linear Operator"
+    },
+    {
+      "id": "math-o-040",
+      "topic": "optimization and operations",
+      "title": "Order Relations",
+      "content": "Mathematical entry and definition for Order Relations, a core concept in the domain of optimization and operations.",
+      "keywords": [
+        "order",
+        "relations",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "formula": "Formula or representation related to Order Relations",
+      "example": "Example demonstrating the application of Order Relations"
+    }
+  ]
+}
