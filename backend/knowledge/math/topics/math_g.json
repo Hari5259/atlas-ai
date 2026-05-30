@@ -1,0 +1,565 @@
+{
+  "domain": "mathematics",
+  "entries": [
+    {
+      "id": "math-g-001",
+      "topic": "geometry and graphs",
+      "title": "Game Theory Nash Equilibrium",
+      "content": "A stable state of a game where no player has an incentive to unilaterally change their strategy.",
+      "keywords": [
+        "game",
+        "nash",
+        "equilibrium"
+      ],
+      "difficulty": "intermediate",
+      "formula": "u_i(s_i*, s_-i*) >= u_i(s_i, s_-i*)",
+      "example": "Prisoner's Dilemma both confessing"
+    },
+    {
+      "id": "math-g-002",
+      "topic": "geometry and graphs",
+      "title": "Gamma Distribution",
+      "content": "A two-parameter family of continuous probability distributions, generalizing the exponential distribution.",
+      "keywords": [
+        "gamma",
+        "probability",
+        "distribution"
+      ],
+      "difficulty": "advanced",
+      "formula": "f(x) proportional to x^(k-1) * e^(-x/theta)",
+      "example": "Modeling service times or rainfall amounts"
+    },
+    {
+      "id": "math-g-003",
+      "topic": "geometry and graphs",
+      "title": "Gamma Function",
+      "content": "An extension of the factorial function to complex and real arguments.",
+      "keywords": [
+        "gamma",
+        "factorial",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "Gamma(n) = (n - 1)!",
+      "example": "Gamma(1/2) = sqrt(pi)"
+    },
+    {
+      "id": "math-g-004",
+      "topic": "geometry and graphs",
+      "title": "Gaussian Distribution",
+      "content": "The normal distribution, characterized by its bell-shaped curve.",
+      "keywords": [
+        "gaussian",
+        "normal",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "f(x) = (1/(sigma*sqrt(2*pi))) * e^(-(x-mu)^2 / (2*sigma^2))",
+      "example": "IQ scores distribution in a population"
+    },
+    {
+      "id": "math-g-005",
+      "topic": "geometry and graphs",
+      "title": "Gaussian Elimination",
+      "content": "An algorithm for solving systems of linear equations by transforming the augmented matrix into row echelon form.",
+      "keywords": [
+        "gaussian",
+        "elimination",
+        "matrix"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Row operations: swap, scale, replace",
+      "example": "Solving 3 equations with 3 variables using matrices"
+    },
+    {
+      "id": "math-g-006",
+      "topic": "geometry and graphs",
+      "title": "Gaussian Integers",
+      "content": "Complex numbers whose real and imaginary parts are both integers.",
+      "keywords": [
+        "gaussian",
+        "integers",
+        "complex"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Z[i] = {a + b*i : a, b in Z}",
+      "example": "3 + 2i is a Gaussian integer"
+    },
+    {
+      "id": "math-g-007",
+      "topic": "geometry and graphs",
+      "title": "Gauss-Jordan Elimination",
+      "content": "An extension of Gaussian elimination that transforms a matrix into reduced row echelon form.",
+      "keywords": [
+        "matrix",
+        "elimination",
+        "linear"
+      ],
+      "difficulty": "intermediate",
+      "formula": "RREF conversion",
+      "example": "Finding the inverse of a matrix using row operations"
+    },
+    {
+      "id": "math-g-008",
+      "topic": "geometry and graphs",
+      "title": "Gauss's Law Divergence",
+      "content": "Physical law relating electrical charge to divergence of electric field, written in vector calculus.",
+      "keywords": [
+        "flux",
+        "divergence",
+        "vector"
+      ],
+      "difficulty": "advanced",
+      "formula": "del . E = rho / epsilon_0",
+      "example": "Calculating flux through a sphere enclosing charge"
+    },
+    {
+      "id": "math-g-009",
+      "topic": "geometry and graphs",
+      "title": "General Form of Line",
+      "content": "A linear equation represented in standard form with integer coefficients.",
+      "keywords": [
+        "line",
+        "equation",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "A*x + B*y + C = 0",
+      "example": "Equation of line: 2x - 3y + 6 = 0"
+    },
+    {
+      "id": "math-g-010",
+      "topic": "geometry and graphs",
+      "title": "General Solution of ODE",
+      "content": "The solution of a differential equation containing arbitrary constants, representing all possible solutions.",
+      "keywords": [
+        "solution",
+        "differential",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "y(x) = C_1 * e^(2x) + C_2 * e^(3x)",
+      "example": "Solving y'' - 5y' + 6y = 0"
+    },
+    {
+      "id": "math-g-011",
+      "topic": "geometry and graphs",
+      "title": "Generating Function",
+      "content": "A formal power series whose coefficients encode information about a sequence of numbers.",
+      "keywords": [
+        "sequence",
+        "series",
+        "generating"
+      ],
+      "difficulty": "advanced",
+      "formula": "G(x) = sum(a_n * x^n)",
+      "example": "Generating function for Fibonacci numbers"
+    },
+    {
+      "id": "math-g-012",
+      "topic": "geometry and graphs",
+      "title": "Generator of Group",
+      "content": "An element of a group that can generate all other elements of the group through repeated operations.",
+      "keywords": [
+        "generator",
+        "group",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "<g> = G",
+      "example": "1 is a generator of the group of integers modulo 5 under addition"
+    },
+    {
+      "id": "math-g-013",
+      "topic": "geometry and graphs",
+      "title": "Geometric Mean",
+      "content": "The nth root of the product of n numbers, useful for compounding rates.",
+      "keywords": [
+        "mean",
+        "geometric",
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "formula": "GM = (product of x_i)^(1/n)",
+      "example": "Geometric mean of 2 and 8 is sqrt(16) = 4"
+    },
+    {
+      "id": "math-g-014",
+      "topic": "geometry and graphs",
+      "title": "Geometric Progression",
+      "content": "A sequence of numbers where each term after the first is found by multiplying the previous term by a non-zero constant ratio.",
+      "keywords": [
+        "progression",
+        "sequence",
+        "geometric"
+      ],
+      "difficulty": "beginner",
+      "formula": "a_n = a_1 * r^(n-1)",
+      "example": "Sequence: 2, 6, 18, 54... with r = 3"
+    },
+    {
+      "id": "math-g-015",
+      "topic": "geometry and graphs",
+      "title": "Geometric Series",
+      "content": "The sum of the terms of a geometric progression sequence.",
+      "keywords": [
+        "series",
+        "geometric",
+        "sum"
+      ],
+      "difficulty": "beginner",
+      "formula": "S_inf = a_1 / (1 - r) for |r| < 1",
+      "example": "Sum of 1 + 1/2 + 1/4 + 1/8 + ... = 2"
+    },
+    {
+      "id": "math-g-016",
+      "topic": "geometry and graphs",
+      "title": "Geometry Euclid Axioms",
+      "content": "The core geometric assumptions formulated by Euclid in his work 'Elements'.",
+      "keywords": [
+        "geometry",
+        "euclid",
+        "axioms"
+      ],
+      "difficulty": "beginner",
+      "formula": "A straight line segment can be drawn joining any two points",
+      "example": "Axioms defining flat 2D geometry space"
+    },
+    {
+      "id": "math-g-017",
+      "topic": "geometry and graphs",
+      "title": "Girth of Graph",
+      "content": "The length of a shortest cycle contained in a graph.",
+      "keywords": [
+        "girth",
+        "cycle",
+        "graph"
+      ],
+      "difficulty": "intermediate",
+      "formula": "girth(G)",
+      "example": "The girth of a square graph is 4"
+    },
+    {
+      "id": "math-g-018",
+      "topic": "geometry and graphs",
+      "title": "Global Maximum",
+      "content": "The highest value that a function achieves over its entire domain.",
+      "keywords": [
+        "maximum",
+        "extrema",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(c) >= f(x) for all x in domain",
+      "example": "Global maximum of y = -x^2 is 0 at x = 0"
+    },
+    {
+      "id": "math-g-019",
+      "topic": "geometry and graphs",
+      "title": "Global Minimum",
+      "content": "The lowest value that a function achieves over its entire domain.",
+      "keywords": [
+        "minimum",
+        "extrema",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(c) <= f(x) for all x in domain",
+      "example": "Global minimum of y = (x-2)^2 + 3 is 3 at x = 2"
+    },
+    {
+      "id": "math-g-020",
+      "topic": "geometry and graphs",
+      "title": "Golden Ratio",
+      "content": "A mathematical constant ratio of two quantities where their ratio is the same as the ratio of their sum to the larger quantity.",
+      "keywords": [
+        "golden",
+        "ratio",
+        "geometry"
+      ],
+      "difficulty": "beginner",
+      "formula": "phi = (1 + sqrt(5)) / 2",
+      "example": "phi approx 1.61803"
+    },
+    {
+      "id": "math-g-021",
+      "topic": "geometry and graphs",
+      "title": "Golomb Ruler",
+      "content": "A set of marks at integer positions along a ruler such that no two pairs of marks are the same distance apart.",
+      "keywords": [
+        "ruler",
+        "golomb",
+        "discrete"
+      ],
+      "difficulty": "advanced",
+      "formula": "Mark positions list",
+      "example": "Ruler [0, 1, 3] with distances 1, 2, 3"
+    },
+    {
+      "id": "math-g-022",
+      "topic": "geometry and graphs",
+      "title": "Googol and Googolplex",
+      "content": "Googol is 10 raised to the power of 100; Googolplex is 10 raised to the power of a Googol.",
+      "keywords": [
+        "googol",
+        "googolplex",
+        "numbers"
+      ],
+      "difficulty": "beginner",
+      "formula": "Googol = 10^100, Googolplex = 10^(10^100)",
+      "example": "Extremely large numbers used in combinatorics and cosmology"
+    },
+    {
+      "id": "math-g-023",
+      "topic": "geometry and graphs",
+      "title": "Gradient Descent",
+      "content": "An optimization algorithm used to minimize a function by iteratively moving in the direction of steepest descent.",
+      "keywords": [
+        "gradient",
+        "descent",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "formula": "x_new = x_old - alpha * grad(f)",
+      "example": "Training machine learning algorithms to minimize error"
+    },
+    {
+      "id": "math-g-024",
+      "topic": "geometry and graphs",
+      "title": "Gradient Vector",
+      "content": "A vector of partial derivatives pointing in the direction of the greatest rate of increase of a function.",
+      "keywords": [
+        "gradient",
+        "vector",
+        "calculus"
+      ],
+      "difficulty": "intermediate",
+      "formula": "grad(f) = [df/dx, df/dy, df/dz]",
+      "example": "Gradient of f(x, y) = x^2 + y^2 is [2x, 2y]"
+    },
+    {
+      "id": "math-g-025",
+      "topic": "geometry and graphs",
+      "title": "Graph Chromatic Number",
+      "content": "The smallest number of colors needed to color the vertices of a graph so that no two adjacent vertices share a color.",
+      "keywords": [
+        "color",
+        "graph",
+        "chromatic"
+      ],
+      "difficulty": "intermediate",
+      "formula": "chi(G)",
+      "example": "Chromatic number of a triangle graph is 3"
+    },
+    {
+      "id": "math-g-026",
+      "topic": "geometry and graphs",
+      "title": "Graph Cycle",
+      "content": "A path in a graph starting and ending at the same vertex, with no other repeated vertices.",
+      "keywords": [
+        "cycle",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "beginner",
+      "formula": "v_1 -> v_2 -> ... -> v_1",
+      "example": "A closed loop path in a network"
+    },
+    {
+      "id": "math-g-027",
+      "topic": "geometry and graphs",
+      "title": "Graph Degree Sequence",
+      "content": "The list of vertex degrees of a graph in non-increasing order.",
+      "keywords": [
+        "graph",
+        "degree",
+        "sequence"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Sequence: (d_1, d_2, ..., d_n)",
+      "example": "Degree sequence of a triangle is (2, 2, 2)"
+    },
+    {
+      "id": "math-g-028",
+      "topic": "geometry and graphs",
+      "title": "Graph Edge Coloring",
+      "content": "An assignment of colors to the edges of a graph such that no two adjacent edges share the same color.",
+      "keywords": [
+        "graph",
+        "edge",
+        "coloring"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Edge coloring function",
+      "example": "Scheduling matches in a round-robin tournament"
+    },
+    {
+      "id": "math-g-029",
+      "topic": "geometry and graphs",
+      "title": "Graph Isomorphism",
+      "content": "A bijection between the vertex sets of two graphs that preserves adjacency.",
+      "keywords": [
+        "graph",
+        "isomorphism",
+        "discrete"
+      ],
+      "difficulty": "intermediate",
+      "formula": "G_1 isomorphic to G_2",
+      "example": "Checking if two networks are structurally identical"
+    },
+    {
+      "id": "math-g-030",
+      "topic": "geometry and graphs",
+      "title": "Graph Path",
+      "content": "A sequence of edges which connect a sequence of vertices in a graph.",
+      "keywords": [
+        "path",
+        "graph",
+        "networks"
+      ],
+      "difficulty": "beginner",
+      "formula": "v_0 -> v_1 -> ... -> v_k",
+      "example": "Routing a packet from source to destination"
+    },
+    {
+      "id": "math-g-031",
+      "topic": "geometry and graphs",
+      "title": "Graph Vertex Coloring",
+      "content": "An assignment of colors to vertices of a graph such that no adjacent vertices share the same color.",
+      "keywords": [
+        "graph",
+        "vertex",
+        "coloring"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Vertex coloring function",
+      "example": "Coloring regions of a map using at most 4 colors"
+    },
+    {
+      "id": "math-g-032",
+      "topic": "geometry and graphs",
+      "title": "Graph Vertices and Edges",
+      "content": "The primary components of a graph: vertices are points, and edges are the lines connecting them.",
+      "keywords": [
+        "graph",
+        "vertices",
+        "edges"
+      ],
+      "difficulty": "beginner",
+      "formula": "G = (V, E)",
+      "example": "Vertices representing cities, edges representing roads"
+    },
+    {
+      "id": "math-g-033",
+      "topic": "geometry and graphs",
+      "title": "Gravitational Constant Formula",
+      "content": "Formula for the force of gravity between two masses, involving the gravitational constant G.",
+      "keywords": [
+        "gravity",
+        "force",
+        "physics"
+      ],
+      "difficulty": "beginner",
+      "formula": "F = G * (m_1 * m_2) / r^2",
+      "example": "Gravity force between Earth and an apple"
+    },
+    {
+      "id": "math-g-034",
+      "topic": "geometry and graphs",
+      "title": "Greatest Common Divisor",
+      "content": "The largest positive integer that divides two or more integers without leaving a remainder.",
+      "keywords": [
+        "gcd",
+        "divisor",
+        "arithmetic"
+      ],
+      "difficulty": "beginner",
+      "formula": "gcd(a, b)",
+      "example": "gcd(24, 36) = 12"
+    },
+    {
+      "id": "math-g-035",
+      "topic": "geometry and graphs",
+      "title": "Greatest Lower Bound",
+      "content": "The infimum, which is the greatest element that is less than or equal to all elements of a set.",
+      "keywords": [
+        "bound",
+        "infimum",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "formula": "inf(S)",
+      "example": "Greatest lower bound of (0, 5) is 0"
+    },
+    {
+      "id": "math-g-036",
+      "topic": "geometry and graphs",
+      "title": "Green's Theorem",
+      "content": "Relates a line integral around a simple closed curve C to a double integral over the plane region D bounded by C.",
+      "keywords": [
+        "greens",
+        "integral",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "formula": "contour_integral (P dx + Q dy) = double_integral (dQ/dx - dP/dy) dA",
+      "example": "Calculating area of a polygon using path integrals"
+    },
+    {
+      "id": "math-g-037",
+      "topic": "geometry and graphs",
+      "title": "Group Axioms",
+      "content": "A set of four conditions that a set with a binary operation must satisfy to be a group.",
+      "keywords": [
+        "group",
+        "axioms",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "Closure, Associativity, Identity, Inverse",
+      "example": "The set of integers under addition forms a group"
+    },
+    {
+      "id": "math-g-038",
+      "topic": "geometry and graphs",
+      "title": "Group Homomorphism",
+      "content": "A map between two groups that preserves the group operation.",
+      "keywords": [
+        "group",
+        "homomorphism",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "f(x * y) = f(x) * f(y)",
+      "example": "The log map mapping positive reals under multiplication to reals under addition"
+    },
+    {
+      "id": "math-g-039",
+      "topic": "geometry and graphs",
+      "title": "Group Order",
+      "content": "The number of elements in a group, or the smallest positive integer n such that g^n = e for an element.",
+      "keywords": [
+        "group",
+        "order",
+        "algebra"
+      ],
+      "difficulty": "intermediate",
+      "formula": "|G| or ord(g)",
+      "example": "The cyclic group Z_6 has order 6"
+    },
+    {
+      "id": "math-g-040",
+      "topic": "geometry and graphs",
+      "title": "Gnomonic Projection",
+      "content": "A map projection that projects points on a sphere onto a tangent plane, drawing great circles as straight lines.",
+      "keywords": [
+        "projection",
+        "sphere",
+        "geometry"
+      ],
+      "difficulty": "advanced",
+      "formula": "Projection equations",
+      "example": "Navigation maps for pilots plotting straight flight paths"
+    }
+  ]
+}
