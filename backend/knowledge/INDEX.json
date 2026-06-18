@@ -9,6 +9,7 @@
     "web_development", "data_science", "study_skills", "atlas",
     "history", "geography", "economics", "psychology", "astronomy",
     "environment", "literature", "health", "civics", "engineering",
-    "philosophy", "arts", "linguistics", "quick_facts", "world_facts", "inventions"
+    "philosophy", "arts", "linguistics", "quick_facts", "world_facts", "inventions",
+    "grammar", "social_science"
   ]
 }
