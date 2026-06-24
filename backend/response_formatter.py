@@ -30,7 +30,7 @@ def format_knowledge_response(entries: list[dict[str, Any]], intro: str | None =
             parts.append("")
         parts.append(format_entry(entry))
     parts.append("")
-    parts.append("*Would you like a worked example or a practice question on this topic?*")
+    parts.append("*nods encouragingly* Would you like a worked example or a practice question on this topic? 😊")
     return "\n".join(parts)
 
 
@@ -41,7 +41,7 @@ def format_error(message: str) -> str:
 def format_topics_list(topics: list[str]) -> str:
     grouped = ", ".join(t.replace("_", " ").title() for t in topics)
     return (
-        "### Topics I can help with\n\n"
+        "### *points to a whiteboard listing topics* Topics I can help with\n\n"
         f"{grouped}\n\n"
-        "Ask me anything specific — e.g. *Explain Newton's second law* or *What is the quadratic formula?*"
+        "*smiles friendly* Ask me anything specific — e.g. *Explain Newton's second law* or *What is the quadratic formula?*"
     )

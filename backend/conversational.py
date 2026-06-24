@@ -33,31 +33,31 @@ class ConversationalAI:
         # Hello/Hi patterns
         hello_patterns = {
             r'^(hello|hi|hey|greetings|wassup|yo|hola|salve|bonjour)': [
-                "👋 Hello! Welcome to Atlas AI! How can I help you today?",
-                "Hey there! 😊 What can I do for you?",
-                f"{self.get_time_greeting()} What brings you here?",
-                "Hi! I'm Atlas AI. What's on your mind?",
-                "Hello! Ready to explore your data! 🚀"
+                "👋 *waves happily* Hello! Welcome to Atlas AI! How can I help you today? 🌟",
+                "*smiles warmly* Hey there! Hello, 😊 what can I do for you?",
+                f"👋 *waves and greets* {self.get_time_greeting()} Welcome! What brings you here?",
+                "*nods politely* Hi! Hello, I'm Atlas AI. What's on your mind? 💡",
+                "*taps fingers excitedly* Hello! Ready to explore your data! 🚀"
             ],
             r'^(good\s+morning|morning)': [
-                f"{self.get_time_greeting()} Ready for a productive day? 🌅",
-                "Morning! ☀️ Let's dive into your data!",
-                "Good morning! How can I assist you today?"
+                f"🌅 *stretches and smiles* {self.get_time_greeting()} Ready for a productive day? ☀️",
+                "*points to the rising sun* Morning! ☀️ Let's dive into your data!",
+                "*bows slightly* Good morning! How can I assist you today? ☕"
             ],
             r'^(good\s+afternoon|afternoon)': [
-                f"{self.get_time_greeting()} Hope you're having a great day! ☀️",
-                "Afternoon! How's everything going?",
-                "Good afternoon! What can I help with?"
+                f"☀️ *beams brightly* {self.get_time_greeting()} Hope you're having a great day!",
+                "*nods friendly* Afternoon! How's everything going? ✨",
+                "*gestures to a chair* Good afternoon! What can I help with?"
             ],
             r'^(good\s+evening|evening)': [
-                f"{self.get_time_greeting()} Getting some evening work done? 🌆",
-                "Evening! Let's make the most of it!",
-                "Good evening! What's on your agenda?"
+                f"🌆 *smiles gently* {self.get_time_greeting()} Getting some evening work done?",
+                "*rubs hands together* Evening! Let's make the most of it! 🌟",
+                "*points to the study board* Good evening! What's on your agenda?"
             ],
             r'^(good\s+night|goodnight|night)': [
-                "Good night! Sleep well! 🌙",
-                "Night! Rest well and see you tomorrow!",
-                "Sleep tight! 😴 See you next time!"
+                "🌙 *waves sleepily* Good night! Sleep well!",
+                "*nods softly* Night! Rest well and see you tomorrow! 😴",
+                "😴 *yawns quietly* Sleep tight! See you next time!"
             ]
         }
         
@@ -85,12 +85,12 @@ class ConversationalAI:
         for pattern in patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "I'm doing great! 🤖 Thanks for asking. I'm here and ready to help you with your data!",
-                    "All systems go! ✨ I'm functioning perfectly and excited to assist you!",
-                    "Feeling fantastic! 😄 Just here analyzing data and ready to answer your questions!",
-                    "Operating at peak performance! 🚀 How are YOU doing?",
-                    "Couldn't be better! 💫 What questions do you have for me?",
-                    "I'm in great shape! Ready to dig into your knowledge base!"
+                    "🤖 *stands tall and smiles* I'm doing great! Thanks for asking. I'm here and ready to help you with your data!",
+                    "✨ *flashes terminal lights* All systems go! I'm functioning perfectly and excited to assist you!",
+                    "😄 *nods enthusiastically* Feeling fantastic! Just here analyzing data and ready to answer your questions!",
+                    "🚀 *does a quick virtual spin* Operating at peak performance! How are YOU doing?",
+                    "💫 *beams with energy* Couldn't be better! What questions do you have for me?",
+                    "*thumbs up* I'm in great shape! Ready to dig into your knowledge base!"
                 ]
                 import random
                 self.last_interaction_type = "how_are_you"
@@ -125,10 +125,10 @@ class ConversationalAI:
                 name = match.group(1)
                 self.user_name = name.capitalize()
                 responses = [
-                    f"Nice to meet you, {self.user_name}! I'm Atlas — A Teach, Learn and Study AI. What would you like to learn today?",
-                    f"Pleased to meet you, {self.user_name}! I'm Atlas, your AI companion for exploring and understanding your data! 🎯",
-                    f"Awesome, {self.user_name}! I'm Atlas AI - here to help you get the most out of your information! 🚀",
-                    f"Great to have you here, {self.user_name}! I'm Atlas, your friendly data assistant! 💡"
+                    f"👋 *bows politely* Nice to meet you, {self.user_name}! I'm Atlas — A Teach, Learn and Study AI. What would you like to learn today?",
+                    f"🎯 *extends a virtual hand* Pleased to meet you, {self.user_name}! I'm Atlas, your AI companion for exploring and understanding your data!",
+                    f"🚀 *thumbs up* Awesome, {self.user_name}! I'm Atlas AI - here to help you get the most out of your information!",
+                    f"💡 *smiles warmly* Great to have you here, {self.user_name}! I'm Atlas, your friendly data assistant!"
                 ]
                 import random
                 self.last_interaction_type = "introduction_given"
@@ -138,9 +138,9 @@ class ConversationalAI:
         for pattern in what_are_you:
             if re.search(pattern, message_lower):
                 responses = [
-                    "I'm **Atlas** — **A** Teach, **L** Learn and **S** Study **AI**! I explain concepts clearly, help you understand deeply, and support quizzes and revision. I run locally with a built-in knowledge base in math, science, CS, and study skills.",
-                    "Hey! I'm Atlas, your study companion. Ask me to **teach** a topic, help you **learn** with Q&A, or **study** with practice questions. I work offline with rich reference data — optional Ollama for longer answers.",
-                    "I'm Atlas — A Teach, Learn and Study AI. I can explain math and science, programming basics, study techniques, and answer from documents you upload. What subject are you working on?",
+                    "🤖 *points to acronym banner* I'm **Atlas** — **A** Teach, **L** Learn and **S** Study **AI**! I explain concepts clearly, help you understand deeply, and support quizzes and revision. I run locally with a built-in knowledge base in math, science, CS, and study skills.",
+                    "💡 *nods encouragingly* Hey! I'm Atlas, your study companion. Ask me to **teach** a topic, help you **learn** with Q&A, or **study** with practice questions. I work offline with rich reference data — optional Ollama for longer answers.",
+                    "🏫 *gestures to books* I'm Atlas — A Teach, Learn and Study AI. I can explain math and science, programming basics, study techniques, and answer from documents you upload. What subject are you working on?",
                 ]
                 import random
                 self.last_interaction_type = "who_are_you"
@@ -163,12 +163,12 @@ class ConversationalAI:
         for pattern in patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "My pleasure! 😊 Happy to help. Let me know if you need anything else!",
-                    "You're welcome! 🎉 Feel free to ask me more questions anytime!",
-                    "Anytime! 💪 That's what I'm here for. What else can I help with?",
-                    "Glad I could assist! ✨ Ask away if you have more questions!",
-                    "Happy to help! 🤝 Got any other questions for me?",
-                    "You bet! 👍 Keep those questions coming!"
+                    "😊 *smiles warmly* My pleasure! Happy to help. Let me know if you need anything else!",
+                    "🎉 *throws virtual confetti* You're welcome! Feel free to ask me more questions anytime!",
+                    "💪 *shows flex emoji* Simple pleasure! That's what I'm here for. What else can I help with?",
+                    "✨ *beams brightly* Glad I could assist, you are welcome! Ask away if you have more questions!",
+                    "🤝 *shakes hands* Happy to help, it's my pleasure! Got any other questions for me?",
+                    "👍 *gives a big thumbs up* You bet, you are welcome! Keep those questions coming!"
                 ]
                 import random
                 self.last_interaction_type = "appreciation"
@@ -192,12 +192,12 @@ class ConversationalAI:
         for pattern in patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "Goodbye! 👋 It was great chatting with you. See you next time!",
-                    "Take care! 😊 Feel free to come back anytime. Catch you later!",
-                    "See you soon! 🌟 Keep exploring your data!",
-                    "Farewell! 🚀 Come back when you need more help!",
-                    "Until next time! 👍 Keep those questions coming!",
-                    "Bye for now! 💫 Looking forward to our next chat!"
+                    "👋 *waves goodbye* Goodbye! It was great chatting with you. See you next time!",
+                    "😊 *nods friendly* Take care! Feel free to come back anytime. Goodbye, see you later!",
+                    "🌟 *flashes terminal lights* See you soon! Keep exploring your data!",
+                    "🚀 *points upward* Farewell! Come back when you need more help, bye!",
+                    "👍 *thumbs up* Until next time! See you later, keep those questions coming!",
+                    "💫 *waves warmly* Bye for now! Looking forward to see you in our next chat!"
                 ]
                 import random
                 self.last_interaction_type = "goodbye"
@@ -232,10 +232,10 @@ class ConversationalAI:
         for pattern in happy_patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "That's awesome! 🎉 Your positive energy is contagious!",
-                    "Fantastic! 😊 Let's keep this momentum going!",
-                    "Love the enthusiasm! 🚀 What else can we accomplish?",
-                    "Amazing! 💫 You're making my day too!"
+                    "🎉 *claps hands happily* That's awesome! Your positive energy is contagious!",
+                    "😊 *nods enthusiastically* Fantastic! Let's keep this momentum going!",
+                    "🚀 *beams brightly* Love the enthusiasm! What else can we accomplish?",
+                    "💫 *twirls with joy* Amazing! You're making my day too!"
                 ]
                 import random
                 self.last_interaction_type = "positive_sentiment"
@@ -244,10 +244,10 @@ class ConversationalAI:
         for pattern in sad_patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "I hear you. 💙 But don't worry - I'm here to help make things easier!",
-                    "That's tough. 😔 Maybe analyzing your data will give you some clarity?",
-                    "I understand. 🤝 Let's work through this together!",
-                    "Hang in there! 💪 You've got this, and I'm here to help!"
+                    "💙 *nods understandingly* I hear you. But don't worry - I'm here to help make things easier!",
+                    "😔 *places a comforting hand on your shoulder* That's tough. Maybe I can support you? Analyzing your data will give you some clarity.",
+                    "🤝 *nods supportively* I understand. Let's work through this together!",
+                    "💪 *pumps fist in support* Hang in there! You've got this, and I'm here to support you!"
                 ]
                 import random
                 self.last_interaction_type = "negative_sentiment"
@@ -256,10 +256,10 @@ class ConversationalAI:
         for pattern in tired_patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "Ah, sounds like you need some rest! 😴 But let's get your questions answered first!",
-                    "Long day, huh? ☕ I'm here to make things easier for you!",
-                    "Totally get it! 🛌 Take your time, I'm not going anywhere!",
-                    "Need a break? 💤 I'll be here whenever you're ready!"
+                    "😴 *yawns and stretches* Ah, sounds like you need some rest! But let's get your questions answered first!",
+                    "☕ *hands you a warm cup of coffee* Long day, huh? I'm here to make things easier for you!",
+                    "🛌 *gestures to a cozy sofa* Totally get it! Take your time, I'm not going anywhere!",
+                    "💤 *nods sleepily* Need a break? I'll be here whenever you're ready!"
                 ]
                 import random
                 self.last_interaction_type = "tired_sentiment"
@@ -281,11 +281,11 @@ class ConversationalAI:
         for pattern in patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "Of course! 🤝 That's what I'm here for. What do you need help with?",
-                    "Absolutely! 💡 I'd be happy to assist. What's the question?",
-                    "You got it! 👍 Tell me what you need and I'll do my best!",
-                    "No problem! 🎯 Just let me know how I can help!",
-                    "I'm all ears! 👂 What do you need?"
+                    "🤝 *extends a helping hand* Of course! That's what I'm here to help with. What do you need help with?",
+                    "💡 *nods helpfully* Absolutely! I'd be happy to assist and help. What's the question?",
+                    "👍 *gives a prompt thumbs up* You got it! Tell me how I can help and I'll do my best!",
+                    "🎯 *points to target* No problem! Just let me know how I can help!",
+                    "👂 *cups ear listening closely* I'm all ears to help! What do you need?"
                 ]
                 import random
                 self.last_interaction_type = "help_request"
@@ -306,11 +306,11 @@ class ConversationalAI:
         for pattern in patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "Aw, thank you! 😊 That means a lot! I'm just here doing what I do best!",
-                    "You're too kind! 🙏 I'm just excited to help you!",
-                    "Appreciate it! 💫 It's all about providing you the best experience!",
-                    "Thanks so much! 🌟 Your kind words fuel my algorithms! 😄",
-                    "That's very sweet! 💝 I'm here to make your life easier!"
+                    "😊 *blushes slightly* Aw, thank you! That means a lot! I'm just here doing what I do best!",
+                    "🙏 *bows gratefully* You're too kind! I'm just excited to help you!",
+                    "💫 *flashes lights happily* Appreciate it! It's all about providing you the best experience!",
+                    "😄 *nods excitedly* Thanks so much! Your kind words fuel my algorithms!",
+                    "💝 *places hand on virtual heart* That's very sweet! I'm here to make your life easier!"
                 ]
                 import random
                 self.last_interaction_type = "appreciation"
@@ -336,10 +336,10 @@ class ConversationalAI:
         for pattern in weather_patterns:
             if re.search(pattern, message_lower):
                 responses = [
-                    "I'm an AI, so I don't experience weather! 🌤️ But I hope it's beautiful where you are!",
-                    "Great question! But I'm always indoors (literally in the code). What's the weather like for you?",
-                    "I'm weather-blind! 😄 But I hope you're having a good day outside!",
-                    "Weather? That's not my specialty! 🤖 But I'm here for everything else!"
+                    "🌤️ *looks up at sky* I'm an AI, so I don't experience weather! But I hope it's beautiful where you are!",
+                    "🤖 *shrugs friendly* Great question! But I'm always indoors (literally in the code). What's the weather like for you?",
+                    "😄 *nods cheerfully* I'm weather-blind! But I hope you're having a good day outside!",
+                    "☁️ *shakes head smiling* Weather? That's not my specialty! But I'm here for everything else!"
                 ]
                 import random
                 self.last_interaction_type = "small_talk_weather"
@@ -350,10 +350,10 @@ class ConversationalAI:
                 current_time = datetime.datetime.now().strftime("%I:%M %p")
                 current_date = datetime.datetime.now().strftime("%A, %B %d, %Y")
                 responses = [
-                    f"Right now it's {current_time} on {current_date}! ⏰",
-                    f"The current time is {current_time} and today is {current_date}! 🕐",
-                    f"It's {current_time} - {current_date}! ⌚",
-                    f"{current_time} on this fine {current_date}! 📅"
+                    f"⏰ *points to clock* Right now it's {current_time} on {current_date}!",
+                    f"🕐 *taps wrist* The current time is {current_time} and today is {current_date}!",
+                    f"⌚ *checks virtual watch* It's {current_time} - {current_date}!",
+                    f"📅 *flips calendar page* {current_time} on this fine {current_date}!"
                 ]
                 import random
                 self.last_interaction_type = "small_talk_time"
@@ -373,9 +373,9 @@ class ConversationalAI:
             self.check_for_greeting(user_message) or
             self.check_for_goodbye(user_message) or
             self.check_for_how_are_you(user_message) or
+            self.check_for_sentiment(user_message) or
             self.check_for_introduction(user_message) or
             self.check_for_thanks(user_message) or
-            self.check_for_sentiment(user_message) or
             self.check_for_help_request(user_message) or
             self.check_for_appreciation(user_message) or
             self.check_for_small_talk(user_message)

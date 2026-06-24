@@ -50,17 +50,17 @@ def _physics(t: str) -> str | None:
         return None
     if re.search(r"\b(newton|force|f=ma|acceleration)\b", t):
         return (
-            "### Newton's Laws\n\n"
+            "### *points to the blackboard* Newton's Laws\n\n"
             "**1st (Inertia):** An object stays at rest or uniform motion unless a net force acts.\n\n"
             "**2nd:** **F = m × a** — net force equals mass times acceleration.\n\n"
             "**3rd:** Every action has an equal and opposite reaction.\n\n"
             "**Kinetic energy:** KE = ½mv²\n\n"
-            "Tell me which law or problem you'd like to work through."
+            "*smiles and nods* Tell me which law or problem you'd like to work through. 📚"
         )
     return (
-        "### Physics overview\n\n"
+        "### *nods helpfully* Physics overview\n\n"
         "I can explain mechanics (forces, energy), electricity (Ohm's law), waves, and modern physics basics.\n\n"
-        "Try: *Explain F=ma with an example* or *What is kinetic energy?*"
+        "*points to study board* Try: *Explain F=ma with an example* or *What is kinetic energy?* 🚀"
     )
 
 
@@ -68,12 +68,12 @@ def _chemistry(t: str) -> str | None:
     if not re.search(r"\b(chemistry|atom|molecule|reaction|bond|acid|ph|mole)\b", t):
         return None
     return (
-        "### Chemistry essentials\n\n"
+        "### *gestures to molecular model* Chemistry essentials 🧪\n\n"
         "- **Atoms:** protons, neutrons, electrons; atomic number = protons\n"
         "- **Bonding:** ionic (transfer), covalent (sharing), metallic\n"
         "- **pH:** 0–14 scale; 7 = neutral\n"
         "- **Moles:** n = mass / molar mass; Avogadro = 6.022×10²³\n\n"
-        "Ask about a specific reaction or concept for a deeper explanation."
+        "*smiles warmly* Ask about a specific reaction or concept for a deeper explanation."
     )
 
 
@@ -82,17 +82,17 @@ def _biology(t: str) -> str | None:
         return None
     if re.search(r"\b(photosynthesis|respiration|atp)\b", t):
         return (
-            "### Energy in cells\n\n"
+            "### *taps diagram of cell metabolism* Energy in cells 🌿\n\n"
             "**Photosynthesis** (plants): 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂\n\n"
             "**Cellular respiration:** C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + **ATP**\n\n"
-            "Photosynthesis stores energy; respiration releases it for cell work."
+            "*points to diagram* Photosynthesis stores energy; respiration releases it for cell work."
         )
     return (
-        "### Biology overview\n\n"
+        "### *nods friendly* Biology overview 🧬\n\n"
         "- **Cell theory** — all life is cellular\n"
         "- **DNA → RNA → protein** (central dogma)\n"
         "- **Evolution** by natural selection\n\n"
-        "Want a quiz on any of these?"
+        "*smiles encouragingly* Want a quiz on any of these?"
     )
 
 
@@ -100,12 +100,12 @@ def _programming(t: str) -> str | None:
     if not re.search(r"\b(python|javascript|code|programming|function|variable|loop|debug)\b", t):
         return None
     return (
-        "### Programming tips\n\n"
+        "### *taps the computer screen* Programming tips 💻\n\n"
         "1. **Read errors carefully** — line number and message point to the fix\n"
         "2. **Break problems down** — solve one small piece at a time\n"
         "3. **Test edge cases** — empty input, zero, large values\n"
         "4. **Use meaningful names** — `student_count` not `x`\n\n"
-        "Share your language and problem for specific help."
+        "*nods supportively* Share your language and problem for specific help."
     )
 
 
@@ -114,7 +114,7 @@ def _cs_ml(t: str) -> str | None:
         return None
     if re.search(r"\b(big o|complexity|sort|search)\b", t):
         return (
-            "### Algorithm complexity (Big O)\n\n"
+            "### *points to complexity chart* Algorithm complexity (Big O) 📊\n\n"
             "| Notation | Meaning | Example |\n"
             "|----------|---------|--------|\n"
             "| O(1) | Constant | Hash lookup |\n"
@@ -124,9 +124,9 @@ def _cs_ml(t: str) -> str | None:
             "| O(n²) | Quadratic | Nested loops |\n"
         )
     return (
-        "### Computer science\n\n"
+        "### *nods sagely* Computer science 🧠\n\n"
         "Algorithms, APIs, databases, Git, and ML fundamentals are in my knowledge base.\n\n"
-        "Ask something specific like *Explain binary search* or *What is REST?*"
+        "*waves hand to suggest* Ask something specific like *Explain binary search* or *What is REST?*"
     )
 
 
@@ -134,12 +134,12 @@ def _study(t: str) -> str | None:
     if not re.search(r"\b(study|exam|revision|pomodoro|flashcard|focus|learn how)\b", t):
         return None
     return (
-        "### Study smarter\n\n"
+        "### *points to a timer* Study smarter ⏱️\n\n"
         "- **Pomodoro:** 25 min focus, 5 min break\n"
         "- **Active recall:** test yourself, don't only re-read\n"
         "- **Spaced repetition:** review at 1d, 3d, 1w intervals\n"
         "- **Feynman:** explain the topic in simple words\n\n"
-        "I can also quiz you on science or math topics — just ask!"
+        "*smiles warmly* I can also quiz you on science or math topics — just ask!"
     )
 
 
@@ -147,11 +147,11 @@ def _history(t: str) -> str | None:
     if not re.search(r"\b(history|war|revolution|civilization|ancient|empire)\b", t):
         return None
     return (
-        "### History snapshot\n\n"
+        "### *gestures to historical timeline* History snapshot 📜\n\n"
         "- **Ancient:** Mesopotamia, Egypt, Greece, Rome, China\n"
         "- **Industrial Revolution (1760s+):** mechanization, urbanization\n"
         "- **20th century:** World Wars, Cold War, digital age\n\n"
-        "Ask about a specific era or event for more detail."
+        "*nods politely* Ask about a specific era or event for more detail."
     )
 
 
@@ -159,11 +159,11 @@ def _economics(t: str) -> str | None:
     if not re.search(r"\b(economics|gdp|inflation|supply|demand|market)\b", t):
         return None
     return (
-        "### Economics basics\n\n"
+        "### *points to supply/demand curves* Economics basics 📈\n\n"
         "- **Supply & demand** set equilibrium price\n"
         "- **GDP** = C + I + G + (X − M)\n"
         "- **Inflation:** rising price level; central banks use interest rates\n\n"
-        "Ask about a specific concept for examples."
+        "*smiles* Ask about a specific concept for examples."
     )
 
 
@@ -171,12 +171,12 @@ def _geography(t: str) -> str | None:
     if not re.search(r"\b(geography|continent|country|capital|river|mountain|climate)\b", t):
         return None
     return (
-        "### Geography highlights\n\n"
+        "### *spins a globe* Geography highlights 🌍\n\n"
         "- **7 continents** — Asia largest by population\n"
         "- **Nile & Amazon** — among longest rivers\n"
         "- **Everest** — highest peak (8,849 m)\n"
         "- **Climate zones** — tropical, temperate, polar\n\n"
-        "Ask about a specific country or feature."
+        "*nods friendly* Ask about a specific country or feature."
     )
 
 
@@ -184,12 +184,12 @@ def _astronomy(t: str) -> str | None:
     if not re.search(r"\b(space|planet|star|moon|sun|galaxy|universe|astronomy)\b", t):
         return None
     return (
-        "### Astronomy snapshot\n\n"
+        "### *points up to the stars* Astronomy snapshot 🌌\n\n"
         "- **8 planets** orbit the Sun\n"
         "- **Light speed** ≈ 3×10⁸ m/s\n"
         "- **Moon phases** — ~29.5 day cycle\n"
         "- **Big Bang** — universe ~13.8 billion years old\n\n"
-        "Ask about a specific planet or phenomenon."
+        "*smiles excitedly* Ask about a specific planet or phenomenon."
     )
 
 
@@ -197,12 +197,12 @@ def _health(t: str) -> str | None:
     if not re.search(r"\b(health|nutrition|diet|sleep|exercise|immune|vitamin)\b", t):
         return None
     return (
-        "### Health & wellness\n\n"
+        "### *nods healthily* Health & wellness 🍎\n\n"
         "- **Balanced diet** — carbs, protein, fats\n"
         "- **Sleep** — 7–9 hours for adults; aids memory\n"
         "- **Exercise** — 150 min/week moderate activity\n"
         "- **Hydration** — essential for focus and energy\n\n"
-        "This is educational info, not medical advice."
+        "*smiles gently* This is educational info, not medical advice."
     )
 
 
@@ -210,12 +210,12 @@ def _philosophy(t: str) -> str | None:
     if not re.search(r"\b(philosophy|ethics|logic|socrates|plato|descartes|fallacy)\b", t):
         return None
     return (
-        "### Philosophy introduction\n\n"
+        "### *strokes chin thoughtfully* Philosophy introduction 🤔\n\n"
         "- **Ethics** — right and wrong (utilitarianism, deontology)\n"
         "- **Logic** — valid reasoning, avoid fallacies\n"
         "- **Epistemology** — what we can know\n"
         "- **Socratic method** — learning through questions\n\n"
-        "Which branch interests you?"
+        "*nods slowly* Which branch interests you?"
     )
 
 
@@ -223,10 +223,10 @@ def _environment(t: str) -> str | None:
     if not re.search(r"\b(climate|environment|pollution|renewable|carbon|ecosystem|greenhouse)\b", t):
         return None
     return (
-        "### Environment & climate\n\n"
+        "### *points to a recycling logo* Environment & climate 🌍\n\n"
         "- **Greenhouse effect** — CO₂ traps heat\n"
         "- **Renewables** — solar, wind, hydro\n"
         "- **Biodiversity** — variety of life on Earth\n"
         "- **Carbon footprint** — emissions from daily activities\n\n"
-        "Ask about a specific environmental topic."
+        "*smiles friendly* Ask about a specific environmental topic."
     )
