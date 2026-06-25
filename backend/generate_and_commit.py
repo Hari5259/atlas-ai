@@ -7,7 +7,7 @@ Generates 58,400 facts in total across 6 domains:
 4. History
 5. Geography
 6. General Science & Astronomy
-Partitioned into 13 chunks, written to json files, and committed.
+Partitioned into 24 chunks, written to json files, and committed.
 """
 
 import json
@@ -375,8 +375,8 @@ def main():
     for path in topics_dir.glob("gk_chunk_*.json"):
         path.unlink()
 
-    # Partitions (14 chunks, distributed evenly)
-    num_chunks = 14
+    # Partitions (24 chunks, distributed evenly)
+    num_chunks = 24
     total_entries = len(all_entries)
     chunk_size = total_entries // num_chunks
     remainder = total_entries % num_chunks
@@ -414,7 +414,7 @@ def main():
         )
         subprocess.run(["git", "commit", "-m", commit_msg], check=True, cwd=str(backend_dir.parent))
 
-    print(f"Success: {total_entries} entries generated and committed in 13 distinct commits!")
+    print(f"Success: {total_entries} entries generated and committed in 24 distinct commits!")
 
 if __name__ == "__main__":
     main()

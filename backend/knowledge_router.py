@@ -30,8 +30,18 @@ def search_knowledge(query: str, limit: int = 4) -> tuple[str | None, str, list[
         return None, "none", []
 
     combined.sort(key=lambda x: x[0], reverse=True)
-    top = [e for _, e, _ in combined[:limit]]
-    domains = {d for _, _, d in combined[:limit]}
+    top_score = combined[0][0]
+
+    # Keep only highly relevant matches if we have a strong match (score >= 5)
+    if top_score >= 5:
+        threshold = max(4, top_score - 1)
+        filtered_combined = [item for item in combined if item[0] >= threshold]
+    else:
+        filtered_combined = combined
+
+    top_items = filtered_combined[:limit]
+    top = [e for _, e, _ in top_items]
+    domains = {d for _, _, d in top_items}
     intro = "Here's what I found in the Atlas knowledge base:"
     if len(domains) == 1:
         domain = next(iter(domains))
