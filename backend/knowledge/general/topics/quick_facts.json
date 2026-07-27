@@ -151,6 +151,18 @@
         "genetics"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-013",
+      "topic": "quick_facts",
+      "title": "Ozone Layer",
+      "content": "The ozone layer is a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation.",
+      "keywords": [
+        "ozone",
+        "earth",
+        "atmosphere"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
