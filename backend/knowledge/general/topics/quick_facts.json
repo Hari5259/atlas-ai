@@ -199,6 +199,18 @@
         "ocean"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-017",
+      "topic": "quick_facts",
+      "title": "Earth's Core",
+      "content": "The Earth's inner core is a solid sphere primarily made of iron and nickel.",
+      "keywords": [
+        "earth",
+        "core",
+        "geology"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
