@@ -223,6 +223,18 @@
         "darwin"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-019",
+      "topic": "quick_facts",
+      "title": "Rainbows",
+      "content": "Rainbows are caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky.",
+      "keywords": [
+        "rainbow",
+        "light",
+        "physics"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
