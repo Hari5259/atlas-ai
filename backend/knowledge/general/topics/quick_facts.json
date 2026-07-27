@@ -235,6 +235,17 @@
         "physics"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-020",
+      "topic": "quick_facts",
+      "title": "Magnets",
+      "content": "Magnets have two poles (North and South). Like poles repel, and opposite poles attract.",
+      "keywords": [
+        "magnetism",
+        "physics"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
