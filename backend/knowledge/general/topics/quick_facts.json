@@ -163,6 +163,18 @@
         "atmosphere"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-014",
+      "topic": "quick_facts",
+      "title": "Solar System",
+      "content": "Our solar system has 8 planets, with Jupiter being the largest and Mercury the smallest.",
+      "keywords": [
+        "solar system",
+        "planets",
+        "space"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
