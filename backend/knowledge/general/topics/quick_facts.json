@@ -211,6 +211,18 @@
         "geology"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-018",
+      "topic": "quick_facts",
+      "title": "Evolution",
+      "content": "Evolution by natural selection is the process by which traits that enhance survival become more common in successive generations.",
+      "keywords": [
+        "evolution",
+        "biology",
+        "darwin"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
