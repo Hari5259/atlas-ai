@@ -103,6 +103,18 @@
         "temperature"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-009",
+      "topic": "quick_facts",
+      "title": "Photosynthesis",
+      "content": "Plants convert carbon dioxide and water into glucose and oxygen using sunlight.",
+      "keywords": [
+        "plants",
+        "photosynthesis",
+        "biology"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
