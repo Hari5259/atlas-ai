@@ -127,6 +127,18 @@
         "earth"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-011",
+      "topic": "quick_facts",
+      "title": "Light Year",
+      "content": "A light-year is the distance light travels in one Earth year, about 9.46 trillion kilometers.",
+      "keywords": [
+        "space",
+        "light year",
+        "astronomy"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
