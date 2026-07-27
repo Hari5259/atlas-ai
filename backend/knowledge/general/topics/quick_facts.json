@@ -139,6 +139,18 @@
         "astronomy"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-012",
+      "topic": "quick_facts",
+      "title": "DNA Structure",
+      "content": "DNA has a double helix structure composed of four nucleotides: Adenine, Thymine, Cytosine, and Guanine.",
+      "keywords": [
+        "dna",
+        "biology",
+        "genetics"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
