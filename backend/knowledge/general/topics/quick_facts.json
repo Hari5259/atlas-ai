@@ -175,6 +175,18 @@
         "space"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-015",
+      "topic": "quick_facts",
+      "title": "Atoms",
+      "content": "Atoms consist of a nucleus (protons and neutrons) surrounded by electrons.",
+      "keywords": [
+        "atom",
+        "chemistry",
+        "physics"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
