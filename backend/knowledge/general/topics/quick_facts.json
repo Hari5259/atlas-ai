@@ -187,6 +187,18 @@
         "physics"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-016",
+      "topic": "quick_facts",
+      "title": "Tides",
+      "content": "Ocean tides are mainly caused by the gravitational pull of the Moon and the Sun on Earth.",
+      "keywords": [
+        "tides",
+        "moon",
+        "ocean"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
