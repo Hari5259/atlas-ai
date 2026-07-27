@@ -115,6 +115,18 @@
         "biology"
       ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "gen-fact-010",
+      "topic": "quick_facts",
+      "title": "Gravity",
+      "content": "The acceleration due to gravity on Earth is approximately 9.8 m/s\u00b2.",
+      "keywords": [
+        "gravity",
+        "physics",
+        "earth"
+      ],
+      "difficulty": "beginner"
     }
   ]
 }
