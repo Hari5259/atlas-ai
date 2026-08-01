@@ -33,7 +33,7 @@
   --radius-lg: 24px;
   --radius-xl: 32px;
   
-  --shadow-glow: 0 0 40px rgba(187, 134, 252, 0.3);
+  --shadow-glow: 0 0 40px rgba(255, 255, 255, 0.1);
   --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
-  --shadow-neon: 0 0 10px rgba(187, 134, 252, 0.5), 0 0 20px rgba(187, 134, 252, 0.3);
+  --shadow-neon: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px rgba(255, 255, 255, 0.1);
 }
