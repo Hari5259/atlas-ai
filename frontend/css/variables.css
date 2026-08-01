@@ -14,10 +14,10 @@
   --brand-primary: #ffffff;
   --brand-secondary: #e0e0e0;
   --brand-accent: #cccccc;
-  --brand-teach: #e0b0ff;
-  --brand-learn: #7dd3fc;
-  --brand-study: #03dac6;
-  --brand-and: #ff4081;
+  --brand-teach: #ffffff;
+  --brand-learn: #f0f0f0;
+  --brand-study: #e0e0e0;
+  --brand-and: #d0d0d0;
 
   --gradient-brand: linear-gradient(135deg, #6200ea 0%, #bb86fc 50%, #03dac6 100%);
   --gradient-text: linear-gradient(135deg, #ffffff 0%, #d1c4e9 50%, #bb86fc 100%);
