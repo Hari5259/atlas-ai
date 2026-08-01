@@ -143,7 +143,7 @@
 .landing-logo-glow {
   position: absolute;
   inset: -10%;
-  background: radial-gradient(circle, rgba(187, 134, 252, 0.45) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
   filter: blur(25px);
   z-index: -1;
   animation: glow-pulse 3s ease-in-out infinite alternate;
@@ -219,7 +219,7 @@
 
 .btn-get-started:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 15px 35px rgba(187, 134, 252, 0.6), var(--shadow-neon);
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.3), var(--shadow-neon);
 }
 
 .btn-secondary-outline {
@@ -293,7 +293,7 @@
 .pillar-card:hover {
   transform: translateY(-8px);
   border-color: var(--surface-border-hover);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 15px rgba(187, 134, 252, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
 .pillar-card:hover::after {
@@ -316,9 +316,9 @@
   transform: scale(1.1) rotate(5deg);
 }
 
-.pillar-card.teach .pillar-icon { background: rgba(224, 176, 255, 0.12); color: var(--brand-teach); border: 1px solid rgba(224, 176, 255, 0.2); }
-.pillar-card.learn .pillar-icon { background: rgba(125, 211, 252, 0.12); color: var(--brand-learn); border: 1px solid rgba(125, 211, 252, 0.2); }
-.pillar-card.study .pillar-icon { background: rgba(3, 218, 198, 0.12); color: var(--brand-study); border: 1px solid rgba(3, 218, 198, 0.2); }
+.pillar-card.teach .pillar-icon { background: rgba(255, 255, 255, 0.12); color: var(--brand-teach); border: 1px solid rgba(255, 255, 255, 0.2); }
+.pillar-card.learn .pillar-icon { background: rgba(255, 255, 255, 0.12); color: var(--brand-learn); border: 1px solid rgba(255, 255, 255, 0.2); }
+.pillar-card.study .pillar-icon { background: rgba(255, 255, 255, 0.12); color: var(--brand-study); border: 1px solid rgba(255, 255, 255, 0.2); }
 
 .pillar-card h3 {
   font-family: var(--font-display);
