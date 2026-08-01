@@ -3,9 +3,9 @@
   --bg-elevated: #0a0a0a;
   --surface-1: rgba(20, 20, 20, 0.8);
   --surface-2: rgba(30, 30, 30, 0.7);
-  --surface-glass: rgba(255, 255, 255, 0.03);
-  --surface-border: rgba(255, 255, 255, 0.08);
-  --surface-border-hover: rgba(187, 134, 252, 0.3);
+  --surface-glass: rgba(255, 255, 255, 0.05);
+  --surface-border: rgba(255, 255, 255, 0.12);
+  --surface-border-hover: rgba(255, 255, 255, 0.25);
 
   --text-primary: #ffffff;
   --text-secondary: #a79fbb;
