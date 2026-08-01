@@ -53,7 +53,7 @@ body.app-mode {
   width: 36px;
   height: 36px;
   object-fit: contain;
-  filter: drop-shadow(0 4px 12px rgba(124, 58, 237, 0.35));
+  filter: drop-shadow(0 4px 12px rgba(255, 255, 255, 0.2));
 }
 
 .sidebar-acronym-mini {
@@ -90,7 +90,7 @@ body.app-mode {
   font-weight: 600;
   font-size: 0.9rem;
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.3);
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.15);
   transition: transform 0.2s, filter 0.2s;
 }
 
@@ -134,8 +134,8 @@ body.app-mode {
 
 .history-item.active {
   color: var(--text-primary);
-  background: rgba(124, 58, 237, 0.12);
-  border-color: rgba(124, 58, 237, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-footer {
@@ -239,7 +239,7 @@ body.app-mode {
 
 .bot .message-avatar {
   background: var(--surface-1);
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 4px;
 }
 
@@ -258,8 +258,8 @@ body.app-mode {
 }
 
 .user .message-content {
-  background: rgba(124, 58, 237, 0.15);
-  border-color: rgba(124, 58, 237, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .welcome-screen {
@@ -277,7 +277,7 @@ body.app-mode {
   width: 80px;
   height: 80px;
   margin-bottom: 1.25rem;
-  filter: drop-shadow(0 12px 28px rgba(124, 58, 237, 0.35));
+  filter: drop-shadow(0 12px 28px rgba(255, 255, 255, 0.2));
 }
 
 .welcome-title {
@@ -367,8 +367,8 @@ body.app-mode {
 }
 
 .input-box:focus-within {
-  border-color: rgba(124, 58, 237, 0.45);
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.12), var(--shadow-card);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1), var(--shadow-card);
 }
 
 textarea {
